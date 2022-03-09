@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Asap-Regular";
+  src: url(./fonts/Asap-Regular.ttf);
+}
+@font-face {
+  font-family: "Asap-Italic";
+  src: url(./fonts/Asap-Italic.ttf);
+}
+@font-face {
+  font-family: "Asap-Bold";
+  src: url(./fonts/Asap-Bold.ttf);
+} 
+@font-face {
+  font-family: "Asap-BoldItalic";
+  src: url(./fonts/Asap-BoldItalic.ttf);
+} 
+
+body {
+  font-family: "Asap-Regular" !important;
+  font-size: 17px ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.peso-regular{
+  font-family: "Asap-Regular";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.peso-bold{
+  font-family: "Asap-Bold";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.peso-italic{
+  font-family: "Asap-Italic";
 }
 
-.App-link {
-  color: #61dafb;
+.peso-bold-italic{
+  font-family: "Asap-BoldItalic";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tamaño-mas-grande{
+  font-size: 30px;
+}
+
+.tamaño-grande{
+  font-size: 22px;
+}
+
+.tamaño-medio{
+  font-size: 17px;
+}
+
+.tamaño-chico{
+  font-size: 12px;
+}
+
+.color-celeste{
+  color: #7273B3
+}
+
+.color-celeste-fondo{
+  background-color: #7273B3 
+}
+
+.color-negro{
+  color: #181721
+}
+
+.color-negro-fondo{
+  background-color: #181721 
+}
+
+.color-azul{
+  color: #383B75
+}
+
+.color-azul-fondo{
+  background-color: #383B75 
+}
+
+.color-azul-oscuro{
+  color: #1E2048
+}
+
+.color-azul-oscuro-fondo{
+  background-color: #1E2048 
+}
+
+.color-gris{
+  color: #84848C
+}
+
+.color-gris-fondo{
+  background-color: #84848C 
+}
+
+.color-violeta{
+  color: #7637DE
+}
+
+.color-violeta-fondo{
+  background-color: #7637DE 
+}
+
+.sin-sub {
+  text-decoration: none;
+}
+
+.espaciado{
+  letter-spacing: 0.3em
+}
+
+/* .wrap-pre{
+  white-space: pre-wrap;
+} */
+
+/* pre {
+  overflow: hidden !important;
+} */
+
+/* .container{
+  max-width: 65% !important;
+} */
+
+/* Banner */
+
+.fondo-banner{
+  /* position: absolute; */
+/* width: 360px; */
+height: 814px;
+left: 0px;
+background: url(https://res.cloudinary.com/dkz/image/upload/v1646859592/Dkz/Principal/unsplash_MChSQHxGZrQ_udmqoi.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* BG Hero */
+
+.bg-hero{
+
+  position: fixed;
+  height: 288px;
+  left: 0px;
+  top: 0px;
+  
+  background: linear-gradient(330.85deg, rgba(56, 59, 117, 0) 36.66%, #1E2048 109.27%);
+background-size: cover;
+
 }
