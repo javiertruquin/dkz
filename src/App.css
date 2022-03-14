@@ -123,25 +123,60 @@ body {
 /* Banner */
 
 .fondo-banner{
-  /* position: absolute; */
-/* width: 360px; */
+  position: fixed;
+width: 425px;
 height: 814px;
 left: 0px;
-background: url(https://res.cloudinary.com/dkz/image/upload/v1646859592/Dkz/Principal/unsplash_MChSQHxGZrQ_udmqoi.png);
+background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_MChSQHxGZrQ_mpbi1q.png);
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 /* BG Hero */
 
-.bg-hero{
+.bg-arriba{
 
-  position: fixed;
-  height: 288px;
-  left: 0px;
-  top: 0px;
+  /* position: fixed; */
+  /* height: 288px; */
+  /* left: 0px;
+  top: 0px; */
   
   background: linear-gradient(330.85deg, rgba(56, 59, 117, 0) 36.66%, #1E2048 109.27%);
-background-size: cover;
+  background-size: cover;
 
+}
+
+.bg-abajo{
+  /* position: absolute;
+  width: 360px;
+  height: 385px;
+  left: 360px;
+  top: 747px; */
+  background: linear-gradient(330.85deg, rgba(56, 59, 117, 0) 36.66%, #383B75 109.27%);
+  transform: rotate(-180deg);
+
+}
+.card-position{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card-home{
+  /* Auto layout */
+
+
+
+position: absolute;
+width: 292px;
+height: 181px;
+top: 587px;
+
+background: rgba(255, 255, 255, 0.01);
+mix-blend-mode: normal;
+border: 1.5px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+backdrop-filter: blur(30px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 30px;
 }
