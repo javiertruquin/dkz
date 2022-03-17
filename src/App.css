@@ -138,7 +138,7 @@ body {
 
 /* Banner */
 
-.fondo-banner{
+.fondo-banner {
   background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647478694/Home/unsplash_MChSQHxGZrQ_gsfbqf.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,18 +146,15 @@ body {
   height: 100vh;
 }
 
-.bg-arriba{
-
+.bg-arriba {
   position: fixed;
   height: 288px;
   /* left: 0px;
   top: 0px; */
-  
-  background: linear-gradient(330.85deg, rgba(56, 59, 117, 0) 36.66%, #1E2048 109.27%);
+
+  background: linear-gradient(330.85deg, rgba(56, 59, 117, 0) 36.66%, #1e2048 109.27%);
   background-size: cover;
   background-position: top;
-
-
 }
 /* 
 .bg-abajo{
@@ -175,7 +172,7 @@ body {
   flex-direction: row;
   justify-content: center;
 }
-.card-home{
+.card-home {
   position: absolute;
   margin-top: 70vh;
   min-width: 292px;
@@ -197,15 +194,14 @@ body {
   height: 50.54px;
   width: 220px;
 
-  background: #7637DE;
+  background: #7637de;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(74.4578px);
-  
+
   border-radius: 37.2289px;
-  
 }
 
-.boton-verde{
+.boton-verde {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -218,9 +214,70 @@ body {
   left: -84px;
   top: 961px;
 
-  background: #B2DE36;
+  background: #b2de36;
   mix-blend-mode: normal;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   border-radius: 30px;
+}
+
+.borde-boton-morado {
+  background: #7637de;
+  mix-blend-mode: normal;
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  backdrop-filter: blur(74.4578px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 37.2289px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FRASE*/
+
+.efecto-blur-card {
+  background: rgba(255, 255, 255, 0.03);
+  mix-blend-mode: normal;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  backdrop-filter: blur(30px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 30px;
+}
+
+/*ICONOS*/
+.iconos{
+  width: 25px;
+  color: #7637DE;
 }
