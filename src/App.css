@@ -120,30 +120,36 @@ body {
   max-width: 65% !important;
 } */
 
+/* Navbar */
+
+.navbar-toggler-icon {
+  background-image: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647479679/Home/hamburguesa-blanca3_lllh8c.png) !important;
+}
+
 /* Banner */
 
 .fondo-banner{
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_MChSQHxGZrQ_mpbi1q.png);
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647478694/Home/unsplash_MChSQHxGZrQ_gsfbqf.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   height: 100vh;
 }
 
-
-
-/* .bg-arriba{
+.bg-arriba{
 
   position: fixed;
   height: 288px;
-  left: 0px;
-  top: 0px;
+  /* left: 0px;
+  top: 0px; */
   
   background: linear-gradient(330.85deg, rgba(56, 59, 117, 0) 36.66%, #1E2048 109.27%);
   background-size: cover;
+  background-position: top;
+
 
 }
-
+/* 
 .bg-abajo{
   position: absolute;
   width: 360px;
@@ -160,18 +166,14 @@ body {
   justify-content: center;
 }
 .card-home{
-  /* Auto layout */
-  margin-top: 70vh;
   position: absolute;
+  margin-top: 70vh;
   min-width: 292px;
   min-height: 181px;
 
   background: rgba(255, 255, 255, 0.01);
-  mix-blend-mode: normal;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
   backdrop-filter: blur(30px);
-  /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 30px;
 }
@@ -181,28 +183,34 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 14.8916px 21.0964px 13.6506px 19.8554px;
-  
-  position: static;
+
   height: 50.54px;
-  left: 0%;
-  right: 0%;
-  top: calc(50% - 50.54px/2);
-  
+  width: 220px;
+
   background: #7637DE;
-  mix-blend-mode: normal;
-  border: 1.5px solid rgba(255, 255, 255, 0.5);
-  box-sizing: border-box;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(74.4578px);
-  /* Note: backdrop-filter has minimal browser support */
   
   border-radius: 37.2289px;
   
-  /* Inside auto layout */
-  
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
+}
 
+.boton-verde{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  position: absolute;
+  width: 263px;
+  height: 82px;
+  left: -84px;
+  top: 961px;
+
+  background: #B2DE36;
+  mix-blend-mode: normal;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 30px;
 }
