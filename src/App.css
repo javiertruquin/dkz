@@ -9,103 +9,113 @@
 @font-face {
   font-family: "Asap-Bold";
   src: url(./fonts/Asap-Bold.ttf);
-} 
+}
 @font-face {
   font-family: "Asap-BoldItalic";
   src: url(./fonts/Asap-BoldItalic.ttf);
-} 
+}
 
 body {
   font-family: "Asap-Regular" !important;
-  font-size: 17px ;
-}
-
-.peso-regular{
-  font-family: "Asap-Regular";
-}
-
-.peso-bold{
-  font-family: "Asap-Bold";
-}
-
-.peso-italic{
-  font-family: "Asap-Italic";
-}
-
-.peso-bold-italic{
-  font-family: "Asap-BoldItalic";
-}
-
-.tamaño-mas-grande{
-  font-size: 30px;
-}
-
-.tamaño-grande{
-  font-size: 22px;
-}
-
-.tamaño-medio{
   font-size: 17px;
 }
 
-.tamaño-chico{
+.peso-regular {
+  font-family: "Asap-Regular";
+}
+
+.peso-bold {
+  font-family: "Asap-Bold";
+}
+
+.peso-italic {
+  font-family: "Asap-Italic";
+}
+
+.peso-bold-italic {
+  font-family: "Asap-BoldItalic";
+}
+
+.tamaño-mas-grande {
+  font-size: 30px;
+}
+
+.tamaño-grande {
+  font-size: 22px;
+}
+
+.tamaño-medio {
+  font-size: 17px;
+}
+
+.tamaño-chico {
   font-size: 12px;
 }
 
-.color-celeste{
-  color: #7273B3
+.color-celeste {
+  color: #7273b3;
 }
 
-.color-celeste-fondo{
-  background-color: #7273B3 
+.color-celeste-fondo {
+  background-color: #7273b3;
 }
 
-.color-negro{
-  color: #181721
+.color-negro {
+  color: #181721;
 }
 
-.color-negro-fondo{
-  background-color: #181721 
+.color-negro-fondo {
+  background-color: #181721;
 }
 
-.color-azul{
-  color: #383B75
+.color-azul {
+  color: #383b75;
 }
 
-.color-azul-fondo{
-  background-color: #383B75 
+.color-azul-fondo {
+  background-color: #383b75;
 }
 
-.color-azul-oscuro{
-  color: #1E2048
+.color-azul-oscuro {
+  color: #1e2048;
 }
 
-.color-azul-oscuro-fondo{
-  background-color: #1E2048 
+.color-azul-oscuro-fondo {
+  background-color: #1e2048;
 }
 
-.color-gris{
-  color: #84848C
+.color-gris {
+  color: #84848c;
 }
 
-.color-gris-fondo{
-  background-color: #84848C 
+.color-gris-fondo {
+  background-color: #84848c;
 }
 
-.color-violeta{
-  color: #7637DE
+.color-violeta {
+  color: #7637de;
 }
 
-.color-violeta-fondo{
-  background-color: #7637DE 
+.color-violeta-fondo {
+  background-color: #7637de;
 }
 
 .sin-sub {
   text-decoration: none;
 }
 
-.espaciado{
-  letter-spacing: 0.35px
+.espaciado {
+  letter-spacing: 0.35px;
+}
+
+.color-blanco {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.1);
+  border-radius: 10px;
+}
+
+.color-verde {
+  color: rgba(176, 221, 52, 1);
 }
 
 /* .wrap-pre{
@@ -128,15 +138,24 @@ body {
 
 /* Banner */
 
+<<<<<<< HEAD
 .fondo-banner{
   background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647478694/Home/unsplash_MChSQHxGZrQ_gsfbqf.png);
+=======
+.fondo-banner {
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_MChSQHxGZrQ_mpbi1q.png);
+>>>>>>> 901967355f1c6adf40c97dc93bac659f80997e42
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   height: 100vh;
 }
 
+<<<<<<< HEAD
 .bg-arriba{
+=======
+/* .bg-arriba{
+>>>>>>> 901967355f1c6adf40c97dc93bac659f80997e42
 
   position: fixed;
   height: 288px;
@@ -160,12 +179,18 @@ body {
   transform: rotate(-180deg);
 
 } */
-.card-position{
+.card-position {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+<<<<<<< HEAD
 .card-home{
+=======
+.card-home {
+  /* Auto layout */
+  margin-top: 70vh;
+>>>>>>> 901967355f1c6adf40c97dc93bac659f80997e42
   position: absolute;
   margin-top: 70vh;
   min-width: 292px;
@@ -178,11 +203,12 @@ body {
   border-radius: 30px;
 }
 
-.boton-morado{
+.boton-morado {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
 
   height: 50.54px;
   width: 220px;
@@ -193,6 +219,44 @@ body {
   
   border-radius: 37.2289px;
   
+=======
+  padding: 14.8916px 21.0964px 13.6506px 19.8554px;
+
+  position: static;
+  height: 50.54px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 50.54px / 2);
+
+  background: #7637de !important;
+  mix-blend-mode: normal;
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  backdrop-filter: blur(74.4578px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 37.2289px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+/*CARTAS DIGITAL SOLUTIONS*/
+.efecto-imagen {
+  margin-top: -22px;
+}
+
+.imagen-tamaño-card {
+  width: 130px;
+}
+
+.borde-boton-morado {
+  border-radius: 200px solid rgba(255, 255, 255, 0.5);
+>>>>>>> 901967355f1c6adf40c97dc93bac659f80997e42
 }
 
 .boton-verde{
