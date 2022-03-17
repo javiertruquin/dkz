@@ -14,14 +14,14 @@ export default function Home() {
 
     return (
         <div>
-            {/* <NavbarReact /> */}
+            <NavbarReact />
             <Banner />
-            {/* <Banner2 /> */}
-            {/* <Cartas />
+            <Banner2 />
+            <Cartas />
             <Banner3 />
             <Frase />
             <Iconos />
-            <Footer /> */}
+            <Footer />
         </div>
     );
 }
