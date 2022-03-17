@@ -151,7 +151,7 @@ body {
   flex-direction: row;
   justify-content: center;
 }
-.card-home{
+.card-home {
   position: absolute;
   margin-top: 79vh;
   min-width: 292px;
@@ -173,12 +173,11 @@ body {
   height: 50.54px;
   width: 220px;
 
-  background: #7637DE;
+  background: #7637de;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(74.4578px);
-  
+
   border-radius: 37.2289px;
-  
 }
 
 .imagen-joven{
@@ -215,6 +214,9 @@ body {
   mix-blend-mode: normal;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
+  backdrop-filter: blur(30px);
+  /* Note: backdrop-filter has minimal browser support */
+
   border-radius: 30px;
 }
 .letras-moradas{
@@ -233,4 +235,9 @@ body {
 .posi2{
   top:24px;
 
+}
+/*ICONOS*/
+.iconos{
+  width: 25px;
+  color: #7637DE;
 }
