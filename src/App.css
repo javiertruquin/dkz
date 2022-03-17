@@ -215,7 +215,6 @@ body {
   border: 1.5px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   backdrop-filter: blur(30px);
-  /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 30px;
 }
@@ -236,6 +235,19 @@ body {
   top:24px;
 
 }
+
+/*FRASE*/
+
+.efecto-blur-card {
+  background: rgba(255, 255, 255, 0.03);
+  mix-blend-mode: normal;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  backdrop-filter: blur(30px);
+
+  border-radius: 30px;
+}
+
 /*ICONOS*/
 .iconos{
   width: 25px;
