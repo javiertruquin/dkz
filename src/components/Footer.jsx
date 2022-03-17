@@ -12,7 +12,7 @@ export default function Footer() {
                     alt="logo"
                 />
           </div>
-          <div className="text-white mt-4 mb-4">
+          <div className="text-white mt-4 mb-4 tamaño-chico">
               <span>Copyright © 2022</span> <br/>
               <span>Todos los derechos reservados.</span>
           </div>

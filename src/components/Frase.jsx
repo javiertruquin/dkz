@@ -10,7 +10,7 @@ export default function Frase() {
               “Aquellos que están lo suficientemente <br />
               locos para creer que pueden <br />
               cambiar el mundo son quienes lo cambian”
-              <span className="d-flex justify-content-end">Steve Jobs </span>
+              <span className="d-flex justify-content-end tamaño-chico">Steve Jobs </span>
             </p>
           </div>
         </div>
