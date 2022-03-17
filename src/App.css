@@ -138,24 +138,15 @@ body {
 
 /* Banner */
 
-<<<<<<< HEAD
 .fondo-banner{
   background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647478694/Home/unsplash_MChSQHxGZrQ_gsfbqf.png);
-=======
-.fondo-banner {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_MChSQHxGZrQ_mpbi1q.png);
->>>>>>> 901967355f1c6adf40c97dc93bac659f80997e42
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   height: 100vh;
 }
 
-<<<<<<< HEAD
 .bg-arriba{
-=======
-/* .bg-arriba{
->>>>>>> 901967355f1c6adf40c97dc93bac659f80997e42
 
   position: fixed;
   height: 288px;
@@ -184,13 +175,7 @@ body {
   flex-direction: row;
   justify-content: center;
 }
-<<<<<<< HEAD
 .card-home{
-=======
-.card-home {
-  /* Auto layout */
-  margin-top: 70vh;
->>>>>>> 901967355f1c6adf40c97dc93bac659f80997e42
   position: absolute;
   margin-top: 70vh;
   min-width: 292px;
@@ -208,7 +193,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
 
   height: 50.54px;
   width: 220px;
@@ -219,44 +203,6 @@ body {
   
   border-radius: 37.2289px;
   
-=======
-  padding: 14.8916px 21.0964px 13.6506px 19.8554px;
-
-  position: static;
-  height: 50.54px;
-  left: 0%;
-  right: 0%;
-  top: calc(50% - 50.54px / 2);
-
-  background: #7637de !important;
-  mix-blend-mode: normal;
-  border: 1.5px solid rgba(255, 255, 255, 0.5);
-  box-sizing: border-box;
-  backdrop-filter: blur(74.4578px);
-  /* Note: backdrop-filter has minimal browser support */
-
-  border-radius: 37.2289px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
-}
-
-/*CARTAS DIGITAL SOLUTIONS*/
-.efecto-imagen {
-  margin-top: -22px;
-}
-
-.imagen-tamaño-card {
-  width: 130px;
-}
-
-.borde-boton-morado {
-  border-radius: 200px solid rgba(255, 255, 255, 0.5);
->>>>>>> 901967355f1c6adf40c97dc93bac659f80997e42
 }
 
 .boton-verde{
