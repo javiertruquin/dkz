@@ -183,14 +183,10 @@ body {
 .imagen-joven{
   position: absolute;
   right: 0;
-  display: flex;
-  justify-content: end;
-  margin-left: auto;
 }
 .imagen-joven-fondo{
 
   display: flex;
-  justify-content: end;
   margin-left: auto
 }
 .texto-sombra{
@@ -208,7 +204,7 @@ body {
   width: 263px;
   height: 82px;
   left: -84px;
-  top: 1000px;
+  top: 1050px;
   
   background: #B2DE36;
   mix-blend-mode: normal;
