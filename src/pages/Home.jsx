@@ -12,7 +12,7 @@ export default function Home() {
         <div>
             <NavbarReact />
             <Banner />
-            {/* <Banner2 /> */}
+            <Banner2 />
             
             <Cartas />
         </div>
