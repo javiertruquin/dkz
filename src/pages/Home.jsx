@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../components/Banner";
+import Banner2 from "../components/Banner2";
 import Banner3 from "../components/Banner3";
 import Cartas from "../components/Cartas";
 import Footer from "../components/Footer";
@@ -15,9 +16,7 @@ export default function Home() {
         <div>
             <NavbarReact />
             <Banner />
-
-
-            
+            <Banner2 />
             <Cartas />
             <Banner3 />
             <Frase />

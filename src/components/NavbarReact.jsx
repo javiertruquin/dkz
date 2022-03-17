@@ -4,7 +4,7 @@ import { Container, Nav, Navbar} from "react-bootstrap";
 export default function NavbarReact() {
     return (
         <>
-            <Navbar expand="lg" fixed="top" variant="dark"
+            <Navbar className="position-absolute" fixed="top" expand="lg" variant="dark"
 >
                 <Container>
                     <Navbar.Brand href="#home"><div><img src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/logo-dkz_1_sntx9w.png" alt="DKZ-Logo" /></div></Navbar.Brand>
