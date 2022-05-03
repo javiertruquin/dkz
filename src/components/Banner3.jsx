@@ -9,7 +9,7 @@ export default function Banner3() {
                     className="w-100"
                     src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/juntos-dkz_1_cr6g0y.png"
                     fluid
-                    alt="DKZ"
+                    alt="DKZ-banner"
                 />
             </div>
         </>
