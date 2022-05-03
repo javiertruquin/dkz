@@ -10,7 +10,7 @@ export default function Iconos() {
   return (
     <div className="color-azul-oscuro-fondo color-violeta container">
       <div className="text-center">
-        <a href="https://www.google.com.ar/" target="_blank" rel="noreferrer">
+        <a href="https://wa.link/051p9f" target="_blank" rel="noreferrer">
           <Image
             className="iconos mx-2 mt-4 mb-4"
             src={wsp}
