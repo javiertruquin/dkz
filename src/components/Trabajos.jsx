@@ -6,8 +6,8 @@ export default function Trabajos() {
         y descubrí lo que somos capaces de <br />
         hacer con tu marca.
         <div>
-          <div className="d-flex justify-content-center mt-4 boton-morado border-0 borde-boton-morado mb-5" >
-              Contactanos
+          <div className="d-flex justify-content-center mt-4 boton-morado border-0 borde-boton-morado mb-5 container">
+            Contactanos
           </div>
         </div>
       </div>
