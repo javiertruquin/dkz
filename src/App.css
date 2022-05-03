@@ -246,6 +246,21 @@ body {
 
 /*ICONOS*/
 .iconos{
-  width: 25px;
+  width: 75px;
   color: #7637DE;
 }
+
+/*SOLUCIONES DIGITALES*/
+.card-digital{
+  width: 11rem;
+}
+
+.border-card{
+  border-radius: 20px 10px !important;
+}
+
+.imagen-card{
+  width: 140px !important;
+  margin-top: -15px;
+}
+
