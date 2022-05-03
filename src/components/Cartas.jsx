@@ -37,7 +37,7 @@ export default function Cartas() {
 
   return (
     <div className="color-azul-oscuro-fondo">
-      <div className="container">
+      <div>
         <div className="row">
           <h1 className="color-verde text-center my-4"> Digital solutions</h1>
           <div className="d-flex flex-wrap justify-content-around">
