@@ -296,24 +296,43 @@ body {
   color: #ffffff;
 }
 
-.titulo-verde-1{
-position: absolute;
-width: 300px;
-height: 52px;
-left: -75px;
-bottom: -150px;
+.titulo-verde{
 background: #B2DE36;
 mix-blend-mode: normal;
 border: 1.5px solid rgba(255, 255, 255, 0.3);
-border-radius: 30px;
+border-radius: 0px 30px 30px 0px;
 }
+
+.posicion-titulo{
+  margin-right: 100px;
+}
+
 
 .letras-av{
   position: absolute;
-  width: 137px;
+  width: 120px;
   height: 59px;
   display: flex;
   align-items: center;
-  letter-spacing: 0.75px;
-  left: calc(40%);
+  letter-spacing: 0.30px;
+  left: calc(38%);
+}
+
+.texto-creatividad{
+position: absolute;
+width: 315px;
+height: 135px;
+
+
+font-family: 'Asap';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* or 129% */
+
+text-align: center;
+
+
+color: #FFFFFF;
 }
