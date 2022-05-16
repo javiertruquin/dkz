@@ -7,7 +7,7 @@ export default function NavbarReact() {
             <Navbar className="position-absolute" fixed="top" expand="lg" variant="dark"
 >
                 <Container>
-                    <Navbar.Brand href="#home"><div><img src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/logo-dkz_1_sntx9w.png" alt="DKZ-Logo" /></div></Navbar.Brand>
+                    <Navbar.Brand href="/"><div><img src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/logo-dkz_1_sntx9w.png" alt="DKZ-Logo" /></div></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
