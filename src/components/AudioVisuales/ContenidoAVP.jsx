@@ -2,17 +2,17 @@ import React from "react";
 
 export default function ContenidoAVP() {
   return (
-    <div className="container color-azul-oscuro-fondo my-5 ">
+    <div className="color-azul-oscuro-fondo my-5 contenedor-padding ">
       <div>
-        <div className=" my-5">
-          <h1 className=" titulo-verde color-violeta tamaño-mas-grande peso-bold-italic posi">
-            Produccion
-          </h1>
-        </div>
-        <div className="text-white texto-creatividad">
-          Investigación, relevamiento, generación e interpretación del brief y
-          las
-        </div>
+        <h1 className="titulo-verde color-violeta tamaño-mas-grande peso-bold-italic posicion-titulo my-4">
+          <span className="ms-2">PRODUCCIÓN</span> 
+        </h1>
+      </div>
+      <div className="text-white texto-creatividad mb-5 ms-5">
+        Equipo y personal técnico (diversos formatos segun necesidad y
+        presupuesto) Dirección; producción; dirección de fotografía. Dirección
+        de arte. Realización de decorados. Casting. Make up, estilismo,
+        vestuario.
       </div>
     </div>
   );

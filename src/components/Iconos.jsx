@@ -8,7 +8,7 @@ import Contacto from "./Contacto";
 
 export default function Iconos() {
   return (
-    <div className="color-azul-oscuro-fondo color-violeta container">
+    <div className="color-azul-oscuro-fondo color-violeta container my-4 ">
       <div className="text-center">
         <a href="https://wa.link/051p9f" target="_blank" rel="noreferrer">
           <Image

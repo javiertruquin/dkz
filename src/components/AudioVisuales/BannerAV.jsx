@@ -1,4 +1,5 @@
 import React from "react";
+import ContenidoAV from "./ContenidoAV";
 
 export default function BannerAV() {
   return (
@@ -16,15 +17,18 @@ export default function BannerAV() {
             </div>
             <div className="banner-pie d-flex justify-content-center">
               <div className="text-white">
-                <h1> Producciones audiovisuales integrales</h1>
-                <p>
-                  Spots publicitarios; cobertura de eventos y registros
-                  sociales. Videos corporativos. Infomerciales. Institucionales.
-                  Books. Producciones especiales.
+                <h1 className=" peso-bold-italic my-2"> Producciones audiovisuales integrales</h1>
+                <p className="peso-italic tamaño-medio px-2 pt-2 ">
+                  Spots publicitarios; cobertura de eventos y <br/>registros
+                  sociales. Videos corporativos. <br/> Infomerciales. Institucionales.
+                  Books. <br/> Producciones especiales.
                 </p>
               </div>
             </div>
           </div>
+        </div>
+        <div>
+        <ContenidoAV />
         </div>
       </div>
     </>
