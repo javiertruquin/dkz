@@ -8,8 +8,6 @@ import Frase from "../components/Frase";
 import Iconos from "../components/Iconos";
 import NavbarReact from "../components/NavbarReact";
 
-
-
 export default function Home() {
 
     return (
