@@ -21,7 +21,7 @@ export default function Cartas() {
     {
       image:
         "https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_8qEB0fTe9Vw_yxqr4y.png",
-      title: "Sitio web",
+      title: "Sitios web",
     },
     {
       image:

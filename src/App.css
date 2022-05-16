@@ -18,6 +18,7 @@
 body {
   font-family: "Asap-Regular" !important;
   font-size: 17px;
+  margin: 0;
 }
 
 .peso-regular {
@@ -138,7 +139,7 @@ body {
 
 /* Banner */
 
-.fondo-banner{
+.fondo-banner {
   background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647482070/Home/unsplash_MChSQHxGZrQ2_dgkavi.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -180,33 +181,32 @@ body {
   border-radius: 37.2289px;
 }
 
-.imagen-joven{
+.imagen-joven {
   position: absolute;
   right: 0;
 }
-.imagen-joven-fondo{
-
+.imagen-joven-fondo {
   display: flex;
-  margin-left: auto
+  margin-left: auto;
 }
-.texto-sombra{
+.texto-sombra {
   text-shadow: 0px 10px 60px rgba(0, 0, 0, 0.5);
 }
 
-.boton-verde{
+.boton-verde {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 30px;
-  
+
   position: absolute;
   width: 263px;
   height: 82px;
   left: -84px;
   top: 1050px;
-  
-  background: #B2DE36;
+
+  background: #b2de36;
   mix-blend-mode: normal;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -214,22 +214,20 @@ body {
 
   border-radius: 30px;
 }
-.letras-moradas{
+.letras-moradas {
   position: absolute;
   width: 137px;
   height: 59px;
   display: flex;
   align-items: center;
   letter-spacing: 2.85px;
-  left: calc(40% );
+  left: calc(40%);
 }
-.posi{
-  top:-3px;
-
+.posi {
+  top: -3px;
 }
-.posi2{
-  top:24px;
-
+.posi2 {
+  top: 24px;
 }
 
 /*FRASE*/
@@ -244,23 +242,83 @@ body {
   border-radius: 30px;
 }
 
-/*ICONOS*/
-.iconos{
-  width: 70px;
-  color: #7637DE;
-}
-
 /*SOLUCIONES DIGITALES*/
-.card-digital{
+.card-digital {
   width: 11rem;
 }
 
-.border-card{
+.border-card {
   border-radius: 20px 10px !important;
 }
 
-.imagen-card{
+.imagen-card {
   width: 140px !important;
   margin-top: -15px;
 }
 
+/*ICONOS*/
+.iconos {
+  width: 70px;
+  color: #7637de;
+}
+
+/*AUDIOVISUALES*/
+.fondo-banner-av {
+  background: url(../src/assets/av.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+}
+
+.titulo-audiovisual {
+  position: absolute;
+  width: 315px;
+  height: 135px;
+  left: calc(50% - 315px / 2 + 1.5px);
+  top: calc(50% - 135px / 2 - 427.5px);
+
+  font-family: "Asap";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  /* or 100% */
+
+  text-align: center;
+  letter-spacing: -0.408px;
+
+  color: #ffffff;
+}
+
+.banner-pie {
+  position: absolute;
+  margin-top: 79vh;
+  min-width: 292px;
+  min-height: 181px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #ffffff;
+}
+
+.titulo-verde-1{
+position: absolute;
+width: 300px;
+height: 52px;
+left: -75px;
+bottom: -150px;
+background: #B2DE36;
+mix-blend-mode: normal;
+border: 1.5px solid rgba(255, 255, 255, 0.3);
+border-radius: 30px;
+}
+
+.letras-av{
+  position: absolute;
+  width: 137px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.75px;
+  left: calc(40%);
+}
