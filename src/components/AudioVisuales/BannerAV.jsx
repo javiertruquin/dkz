@@ -8,8 +8,8 @@ export default function BannerAV() {
         <div className="fondo-banner-av">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
-              <div className="my-4 mx-3">
-                <h1 className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra fs-1 pt-5">
+              <div className="my-5 mx-3">
+                <h1 className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra fs-1 pt-5 mt-5">
                   PRODUCCIONES <br />
                   AUDIOVISUALES
                 </h1>
@@ -18,7 +18,7 @@ export default function BannerAV() {
             <div className="banner-pie d-flex justify-content-center">
               <div className="text-white">
                 <h1 className=" peso-bold-italic my-2"> Producciones audiovisuales integrales</h1>
-                <p className="peso-italic tamaño-medio px-2 pt-2 ">
+                <p className="peso-italic tamaño-medio px-2">
                   Spots publicitarios; cobertura de eventos y <br/>registros
                   sociales. Videos corporativos. <br/> Infomerciales. Institucionales.
                   Books. <br/> Producciones especiales.
