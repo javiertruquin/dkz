@@ -278,10 +278,6 @@ body {
   color: #ffffff;
 }
 
-.titulo-producciones{
-  margin-bottom: -500px !important;
-}
-
 .banner-pie {
   position: absolute;
   margin-top: 79vh;
@@ -344,4 +340,40 @@ color: #FFFFFF;
   backdrop-filter: blur(74.4578px);
 
   border-radius: 37.2289px;
+}
+
+/*CONÓCENOS*/
+.fondo-banner-conocenos{
+  background: url(../src/assets/conocenos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+}
+
+.fondo-conocenos{
+  background: linear-gradient(350.97deg, rgba(56, 59, 117, 0) 8.05%, #1E2048 85.04%);
+}
+
+.titulo-conocenos {
+  position: absolute;
+  width: 315px;
+  height: 135px;
+  left: calc(50% - 315px / 2 + 1.5px);
+  top: calc(50% - 135px / 2 - 427.5px);
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #ffffff;
+}
+
+.banner-pie-conocenos {
+  position: absolute;
+  margin-top: 85vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  min-width: 292px;
+  min-height: 181px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #ffffff;
 }
