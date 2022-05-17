@@ -275,8 +275,11 @@ body {
   top: calc(50% - 135px / 2 - 427.5px);
   text-align: center;
   letter-spacing: -0.408px;
-
   color: #ffffff;
+}
+
+.titulo-producciones{
+  margin-bottom: -500px !important;
 }
 
 .banner-pie {
