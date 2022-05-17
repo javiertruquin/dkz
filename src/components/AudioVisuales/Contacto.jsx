@@ -1,4 +1,5 @@
 import React from "react";
+import Tada from "react-reveal/Tada";
 
 export default function Contacto() {
   return (
@@ -9,11 +10,13 @@ export default function Contacto() {
           en buenas manos
         </h1>
       </div>
-      <div className="d-flex justify-content-center ">
-        <div className="mt-4 boton-morado-visuales border-0 borde-boton-morado">
-          Contactanos
+      <Tada>
+        <div className="d-flex justify-content-center ">
+          <div className="mt-4 boton-morado-visuales border-0 borde-boton-morado">
+            Contactanos
+          </div>
         </div>
-      </div>
+      </Tada>
     </div>
   );
 }
