@@ -6,9 +6,9 @@ export default function componentName() {
             <div className="pb-5 color-azul-oscuro-fondo">
                 <div className="fondo-banner-trabajos">
                     <div className="d-flex flex-row justify-content-center">
-                        <div className="d-flex flex-column justify-content-center">
+                        <div className="titulo-audiovisual d-flex flex-column justify-content-center">
                             <div className="my-4 mx-3">
-                                <h1 className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+                            <h1 className="tamaño-grande peso-bold-italic text-white text-center espaciado  fs-1 pt-5 mt-5 titulo-producciones">
                                     MIND BLOWN
                                 </h1>
                             </div>
