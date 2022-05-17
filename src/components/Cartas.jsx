@@ -74,7 +74,7 @@ export default function Cartas() {
                 </div>
                 <Card.Body className="efecto-imagen">
                   <Card.Title className="peso-bold-italic color-violeta text-center mt-3 p-1">
-                    Sitios Webs
+                    Sitios Web
                   </Card.Title>
                 </Card.Body>
               </Card>
