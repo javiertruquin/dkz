@@ -19,6 +19,7 @@ export default function Home() {
             <Banner3 />
             <Frase />
             <Iconos />
+            <hr className="bg-white"/>
             <Footer />
         </div>
     );
