@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Nav, Navbar} from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function NavbarReact() {
     return (
@@ -11,7 +12,7 @@ export default function NavbarReact() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#home">Conocenos</Nav.Link>
+                            <Nav.Link as={Link} to="/conocenos">Conócenos</Nav.Link>
                             <Nav.Link href="#link">Servicios</Nav.Link>
                             <Nav.Link href="#link">Prensa</Nav.Link>
                             <Nav.Link href="#link">Mind Blown</Nav.Link>
