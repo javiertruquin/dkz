@@ -228,13 +228,12 @@ body {
 /* Banner Trabajos*/
 
 .fondo-banner-trabajos {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647482070/Home/unsplash_MChSQHxGZrQ2_dgkavi.png);
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1652822287/Trabajos/a_fmflfq.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   height: 105vh;
 }
-
 /*FRASE*/
 
 .efecto-blur-card {
