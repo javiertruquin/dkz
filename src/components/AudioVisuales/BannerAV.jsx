@@ -9,7 +9,7 @@ export default function BannerAV() {
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-4 mx-3">
-                <h1 className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+                <h1 className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra fs-1 pt-5">
                   PRODUCCIONES <br />
                   AUDIOVISUALES
                 </h1>

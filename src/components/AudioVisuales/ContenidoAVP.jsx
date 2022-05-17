@@ -12,11 +12,14 @@ export default function ContenidoAVP() {
         </div>
         </Fade>
     <Fade Bottom>
-      <div className="text-white texto-creatividad mb-5 ms-5">
-        Equipo y personal técnico (diversos formatos segun necesidad y
+        <div className="text-white texto-creatividad mb-5 ms-5 ">
+          <p className="tamaño-medio peso-italic">
+          Equipo y personal técnico (diversos formatos segun necesidad y
         presupuesto) Dirección; producción; dirección de fotografía. Dirección
         de arte. Realización de decorados. Casting. Make up, estilismo,
         vestuario.
+          </p>
+       
       </div>
       </Fade>
     </div>

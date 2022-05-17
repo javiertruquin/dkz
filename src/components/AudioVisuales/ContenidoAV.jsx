@@ -12,10 +12,11 @@ export default function ContenidoAV() {
         </div>
       </Fade>
       <Fade left>
-      <div className="text-white texto-creatividad ms-5">
-        Investigación, relevamiento, generación e interpretación del brief y las
+        <div className="text-white texto-creatividad ms-5">
+          <p className="tamaño-medio peso-italic"> Investigación, relevamiento, generación e interpretación del brief y las
         necesidades específicas de comunicación. Guión y propuesta creativa.
-        Presupuestación.
+        Presupuestación.</p>
+        
       </div>
       </Fade>
     </div>

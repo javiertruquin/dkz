@@ -4,7 +4,7 @@ export default function Contacto() {
   return (
     <div className="pt-5">
       <div>
-        <h1 className="tamaño-mas-grande peso-bold-italic text-white text-center">
+        <h1 className="tamaño-mas-grande peso-bold-italic text-white text-center ">
           Tu proyecto <br />
           en buenas manos
         </h1>

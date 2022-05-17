@@ -273,14 +273,6 @@ body {
   height: 135px;
   left: calc(50% - 315px / 2 + 1.5px);
   top: calc(50% - 135px / 2 - 427.5px);
-
-  font-family: "Asap";
-  font-style: italic;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 22px;
-  /* or 100% */
-
   text-align: center;
   letter-spacing: -0.408px;
 

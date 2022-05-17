@@ -14,12 +14,9 @@ export default function ContenidoAVPost() {
       </Fade>
       <Fade left>
         <div className="text-white texto-creatividad mb-5 ms-5">
-          Edición. Montaje. Sonido. Etalonaje y corrección de color. Video fx.
-          Audio fx. Música y sonido. Corte final y copias para cualquier medio.
-        </div>
-        <div className="text-white texto-creatividad mb-5 ms-5">
-          Edición. Montaje. Sonido. Etalonaje y corrección de color. Video fx.
-          Audio fx. Música y sonido. Corte final y copias para cualquier medio.
+          <p className="tamaño-medio peso-italic">Edición. Montaje. Sonido. Etalonaje y corrección de color. Video fx.
+          Audio fx. Música y sonido. Corte final y copias para cualquier medio.</p>
+          
         </div>
       </Fade>
     </div>

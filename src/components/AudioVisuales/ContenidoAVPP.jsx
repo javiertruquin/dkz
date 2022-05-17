@@ -13,8 +13,9 @@ export default function ContenidoAVPP() {
       </Fade>
       <Fade left>
         <div className="text-white texto-creatividad ms-5">
-          Devolución creativa y <br /> presentación preliminar. <br />{" "}
-          Relevamiento de locaciones. <br /> Diseño de producción.
+          <p className="tamaño-medio peso-italic">  Devolución creativa y <br /> presentación preliminar. <br />{" "}
+          Relevamiento de locaciones. <br /> Diseño de producción.</p>
+         
         </div>
       </Fade>
     </div>

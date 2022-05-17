@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import AudioVisuales from "./pages/AudioVisuales";
-// import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     return (
