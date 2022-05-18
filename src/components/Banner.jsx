@@ -1,4 +1,5 @@
 import React from "react";
+import Contactanos from "./Contactanos";
 
 export default function Banner() {
     return (
@@ -12,13 +13,7 @@ export default function Banner() {
                                     Lleva tus ideas a un lugar <br />
                                     que nunca imaginaste
                                 </p>
-                                <div className="d-flex justify-content-center">
-                                    <div className="boton-morado">
-                                        <p className=" m-0 p-0 text-white tamaño-medio">
-                                            Contactanos
-                                        </p>
-                                    </div>
-                                </div>
+                                <Contactanos />
                             </div>
                         </div>
                     </div>

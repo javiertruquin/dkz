@@ -226,13 +226,16 @@ body {
 }
 
 /* Banner Trabajos*/
+.padding-nav{
+  padding-top: 65px;
+}
 
 .fondo-banner-trabajos {
   background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1652822287/Trabajos/a_fmflfq.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 105vh;
+  height: 90vh;
 }
 /*FRASE*/
 

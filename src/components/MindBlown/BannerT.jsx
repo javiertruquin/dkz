@@ -3,7 +3,7 @@ import React from "react";
 export default function componentName() {
     return (
         <>
-            <div className="pb-5 color-azul-oscuro-fondo">
+            <div className="padding-nav color-azul-oscuro-fondo">
                 <div className="fondo-banner-trabajos">
                     <div className="d-flex flex-row justify-content-center">
                         <div className="titulo-audiovisual d-flex flex-column justify-content-center">

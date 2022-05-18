@@ -1,21 +1,22 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Iconos from "../components/Iconos";
-import BannerT from "../components/Trabajos/BannerT";
-import CTrabajos from "../components/Trabajos/CTrabajos";
-import Clientes from "../components/Trabajos/Clientes";
+import BannerT from "../components/MindBlown/BannerT";
+import Trabajos from "../components/MindBlown/Trabajos";
+import Clientes from "../components/MindBlown/Clientes";
 import NavbarReact from "../components/NavbarReact";
+import Contactanos from "../components/Contactanos";
 
-export default function Trabajos() {
-
+export default function MindBlown() {
     return (
         <div className="color-azul-oscuro-fondo">
             <NavbarReact />
             <BannerT />
-            <CTrabajos />
-            <CTrabajos />
-            <CTrabajos />
+            <Trabajos />
             <Clientes />
+            <div className="pt-5">
+                <Contactanos />
+            </div>
             <Iconos />
             <Footer />
         </div>

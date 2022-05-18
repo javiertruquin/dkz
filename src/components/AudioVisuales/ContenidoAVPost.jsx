@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 
 export default function ContenidoAVPost() {
   return (
-    <div className="color-azul-oscuro-fondo my-5 contenedor-padding-post  ">
+    <div className="color-azul-oscuro-fondo my-5 contenedor-padding-post ">
       <Fade right>
         {" "}
         <div>

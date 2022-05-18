@@ -15,7 +15,7 @@ export default function NavbarReact() {
                             <Nav.Link as={Link} to="/conocenos">Conócenos</Nav.Link>
                             <Nav.Link href="#link">Servicios</Nav.Link>
                             <Nav.Link href="#link">Prensa</Nav.Link>
-                            <Nav.Link href="#link">Mind Blown</Nav.Link>
+                            <Nav.Link as={Link} to="/mindblown">Mind Blown</Nav.Link>
                             <Nav.Link href="#link">Contactanos</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
