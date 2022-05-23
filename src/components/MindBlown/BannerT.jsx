@@ -8,9 +8,9 @@ export default function componentName() {
                     <div className="d-flex flex-row justify-content-center">
                         <div className="titulo-audiovisual d-flex flex-column justify-content-center">
                             <div className="my-4 mx-3">
-                            <h1 className="tamaño-grande peso-bold-italic text-white text-center espaciado  fs-1 pt-5 mt-5 titulo-producciones">
+                            <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado pt-5 mt-5 titulo-producciones">
                                     MIND BLOWN
-                                </h1>
+                                </p>
                             </div>
                         </div>
                         <div className="banner-pie d-flex justify-content-center">
