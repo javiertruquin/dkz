@@ -3,7 +3,7 @@ import BannerAV from "../components/AudioVisuales/BannerAV";
 import ContenidoAVP from "../components/AudioVisuales/ContenidoAVP";
 import ContenidoAVPost from "../components/AudioVisuales/ContenidoAVPost";
 import ContenidoAVPP from "../components/AudioVisuales/ContenidoAVPP";
-import Contactanos from "../components/Contactanos";
+import BotonContactanos from "../components/BotonContactanos";
 import Footer from "../components/Footer";
 import Iconos from "../components/Iconos";
 import NavbarReact from "../components/NavbarReact";
@@ -17,7 +17,7 @@ export default function AudioVisuales() {
             <ContenidoAVP />
             <ContenidoAVPost />
             <div className="pt-5">
-                <Contactanos />
+                <BotonContactanos />
             </div>
             <Iconos />
             <hr className="bg-white" />

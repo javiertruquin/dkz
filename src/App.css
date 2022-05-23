@@ -29,10 +29,12 @@ body {
   font-family: "Asap-Bold";
 }
 
+/*Weight 400 */
 .peso-italic {
   font-family: "Asap-Italic";
 }
 
+/*Weight 700 */
 .peso-bold-italic {
   font-family: "Asap-BoldItalic";
 }
@@ -388,4 +390,21 @@ color: #FFFFFF;
   text-align: center;
   letter-spacing: -0.408px;
   color: #ffffff;
+}
+
+/* Contactanos */
+.form-contactanos .form-control {
+  height: 51px;
+  background: rgba(255, 255, 255, 0.03);
+  mix-blend-mode: normal;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  
+  border-radius: 30px;
+}
+
+/* Pagina en Construccion */
+
+.padding-sitioconst{
+  padding-top: 90px;
 }

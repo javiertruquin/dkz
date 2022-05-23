@@ -13,10 +13,10 @@ export default function NavbarReact() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link as={Link} to="/conocenos">Conócenos</Nav.Link>
-                            <Nav.Link href="#link">Servicios</Nav.Link>
-                            <Nav.Link href="#link">Prensa</Nav.Link>
+                            <Nav.Link as={Link} to="/servicios">Servicios</Nav.Link>
+                            <Nav.Link as={Link} to="/prensa">Prensa</Nav.Link>
                             <Nav.Link as={Link} to="/mindblown">Mind Blown</Nav.Link>
-                            <Nav.Link href="#link">Contactanos</Nav.Link>
+                            <Nav.Link as={Link} to="/contactanos">Contactanos</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

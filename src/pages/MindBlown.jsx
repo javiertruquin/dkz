@@ -5,7 +5,7 @@ import BannerT from "../components/MindBlown/BannerT";
 import Trabajos from "../components/MindBlown/Trabajos";
 import Clientes from "../components/MindBlown/Clientes";
 import NavbarReact from "../components/NavbarReact";
-import Contactanos from "../components/Contactanos";
+import BotonContactanos from "../components/BotonContactanos";
 
 export default function MindBlown() {
     return (
@@ -15,7 +15,7 @@ export default function MindBlown() {
             <Trabajos />
             <Clientes />
             <div className="pt-5">
-                <Contactanos />
+                <BotonContactanos />
             </div>
             <Iconos />
             <Footer />

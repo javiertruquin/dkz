@@ -1,7 +1,7 @@
 import React from "react";
 import Tada from "react-reveal/Tada";
 
-export default function Contactanos() {
+export default function BotonContactanos() {
     return (
         <Tada>
             <div className="d-flex justify-content-center">

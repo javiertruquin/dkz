@@ -1,5 +1,5 @@
 import React from "react";
-import Contactanos from "./Contactanos";
+import BotonContactanos from "./BotonContactanos";
 
 export default function Banner() {
     return (
@@ -13,7 +13,7 @@ export default function Banner() {
                                     Lleva tus ideas a un lugar <br />
                                     que nunca imaginaste
                                 </p>
-                                <Contactanos />
+                                <BotonContactanos />
                             </div>
                         </div>
                     </div>
