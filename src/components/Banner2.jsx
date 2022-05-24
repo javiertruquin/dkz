@@ -5,17 +5,19 @@ export default function Banner2() {
     return (
         <>
             <div className="color-azul-oscuro-fondo">
-                <Fade >
-                    <img
-                        className="imagen-joven"
-                        src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_eBoEQl7X1Hw-1_dmbv5e.png"
-                        alt="chica-con-celular"
-                    />
-                    <img
-                        className="imagen-joven-fondo"
-                        src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_eBoEQl7X1Hw_osvnkw.png"
-                        alt="chica-con-celular"
-                    />
+                <Fade>
+                    <div>
+                        <img
+                            className="imagen-joven"
+                            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_eBoEQl7X1Hw-1_dmbv5e.png"
+                            alt="chica-con-celular"
+                        />
+                        <img
+                            className="imagen-joven-fondo"
+                            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_eBoEQl7X1Hw_osvnkw.png"
+                            alt="chica-con-celular"
+                        />
+                    </div>
                 </Fade>
 
                 <div className="boton-verde-posi">

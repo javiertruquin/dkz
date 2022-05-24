@@ -110,6 +110,9 @@ body {
 .espaciado {
   letter-spacing: 0.35px;
 }
+.mas-espaciado {
+  letter-spacing: 2.85px;
+}
 
 .color-blanco {
   background-color: rgba(255, 255, 255, 1);
@@ -161,7 +164,7 @@ body {
   min-height: 181px;
 
   background: rgba(255, 255, 255, 0.01);
-  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(30px);
 
   border-radius: 30px;
@@ -239,12 +242,31 @@ body {
   background-position: top;
   height: 90vh;
 }
+/* Banner 3 DKZ */
+
+.imagen-dkz{
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  transform: translate(0px,-10px);
+}
+.imagen-dkz-fondo1 {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+.imagen-dkz-fondo2{
+  display: flex;
+  margin-left: auto;
+}
+
+
 /*FRASE*/
 
 .efecto-blur-card {
   background: rgba(255, 255, 255, 0.03);
   mix-blend-mode: normal;
-  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
   box-sizing: border-box;
   backdrop-filter: blur(30px);
 

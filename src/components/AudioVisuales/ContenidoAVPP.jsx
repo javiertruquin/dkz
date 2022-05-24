@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 export default function ContenidoAVPP() {
   return (
     <div className="color-azul-oscuro-fondo my-5 contenedor-padding ">
-      <Fade right>
+      <Fade left>
         {" "}
         <div>
           <h1 className="titulo-verde color-violeta tamaño-mas-grande peso-bold-italic posicion-titulo my-4">
@@ -11,7 +11,7 @@ export default function ContenidoAVPP() {
           </h1>
         </div>
       </Fade>
-      <Fade left>
+      <Fade right>
         <div className="text-white texto-creatividad ms-5">
           <p className="tamaño-medio peso-italic">  Devolución creativa y <br /> presentación preliminar. <br />{" "}
           Relevamiento de locaciones. <br /> Diseño de producción.</p>
