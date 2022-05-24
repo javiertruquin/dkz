@@ -6,19 +6,26 @@ import Trabajos from "../components/MindBlown/Trabajos";
 import Clientes from "../components/MindBlown/Clientes";
 import NavbarReact from "../components/NavbarReact";
 import BotonContactanos from "../components/BotonContactanos";
+import MarketingDigitalEscritorio from "../components/Escritorio/MarketingDigital/MarketingDigitalEscritorio";
+
 
 export default function MindBlown() {
-    return (
-        <div className="color-azul-oscuro-fondo">
-            <NavbarReact />
-            <BannerT />
-            <Trabajos />
-            <Clientes />
-            <div className="pt-5">
-                <BotonContactanos />
-            </div>
-            <Iconos />
-            <Footer />
+  return (
+    <div>
+      <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
+        <NavbarReact />
+        <BannerT />
+        <Trabajos />
+        <Clientes />
+        <div className="pt-5">
+          <BotonContactanos />
         </div>
-    );
+        <Iconos />
+        <Footer />
+      </div>
+      <div className="d-none d-sm-block">
+        <MarketingDigitalEscritorio />
+      </div>
+    </div>
+  );
 }
