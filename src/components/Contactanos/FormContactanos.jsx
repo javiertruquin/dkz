@@ -94,7 +94,7 @@ export default function componentName() {
                             </Row>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center ">
+                    <div className="d-flex justify-content-center padding-fixed-contactanos  my-3 ">
                         <div
                             className="boton-morado"
                             size="sm"
