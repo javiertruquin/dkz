@@ -146,9 +146,8 @@ body {
 }
 
 /* Banner */
-
 .fondo-banner {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647482070/Home/unsplash_MChSQHxGZrQ2_dgkavi.png);
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647478694/Home/unsplash_MChSQHxGZrQ_gsfbqf.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -160,6 +159,7 @@ body {
   flex-direction: row;
   justify-content: center;
 }
+
 .card-home {
   position: absolute;
   margin-top: 75vh;
