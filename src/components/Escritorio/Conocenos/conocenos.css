@@ -1,0 +1,23 @@
+.fondo-banner-conocenos{
+    background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1653433142/conocenos/Group_40_lxtdph.png);
+    height: 80vh;
+}
+
+.banner-pie-conocenos {
+    position: absolute;
+    margin-top: 60vh;
+    min-width: 292px;
+    min-height: 181px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #ffffff;
+}
+
+.boton-verde-conocenos{
+    height: 40px;
+    width: 200px;
+    box-sizing: border-box;
+    background: #B0DD34;
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 37.2289px;
+}

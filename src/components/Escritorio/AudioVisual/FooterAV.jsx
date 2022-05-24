@@ -3,8 +3,8 @@ import { Image } from "react-bootstrap";
 
 export default function FooterAV() {
   return (
-    <>
-      <div className="color-azul-oscuro-fondo d-flex justify-content-between text-white container footer ">
+    <div className="container">
+      <div className="color-azul-oscuro-fondo d-flex justify-content-between text-white  ">
         <div className="text-white mt-4">
           <Image
             className=""
@@ -13,7 +13,7 @@ export default function FooterAV() {
             alt="logo"
           />
         </div>
-        <div className="text-white text-center mt-4 mb-4 tamaño-chico">
+        <div className="text-white text-center mt-4 mb-4 tamaño-chico ms-5">
           <div>info.dkzstudio@gmail.com | 381 66 79 511</div>
           <div>Córdoba 714, 1° B - San Miguel de Tucumán</div>
           <div>Tucumán - Argentina</div>
@@ -28,6 +28,6 @@ export default function FooterAV() {
           </span>
         </div>
       </div>
-    </>
+    </div>
   );
 }

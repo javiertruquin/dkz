@@ -6,7 +6,6 @@ import Footer from "../components/Footer";
 import BotonContactanos from "../components/BotonContactanos";
 import ConocenosEscritorio from "../components/Escritorio/Conocenos/ConocenosEscritorio";
 
-
 export default function Conocenos() {
   return (
     <div>
@@ -20,8 +19,8 @@ export default function Conocenos() {
         <hr className="bg-white" />
         <Footer />
       </div>
-          <div className="d-none d-sm-block">
-              <ConocenosEscritorio />
+      <div className="color-azul-oscuro-fondo d-none d-sm-block">
+        <ConocenosEscritorio />
       </div>
     </div>
   );
