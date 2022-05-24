@@ -3,8 +3,8 @@ import { Image } from "react-bootstrap";
 
 export default function Footer() {
   return (
-    <>
-      <div className="color-azul-oscuro-fondo d-flex justify-content-between text-white container">
+    < >
+      <div className="color-azul-oscuro-fondo d-flex justify-content-between text-white container footer ">
         <div className="text-white mt-4">
           <Image
             className=""
@@ -19,7 +19,7 @@ export default function Footer() {
             Todos los derechos reservados.
           </span>
           <span className="d-flex justify-content-end my-1">
-          Product by DKZ studio
+          Product by DKZ studio 
           </span>
         </div>
       </div>

@@ -430,3 +430,14 @@ color: #FFFFFF;
 .padding-sitioconst{
   padding-top: 90px;
 }
+
+/*Footer*/
+.fixed-footer{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer{
+  margin-top: 320px;
+}

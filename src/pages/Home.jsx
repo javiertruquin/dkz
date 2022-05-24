@@ -11,7 +11,7 @@ import NavbarReact from "../components/NavbarReact";
 export default function Home() {
 
     return (
-        <div className="color-azul-oscuro-fondo">
+        <div className="color-azul-oscuro-fondo fixed-footer">
             <NavbarReact />
             <Banner />
             <Banner2 />
