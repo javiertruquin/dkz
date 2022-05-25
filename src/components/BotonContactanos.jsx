@@ -5,8 +5,8 @@ export default function BotonContactanos() {
     return (
         <Tada>
             <div className="d-flex justify-content-center">
-                <div className="boton-morado">
-                    <p className=" m-0 p-0 text-white tamaño-medio">
+                <div className="boton-verde">
+                    <p className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">
                         Contactanos
                     </p>
                 </div>

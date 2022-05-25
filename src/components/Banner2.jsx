@@ -20,14 +20,14 @@ export default function Banner2() {
                     </div>
                 </Fade>
 
-                <div className="boton-verde-posi">
+                <div className="boton-motado-posi">
                     <Fade left>
-                        <div className="boton-verde">
-                            <p className="color-violeta tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-moradas posi">
+                        <div className="boton-morado">
+                            <p className="text-white tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-moradas posi">
                                 SOMOS
                             </p>
-                            <p className="color-violeta tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-moradas posi2 ">
-                                ENERGIA
+                            <p className="text-white tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-moradas posi2 ">
+                                ENERGÍA
                             </p>
                         </div>
                     </Fade>
@@ -37,8 +37,8 @@ export default function Banner2() {
                     + de 20 Profesionales a tu disposición
                 </p>
                 <div className="d-flex justify-content-center pb-4">
-                    <div className="boton-morado ">
-                        <p className=" m-0 p-0 text-white tamaño-medio">
+                    <div className="boton-verde ">
+                        <p className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">
                             Conocenos
                         </p>
                     </div>

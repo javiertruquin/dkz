@@ -96,7 +96,7 @@ export default function componentName() {
                     </div>
                     <div className="d-flex justify-content-center padding-fixed-contactanos  my-3 ">
                         <div
-                            className="boton-morado"
+                            className="boton-verde"
                             size="sm"
                             type="submit"
                             value="Send"

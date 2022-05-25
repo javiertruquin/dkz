@@ -124,7 +124,7 @@ body {
 }
 
 .color-verde {
-  color: rgba(176, 221, 52, 1);
+  color: #b0dd34;
 }
 
 /* .wrap-pre{
@@ -162,18 +162,18 @@ body {
 
 .card-home {
   position: absolute;
-  margin-top: 75vh;
+  margin-top: 79vh;
   min-width: 292px;
   min-height: 181px;
 
   background: rgba(255, 255, 255, 0.01);
-  border: 1.5px solid rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(30px);
+  /* border: 1.5px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(30px); */
 
   border-radius: 30px;
 }
 
-.boton-morado {
+.boton-verde {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -182,7 +182,7 @@ body {
   height: 50.54px;
   width: 220px;
 
-  background: #7637de;
+  background: #B0DD34;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(74.4578px);
 
@@ -204,16 +204,16 @@ body {
   text-shadow: 0px 10px 60px rgba(0, 0, 0, 0.5);
 }
 
-.boton-verde-posi{
+.boton-morado-posi{
   transform: translateY(-270px) !important;
   z-index: 3;
   position: absolute;
 }
 
-.boton-verde{
+.boton-morado{
   width: 175px;
   height: 82px;
-  background: #B2DE36;
+  background: #7637DE;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
@@ -262,7 +262,6 @@ body {
   display: flex;
   margin-left: auto;
 }
-
 
 /*FRASE*/
 
@@ -328,9 +327,8 @@ body {
 }
 
 .titulo-verde{
-width: 300px;
-padding: 6px;
-background: #B2DE36;
+padding: 12px;
+background: #7637DE;
 mix-blend-mode: normal;
 border: 1.5px solid rgba(255, 255, 255, 0.3);
 border-radius: 0px 30px 30px 0px;
@@ -341,44 +339,9 @@ border-radius: 0px 30px 30px 0px;
 }
 
 .texto-creatividad{
-position: absolute;
-width: 315px;
-height: 135px;
-
-font-family: 'Asap';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
 line-height: 22px;
-/* or 129% */
 text-align: center;
 color: #FFFFFF;
-}
-
-.contenedor-padding {
-  padding-bottom: 3rem;
-  padding-top: 1rem;
-}
-
-.contenedor-padding-post {
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-}
-
-.boton-morado-visuales {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  height: 50.54px;
-  width: 300px;
-
-  background: #7637de;
-  border: 1.5px solid rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(74.4578px);
-
-  border-radius: 37.2289px;
 }
 
 /*CONÓCENOS*/

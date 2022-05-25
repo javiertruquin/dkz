@@ -10,8 +10,8 @@ export default function Trabajos() {
                 <div>
                     <Tada>
                         <div className=" my-4 d-flex justify-content-center">
-                            <div className="boton-morado">
-                                <p className=" m-0 p-0 text-white tamaño-medio">
+                            <div className="boton-verde">
+                                <p className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">
                                     Mind blown
                                 </p>
                             </div>

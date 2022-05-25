@@ -10,19 +10,18 @@ import Iconos from "../components/Iconos";
 import NavbarReact from "../components/NavbarReact";
 
 export default function Home() {
-
     return (
         <div>
-        <div className="color-azul-oscuro-fondo fixed d-sm-none d-block  ">
-            <NavbarReact />
-            <Banner />
-            <Banner2 />
-            <Cartas />
-            <Banner3 />
-            <Frase />
-            <Iconos />
-            <hr className="bg-white"/>
-            <Footer />
+            <div className="color-azul-oscuro-fondo fixed d-sm-none d-block  ">
+                <NavbarReact />
+                <Banner />
+                <Banner2 />
+                <Cartas />
+                <Banner3 />
+                <Frase />
+                <Iconos />
+                <hr className="bg-white" />
+                <Footer />
             </div>
             <div className="d-none d-sm-block">
                 <HomeContenidoEscritorio />
