@@ -1,9 +1,5 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import wsp from "../assets/icons/wsp.svg";
-import face from "../assets/icons/face.svg";
-import linken from "../assets/icons/linken.svg";
-import ig from "../assets/icons/ig.svg";
 import Contacto from "./Contacto";
 
 export default function Iconos() {
@@ -12,8 +8,8 @@ export default function Iconos() {
       <div className="text-center">
         <a href="https://wa.link/051p9f" target="_blank" rel="noreferrer">
           <Image
-            className="iconos mx-2 mt-4 mb-4"
-            src={wsp}
+            className="mx-2 mt-4 mb-4"
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504540/iconos/Group_41_bjbdxc.svg"
             fluid
             alt="icono-wsp"
           />
@@ -24,10 +20,10 @@ export default function Iconos() {
           rel="noreferrer"
         >
           <Image
-            className="iconos mx-2 mt-4 mb-4"
-            src={face}
+            className=" mx-2 mt-4 mb-4"
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504540/iconos/Group_16_wi7o8y.svg"
             fluid
-            alt="icono-facebook"
+            alt="facebook"
           />
         </a>
         <a
@@ -37,9 +33,9 @@ export default function Iconos() {
         >
           <Image
             className="iconos mx-2 mt-4 mb-4"
-            src={ig}
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504540/iconos/Group_17_o5fxhf.svg"
             fluid
-            alt="icono-instagram"
+            alt="instagram"
           />
         </a>
         <a
@@ -48,10 +44,10 @@ export default function Iconos() {
           rel="noreferrer"
         >
           <Image
-            className="iconos mx-2 mt-4 mb-4"
-            src={linken}
+            className="mx-2 mt-4 mb-4"
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504540/iconos/Group_22_vigldu.svg"
             fluid
-            alt="icono-linken"
+            alt="linken"
           />
         </a>
       </div>
