@@ -6,6 +6,16 @@
     height: 80vh;
 }
 
+.banner-pie {
+    position: absolute;
+    margin-top: 60vh;
+    min-width: 292px;
+    min-height: 181px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #ffffff;
+}
+
 .titulo-contenido-av {
     width: 290px;
     background: #7637de;
@@ -27,12 +37,3 @@
     background: linear-gradient(360deg, rgba(56, 59, 117, 0) 14.53%, #1E2048 99.82%);
 }
 
-.banner-pie {
-    position: absolute;
-    margin-top: 60vh;
-    min-width: 292px;
-    min-height: 181px;
-    text-align: center;
-    letter-spacing: -0.408px;
-    color: #ffffff;
-  }
