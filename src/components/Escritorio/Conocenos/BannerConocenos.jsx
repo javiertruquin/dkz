@@ -8,7 +8,7 @@ export default function BannerConocenos() {
       <div className="pb-5 color-azul-oscuro-fondo">
         <div className="fondo-banner-conocenos-escritorio">
           <div className="card-position">
-            <div className="banner-pie-conocenos  d-flex justify-content-center gradient container-fluid">
+            <div className="banner-pie-conocenos-escritorio  d-flex justify-content-center gradient container-fluid">
               <div className="text-white ">
                 <h1 className=" peso-bold-italic my-2">
                   {" "}
