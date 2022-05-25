@@ -5,29 +5,28 @@ import { Link } from "react-router-dom";
 
 export default function CartasEscritorio() {
   return (
-    <div className="color-azul-oscuro-fondo ">
+    <div className="color-azul-oscuro-fondo">
       <div>
         <div className="container">
-          <h1 className="color-verde text-center my-4 peso-bold-italic tamaño-mas-grande mas-espaciado">
-            {" "}
-            Digital solutions
+          <h1 className=" text-center my-4 tamaño-mas-grande mas-espaciado">
+            <span className="mx-2 peso-italic color-verde">DIGITAL</span><span className="peso-bold-italic color-verde-claro">SOLUTIONS</span>
           </h1>
           <div className="d-flex flex-wrap justify-content-center">
             <RubberBand>
-              <Card className="border-card color-blanco mx-4 my-4 card-digital-escritorio">
+              <Card className="border-card-escritorio color-blanco mx-4 my-4 card-digital-escritorio">
                 <div className="d-flex justify-content-center">
                   <Card.Img
                     variant="top"
                     className="imagen-card-conocenos"
-                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_Ro38zH1CRUY_o30hxa.png"
-                    alt="iconos solución digital"
+                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_sqJ4tLBiurw_yeyos1.png"
+                    alt="eventos"
                   />
                 </div>
-                <Card.Body className="efecto-imagen my-2">
+                <Card.Body className="efecto-imagen">
                   <Card.Title className="text-center">
                     <Link
                       className="sin-sub peso-bold-italic tamaño-grande color-violeta"
-                      to="/MarketingDigital"
+                      to="/Eventos"
                     >
                       Eventos
                     </Link>
@@ -37,17 +36,17 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
+              <Card className="border-card-escritorio color-blanco my-4 mx-4 card-digital-escritorio">
                 <div className="d-flex justify-content-center">
                   <Card.Img
                     variant="top"
                     className="imagen-card-conocenos"
                     src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_Ro38zH1CRUY_o30hxa.png"
-                    alt="iconos solución digital"
+                    alt="marketing digital"
                   />
                 </div>
                 <Card.Body className="efecto-imagen">
-                  <Card.Title className="text-center my-2">
+                  <Card.Title className="text-center">
                     <Link
                       className="sin-sub peso-bold-italic tamaño-grande color-violeta"
                       to="/MarketingDigital"
@@ -60,20 +59,20 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
+              <Card className="border-card-escritorio color-blanco my-4 mx-4 card-digital-escritorio">
                 <div className="d-flex justify-content-center">
                   <Card.Img
                     variant="top"
                     className="imagen-card-conocenos"
-                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_Ro38zH1CRUY_o30hxa.png"
-                    alt="iconos solución digital"
+                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_8qEB0fTe9Vw_yxqr4y.png"
+                    alt="Sitios web"
                   />
                 </div>
                 <Card.Body className="efecto-imagen">
-                  <Card.Title className="text-center my-2">
+                  <Card.Title className="text-center">
                     <Link
                       className="sin-sub peso-bold-italic tamaño-grande color-violeta"
-                      to="/MarketingDigital"
+                      to="/SitiosWeb"
                     >
                       Sitios web
                     </Link>
@@ -83,20 +82,20 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
+              <Card className="border-card-escritorio color-blanco my-4 mx-4 card-digital-escritorio">
                 <div className="d-flex justify-content-center">
                   <Card.Img
                     variant="top"
                     className="imagen-card-conocenos"
-                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_Ro38zH1CRUY_o30hxa.png"
-                    alt="iconos solución digital"
+                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_4D-Q5INzhZE_iyo0vq.png"
+                    alt="Producción audiovisual"
                   />
                 </div>
                 <Card.Body className="efecto-imagen">
-                  <Card.Title className="text-center my-2">
+                  <Card.Title className="text-center">
                     <Link
                       className="sin-sub peso-bold-italic tamaño-grande color-violeta"
-                      to="/MarketingDigital"
+                      to="/Audiovisual"
                     >
                       Producción audiovisual
                     </Link>
@@ -105,20 +104,20 @@ export default function CartasEscritorio() {
               </Card>
             </RubberBand>
             <RubberBand>
-              <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
+              <Card className="border-card-escritorio color-blanco my-4 mx-4 card-digital-escritorio">
                 <div className="d-flex justify-content-center">
                   <Card.Img
                     variant="top"
                     className="imagen-card-conocenos"
-                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_Ro38zH1CRUY_o30hxa.png"
-                    alt="iconos solución digital"
+                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_BcR77nBURV8_miaada.png"
+                    alt="Prensa"
                   />
                 </div>
                 <Card.Body className="efecto-imagen">
                   <Card.Title className="text-center">
                     <Link
                       className="sin-sub peso-bold-italic tamaño-grande color-violeta"
-                      to="/MarketingDigital"
+                      to="/Prensa"
                     >
                       Prensa
                     </Link>
@@ -128,20 +127,20 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
+              <Card className="border-card-escritorio color-blanco my-4 mx-4 card-digital-escritorio">
                 <div className="d-flex justify-content-center">
                   <Card.Img
                     variant="top"
                     className="imagen-card-conocenos"
-                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_Ro38zH1CRUY_o30hxa.png"
-                    alt="iconos solución digital"
+                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_m2TU2gfqSeE_gmwapk.png"
+                    alt="Consultoría"
                   />
                 </div>
                 <Card.Body className="efecto-imagen">
                   <Card.Title className="text-center">
                     <Link
                       className="sin-sub peso-bold-italic tamaño-grande color-violeta"
-                      to="/MarketingDigital"
+                      to="/Consultoria"
                     >
                       Consultoría
                     </Link>
@@ -151,20 +150,20 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
+              <Card className="border-card-escritorio color-blanco my-4 mx-4 card-digital-escritorio">
                 <div className="d-flex justify-content-center">
                   <Card.Img
                     variant="top"
                     className="imagen-card-conocenos"
-                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_Ro38zH1CRUY_o30hxa.png"
-                    alt="iconos solución digital"
+                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653499629/Home/unsplash_8qEB0fTe9Vw_ykmlma.png"
+                    alt="Marketing de contenidos"
                   />
                 </div>
                 <Card.Body className="efecto-imagen">
-                  <Card.Title className="text-center mt-2">
+                  <Card.Title className="text-center">
                     <Link
                       className="sin-sub peso-bold-italic tamaño-grande color-violeta"
-                      to="/MarketingDigital"
+                      to="/MarketingContenidos"
                     >
                       Marketing de contenidos
                     </Link>
