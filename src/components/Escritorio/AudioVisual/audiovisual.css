@@ -3,12 +3,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    height: 80vh;
+    height: 100vh;
 }
 
-.banner-pie {
+.banner-pie-av {
     position: absolute;
-    margin-top: 60vh;
+    margin-top: 75vh;
     min-width: 292px;
     min-height: 181px;
     text-align: center;
@@ -36,4 +36,5 @@
 .gradient{
     background: linear-gradient(360deg, rgba(56, 59, 117, 0) 14.53%, #1E2048 99.82%);
 }
+
 

@@ -6,7 +6,7 @@ export default function BannerAVE() {
       <div className="pb-5 color-azul-oscuro-fondo">
         <div className="fondo-banner-av">
           <div className="card-position">
-            <div className="banner-pie d-flex justify-content-center gradient container-fluid">
+            <div className="banner-pie-av  d-flex justify-content-center gradient container-fluid">
               <div className="text-white ">
                 <h1 className=" peso-bold-italic my-2">
                   {" "}
