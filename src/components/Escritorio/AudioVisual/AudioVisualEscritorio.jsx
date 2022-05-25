@@ -1,25 +1,25 @@
 import './audiovisual.css'
+import BannerAVE from './BannerAVE'
 import AVContenido from './AVContenido'
 import AVContenido2 from './AVContenido2'
-import BannerAVE from './BannerAVE'
 import BotonContactoAV from './BotonContactoAV'
-import FooterAV from './FooterAV'
-import IconosAV from './IconosAV'
-import NavReactAV from './NavReactAV'
+import FooterEscritorio from '../FooterEscritorio'
+import IconosEscritorio from '../IconosEscritorio'
+import NavEscritorio from '../NavEscritorio'
 
 
 
 export default function AudioVisualEscritorio() {
   return (
     <div>
-      <NavReactAV />
+      <NavEscritorio />
       <BannerAVE />
       <AVContenido /> 
       <AVContenido2 />
       <BotonContactoAV />
-      <IconosAV />
+      <IconosEscritorio /> 
       <hr className="bg-white container" />
-     <FooterAV />
+      <FooterEscritorio />
     </div>
   )
 }

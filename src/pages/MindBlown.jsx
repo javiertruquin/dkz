@@ -6,7 +6,8 @@ import Trabajos from "../components/MindBlown/Trabajos";
 import Clientes from "../components/MindBlown/Clientes";
 import NavbarReact from "../components/NavbarReact";
 import BotonContactanos from "../components/BotonContactanos";
-import MarketingDigitalEscritorio from "../components/Escritorio/MarketingDigital/MarketingDigitalEscritorio";
+import MindBlownEscritorio from "../components/Escritorio/MindBlown/MindBlownEscritorio";
+
 
 
 export default function MindBlown() {
@@ -24,7 +25,7 @@ export default function MindBlown() {
         <Footer />
       </div>
       <div className="d-none d-sm-block">
-        <MarketingDigitalEscritorio />
+        <MindBlownEscritorio />
       </div>
     </div>
   );

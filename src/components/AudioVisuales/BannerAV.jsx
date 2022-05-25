@@ -1,5 +1,4 @@
 import React from "react";
-import ContenidoAV from "./ContenidoAV";
 
 export default function BannerAV() {
     return (

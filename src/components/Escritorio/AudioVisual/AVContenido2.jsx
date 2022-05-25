@@ -7,7 +7,7 @@ export default function AVContenido2() {
         <div className="container text-white">
           <div className="d-flex  justify-content-around">
             <div>
-              <h1 className="titulo-contenido-av tamaño-mas-grande peso-bold-italic ms-4">
+              <h1 className="titulo-contenido-av tamaño-mas-grande peso-bold-italic ms-4 py-1" >
                 <span className="ms-5">PRODUCCIÓN</span>
               </h1>
               <div className="text-white text-center">
@@ -23,7 +23,7 @@ export default function AVContenido2() {
               </div>
             </div>
             <div>
-              <h1 className="titulo-contenido-av  tamaño-mas-grande peso-bold-italic ms-4">
+              <h1 className="titulo-contenido-av  tamaño-mas-grande peso-bold-italic ms-4 py-1">
                 <span className="ms-3">POSTPRODUCCIÓN</span>
               </h1>
               <div className="text-white text-center">

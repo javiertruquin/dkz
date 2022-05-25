@@ -1,20 +1,18 @@
-import React from 'react'
-import NavbarReact from '../../NavbarReact'
-import FooterAV from '../AudioVisual/FooterAV'
-import BannerConocenos from './BannerConocenos'
-import BotonContactanosConocenos from './BotonContactanosConocenos'
 import './conocenos.css'
-import IconosConocenos from './IconosConocenos'
+import BannerConocenos from './BannerConocenos'
+import IconosEscritorio from '../IconosEscritorio'
+import FooterEscritorio from '../FooterEscritorio'
+import NavEscritorio from '../NavEscritorio'
+
 
 export default function ConocenosEscritorio() {
   return (
     <div>
-      <NavbarReact />
+      <NavEscritorio />
       <BannerConocenos /> 
-      <BotonContactanosConocenos />
-      <IconosConocenos />
+      <IconosEscritorio />
       <hr className="bg-white container" />
-      <FooterAV />
+      <FooterEscritorio />
     </div>
   )
 }

@@ -127,6 +127,9 @@ body {
   color: #b0dd34;
 }
 
+.color-verde-claro{
+  color: #B1DD35;
+}
 /* .wrap-pre{
   white-space: pre-wrap;
 } */
@@ -281,18 +284,12 @@ body {
 }
 
 .border-card {
-  border-radius: 20px 10px !important;
+  border-radius: 20px 20px 20px 20px !important;
 }
 
 .imagen-card {
   width: 140px !important;
   margin-top: -15px;
-}
-
-/*ICONOS*/
-.iconos {
-  width: 60px;
-  color: #7637de;
 }
 
 
@@ -408,4 +405,64 @@ color: #FFFFFF;
 /*Footer*/
 .footer{
   margin-top: auto;
+}
+
+
+/*NAVBAR ESCRITORIO*/
+.navbar-fixed-logo{
+  margin-top: -20px !important;
+  margin-left: 100px;
+}
+
+.navbar-fixed{
+margin-top: 20px !important;
+margin-left: 100px;
+width: 800px;
+background-color: #1E2048;
+backdrop-filter: blur(5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 45px;
+}
+
+@media (max-width: 1024px) {
+  .navbar-fixed-logo{
+      margin-left: 0px;
+  }
+  
+  .navbar-fixed{
+  margin-top: 30px !important;
+  margin-left: 0px;
+  width: 700px;
+  background-color: #1E2048;
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 45px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar-fixed{
+  margin-top: 30px !important;
+  margin-left: 450px;
+  width: 200px;
+  height: 350px;
+  background-color: #1E2048;
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 45px;
+  }
+}
+
+/*Select NavBar*/
+.color-select{
+  background-color: #1E2048 !important;
+  margin-top: 5px;
+}
+.color-select-2{
+  background-color: #7637DE !important;
+  margin-top: 5px;
 }

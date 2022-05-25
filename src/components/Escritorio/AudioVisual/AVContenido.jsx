@@ -7,8 +7,8 @@ export default function AVContenido() {
         <div className="container text-white">
           <div className="d-flex  justify-content-around">
             <div>
-              <h1 className="titulo-contenido-av tamaño-mas-grande peso-bold-italic ms-3">
-                <span className="ms-5">CREATIVIDAD</span>
+              <h1 className="titulo-contenido-av tamaño-mas-grande peso-bold-italic ms-3 px-1 py-1">
+                <span className="ms-5 ">CREATIVIDAD</span>
               </h1>
               <div className="text-white text-center">
                 <p className="peso-italic tamaño-medio px-2">
@@ -19,8 +19,8 @@ export default function AVContenido() {
               </div>
             </div>
             <div>
-              <h1 className="titulo-contenido-av  tamaño-mas-grande peso-bold-italic ms-4">
-                <span className="ms-4">PREPRODUCCIÓN</span>
+              <h1 className="titulo-contenido-av  tamaño-mas-grande peso-bold-italic ms-4 px-1 py-1">
+                <span className="ms-4 ">PREPRODUCCIÓN</span>
               </h1>
               <div className="text-white text-center">
                 <p className="peso-italic tamaño-medio px-2">
