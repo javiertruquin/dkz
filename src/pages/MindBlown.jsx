@@ -1,9 +1,9 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Iconos from "../components/Iconos";
-import BannerT from "../components/MindBlown/BannerT";
-import Trabajos from "../components/MindBlown/Trabajos";
-import Clientes from "../components/MindBlown/Clientes";
+import BannerT from "../components/Celular/MindBlown/BannerT";
+import Trabajos from "../components/Celular/MindBlown/Trabajos";
+import Clientes from "../components/Celular/MindBlown/Clientes";
 import NavbarReact from "../components/NavbarReact";
 import BotonContactanos from "../components/BotonContactanos";
 import MindBlownEscritorio from "../components/Escritorio/MindBlown/MindBlownEscritorio";
@@ -22,6 +22,7 @@ export default function MindBlown() {
           <BotonContactanos />
         </div>
         <Iconos />
+        <hr className="bg-white" />
         <Footer />
       </div>
       <div className="d-none d-sm-block">

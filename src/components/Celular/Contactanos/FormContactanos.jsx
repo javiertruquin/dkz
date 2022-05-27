@@ -1,19 +1,68 @@
-import React from "react";
 import { Col, Form, InputGroup, Row, Button } from "react-bootstrap";
+import emailjs from '@emailjs/browser';
+import { useState } from "react";
+import Swal from "sweetalert2";
+import { useRef } from "react";
 
-export default function componentName() {
+export default function FormContactanos() {
+    const [validated, setValidated] = useState(false);
+    const form = useRef();
+
+ /*funcion para mandar msj al gmail*/
+ const sendEmail = (e) => {
+    const form = e.currentTarget;
+    e.preventDefault();
+    if (form.checkValidity() === true) {
+      e.stopPropagation();
+      emailjs
+        .sendForm(
+          "service_rg18144",
+          "template_httqo6d",
+          e.target,
+          "user_Stg5159fb3qxm0lYluqAN"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      Swal.fire({
+        icon: "success",
+        title: "Mensaje enviado con éxito",
+        showConfirmButton: false,
+        timer: 2000,
+      });
+      form.reset();
+      setValidated(false); //
+    } else {
+        setValidated(true);
+        Swal.fire({
+            icon: "error",
+            title: "No se pudo enviar el mensaje. Por favor verifica los datos.",
+          });
+    }
+  };
+
     return (
         <>
             <div className="padding-nav">
                 <p className="text-center text-white peso-bold-italic tamaño-grande mt-5 mb-0">
                     Contacto
                 </p>
-                <Form noValidate className="mx-auto form-contactanos mb-5 p-2 ">
+                <Form
+                     ref={form}
+                     noValidate
+                     validated={validated}
+                     onSubmit={sendEmail}
+                    className="mx-auto form-contactanos mb-5 p-2">
                     <div>
                         <div className="card-body">
                             <Row className="mb-2">
                                 <Form.Group
-                                    className=""
+                                    className="text-white"
                                     as={Col}
                                     md="12"
                                     controlId="validationCustom03"
@@ -22,7 +71,7 @@ export default function componentName() {
                                         Nombre*
                                     </Form.Label>
                                     <Form.Control
-                                        classname="mb-2"
+                                        className="mb-2 text-white"
                                         type="text"
                                         required
                                         name="name"
@@ -95,16 +144,15 @@ export default function componentName() {
                         </div>
                     </div>
                     <div className="d-flex justify-content-center padding-fixed-contactanos  my-3 ">
-                        <div
-                            className="boton-verde"
+                        <Button
+                            className="boton-verde-formulario"
                             size="sm"
                             type="submit"
                             value="Send"
                         >
-                            <p className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">
-                                Enviar
-                            </p>
-                        </div>
+                            <span className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">Enviar</span>
+                      
+                        </Button>
                     </div>
                 </Form>
             </div>

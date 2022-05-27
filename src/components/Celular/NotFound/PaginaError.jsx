@@ -1,5 +1,5 @@
 import React from "react";
-export default function componentName() {
+export default function PaginaError() {
     return (
         <>
             <div className="padding-nav color-azul-oscuro-fondo">

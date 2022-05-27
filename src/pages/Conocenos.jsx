@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarReact from "../components/NavbarReact";
-import Banner from "../components/Nosotros/Banner";
+import Banner from "../components/Celular/Nosotros/Banner";
 import Iconos from "../components/Iconos";
 import Footer from "../components/Footer";
 import BotonContactanos from "../components/BotonContactanos";

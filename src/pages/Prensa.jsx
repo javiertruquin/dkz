@@ -13,6 +13,7 @@ export default function Prensa() {
         <NavbarReact />
         <SitioConstruccion />
         <Iconos />
+        <hr className="bg-white" />
         <Footer />
       </div>
       <div className="d-none d-sm-block">

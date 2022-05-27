@@ -1,9 +1,9 @@
 import React from "react";
-import BannerAV from "../components/AudioVisuales/BannerAV";
-import ContenidoAV from "../components/AudioVisuales/ContenidoAV";
-import ContenidoAVP from "../components/AudioVisuales/ContenidoAVP";
-import ContenidoAVPost from "../components/AudioVisuales/ContenidoAVPost";
-import ContenidoAVPP from "../components/AudioVisuales/ContenidoAVPP";
+import BannerAV from "../components/Celular/AudioVisuales/BannerAV";
+import ContenidoAV from "../components/Celular/AudioVisuales/ContenidoAV";
+import ContenidoAVP from "../components/Celular/AudioVisuales/ContenidoAVP";
+import ContenidoAVPost from "../components/Celular/AudioVisuales/ContenidoAVPost";
+import ContenidoAVPP from "../components/Celular/AudioVisuales/ContenidoAVPP";
 import BotonContactanos from "../components/BotonContactanos";
 import AudioVisualEscritorio from "../components/Escritorio/AudioVisual/AudioVisualEscritorio";
 

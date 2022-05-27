@@ -396,6 +396,23 @@ color: #FFFFFF;
   border-radius: 30px;
 }
 
+.boton-verde-formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 50.54px;
+  width: 220px;
+
+  background: #B0DD34 !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(74.4578px) !important;
+
+  border-radius: 37.2289px !important;
+}
+
+
 /* Pagina en Construccion */
 
 .padding-sitioconst{

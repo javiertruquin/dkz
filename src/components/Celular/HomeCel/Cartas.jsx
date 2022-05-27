@@ -1,7 +1,7 @@
-import Trabajos from "./Trabajos";
 import RubberBand from "react-reveal/RubberBand";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Trabajos from "./Trabajos";
 
 export default function Cartas() {
     return (
