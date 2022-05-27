@@ -175,6 +175,21 @@ body {
   height: 105vh;
 }
 
+/* .fondo-banner-escritorio {
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1653692828/Home/banner-escritorio_fndswh.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+} */
+.banner-escritorio{
+  width: 100%;
+}
+
+.banner-posi-escritorio{
+  margin-top: -120px;
+}
+
 .card-position {
   display: flex;
   flex-direction: row;

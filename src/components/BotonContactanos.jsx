@@ -7,12 +7,22 @@ export default function BotonContactanos() {
         <Tada>
             <div className="d-flex justify-content-center">
                 <div className="boton-verde">
-                    <Link
-                        className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio sin-sub"
-                        to="/Contactanos"
-                    >
-                        Contactanos
-                    </Link>
+                    <div className="d-none d-sm-block">
+                        <Link
+                            className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-grande sin-sub"
+                            to="/Contactanos"
+                        >
+                            Contactanos
+                        </Link>
+                    </div>
+                    <div className="d-sm-none d-block">
+                        <Link
+                            className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio sin-sub"
+                            to="/Contactanos"
+                        >
+                            Contactanos
+                        </Link>
+                    </div>
                 </div>
             </div>
         </Tada>

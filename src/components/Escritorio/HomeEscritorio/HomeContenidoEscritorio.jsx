@@ -5,11 +5,14 @@ import TrabajosEscritorio from './TrabajosEscritorio'
 import IconosEscritorio from '../IconosEscritorio'
 import FooterEscritorio from '../FooterEscritorio'
 import NavEscritorio from '../NavEscritorio'
+import BannerEscritorio from './BannerEscritorio'
+
 
 export default function HomeContenidoEscritorio() {
   return (
     <div className="color-azul-oscuro-fondo">
       <NavEscritorio />
+      <BannerEscritorio />
       <CartasEscritorio />
       <TrabajosEscritorio /> 
       <ImagenFrase />
