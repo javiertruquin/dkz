@@ -1,4 +1,5 @@
 import Tada from "react-reveal/Tada";
+import { Link } from "react-router-dom";
 
 export default function Trabajos() {
     return (
@@ -11,9 +12,12 @@ export default function Trabajos() {
                     <Tada>
                         <div className=" my-4 d-flex justify-content-center">
                             <div className="boton-verde">
-                                <p className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">
+                                <Link
+                                    className="m-0 p-0 color-azul-oscuro peso-bold tamaño-medio sin-sub"
+                                    to="/MindBlown"
+                                >
                                     Mind blown
-                                </p>
+                                </Link>
                             </div>
                         </div>
                     </Tada>

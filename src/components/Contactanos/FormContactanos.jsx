@@ -101,7 +101,7 @@ export default function componentName() {
                             type="submit"
                             value="Send"
                         >
-                            <p className=" m-0 p-0 text-white tamaño-medio">
+                            <p className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">
                                 Enviar
                             </p>
                         </div>

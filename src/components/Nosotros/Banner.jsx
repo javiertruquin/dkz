@@ -7,13 +7,13 @@ export default function Banner() {
         <div className="card-position">
           <div className=" titulo-conocenos d-flex flex-column justify-content-center">
             <div className="my-5 mx-3">
-              <h1 className="tamaño-grande peso-bold-italic text-white text-center espaciado  fs-1 pt-5 mt-5 titulo-margin-conocenos">
+              <h1 className="tamaño-mas-grande peso-bold-italic text-white text-center mas-espaciado">
                 +20 PROFESIONALES
                 <br />A TU DISPOSICIÓN
               </h1>
             </div>
           </div>
-          <div className="banner-pie-conocenos fondo-conocenos d-flex justify-content-center">
+          <div className="banner-pie-conocenos d-flex justify-content-center">
             <div className="text-white">
               <h1 className="peso-bold-italic my-2"> Somos un equipo</h1>
               <p className="peso-italic tamaño-medio px-2">

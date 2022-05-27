@@ -1,5 +1,6 @@
 import React from "react";
 import { Fade } from "react-reveal";
+import { Link } from "react-router-dom";
 
 export default function Banner2() {
     return (
@@ -20,7 +21,7 @@ export default function Banner2() {
                     </div>
                 </Fade>
 
-                <div className="boton-motado-posi">
+                <div className="boton-morado-posi">
                     <Fade left>
                         <div className="boton-morado">
                             <p className="text-white tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-moradas posi">
@@ -38,9 +39,12 @@ export default function Banner2() {
                 </p>
                 <div className="d-flex justify-content-center pb-4">
                     <div className="boton-verde ">
-                        <p className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">
+                        <Link
+                            className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio sin-sub"
+                            to="/Conocenos"
+                        >
                             Conocenos
-                        </p>
+                        </Link>
                     </div>
                 </div>
             </div>

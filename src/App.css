@@ -242,20 +242,16 @@ body {
 }
 
 .fondo-banner-trabajos {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1652822287/Trabajos/a_fmflfq.png);
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1653613030/Trabajos/mind_mu0uug.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 90vh;
+  height: 100vh;
+  margin-top: -30px;
+  margin-bottom: -50px;
 }
 /* Banner 3 DKZ */
 
-.imagen-dkz{
-  position: absolute;
-  right: 0;
-  z-index: 2;
-  transform: translate(0px,-10px);
-}
 .imagen-dkz-fondo1 {
   position: absolute;
   right: 0;
@@ -295,7 +291,7 @@ body {
 
 /*AUDIOVISUALES*/
 .fondo-banner-av {
-  background: url(../src/assets/av.png);
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1653614050/audiovisual/Audiovisual_wzlhb7.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -315,7 +311,7 @@ body {
 
 .banner-pie {
   position: absolute;
-  margin-top: 65vh;
+  margin-top: 83vh;
   min-width: 292px;
   min-height: 181px;
   text-align: center;
@@ -343,22 +339,16 @@ color: #FFFFFF;
 
 /*CONÓCENOS*/
 .fondo-banner-conocenos{
-  background: url(../src/assets/conocenos.png);
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1653615052/conocenos/conocenos_zpov1n.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 75vh;
-}
-
-.fondo-conocenos{
-  background: linear-gradient(350.97deg, rgba(56, 59, 117, 0) 8.05%, #1E2048 85.04%);
+  height: 100vh;
 }
 
 .titulo-conocenos {
   position: absolute;
-  width: 315px;
   height: 135px;
-  left: calc(50% - 315px / 2 + 1.5px);
   top: calc(65% - 135px / 2 - 427.5px);
   text-align: center;
   letter-spacing: -0.408px;
@@ -367,7 +357,7 @@ color: #FFFFFF;
 
 .banner-pie-conocenos {
   position: absolute;
-  margin-top: 60vh;
+  margin-top: 82vh;
   padding-left: 2rem;
   padding-right: 2rem;
   min-width: 292px;

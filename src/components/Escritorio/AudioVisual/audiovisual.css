@@ -1,4 +1,4 @@
-.fondo-banner-av {
+.fondo-banner-av-escritorio {
     background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1653425855/audiovisual/audiovisualescritorio_zdazuh.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-.banner-pie-av {
+.banner-pie-av-escritorio {
     position: absolute;
     margin-top: 75vh;
     min-width: 292px;
