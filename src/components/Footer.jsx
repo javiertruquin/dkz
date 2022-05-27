@@ -4,7 +4,7 @@ import { Image } from "react-bootstrap";
 export default function Footer() {
   return (
     < >
-      <div className="color-azul-oscuro-fondo d-flex justify-content-between text-white container footer ">
+      <div className="color-azul-oscuro-fondo d-flex justify-content-between text-white container">
         <div className="text-white mt-4">
           <Image
             className=""

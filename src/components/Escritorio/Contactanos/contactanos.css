@@ -1,15 +1,18 @@
 .contenedor-formulario {
-    width: 800px;
-    padding-bottom: 1.5rem;
+    width: 900px;
+    height: 450px;
 }
 
-@media (max-width: 1024px) {
-    .contenedor-formulario{
-        width: 800px;
-    }
-    .padding-fixed-contactanos-escritorio {
-        padding-top: 100px;
-      }
+.padding-nav-contacto{
+    padding-top: 120px;
+  }
+
+.fixed-contactanos-esc{
+    height: 1130px !important;
+}
+
+.fixed-contact-form{
+    height: 820px !important;
 }
 
 
@@ -19,13 +22,9 @@
     }
 }
 
-.padding-nav-contacto{
-    padding-top: 70px;
-  }
-
 .form-contactanos-escritorio .form-control {
     color: white;
-    height: 50px;
+    height: 40px;
     background: rgba(255, 255, 255, 0.03);
     mix-blend-mode: normal;
     border: 1.5px solid rgba(255, 255, 255, 0.1);
@@ -49,5 +48,5 @@
 
 .padding-fixed-contactanos-escritorio {
     padding-top: 80px;
-    padding-bottom: 40px;
   }
+

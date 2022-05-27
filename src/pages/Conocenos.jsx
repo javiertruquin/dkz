@@ -9,7 +9,7 @@ import ConocenosEscritorio from "../components/Escritorio/Conocenos/ConocenosEsc
 export default function Conocenos() {
   return (
     <div>
-      <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
+      <div className="color-azul-oscuro-fondo  d-sm-none d-block">
         <NavbarReact />
         <Banner />
         <div className="pt-5">
