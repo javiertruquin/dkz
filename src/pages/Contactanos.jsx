@@ -15,7 +15,7 @@ export default function Contactanos() {
         <hr className="bg-white" />
         <Footer />
       </div>
-      <div className="d-none d-sm-block">
+      <div className="color-azul-oscuro-fondo d-none d-sm-block">
         <ContactanosEscritorio />
       </div>
     </div>

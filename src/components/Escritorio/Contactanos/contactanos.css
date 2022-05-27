@@ -1,0 +1,32 @@
+.contenedor {
+    width: 800px;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        width: 600px;
+    }
+}
+
+.form-contactanos-escritorio .form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.03);
+    mix-blend-mode: normal;
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    border-radius: 30px;
+    margin: auto;
+}
+
+.boton-verde-formulario-escritorio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50.54px;
+    width: 220px;
+    background: #b0dd34 !important;
+    border: 1.5px solid rgba(255, 255, 255, 0.3) !important;
+    backdrop-filter: blur(74.4578px) !important;
+    border-radius: 37.2289px !important;
+}
