@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarReact from "../components/NavbarReact";
-import FormContactanos from "../components/Contactanos/FormContactanos";
+import FormContactanos from "../components/Celular/Contactanos/FormContactanos";
 import Iconos from "../components/Iconos";
 import Footer from "../components/Footer";
 import ContactanosEscritorio from "../components/Escritorio/Contactanos/ContactanosEscritorio";
