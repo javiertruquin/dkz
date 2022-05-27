@@ -1,4 +1,4 @@
-import { Col, Form, InputGroup, Row, Button } from "react-bootstrap";
+import { Col, Form, Row, Button } from "react-bootstrap";
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
 import Swal from "sweetalert2";
