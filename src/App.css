@@ -142,10 +142,28 @@ body {
   max-width: 65% !important;
 } */
 
-/* Navbar */
+/* Navbar Celular */
 
 .navbar-toggler-icon {
   background-image: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647479679/Home/hamburguesa-blanca3_lllh8c.png) !important;
+}
+.navbar-dark .navbar-toggler{
+  border:0;
+}
+
+/* Borde al tocar */
+
+/* .navbar-dark .navbar-toggler:focus{
+  color: rgba(0, 0, 0, 0);
+} */
+
+.navbar-celu{
+  margin-left: auto;
+  width: 163px;
+  background-color: #1E2048;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px 0px 0px 20px;
 }
 
 /* Banner */
