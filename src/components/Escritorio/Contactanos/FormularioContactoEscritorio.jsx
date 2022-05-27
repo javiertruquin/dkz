@@ -11,9 +11,9 @@ export default function FormularioContactoEscritorio() {
  /*funcion para mandar msj al gmail*/
  const sendEmail = (e) => {
     const form = e.currentTarget;
-    e.preventDefault();
+     e.preventDefault();
     if (form.checkValidity() === true) {
-      e.stopPropagation();
+    e.stopPropagation();  
       emailjs
         .sendForm(
           "service_rg18144",
@@ -44,16 +44,16 @@ export default function FormularioContactoEscritorio() {
             title: "No se pudo enviar el mensaje. Por favor verifica los datos.",
           });
     }
-  };
-
+    };
+    
     return (
-        <>
-            <div className="padding-nav">
+        <div >
+            <div className="padding-nav-contacto pb-5">
                 <p className="text-center text-white peso-bold-italic tamaño-grande mt-5 mb-0">
                     Contacto
                 </p>
             </div>
-            <div className="container contenedor">
+            <div className="container contenedor-formulario">
                 <Form
                      ref={form}
                      noValidate
@@ -148,7 +148,7 @@ export default function FormularioContactoEscritorio() {
                             </Row>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center padding-fixed-contactanos  my-4 ">
+                    <div className="d-flex justify-content-center padding-fixed-contactanos-escritorio  my-4 ">
                         <Button
                             className="boton-verde-formulario"
                             size="sm"
@@ -161,6 +161,6 @@ export default function FormularioContactoEscritorio() {
                     </div>
                 </Form>
             </div>
-        </>
+        </div>
     );
 }

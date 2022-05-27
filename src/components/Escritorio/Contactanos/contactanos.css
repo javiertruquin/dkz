@@ -1,14 +1,21 @@
-.contenedor {
-    width: 800px;
+.contenedor-formulario {
+    width: 1000px;
+    padding-bottom: 3rem;
 }
 
+
 @media (max-width: 768px) {
-    .contenedor {
+    .contenedor-formulario{
         width: 600px;
     }
 }
 
+.padding-nav-contacto{
+    padding-top: 100px;
+  }
+
 .form-contactanos-escritorio .form-control {
+    color: white;
     height: 50px;
     background: rgba(255, 255, 255, 0.03);
     mix-blend-mode: normal;
@@ -30,3 +37,8 @@
     backdrop-filter: blur(74.4578px) !important;
     border-radius: 37.2289px !important;
 }
+
+.padding-fixed-contactanos-escritorio {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
