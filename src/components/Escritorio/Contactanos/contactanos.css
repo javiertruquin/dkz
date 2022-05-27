@@ -1,7 +1,18 @@
 .contenedor-formulario {
     width: 800px;
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
 }
+
+@media (max-width: 1024px) {
+    .contenedor-formulario{
+        width: 800px;
+    }
+    .padding-fixed-contactanos-escritorio {
+        padding-top: 100px;
+      }
+}
+
+
 
 
 @media (max-width: 768px) {
@@ -11,7 +22,7 @@
 }
 
 .padding-nav-contacto{
-    padding-top: 100px;
+    padding-top: 80px;
   }
 
 .form-contactanos-escritorio .form-control {

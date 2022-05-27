@@ -73,7 +73,7 @@ export default function FormularioContactoEscritorio() {
                                         Nombre*
                                     </Form.Label>
                                     <Form.Control
-                                        classname="mb-2 text-white"
+                                        className="mb-2 text-white"
                                         type="text"
                                         required
                                         name="name"
@@ -133,7 +133,7 @@ export default function FormularioContactoEscritorio() {
                                         Mensaje*
                                     </Form.Label>
                                     <Form.Control
-                                        classname="mb-2 text-white"
+                                        className="mb-2 text-white"
                                         type="text"
                                         required
                                         name="msj"
