@@ -9,10 +9,11 @@ export default function ContactanosEscritorio() {
   return (
     <div>
       <NavEscritorio />
-      <div >
       <FormularioContactoEscritorio />
-      </div>
+      <div className="margen-iconos">
       <IconosEscritorio /> 
+      </div>
+      
       <hr className="bg-white container" />
       <FooterEscritorio />
     </div>
