@@ -22,6 +22,7 @@ export default function MindBlown() {
           <BotonContactanos />
         </div>
         <Iconos />
+        <hr className="bg-white" />
         <Footer />
       </div>
       <div className="d-none d-sm-block">

@@ -12,7 +12,8 @@ export default function MarketingDigital() {
         <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
             <NavbarReact />
             <SitioConstruccion />
-            <Iconos />
+                <Iconos />
+                <hr className="bg-white" />
             <Footer />
         </div>
             <div className="d-none d-sm-block">

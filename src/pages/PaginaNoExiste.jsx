@@ -12,6 +12,7 @@ export default function PaginaNoExiste() {
         <NavbarReact />
         <PaginaError />
         <Iconos />
+        <hr className="bg-white" />
         <Footer />
       </div>
       <div className="d-none d-sm-block">

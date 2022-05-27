@@ -12,6 +12,7 @@ export default function Contactanos() {
         <NavbarReact />
         <FormContactanos />
         <Iconos />
+        <hr className="bg-white" />
         <Footer />
       </div>
       <div className="d-none d-sm-block">
