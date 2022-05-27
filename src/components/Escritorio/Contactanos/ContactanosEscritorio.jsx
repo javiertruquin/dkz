@@ -7,13 +7,12 @@ import FormularioContactoEscritorio from './FormularioContactoEscritorio'
 
 export default function ContactanosEscritorio() {
   return (
-    <div>
+    <div className="fixed-contactanos-esc">
       <NavEscritorio />
+      <div className="fixed-contact-form">
       <FormularioContactoEscritorio />
-      <div className="margen-iconos">
-      <IconosEscritorio /> 
       </div>
-      
+      <IconosEscritorio />
       <hr className="bg-white container" />
       <FooterEscritorio />
     </div>

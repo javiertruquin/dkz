@@ -4,18 +4,16 @@
 }
 
 .padding-nav-contacto{
-    padding-top: 45px;
+    padding-top: 120px;
   }
 
-/* 
-@media (max-width: 1024px) {
-    .contenedor-formulario{
-        width: 800px;
-    }
-    .padding-fixed-contactanos-escritorio {
-        padding-top: 100px;
-      }
-} */
+.fixed-contactanos-esc{
+    height: 1130px !important;
+}
+
+.fixed-contact-form{
+    height: 820px !important;
+}
 
 
 @media (max-width: 768px) {
@@ -48,8 +46,7 @@
     border-radius: 37.2289px !important;
 }
 
-/* .padding-fixed-contactanos-escritorio {
+.padding-fixed-contactanos-escritorio {
     padding-top: 80px;
-    padding-bottom: 40px;
-  } */
+  }
 
