@@ -1,5 +1,5 @@
 import React from "react";
-import BotonContactanos from "./BotonContactanos";
+import BotonContactanos from "../../BotonContactanos";
 
 export default function Banner() {
     return (

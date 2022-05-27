@@ -25,7 +25,7 @@ export default function Banner2() {
                     <Fade left>
                         <div className="boton-morado">
                             <p className="text-white tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-moradas posi">
-                                SOMOS
+                                SOMOS 
                             </p>
                             <p className="text-white tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-moradas posi2 ">
                                 ENERGÍA

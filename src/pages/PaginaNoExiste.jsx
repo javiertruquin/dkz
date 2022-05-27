@@ -1,9 +1,9 @@
 import React from "react";
 import NavbarReact from "../components/NavbarReact";
-import PaginaError from "../components/PaginaError";
 import Iconos from "../components/Iconos";
 import Footer from "../components/Footer";
 import PaginaNoExisteEscritorio from "../components/Escritorio/PaginaNoExiste/PaginaNoExisteEscritorio";
+import PaginaError from "../components/Celular/NotFound/PaginaError";
 
 export default function PaginaNoExiste() {
   return (
