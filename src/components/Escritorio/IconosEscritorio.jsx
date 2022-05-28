@@ -3,7 +3,7 @@ import { Image } from 'react-bootstrap'
 
 export default function IconosEscritorio() {
   return (
-    <div className="container color-azul-oscuro-fondo color-violeta ">
+    <div className="color-azul-oscuro-fondo color-violeta ">
     <div className="text-center">
       <a href="https://wa.link/051p9f" target="_blank" rel="noreferrer">
         <Image

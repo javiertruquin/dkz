@@ -507,3 +507,12 @@ border-radius: 45px;
   background-color: #7637DE !important;
   margin-top: 5px;
 }
+
+/*SITIO CONSTRUCCION ESCRITORIO*/
+.padding-sitioconst-escritorio{
+  padding-top: 111px;
+}
+
+.padding-fixed-escritorio {
+  padding-bottom: 142px;
+}

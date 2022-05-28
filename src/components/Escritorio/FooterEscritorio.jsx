@@ -3,7 +3,7 @@ import { Image } from 'react-bootstrap'
 
 export default function FooterEscritorio() {
   return (
-    <div className="container footer">
+    <div className="footer">
       <div className="color-azul-oscuro-fondo d-flex justify-content-between text-white  ">
         <div className="text-white mt-4">
           <Image
