@@ -1,24 +1,28 @@
-import './home.css'
-import CartasEscritorio from './CartasEscritorio'
-import ImagenFrase from './ImagenFrase'
-import TrabajosEscritorio from './TrabajosEscritorio'
-import FooterEscritorio from '../FooterEscritorio'
-import NavEscritorio from '../NavEscritorio'
-import BannerEscritorio from './BannerEscritorio'
-import Banner2Escritorio from './Banner2Escritorio'
-
-
+import "./home.css";
+import CartasEscritorio from "./CartasEscritorio";
+import ImagenFrase from "./ImagenFrase";
+import TrabajosEscritorio from "./TrabajosEscritorio";
+import FooterEscritorio from "../FooterEscritorio";
+import NavEscritorio from "../NavEscritorio";
+import BannerEscritorio from "./BannerEscritorio";
+import Banner2Escritorio from "./Banner2Escritorio";
+import NavbarReact from "../../../components/NavbarReact";
 
 export default function HomeContenidoEscritorio() {
-  return (
-    <div className="d-flex flex-column color-azul-oscuro-fondo" style={{minHeight: '100vh'}} >
-      <NavEscritorio />
-      <BannerEscritorio />
-      <Banner2Escritorio />
-      <CartasEscritorio />
-      <TrabajosEscritorio /> 
-      <ImagenFrase />
-      <FooterEscritorio />
-    </div>
-  )
+    return (
+        <div className="color-azul-oscuro-fondo">
+            <div className="d-none d-lg-block">
+                <NavEscritorio />
+            </div>
+            <div className="d-lg-none d-block">
+                <NavbarReact />
+            </div>
+            <BannerEscritorio />
+            <Banner2Escritorio />
+            <CartasEscritorio />
+            <TrabajosEscritorio />
+            <ImagenFrase />
+            <FooterEscritorio />
+        </div>
+    );
 }
