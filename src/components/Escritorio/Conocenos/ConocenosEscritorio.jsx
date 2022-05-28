@@ -12,10 +12,7 @@ export default function ConocenosEscritorio() {
       <BannerConocenos /> 
       <IconosEscritorio />
       <hr className="bg-white container" />
-      <div className='container'>
-      <FooterEscritorio />
-      </div>
-    
+      <FooterEscritorio /> 
     </div>
   )
 }

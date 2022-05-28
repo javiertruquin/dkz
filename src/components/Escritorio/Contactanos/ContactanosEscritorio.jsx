@@ -14,10 +14,7 @@ export default function ContactanosEscritorio() {
       </div>
       <IconosEscritorio />
       <hr className="bg-white container" />
-      <div className="container">
       <FooterEscritorio />
-      </div>
-     
     </div>
   )
 }

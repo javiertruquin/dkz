@@ -18,10 +18,7 @@ export default function HomeContenidoEscritorio() {
       <ImagenFrase />
       <IconosEscritorio />
       <hr className="container bg-white" />
-      <div className='container'>
       <FooterEscritorio />
-      </div>
-     
     </div>
   )
 }
