@@ -7,7 +7,7 @@ export default function FooterEscritorio() {
       <div className="color-azul-oscuro-fondo d-flex justify-content-between text-white  ">
         <div className="text-white mt-4">
           <Image
-            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/logo-dkz_1_sntx9w.png"
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653772372/Home/logo-dkz-escritorio_phiruf.png"
             fluid
             alt="logo-dkz"
           />

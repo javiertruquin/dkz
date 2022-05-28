@@ -478,6 +478,8 @@ color: #FFFFFF;
 .navbar-fixed-logo{
   margin-top: -20px !important;
   margin-left: 100px;
+  width: 157px;
+height: 70px;
 }
 
 .navbar-fixed{
