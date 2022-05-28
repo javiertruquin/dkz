@@ -26,7 +26,7 @@ export default function AudioVisuales() {
                 <hr className="bg-white" />
                 <Footer />
             </div>
-            <div className="color-azul-oscuro-fondo  d-none d-sm-block">
+            <div className="d-flex flex-column color-azul-oscuro-fondo d-none d-sm-block" style={{minHeight: '100vh'}}>
                 <AudioVisualEscritorio />
             </div>
         </div>

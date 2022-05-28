@@ -22,7 +22,7 @@ export default function Home() {
                 <hr className="bg-white" />
                 <Footer />
             </div>
-            <div className="d-none d-sm-block">
+            <div className="d-flex flex-column color-azul-oscuro-fondo d-none d-sm-block" style={{minHeight: '100vh'}}>
                 <HomeContenidoEscritorio />
             </div>
         </div>

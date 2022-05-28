@@ -1,5 +1,4 @@
 import FooterEscritorio from "../FooterEscritorio";
-import IconosEscritorio from "../IconosEscritorio";
 import NavEscritorio from "../NavEscritorio";
 import SitioConstruEscritorio from "../SitioConstruEscritorio";
 import NavbarReact from "../../../components/NavbarReact";
@@ -14,9 +13,7 @@ export default function EventosEscritorio() {
         <div className="d-lg-none d-block">
           <NavbarReact />
         </div>
-
         <SitioConstruEscritorio />
-        <IconosEscritorio />
         <FooterEscritorio />
       </div>
     </div>
