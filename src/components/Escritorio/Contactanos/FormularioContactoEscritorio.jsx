@@ -47,13 +47,13 @@ export default function FormularioContactoEscritorio() {
     };
     
     return (
-        <div >
+        <div className="container " >
             <div className="padding-nav-contacto pb-5">
                 <p className="text-center text-white peso-bold-italic tamaño-grande mt-5 mb-0">
                     Contacto
                 </p>
             </div>
-            <div className="container contenedor-formulario">
+            <div className="contenedor-formulario container">
                 <Form
                      ref={form}
                      noValidate
@@ -61,7 +61,7 @@ export default function FormularioContactoEscritorio() {
                      onSubmit={sendEmail}
                     className="form-contactanos-escritorio  ">
                     <div>
-                        <div className="centrado-formulario">
+                        <div >
                             <Row className="mb-2">
                                 <Form.Group
                                     className="text-white"
@@ -148,7 +148,7 @@ export default function FormularioContactoEscritorio() {
                             </Row>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center padding-fixed-contactanos-escritorio  my-4 ">
+                    <div className="d-flex justify-content-center padding-fixed-contactanos-escritorio">
                         <Button
                             className="boton-verde-formulario"
                             size="sm"
@@ -156,7 +156,6 @@ export default function FormularioContactoEscritorio() {
                             value="Send"
                         >
                             <span className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">Enviar</span>
-                      
                         </Button>
                     </div>
                 </Form>
