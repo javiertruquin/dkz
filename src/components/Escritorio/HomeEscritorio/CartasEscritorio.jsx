@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 
 export default function CartasEscritorio() {
   return (
-    <div className="color-azul-oscuro-fondo">
+    <div className="color-azul-oscuro-fondo my-5 pt-2">
       <div>
         <div className="container">
-          <h1 className=" text-center my-4 tamaño-mas-grande mas-espaciado">
-            <span className="mx-2 peso-italic color-verde">DIGITAL</span><span className="peso-bold-italic color-verde-claro">SOLUTIONS</span>
+          <h1 className=" text-center my-4 tamaño-mas-grande mas-espaciado mt-5">
+            <span className="mx-2 peso-italic color-verde">DIGITAL</span><span className="peso-bold-italic color-verde-claro ">SOLUTIONS</span>
           </h1>
           <div className="d-flex flex-wrap justify-content-center">
             <RubberBand>
