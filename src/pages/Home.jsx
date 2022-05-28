@@ -10,8 +10,8 @@ import NavbarReact from "../components/NavbarReact";
 
 export default function Home() {
     return (
-        <div>
-            <div className="color-azul-oscuro-fondo fixed d-sm-none d-block  ">
+        <div className="d-flex flex-column" style={{minHeight: '100vh'}}>
+            <div className="color-azul-oscuro-fondo d-sm-none d-block  ">
                 <NavbarReact />
                 <Banner />
                 <Banner2 />

@@ -1,9 +1,58 @@
-import React from 'react'
-import { Image } from 'react-bootstrap'
+import React from "react";
+import { Image } from "react-bootstrap";
 
 export default function FooterEscritorio() {
   return (
     <div className="footer container">
+      <div className="color-azul-oscuro-fondo color-violeta ">
+        <div className="text-center">
+          <a href="https://wa.link/051p9f" target="_blank" rel="noreferrer">
+            <Image
+              className="  mt-4 mb-4"
+              src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504540/iconos/Group_41_bjbdxc.svg"
+              fluid
+              alt="wsp"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/agenciadkz"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image
+              className=" mt-4 mb-4"
+              src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504540/iconos/Group_16_wi7o8y.svg"
+              fluid
+              alt="facebook"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/dkzstudio/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image
+              className=" mt-4 mb-4"
+              src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504540/iconos/Group_17_o5fxhf.svg"
+              fluid
+              alt="instagram"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/dkzstudio/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image
+              className="mt-4 mb-4"
+              src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504401/iconos/Group_22_gflmaq.svg"
+              fluid
+              alt="linken"
+            />
+          </a>
+        </div>
+      </div>
+      <hr className="bg-white container" />
       <div className="color-azul-oscuro-fondo d-flex justify-content-between text-white  ">
         <div className="text-white mt-4">
           <Image
@@ -28,5 +77,5 @@ export default function FooterEscritorio() {
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -8,7 +8,7 @@ import EventosEscritorio from "../components/Escritorio/Eventos/EventosEscritori
 
 export default function Eventos() {
   return (
-    <div>
+    <div className="d-flex flex-column" style={{minHeight: '100vh'}}>
       <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
         <NavbarReact />
         <SitioConstruccion />

@@ -12,7 +12,7 @@ import MindBlownEscritorio from "../components/Escritorio/MindBlown/MindBlownEsc
 
 export default function MindBlown() {
   return (
-    <div>
+    <div className="d-flex flex-column" style={{minHeight: '100vh'}}>
       <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
         <NavbarReact />
         <BannerT />

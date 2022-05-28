@@ -2,12 +2,12 @@ import React from "react";
 export default function SitioConstruEscritorio() {
     return (
         <>
-            <div className="color-azul-oscuro-fondo padding-fixed-escritorio">
-                <div className="padding-sitioconst-escritorio">
+            <div className="color-azul-oscuro-fondo ">
+                <div className="">
                     <p className=" tamaño-mas-grande peso-bold-italic text-white text-center espaciado  mb-0 titulo-producciones">
                         Ups!
                     </p>
-                    <p className="tamaño-grande peso-bold-italic text-white text-center espaciado titulo-producciones">
+                    <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado titulo-producciones">
                         Sitio en construcción
                     </p>
                 </div>

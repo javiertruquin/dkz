@@ -7,7 +7,7 @@ import ContactanosEscritorio from "../components/Escritorio/Contactanos/Contacta
 
 export default function Contactanos() {
   return (
-    <div>
+    <div className="d-flex flex-column" style={{minHeight: '100vh'}}>
       <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
         <NavbarReact />
         <FormContactanos />
@@ -15,7 +15,7 @@ export default function Contactanos() {
         <hr className="bg-white" />
         <Footer />
       </div>
-      <div className="color-azul-oscuro-fondo d-none d-sm-block">
+      <div className="d-flex flex-column color-azul-oscuro-fondo d-none d-sm-block" style={{minHeight: '100vh'}} >
         <ContactanosEscritorio />
       </div>
     </div>

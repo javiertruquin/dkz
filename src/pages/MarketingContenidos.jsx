@@ -8,8 +8,8 @@ import MarketingContenidosEscritorio from "../components/Escritorio/MarketingCon
 
 
 export default function MarketingContenidos() {
-  return (
-    <div>
+  return  (
+    <div className="d-flex flex-column" style={{minHeight: '100vh'}}>
       <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
         <NavbarReact />
         <SitioConstruccion />

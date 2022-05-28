@@ -14,12 +14,14 @@ import Consultoria from "./pages/Consultoria";
 import MarketingContenidos from "./pages/MarketingContenidos";
 import AudioVisuales from "./pages/AudioVisuales";
 import PaginaNoExiste from "./pages/PaginaNoExiste";
+import Prueba from "./pages/Prueba";
 
 
 // import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     return (
+        <div >     
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -33,11 +35,13 @@ function App() {
                 <Route path="/Audiovisual" element={<AudioVisuales />} />
                 <Route path="/SitiosWeb" element={<SitiosWeb />} />
                 <Route path="/Consultoria" element={<Consultoria />} />
-                <Route path="/MarketingContenidos" element={<MarketingContenidos />} />
+                    <Route path="/MarketingContenidos" element={<MarketingContenidos />} />
+                    <Route path="/Prueba" element={<Prueba />} />
 
                 <Route path="*" element={<PaginaNoExiste />} />
             </Routes>
-        </BrowserRouter>
+            </BrowserRouter>
+            </div>
     )
 }
 

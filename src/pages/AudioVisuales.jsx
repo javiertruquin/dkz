@@ -13,7 +13,7 @@ import NavbarReact from "../components/NavbarReact";
 
 export default function AudioVisuales() {
     return (
-        <div>
+        <div className="d-flex flex-column" style={{minHeight: '100vh'}}>
             <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
                 <NavbarReact />
                 <BannerAV />

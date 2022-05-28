@@ -1,20 +1,15 @@
-import FooterEscritorio from '../FooterEscritorio'
-import IconosEscritorio from '../IconosEscritorio'
-import NavEscritorio from '../NavEscritorio'
-import SitioConstruEscritorio from '../SitioConstruEscritorio'
+import FooterEscritorio from "../FooterEscritorio";
+import NavEscritorio from "../NavEscritorio";
+
 
 export default function EventosEscritorio() {
   return (
-    <div>
-       <div className="color-azul-oscuro-fondo">
-      <NavEscritorio /> 
-      <div className="container">
-      <SitioConstruEscritorio />
-        <IconosEscritorio />
-        <hr className="bg-white"/>
-      <FooterEscritorio />
-      </div> 
+    <div
+      className="d-flex flex-column color-azul-oscuro-fondo"
+      style={{ minHeight: "100vh" }}
+    >
+        <NavEscritorio />
+        <FooterEscritorio />
     </div>
-    </div>
-  )
+  );
 }

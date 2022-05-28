@@ -7,15 +7,6 @@
     padding-top: 113px;
   }
 
-/* .fixed-contactanos-esc{
-    height: 1100px !important;
-}
-
-.fixed-contact-form{
-    height: 700px !important;
-} */
-
-
 @media (max-width: 768px) {
     .contenedor-formulario{
         width: 600px;
@@ -48,6 +39,6 @@
 
 .padding-fixed-contactanos-escritorio {
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
   }
 

@@ -1,11 +1,12 @@
 import React from 'react'
+import FooterEscritorio from '../FooterEscritorio'
+import NavEscritorio from '../NavEscritorio'
 
 export default function MindBlownEscritorio() {
   return (
-    <div>
-      <h1>
-        mindblown escritorio
-      </h1>
+    <div className="d-flex flex-column color-azul-oscuro-fondo" style={{minHeight: '100vh'}} >
+      <NavEscritorio />
+      <FooterEscritorio />
     </div>
   )
 }
