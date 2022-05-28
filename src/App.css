@@ -475,53 +475,37 @@ color: #FFFFFF;
 
 
 /*NAVBAR ESCRITORIO*/
-.navbar-fixed-logo{
-  margin-top: -20px !important;
-  margin-left: 100px;
-  width: 157px;
-height: 70px;
+
+.tamaño-letra-opciones{
+  margin: auto;
+}
+
+.tamaño-letra-opciones .form-select{
+  font-size: 22px;
+}
+.tamaño-letra-opciones .form-select option{
+  font-size: 17px;
 }
 
 .navbar-fixed{
-margin-top: 20px !important;
-margin-left: 100px;
-width: 800px;
+font-size: 22px;
 background-color: #1E2048;
-backdrop-filter: blur(5px);
-/* Note: backdrop-filter has minimal browser support */
-
 border-radius: 45px;
 }
 
-@media (max-width: 1024px) {
-  .navbar-fixed-logo{
-      margin-left: 0px;
-  }
-  
-  .navbar-fixed{
-  margin-top: 30px !important;
-  margin-left: 0px;
-  width: 700px;
-  background-color: #1E2048;
-  backdrop-filter: blur(5px);
-  /* Note: backdrop-filter has minimal browser support */
-  
-  border-radius: 45px;
-  }
-}
 
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .navbar-fixed{
-  margin-top: 30px !important;
-  margin-left: 450px;
-  width: 200px;
-  height: 350px;
-  background-color: #1E2048;
-  backdrop-filter: blur(5px);
-  /* Note: backdrop-filter has minimal browser support */
-  
-  border-radius: 45px;
+    font-size: 17px;
+    
+  }
+
+  .tamaño-letra-opciones .form-select{
+    font-size: 17px;
+  }
+  .tamaño-letra-opciones .form-select option{
+    font-size: 12px;
   }
 }
 
@@ -532,7 +516,6 @@ border-radius: 45px;
 }
 .color-select-2{
   background-color: #7637DE !important;
-  margin-top: 5px;
 }
 
 /*SITIO CONSTRUCCION ESCRITORIO*/

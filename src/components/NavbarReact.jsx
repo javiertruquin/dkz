@@ -12,23 +12,35 @@ export default function NavbarReact() {
                 variant="dark"
             >
                 <div className="container-fluid pe-0">
-                    <Navbar.Brand
-                        href="/"
-                        className="ms-2 mt-2 d-flex justify-content-between"
-                    >
-                        <img
-                            className=""
-                            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/logo-dkz_1_sntx9w.png"
-                            alt="DKZ-Logo"
-                            fluid="true"
-                        />
-                    </Navbar.Brand>
-
+                    <div className="d-sm-none d-block">
+                        <Navbar.Brand
+                            href="/"
+                            className="ms-2 mt-2 d-flex justify-content-between"
+                        >
+                            <img
+                                src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/logo-dkz_1_sntx9w.png"
+                                alt="DKZ-Logo"
+                                fluid="true"
+                            />
+                        </Navbar.Brand>
+                    </div>
+                    <div className="d-none d-sm-block">
+                        <Navbar.Brand
+                            href="/"
+                            className="ms-2 mt-2 d-flex justify-content-between"
+                        >
+                            <img
+                                src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653772372/Home/logo-dkz-escritorio_phiruf.png"
+                                alt="DKZ-Logo"
+                                fluid="true"
+                            />
+                        </Navbar.Brand>
+                    </div>
                     <Navbar.Toggle
                         className="me-4 mt-2"
                         aria-controls="basic-navbar-nav"
                     />
-                    <Navbar.Collapse className="" id="basic-navbar-nav">
+                    <Navbar.Collapse className="ms-auto" id="basic-navbar-nav">
                         <div className="navbar-celu my-2 pe-0">
                             <Nav className="my-3">
                                 <Nav.Link
@@ -36,7 +48,7 @@ export default function NavbarReact() {
                                     as={Link}
                                     to="/conocenos"
                                 >
-                                    Conócenos
+                                    Conocenos
                                 </Nav.Link>
                                 <Nav.Link
                                     className="tamaño-medio text-white"
@@ -68,7 +80,7 @@ export default function NavbarReact() {
                                 </Nav.Link>
                                 <div className="mx-4 color-select text-white mb-2">
                                     <Form.Select
-                                        className="color-select-2 text-white border-0"
+                                        className="color-select-2 text-white border-0 mt-2"
                                         aria-label="Default select example "
                                     >
                                         <option

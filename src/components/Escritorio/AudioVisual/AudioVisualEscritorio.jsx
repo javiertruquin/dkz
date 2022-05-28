@@ -1,25 +1,29 @@
-import './audiovisual.css'
-import BannerAVE from './BannerAVE'
-import AVContenido from './AVContenido'
-import AVContenido2 from './AVContenido2'
+import "./audiovisual.css";
+import BannerAVE from "./BannerAVE";
+import AVContenido from "./AVContenido";
+import AVContenido2 from "./AVContenido2";
 import BotonContactanos from "../../BotonContactanos";
-import FooterEscritorio from '../FooterEscritorio'
-import IconosEscritorio from '../IconosEscritorio'
-import NavEscritorio from '../NavEscritorio'
-
-
+import FooterEscritorio from "../FooterEscritorio";
+import IconosEscritorio from "../IconosEscritorio";
+import NavEscritorio from "../NavEscritorio";
+import NavbarReact from "../../../components/NavbarReact";
 
 export default function AudioVisualEscritorio() {
-  return (
-    <div>
-      <NavEscritorio />
-      <BannerAVE />
-      <AVContenido /> 
-      <AVContenido2 />
-      <BotonContactanos />
-      <IconosEscritorio /> 
-      <hr className="bg-white container" />
-      <FooterEscritorio />
-    </div>
-  )
+    return (
+        <div>
+            <div className="d-none d-lg-block">
+                <NavEscritorio />
+            </div>
+            <div className="d-lg-none d-block">
+                <NavbarReact />
+            </div>
+            <BannerAVE />
+            <AVContenido />
+            <AVContenido2 />
+            <BotonContactanos />
+            <IconosEscritorio />
+            <hr className="bg-white container" />
+            <FooterEscritorio />
+        </div>
+    );
 }
