@@ -143,6 +143,15 @@ body {
   max-width: 65% !important;
 } */
 
+.mb-45{
+  margin-bottom: 2.25rem!important;
+}
+
+.my-45{
+  margin-top: 2.25rem!important;
+  margin-bottom: 2.25rem!important;
+}
+
 /* Navbar Celular */
 
 .navbar-toggler-icon {
@@ -152,7 +161,7 @@ body {
   border:0;
 }
 
-/* Borde al tocar */
+/* Borde de hamburguesa al tocar */
 
 /* .navbar-dark .navbar-toggler:focus{
   color: rgba(0, 0, 0, 0);
@@ -176,13 +185,6 @@ body {
   height: 105vh;
 }
 
-/* .fondo-banner-escritorio {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1653692828/Home/banner-escritorio_fndswh.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 100vh;
-} */
 .banner-escritorio{
   width: 100%;
 }
@@ -255,7 +257,24 @@ body {
   border-bottom-right-radius: 30px;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
 }
-.letras-moradas {
+
+.boton-morado-escritorio{
+  height: 63px;
+  width: 357px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7637DE;
+  border-radius: 30px;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+}
+
+.caja-somosenergia{
+  width: 532px;
+}
+
+.letras-posi {
   position: absolute;
   width: 137px;
   height: 59px;
@@ -269,6 +288,8 @@ body {
 .posi2 {
   top: 24px;
 }
+
+
 
 /* Banner Trabajos*/
 .padding-nav{
@@ -304,17 +325,21 @@ body {
   border: 1.5px solid rgba(255, 255, 255, 0.15);
   box-sizing: border-box;
   backdrop-filter: blur(30px);
-
   border-radius: 30px;
 }
 
 /*SOLUCIONES DIGITALES*/
 .card-digital {
   width: 11rem;
+  height: 12.75rem;
 }
 
 .border-card {
   border-radius: 20px 20px 20px 20px !important;
+}
+
+.border-card .card-body{
+  padding: 0.5rem 1rem !important;
 }
 
 .imagen-card {

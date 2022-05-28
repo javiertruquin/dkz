@@ -7,7 +7,7 @@ export default function Cartas() {
     return (
         <div className="color-azul-oscuro-fondo">
             <div>
-                <div className="">
+                <div>
                     <h1 className="color-verde text-center my-4 peso-bold-italic tamaño-mas-grande mas-espaciado">
                         {" "}
                         Digital solutions
@@ -17,14 +17,13 @@ export default function Cartas() {
                             <Card className="border-card color-blanco my-4 card-digital">
                                 <div className="d-flex justify-content-center">
                                     <Card.Img
-                                        variant=""
                                         className="imagen-card"
                                         src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_Ro38zH1CRUY_o30hxa.png"
                                         alt="iconos solución digital"
                                     />
                                 </div>
-                                <Card.Body className="efecto-imagen">
-                                    <Card.Title className="text-center">
+                                <Card.Body className="d-flex justify-content-center align-items-center">
+                                    <Card.Title className="mb-0 text-center">
                                         <Link
                                             className="sin-sub peso-bold-italic tamaño-grande color-violeta"
                                             to="/MarketingDigital"
@@ -40,16 +39,15 @@ export default function Cartas() {
                             <Card className="border-card color-blanco my-4 card-digital">
                                 <div className="d-flex justify-content-center">
                                     <Card.Img
-                                        variant=""
                                         className="imagen-card"
                                         src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_sqJ4tLBiurw_yeyos1.png"
                                         alt="iconos solución digital"
                                     />
                                 </div>
-                                <Card.Body className="efecto-imagen">
-                                    <Card.Title className="text-center mt-3 p-1">
+                                <Card.Body className="d-flex justify-content-center align-items-center">
+                                    <Card.Title className=" mb-0 text-center">
                                         <Link
-                                            className="sin-sub peso-bold-italic tamaño-grande color-violeta"
+                                            className="sin-sub peso-bold-italic tamaño-grande color-violeta "
                                             to="/Eventos"
                                         >
                                             Eventos
@@ -62,14 +60,13 @@ export default function Cartas() {
                             <Card className="border-card color-blanco my-4 card-digital">
                                 <div className="d-flex justify-content-center">
                                     <Card.Img
-                                        variant=""
                                         className="imagen-card"
                                         src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_4D-Q5INzhZE_iyo0vq.png"
                                         alt="iconos solución digital"
                                     />
                                 </div>
-                                <Card.Body className="efecto-imagen">
-                                    <Card.Title className="text-center ">
+                                <Card.Body className="d-flex justify-content-center align-items-center">
+                                    <Card.Title className=" mb-0 text-center">
                                         <Link
                                             className="peso-bold-italic tamaño-grande color-violeta sin-sub"
                                             to="/Audiovisual"
@@ -84,14 +81,13 @@ export default function Cartas() {
                             <Card className="border-card color-blanco my-4 card-digital">
                                 <div className="d-flex justify-content-center">
                                     <Card.Img
-                                        variant=""
                                         className="imagen-card"
                                         src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_8qEB0fTe9Vw_yxqr4y.png"
                                         alt="iconos solución digital"
                                     />
                                 </div>
-                                <Card.Body className="efecto-imagen">
-                                    <Card.Title className="text-center mt-3 p-1">
+                                <Card.Body className="d-flex justify-content-center align-items-center">
+                                    <Card.Title className=" mb-0 text-center">
                                         <Link
                                             className="sin-sub peso-bold-italic tamaño-grande color-violeta"
                                             to="/SitiosWeb"
@@ -106,14 +102,13 @@ export default function Cartas() {
                             <Card className="border-card color-blanco my-4 card-digital">
                                 <div className="d-flex justify-content-center">
                                     <Card.Img
-                                        variant=""
                                         className="imagen-card"
                                         src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_m2TU2gfqSeE_gmwapk.png"
                                         alt="iconos solución digital"
                                     />
                                 </div>
-                                <Card.Body className="efecto-imagen">
-                                    <Card.Title className="text-center mt-3 p-1">
+                                <Card.Body className="d-flex justify-content-center align-items-center">
+                                    <Card.Title className=" mb-0 text-center">
                                         <Link
                                             className="sin-sub peso-bold-italic tamaño-grande color-violeta"
                                             to="/Consultoria"
@@ -128,14 +123,13 @@ export default function Cartas() {
                             <Card className="border-card color-blanco my-4 card-digital">
                                 <div className="d-flex justify-content-center">
                                     <Card.Img
-                                        variant=""
                                         className="imagen-card"
                                         src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_BcR77nBURV8_miaada.png"
                                         alt="iconos solución digital"
                                     />
                                 </div>
-                                <Card.Body className="efecto-imagen">
-                                    <Card.Title className="text-center mt-3 p-1">
+                                <Card.Body className="d-flex justify-content-center align-items-center">
+                                    <Card.Title className=" mb-0 text-center">
                                         <Link
                                             className="sin-sub peso-bold-italic tamaño-grande color-violeta"
                                             to="/Prensa"
@@ -150,14 +144,13 @@ export default function Cartas() {
                             <Card className="border-card color-blanco my-4 card-digital">
                                 <div className="d-flex justify-content-center">
                                     <Card.Img
-                                        variant=""
                                         className="imagen-card"
                                         src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_m2TU2gfqSeE_gmwapk.png"
                                         alt="iconos solución digital"
                                     />
                                 </div>
-                                <Card.Body className="efecto-imagen">
-                                    <Card.Title className="text-center">
+                                <Card.Body className="d-flex justify-content-center align-items-center">
+                                    <Card.Title className=" mb-0 text-center">
                                         <Link
                                             className="sin-sub peso-bold-italic tamaño-grande color-violeta"
                                             to="/MarketingContenidos"

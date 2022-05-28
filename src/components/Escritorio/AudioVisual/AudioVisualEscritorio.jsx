@@ -2,7 +2,7 @@ import './audiovisual.css'
 import BannerAVE from './BannerAVE'
 import AVContenido from './AVContenido'
 import AVContenido2 from './AVContenido2'
-import BotonContactoAV from './BotonContactoAV'
+import BotonContactanos from "../../BotonContactanos";
 import FooterEscritorio from '../FooterEscritorio'
 import IconosEscritorio from '../IconosEscritorio'
 import NavEscritorio from '../NavEscritorio'
@@ -16,7 +16,7 @@ export default function AudioVisualEscritorio() {
       <BannerAVE />
       <AVContenido /> 
       <AVContenido2 />
-      <BotonContactoAV />
+      <BotonContactanos />
       <IconosEscritorio /> 
       <hr className="bg-white container" />
       <FooterEscritorio />

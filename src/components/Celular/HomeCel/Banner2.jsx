@@ -24,10 +24,10 @@ export default function Banner2() {
                 <div className="boton-morado-posi">
                     <Fade left>
                         <div className="boton-morado">
-                            <p className="text-white tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-moradas posi">
+                            <p className="text-white tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-posi posi">
                                 SOMOS 
                             </p>
-                            <p className="text-white tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-moradas posi2 ">
+                            <p className="text-white tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-posi posi2 ">
                                 ENERGÍA
                             </p>
                         </div>
