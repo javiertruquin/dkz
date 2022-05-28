@@ -17,8 +17,6 @@ export default function AudioVisualEscritorio() {
       <AVContenido /> 
       <AVContenido2 />
       <BotonContactanos />
-      <IconosEscritorio /> 
-      <hr className="bg-white container" />
       <FooterEscritorio />
     </div>
   )
