@@ -71,7 +71,7 @@ export default function FormContactanos() {
                                         Nombre*
                                     </Form.Label>
                                     <Form.Control
-                                        className="mb-2 text-white"
+                                        className="mb-2"
                                         type="text"
                                         required
                                         name="name"
