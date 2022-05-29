@@ -429,7 +429,7 @@ color: #FFFFFF;
 /* Contactanos */
 .form-contactanos .form-control {
   height: 51px;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.137);
   mix-blend-mode: normal;
   border: 1.5px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(30px);
