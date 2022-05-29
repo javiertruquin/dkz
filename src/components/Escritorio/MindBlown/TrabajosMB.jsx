@@ -9,19 +9,19 @@ export default function TrabajosMB() {
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652824284/Trabajos/Rectangle_92_lat3as.png"
-            alt=""
+            alt="trabajos imagenes"
+          />
+        </div>
+        <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
+          <img
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652996297/Trabajos/Group_12_rfhnxz.png"
+            alt="trabajos imagenes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652824284/Trabajos/Rectangle_92_lat3as.png"
-            alt=""
-          />
-        </div>
-        <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
-          <img
-            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652824284/Trabajos/Rectangle_92_lat3as.png"
-            alt=""
+            alt="trabajos imagenes"
           />
         </div>
       </div>
@@ -29,26 +29,26 @@ export default function TrabajosMB() {
       <div className="d-flex justify-content-center">
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
-            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652824284/Trabajos/Rectangle_92_lat3as.png"
-            alt=""
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652996297/Trabajos/Rectangle_35_v0mqiy.png"
+            alt="trabajos imagenes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
-            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652824284/Trabajos/Rectangle_92_lat3as.png"
-            alt=""
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652996297/Trabajos/Rectangle_352_knn3av.png"
+            alt="trabajos imagenes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
-            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652824284/Trabajos/Rectangle_92_lat3as.png"
-            alt=""
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652996297/Trabajos/Group_1212_tf2hgk.png"
+            alt="trabajos imagenes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
-            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652824284/Trabajos/Rectangle_92_lat3as.png"
-            alt=""
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652996297/Trabajos/Group_1212_tf2hgk.png"
+            alt="trabajos imagenes"
           />
         </div>
       </div>
@@ -56,20 +56,20 @@ export default function TrabajosMB() {
       <div className="d-flex justify-content-center">
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
-            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652824284/Trabajos/Rectangle_92_lat3as.png"
-            alt=""
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652996297/Trabajos/Rectangle_192_ioce2e.png"
+            alt="trabajos imagenes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
-            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652824284/Trabajos/Rectangle_92_lat3as.png"
-            alt=""
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652996297/Trabajos/Group_1212_tf2hgk.png"
+            alt="trabajos imagenes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
-            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652824284/Trabajos/Rectangle_92_lat3as.png"
-            alt=""
+            src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652996297/Trabajos/Rectangle_192_ioce2e.png"
+            alt="trabajos imagenes"
           />
         </div>
       </div>
