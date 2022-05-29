@@ -1,4 +1,6 @@
 import React from "react";
+import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 export default function SitioConstruccion() {
     return (
         <>
@@ -20,7 +22,7 @@ export default function SitioConstruccion() {
                 <div className="d-flex justify-content-center">
                     <div className="boton-verde">
                         <p className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">
-                            Volver al home
+                        <Nav.Link as={Link} to="/"> <span className="text-dark">Volver al home</span></Nav.Link> 
                         </p>
                     </div>
                 </div>
