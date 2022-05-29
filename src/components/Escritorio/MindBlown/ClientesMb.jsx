@@ -13,31 +13,31 @@ export default function ClientesMb() {
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-            alt=""
+            alt="imagen-clientes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-            alt=""
+            alt="imagen-clientes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-            alt=""
+            alt="imagen-clientes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-            alt=""
+            alt="imagen-clientes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-            alt=""
+            alt="imagen-clientes"
           />
         </div>
           </div>
@@ -45,31 +45,31 @@ export default function ClientesMb() {
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-            alt=""
+            alt="imagen-clientes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-            alt=""
+            alt="imagen-clientes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-            alt=""
+            alt="imagen-clientes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-            alt=""
+            alt="imagen-clientes"
           />
         </div>
         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
           <img
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-            alt=""
+            alt="imagen-clientes"
           />
         </div>
           </div>

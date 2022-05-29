@@ -1,5 +1,3 @@
-import React from "react";
-import { Zoom } from "react-reveal";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -19,7 +17,7 @@ export default function Clientes() {
                         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-                                alt=""
+                                alt="imagen-clientes"
                             />
                         </div>
                     </SwiperSlide>
@@ -27,7 +25,7 @@ export default function Clientes() {
                         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-                                alt=""
+                                alt="imagen-clientes"
                             />
                         </div>
                     </SwiperSlide>
@@ -35,7 +33,7 @@ export default function Clientes() {
                         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-                                alt=""
+                                alt="imagen-clientes"
                             />
                         </div>
                     </SwiperSlide>
@@ -45,7 +43,7 @@ export default function Clientes() {
                         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-                                alt=""
+                                alt="imagen-clientes"
                             />
                         </div>
                     </SwiperSlide>
@@ -53,7 +51,7 @@ export default function Clientes() {
                         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-                                alt=""
+                                alt="imagen-clientes"
                             />
                         </div>
                     </SwiperSlide>
@@ -61,7 +59,7 @@ export default function Clientes() {
                         <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
-                                alt=""
+                                alt="imagen-clientes"
                             />
                         </div>
                     </SwiperSlide>
