@@ -9,7 +9,7 @@ import NavbarReact from "../../../components/NavbarReact";
 
 export default function AudioVisualEscritorio() {
     return (
-        <div>
+        <div >
             <div className="d-none d-lg-block">
                 <NavEscritorio />
             </div>

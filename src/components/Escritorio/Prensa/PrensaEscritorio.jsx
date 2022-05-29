@@ -6,14 +6,14 @@ import NavbarReact from "../../../components/NavbarReact";
 
 export default function PrensaEscritorio() {
     return (
-        <div className="color-azul-oscuro-fondo">
+        <div className="color-azul-oscuro-fondo" >
             <div className="d-none d-lg-block">
                 <NavEscritorio />
             </div>
             <div className="d-lg-none d-block">
                 <NavbarReact />
             </div>
-            <div className="container">
+            <div className="d-flex flex-column" style={{minHeight: '100vh'}}>
                 <SitioConstruEscritorio />
                 <FooterEscritorio />
             </div>

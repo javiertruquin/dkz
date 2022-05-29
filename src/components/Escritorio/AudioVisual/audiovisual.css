@@ -17,20 +17,20 @@
 }
 
 .titulo-contenido-av {
-    width: 290px;
     background: #7637de;
     backdrop-filter: blur(4px);
-    /* Note: backdrop-filter has minimal browser support */
-    border-radius: 45px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.texto-av{
+    font-size: 22px;
 }
 
-.boton-verde-av{
-    height: 40px;
-    width: 200px;
-    box-sizing: border-box;
-    background: #B0DD34;
-    border: 1.5px solid rgba(255, 255, 255, 0.5);
-    border-radius: 37.2289px;
+@media (max-width: 995px) {
+    .titulo-contenido-av {
+        font-size: 22px;
+    }
+    .texto-av{
+        font-size: 17px;
+    }
 }
-
-

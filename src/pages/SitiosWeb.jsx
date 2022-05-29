@@ -16,7 +16,7 @@ export default function SitiosWeb() {
         <hr className="bg-white" />
         <Footer />
       </div>
-      <div className="d-flex flex-column color-azul-oscuro-fondo d-none d-sm-block" style={{minHeight: '100vh'}}>
+      <div className="color-azul-oscuro-fondo d-none d-sm-block" >
         <SitiosWebsEscritorio />
       </div>
     </div>

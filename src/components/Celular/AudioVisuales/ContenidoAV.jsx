@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 
 export default function ContenidoAV() {
     return (
-        <div className="color-azul-oscuro-fondo my-1 py-1">
+        <div className="color-azul-oscuro-fondo my-1 py-1 pt-5">
             <Fade left>
                 <div className="my-5">
                     <h1 className="text-white tamaño-grande peso-bold-italic mas-espaciado">

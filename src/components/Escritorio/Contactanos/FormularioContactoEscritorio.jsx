@@ -1,5 +1,5 @@
 import { Col, Form, Row, Button } from "react-bootstrap";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import Swal from "sweetalert2";
 import { useRef } from "react";
@@ -8,60 +8,61 @@ export default function FormularioContactoEscritorio() {
     const [validated, setValidated] = useState(false);
     const form = useRef();
 
- /*funcion para mandar msj al gmail*/
- const sendEmail = (e) => {
-    const form = e.currentTarget;
-     e.preventDefault();
-    if (form.checkValidity() === true) {
-    e.stopPropagation();  
-      emailjs
-        .sendForm(
-          "service_rg18144",
-          "template_httqo6d",
-          e.target,
-          "user_Stg5159fb3qxm0lYluqAN"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
-      Swal.fire({
-        icon: "success",
-        title: "Mensaje enviado con éxito",
-        showConfirmButton: false,
-        timer: 2000,
-      });
-      form.reset();
-      setValidated(false); //
-    } else {
-        setValidated(true);
-        Swal.fire({
-            icon: "error",
-            title: "No se pudo enviar el mensaje. Por favor verifica los datos.",
-          });
-    }
+    /*funcion para mandar msj al gmail*/
+    const sendEmail = (e) => {
+        const form = e.currentTarget;
+        e.preventDefault();
+        if (form.checkValidity() === true) {
+            e.stopPropagation();
+            emailjs
+                .sendForm(
+                    "service_rg18144",
+                    "template_httqo6d",
+                    e.target,
+                    "user_Stg5159fb3qxm0lYluqAN"
+                )
+                .then(
+                    (result) => {
+                        console.log(result.text);
+                    },
+                    (error) => {
+                        console.log(error.text);
+                    }
+                );
+            Swal.fire({
+                icon: "success",
+                title: "Mensaje enviado con éxito",
+                showConfirmButton: false,
+                timer: 2000,
+            });
+            form.reset();
+            setValidated(false); //
+        } else {
+            setValidated(true);
+            Swal.fire({
+                icon: "error",
+                title: "No se pudo enviar el mensaje. Por favor verifica los datos.",
+            });
+        }
     };
-    
+
     return (
-        <div className="container " >
+        <div className="container mt-5">
             <div className="padding-nav-contacto pb-5">
-                <p className="text-center text-white peso-bold-italic tamaño-grande mt-5 mb-0">
+                <p className="text-center text-white peso-bold-italic tamaño-mas-grande mt-5 mb-0">
                     Contacto
                 </p>
             </div>
             <div className="contenedor-formulario container">
                 <Form
-                     ref={form}
-                     noValidate
-                     validated={validated}
-                     onSubmit={sendEmail}
-                    className="form-contactanos-escritorio  ">
+                    ref={form}
+                    noValidate
+                    validated={validated}
+                    onSubmit={sendEmail}
+                    className="form-contactanos-escritorio  "
+                >
                     <div>
-                        <div >
+                        <div>
                             <Row className="mb-2">
                                 <Form.Group
                                     className="text-white"
@@ -69,7 +70,7 @@ export default function FormularioContactoEscritorio() {
                                     md="12"
                                     controlId="validationCustom03"
                                 >
-                                    <Form.Label className=" text-white peso-italic tamaño-medio ">
+                                    <Form.Label className=" text-white peso-italic tamaño-grande ">
                                         Nombre*
                                     </Form.Label>
                                     <Form.Control
@@ -89,7 +90,7 @@ export default function FormularioContactoEscritorio() {
                                     md="12"
                                     controlId="validationCustom04"
                                 >
-                                    <Form.Label className=" text-white peso-italic tamaño-medio mt-2">
+                                    <Form.Label className=" text-white peso-italic tamaño-grande mt-2">
                                         Whatsapp*
                                     </Form.Label>
                                     <Form.Control
@@ -108,7 +109,7 @@ export default function FormularioContactoEscritorio() {
                                     md="12"
                                     controlId="validationCustom03"
                                 >
-                                    <Form.Label className=" text-white peso-italic tamaño-medio mt-2">
+                                    <Form.Label className=" text-white peso-italic tamaño-grande mt-2">
                                         Email*
                                     </Form.Label>
                                     <Form.Control
@@ -123,13 +124,13 @@ export default function FormularioContactoEscritorio() {
                                 </Form.Group>
                             </Row>
                             <Row className="mb-4">
-                            <Form.Group
+                                <Form.Group
                                     className="text-white"
                                     as={Col}
                                     md="12"
                                     controlId="validationCustom03"
                                 >
-                                    <Form.Label className=" text-white peso-italic tamaño-medio">
+                                    <Form.Label className=" text-white peso-italic tamaño-grande">
                                         Mensaje*
                                     </Form.Label>
                                     <Form.Control
@@ -142,9 +143,9 @@ export default function FormularioContactoEscritorio() {
                                         Ingrese su nombre completo por favor.
                                     </Form.Control.Feedback>
                                 </Form.Group>
-                                    <span className="mt-1 ms-3 text-white peso-italic tamaño-chico">
-                                        * Campo requerido
-                                    </span>
+                                <span className="mt-1 ms-3 text-white peso-italic tamaño-chico">
+                                    * Campo requerido
+                                </span>
                             </Row>
                         </div>
                     </div>
@@ -155,7 +156,9 @@ export default function FormularioContactoEscritorio() {
                             type="submit"
                             value="Send"
                         >
-                            <span className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">Enviar</span>
+                            <span className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-grande">
+                                Enviar
+                            </span>
                         </Button>
                     </div>
                 </Form>

@@ -10,7 +10,7 @@ import NavbarReact from "../components/NavbarReact";
 
 export default function Home() {
     return (
-        <div className="d-flex flex-column" style={{minHeight: '100vh'}}>
+        <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
             <div className="color-azul-oscuro-fondo d-sm-none d-block  ">
                 <NavbarReact />
                 <Banner />
@@ -22,7 +22,7 @@ export default function Home() {
                 <hr className="bg-white" />
                 <Footer />
             </div>
-            <div className="d-flex flex-column color-azul-oscuro-fondo d-none d-sm-block" style={{minHeight: '100vh'}}>
+            <div className="color-azul-oscuro-fondo d-none d-sm-block">
                 <HomeContenidoEscritorio />
             </div>
         </div>

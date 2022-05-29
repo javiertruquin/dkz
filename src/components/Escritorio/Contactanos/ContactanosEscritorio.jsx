@@ -6,7 +6,7 @@ import NavbarReact from "../../../components/NavbarReact";
 
 export default function ContactanosEscritorio() {
   return (
-    <div>
+    <div className="d-flex flex-column" style={{minHeight: '100vh'}} >
       <div className="d-none d-lg-block">
         <NavEscritorio />
       </div>

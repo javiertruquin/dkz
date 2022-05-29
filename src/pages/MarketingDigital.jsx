@@ -15,7 +15,7 @@ export default function MarketingDigital() {
         <hr className="bg-white" />
         <Footer />
       </div>
-      <div className="d-flex flex-column color-azul-oscuro-fondo d-none d-sm-block" style={{minHeight: '100vh'}}>
+      <div className="color-azul-oscuro-fondo d-none d-sm-block" >
         <MarketingDigitalEscritorio />
       </div>
     </div>

@@ -80,7 +80,7 @@ export default function NavbarReact() {
                                 </Nav.Link>
                                 <div className="mx-4 color-select text-white mb-2">
                                     <Form.Select
-                                        className="color-select-2 text-white border-0 mt-2"
+                                        className="color-select-2 text-white border-0 mt-2 text-center"
                                         aria-label="Default select example "
                                     >
                                         <option

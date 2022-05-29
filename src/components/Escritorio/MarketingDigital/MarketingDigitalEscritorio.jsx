@@ -12,8 +12,10 @@ export default function MarketingDigitalEscritorio() {
             <div className="d-lg-none d-block">
                 <NavbarReact />
             </div>
+            <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
                 <SitioConstruEscritorio />
                 <FooterEscritorio />
+            </div>
         </div>
     );
 }

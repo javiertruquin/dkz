@@ -65,7 +65,7 @@ export default function NavEscritorio() {
                                 </Nav.Link>
                                 <div className="mx-3 text-white tamaño-letra-opciones">
                                     <Form.Select
-                                        className="color-select-2 text-white border-0 "
+                                        className="color-select-2 text-white border-0 text-center"
                                         aria-label="Default select example "
                                     >
                                         <option
