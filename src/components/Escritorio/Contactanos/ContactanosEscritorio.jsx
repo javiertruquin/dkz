@@ -15,7 +15,10 @@ export default function ContactanosEscritorio() {
       </div>
 
       <FormularioContactoEscritorio />
+      <div className="pt-4">
       <FooterEscritorio />
+      </div>
+     
     </div>
   );
 }

@@ -47,7 +47,7 @@ export default function FormularioContactoEscritorio() {
     };
 
     return (
-        <div className="container mt-5">
+        <div  className="container mt-5">
             <div className="padding-nav-contacto pb-5">
                 <p className="text-center text-white peso-bold-italic tamaño-mas-grande mt-5 mb-0">
                     Contacto
@@ -151,7 +151,7 @@ export default function FormularioContactoEscritorio() {
                     </div>
                     <div className="d-flex justify-content-center padding-fixed-contactanos-escritorio">
                         <Button
-                            className="boton-verde-formulario"
+                            className="boton-verde-formulario-escritorio"
                             size="sm"
                             type="submit"
                             value="Send"
