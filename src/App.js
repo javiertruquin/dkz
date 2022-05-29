@@ -14,13 +14,12 @@ import Consultoria from "./pages/Consultoria";
 import MarketingContenidos from "./pages/MarketingContenidos";
 import AudioVisuales from "./pages/AudioVisuales";
 import PaginaNoExiste from "./pages/PaginaNoExiste";
-
-
-// import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     return (
         <BrowserRouter>
+             <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Conocenos" element={<Conocenos />} />
