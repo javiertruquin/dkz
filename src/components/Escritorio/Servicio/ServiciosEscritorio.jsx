@@ -1,7 +1,10 @@
+import "./servicios.css";
+
 import FooterEscritorio from "../FooterEscritorio";
 import NavEscritorio from "../NavEscritorio";
-import SitioConstruEscritorio from "../SitioConstruEscritorio";
 import NavbarReact from "../../../components/NavbarReact";
+import BannerServicios from "./BannerServicios";
+import CartasEscritorio from "../HomeEscritorio/CartasEscritorio";
 
 export default function ServiciosEscritorio() {
     return (
@@ -16,7 +19,8 @@ export default function ServiciosEscritorio() {
                 className=" d-flex flex-column"
                 style={{ minHeight: "100vh" }}
             >
-                <SitioConstruEscritorio />
+                <BannerServicios />
+                <CartasEscritorio />
                 <FooterEscritorio />
             </div>
         </div>
