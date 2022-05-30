@@ -6,8 +6,8 @@ export default function Banner() {
         <>
             <div className="color-azul-oscuro-fondo">
                 <div className="fondo-banner">
-                    <div className="card-position">
-                        <div className="card-home d-flex flex-column justify-content-center ">
+                    <div className="card-position d-flex justify-content-center align-items-end">
+                        <div className="card-home  ">
                             <div className="my-4 mx-3">
                                 <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                                     Lleva tus ideas a un lugar <br />
