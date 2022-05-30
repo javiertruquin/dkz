@@ -14,7 +14,7 @@ export default function BannerMC() {
         <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
         MARKETING DIGITAL 
         </p>
-        <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+        <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
         DKZ studio pone a su disposición todo el material tecnológico necesario
           <br /> para hacer producciones profesionales a gran escala. Contamos con un
         <br /> equipo altamente capacitado para crear y editar productos audiovisuales de alta calidad.
@@ -24,7 +24,7 @@ export default function BannerMC() {
         <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
         MARKETING DIGITAL 
         </p>
-        <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+        <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
         DKZ studio pone a su disposición todo el material tecnológico necesario
           <br /> para hacer producciones profesionales a gran escala. Contamos con un
         <br /> equipo altamente capacitado para crear y editar productos audiovisuales de alta calidad.

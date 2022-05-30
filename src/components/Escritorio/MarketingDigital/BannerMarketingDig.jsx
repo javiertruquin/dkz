@@ -14,7 +14,7 @@ export default function BannerMarketingDig() {
           <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
             MARKETING DIGITAL
           </p>
-          <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+          <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
             En DKZ studio sabemos lo fundamental de Identificar estrategias,
             <br /> herramientas y nuevas tecnologías para el diseño y ejecución
             de la publicidad
@@ -29,7 +29,7 @@ export default function BannerMarketingDig() {
           <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
             MARKETING DIGITAL
           </p>
-          <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+          <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
             En DKZ studio sabemos lo fundamental de Identificar estrategias,
             <br /> herramientas y nuevas tecnologías para el diseño y ejecución
             de la publicidad

@@ -14,7 +14,7 @@ export default function BannerSitiosWeb() {
             <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
               SITIOS WEB
             </p>
-            <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+            <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
               de Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               <br />
               de Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
@@ -26,7 +26,7 @@ export default function BannerSitiosWeb() {
             <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
               SITIOS WEB
             </p>
-            <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+            <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
               de Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               <br /> de Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do <br /> de Lorem ipsum dolor sit amet, consectetur

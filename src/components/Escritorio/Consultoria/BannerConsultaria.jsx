@@ -15,7 +15,7 @@ export default function BannerConsultaria() {
             <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
               CONSULTORÍA
             </p>
-            <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+            <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
               Nos enfocamos en el requerimiento del cliente, brindando
               <br /> soluciones alternativas y eficaces, que ayuden a consolidar
               el
@@ -27,7 +27,7 @@ export default function BannerConsultaria() {
             <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
               CONSULTORÍA
             </p>
-            <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+            <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
             Nos enfocamos en el requerimiento del cliente, brindando
               <br /> soluciones alternativas y eficaces, que ayuden a consolidar
               el

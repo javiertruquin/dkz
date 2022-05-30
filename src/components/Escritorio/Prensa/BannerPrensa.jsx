@@ -15,7 +15,7 @@ export default function BannerPrensa() {
             <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
               PRENSA
             </p>
-            <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+            <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
               de Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               <br /> de Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do <br /> de Lorem ipsum dolor sit amet, consectetur
@@ -26,7 +26,7 @@ export default function BannerPrensa() {
             <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
               PRENSA
             </p>
-            <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+            <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
               de Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               <br /> de Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do <br /> de Lorem ipsum dolor sit amet, consectetur
