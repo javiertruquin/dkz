@@ -48,8 +48,8 @@ export default function FormularioContactoEscritorio() {
 
     return (
         <div  className="container mt-5">
-            <div className="padding-nav-contacto pb-5">
-                <p className="text-center text-white peso-bold-italic tamaño-mas-grande mt-5 mb-0">
+            <div className="padding-nav-contacto">
+                <p className="text-center text-white peso-bold-italic tamaño-mas-grande mt-5">
                     Contacto
                 </p>
             </div>
@@ -59,22 +59,22 @@ export default function FormularioContactoEscritorio() {
                     noValidate
                     validated={validated}
                     onSubmit={sendEmail}
-                    className="form-contactanos-escritorio  "
+                    className="form-contactanos-escritorio"
                 >
                     <div>
                         <div>
-                            <Row className="mb-2">
+                            <Row className="my-2">
                                 <Form.Group
                                     className="text-white"
                                     as={Col}
-                                    md="12"
+                                    md="6"
                                     controlId="validationCustom03"
                                 >
                                     <Form.Label className=" text-white peso-italic tamaño-grande ">
                                         Nombre*
                                     </Form.Label>
                                     <Form.Control
-                                        className="mb-2 text-white"
+                                        className=" text-white"
                                         type="text"
                                         required
                                         name="name"
@@ -83,37 +83,37 @@ export default function FormularioContactoEscritorio() {
                                         Ingrese su nombre completo por favor.
                                     </Form.Control.Feedback>
                                 </Form.Group>
-                            </Row>
-                            <Row>
                                 <Form.Group
                                     as={Col}
-                                    md="12"
+                                    md="6"
                                     controlId="validationCustom04"
                                 >
-                                    <Form.Label className=" text-white peso-italic tamaño-grande mt-2">
+                                    <Form.Label className=" text-white peso-italic tamaño-grande ms-5">
                                         Whatsapp*
                                     </Form.Label>
                                     <Form.Control
-                                        className="mb-2"
-                                        type="text"
+                                        className="ms-5"
+                                        type="phone"
                                         required
                                         name="cel"
                                     />
-                                    <Form.Control.Feedback type="invalid">
+                                    <Form.Control.Feedback type="invalid" className="ms-5">
                                         Ingrese su número de whatsapp completo
                                         por favor.
                                     </Form.Control.Feedback>
                                 </Form.Group>
+                            </Row>
+                            <Row className="my-2">
                                 <Form.Group
                                     as={Col}
-                                    md="12"
+                                    md="6"
                                     controlId="validationCustom03"
                                 >
-                                    <Form.Label className=" text-white peso-italic tamaño-grande mt-2">
+                                    <Form.Label className=" text-white peso-italic tamaño-grande">
                                         Email*
                                     </Form.Label>
                                     <Form.Control
-                                        className="mb-2"
+                                        className=""
                                         type="email"
                                         required
                                         name="email"
@@ -121,35 +121,35 @@ export default function FormularioContactoEscritorio() {
                                     <Form.Control.Feedback type="invalid">
                                         Ingrese su Email por favor.
                                     </Form.Control.Feedback>
+                                    <span className="mt-1 ms-3 text-white peso-italic tamaño-chico">
+                                    * Campo requerido
+                                </span>
                                 </Form.Group>
-                            </Row>
-                            <Row className="mb-4">
                                 <Form.Group
                                     className="text-white"
                                     as={Col}
-                                    md="12"
+                                    md="6"
                                     controlId="validationCustom03"
                                 >
-                                    <Form.Label className=" text-white peso-italic tamaño-grande">
+                                    <Form.Label className=" text-white peso-italic tamaño-grande ms-5" >
                                         Mensaje*
                                     </Form.Label>
                                     <Form.Control
-                                        className="mb-2 text-white"
+                                        className="text-white ms-5 input-mensaje"
+                                        as="textarea"
                                         type="text"
                                         required
                                         name="msj"
                                     />
-                                    <Form.Control.Feedback type="invalid">
+                                    <Form.Control.Feedback type="invalid" className="ms-5">
                                         Ingrese su nombre completo por favor.
                                     </Form.Control.Feedback>
                                 </Form.Group>
-                                <span className="mt-1 ms-3 text-white peso-italic tamaño-chico">
-                                    * Campo requerido
-                                </span>
+                              
                             </Row>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center padding-fixed-contactanos-escritorio">
+                    <div className="d-flex justify-content-center">
                         <Button
                             className="boton-verde-formulario-escritorio"
                             size="sm"
