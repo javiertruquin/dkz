@@ -10,7 +10,7 @@ export default function BotonContactanos() {
                     <div className="d-none d-sm-block">
                         <Link
                             className=" m-0 p-0 peso-bold tamaño-grande sin-sub"
-                            to="/Contactanos"
+                            to="/contactanos"
                         >
                             <span className="color-azul-oscuro">
                                 Contactanos
@@ -20,7 +20,7 @@ export default function BotonContactanos() {
                     <div className="d-sm-none d-block">
                         <Link
                             className=" m-0 p-0 peso-bold tamaño-medio sin-sub"
-                            to="/Contactanos"
+                            to="/contactanos"
                         >
                             <span className="color-azul-oscuro">
                                 Contactanos
