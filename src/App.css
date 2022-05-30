@@ -406,13 +406,31 @@ color: #FFFFFF;
 /* Contactanos */
 .form-contactanos .form-control {
   height: 51px;
-  background: rgba(255, 255, 255, 0.137);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.03);
   mix-blend-mode: normal;
   border: 1.5px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(30px);
   
   border-radius: 30px;
 }
+
+.form-contactanos .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.form-contactanos .form-control:active{
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
 
 .boton-verde-formulario {
   display: flex;
