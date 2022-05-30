@@ -1,7 +1,7 @@
 import FooterEscritorio from "../FooterEscritorio";
 import NavEscritorio from "../NavEscritorio";
-import SitioConstruEscritorio from "../SitioConstruEscritorio";
 import NavbarReact from "../../../components/NavbarReact";
+import BannerMarketingDig from "./BannerMarketingDig";
 
 export default function MarketingDigitalEscritorio() {
     return (
@@ -13,7 +13,7 @@ export default function MarketingDigitalEscritorio() {
                 <NavbarReact />
             </div>
             <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
-                <SitioConstruEscritorio />
+                <BannerMarketingDig />
                 <FooterEscritorio />
             </div>
         </div>
