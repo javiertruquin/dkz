@@ -1,7 +1,8 @@
+import "./eventos.css"
 import FooterEscritorio from "../FooterEscritorio";
 import NavEscritorio from "../NavEscritorio";
-import SitioConstruEscritorio from "../SitioConstruEscritorio";
 import NavbarReact from "../../../components/NavbarReact";
+import BannerEventos from "./BannerEventos";
 
 export default function EventosEscritorio() {
     return (
@@ -17,7 +18,7 @@ export default function EventosEscritorio() {
                     className="d-flex flex-column"
                     style={{ minHeight: "100vh" }}
                 >
-                    <SitioConstruEscritorio />
+                    <BannerEventos />
                     <FooterEscritorio />
                 </div>
             </div>
