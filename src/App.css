@@ -139,10 +139,6 @@ body {
   overflow: hidden !important;
 } */
 
-/* .container{
-  max-width: 65% !important;
-} */
-
 .mb-45{
   margin-bottom: 2.25rem!important;
 }
@@ -160,12 +156,6 @@ body {
 .navbar-dark .navbar-toggler{
   border:0;
 }
-
-/* Borde de hamburguesa al tocar */
-
-/* .navbar-dark .navbar-toggler:focus{
-  color: rgba(0, 0, 0, 0);
-} */
 
 .navbar-celu{
   margin-left: auto;
@@ -277,8 +267,6 @@ body {
 .posi2 {
   top: 24px;
 }
-
-
 
 /* Banner Trabajos*/
 .padding-nav{
