@@ -10,7 +10,7 @@ export default function BannerConocenos() {
                     src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653705291/conocenos/Group_54_4_jfmc3t.png"
                     alt="Banner-escritorio"
                 />
-                <div className="banner-posi-escritorio mb-4">
+                <div className="banner-posi-escritorio mb-4 banner-conocenos">
                     <div className="d-lg-none d-block mb-5">
                         <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                             +20 PROFESIONALES A TU DISPOSICIÓN <br />

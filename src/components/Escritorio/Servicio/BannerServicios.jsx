@@ -1,10 +1,10 @@
-import React from 'react'
-import BotonContactanos from '../../BotonContactanos'
+import React from "react";
+import BotonContactanos from "../../BotonContactanos";
 
 export default function BannerServicios() {
-  return (
-      <div>
-          <div className="color-azul-oscuro-fondo">
+    return (
+        <div>
+            <div className="color-azul-oscuro-fondo">
                 <img
                     className="banner-escritorio"
                     src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653692828/Home/banner-escritorio_fndswh.png"
@@ -14,8 +14,8 @@ export default function BannerServicios() {
                     <div className="d-lg-none d-block">
                         <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                             NUESTROS SERVICIOS
-                      </p>
-                      <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+                        </p>
+                        <p className="tamaño-medio peso-italic text-white text-center espaciado texto-sombra">
                             Spots publicitarios; cobertura de eventos y
                             registros sociales.
                             <br /> Videos corporativos. Infomerciales.
@@ -25,9 +25,9 @@ export default function BannerServicios() {
                     </div>
                     <div className="d-none d-lg-block">
                         <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-                        NUESTROS SERVICIOS
-                      </p>
-                      <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+                            NUESTROS SERVICIOS
+                        </p>
+                        <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
                             Spots publicitarios; cobertura de eventos y
                             registros sociales.
                             <br /> Videos corporativos. Infomerciales.
@@ -38,6 +38,6 @@ export default function BannerServicios() {
                     <BotonContactanos />
                 </div>
             </div>
-    </div>
-  )
+        </div>
+    );
 }
