@@ -14,7 +14,7 @@ export default function BannerAVE() {
                         <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra mb-0">
                             PRODUCCIONES AUDIOVISUALES INTEGRALES
                         </p>
-                        <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
+                        <p className="tamaño-medio peso-italic text-white text-center espaciado texto-sombra">
                             Spots publicitarios; cobertura de eventos y
                             registros sociales.
                             <br /> Videos corporativos. Infomerciales.
@@ -26,7 +26,7 @@ export default function BannerAVE() {
                         <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra mb-0">
                             PRODUCCIONES AUDIOVISUALES INTEGRALES
                         </p>
-                        <p className="tamaño-mas-grande peso-italic text-white text-center espaciado texto-sombra">
+                        <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
                             Spots publicitarios; cobertura de eventos y
                             registros sociales.
                             <br /> Videos corporativos. Infomerciales.
