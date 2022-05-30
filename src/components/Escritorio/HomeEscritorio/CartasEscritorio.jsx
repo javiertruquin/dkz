@@ -16,7 +16,7 @@ export default function CartasEscritorio() {
           </p>
           <div className="d-flex flex-wrap justify-content-center">
             <RubberBand>
-              <Nav.Link as={Link} to="/Eventos">
+              <Nav.Link as={Link} to="/eventos">
                 <Card className="border-card color-blanco mx-4 my-4 card-digital-escritorio">
                   <div className="d-flex justify-content-center">
                     <Card.Img
@@ -35,7 +35,7 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Nav.Link as={Link} to="/MarketingDigital">
+              <Nav.Link as={Link} to="/marketingDigital">
                 <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
                   <div className="d-flex justify-content-center">
                     <Card.Img
@@ -54,7 +54,7 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Nav.Link as={Link} to="/SitiosWeb">
+              <Nav.Link as={Link} to="/sitiosweb">
                 <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
                   <div className="d-flex justify-content-center">
                     <Card.Img
@@ -73,7 +73,7 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Nav.Link as={Link} to="/Audiovisual">
+              <Nav.Link as={Link} to="/audiovisual">
                 <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
                   <div className="d-flex justify-content-center">
                     <Card.Img
@@ -92,7 +92,7 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Nav.Link as={Link} to="/Prensa">
+              <Nav.Link as={Link} to="/prensa">
                 <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
                   <div className="d-flex justify-content-center">
                     <Card.Img
@@ -111,7 +111,7 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Nav.Link as={Link} to="/Consultoria">
+              <Nav.Link as={Link} to="/consultoria">
                 <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
                   <div className="d-flex justify-content-center">
                     <Card.Img
@@ -130,7 +130,7 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Nav.Link as={Link} to="/MarketingContenidos">
+              <Nav.Link as={Link} to="/marketingContenidos">
                 <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
                   <div className="d-flex justify-content-center">
                     <Card.Img
