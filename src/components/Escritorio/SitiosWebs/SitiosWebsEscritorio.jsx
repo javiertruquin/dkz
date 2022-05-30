@@ -1,7 +1,8 @@
+import "./sitios.css"
 import FooterEscritorio from "../FooterEscritorio";
 import NavEscritorio from "../NavEscritorio";
-import SitioConstruEscritorio from "../SitioConstruEscritorio";
 import NavbarReact from "../../../components/NavbarReact";
+import BannerSitiosWeb from "./BannerSitiosWeb";
 
 export default function SitiosWebsEscritorio() {
     return (
@@ -13,7 +14,7 @@ export default function SitiosWebsEscritorio() {
                 <NavbarReact />
             </div>
             <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
-                <SitioConstruEscritorio />
+                <BannerSitiosWeb />
                 <FooterEscritorio />
             </div>
         </div>
