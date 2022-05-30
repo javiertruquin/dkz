@@ -316,6 +316,14 @@ body {
   height: 11.75rem;
 }
 
+@media (max-width: 399px) {
+  .card-digital {
+    width: 9.5rem;
+    height: 11.75rem;
+  }
+}
+
+
 .border-card {
   border-radius: 20px 20px 20px 20px !important;
 }
