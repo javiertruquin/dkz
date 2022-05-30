@@ -193,23 +193,12 @@ body {
   margin-top: -120px;
 }
 
-.card-position {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 .card-home {
-  position: absolute;
-  margin-top: 79vh;
+  /* position: absolute; */
+  margin-top: 69vh;
   min-width: 292px;
   min-height: 181px;
-
-  background: rgba(255, 255, 255, 0.01);
-  /* border: 1.5px solid rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(30px); */
-
-  border-radius: 30px;
 }
 
 .boton-verde {

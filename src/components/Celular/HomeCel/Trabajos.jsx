@@ -1,5 +1,4 @@
-import Tada from "react-reveal/Tada";
-import { Link } from "react-router-dom";
+import BotonMindBlown from "../../BotonMindBlown";
 
 export default function Trabajos() {
     return (
@@ -9,18 +8,7 @@ export default function Trabajos() {
                 y descubrí lo que somos capaces de <br />
                 hacer con tu marca.
                 <div>
-                    <Tada>
-                        <div className=" my-4 d-flex justify-content-center">
-                            <div className="boton-verde">
-                                <Link
-                                    className="m-0 p-0 color-azul-oscuro peso-bold tamaño-medio sin-sub"
-                                    to="/MindBlown"
-                                >
-                                    Mind blown
-                                </Link>
-                            </div>
-                        </div>
-                    </Tada>
+                    <BotonMindBlown />
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import BotonConocenos from "../../BotonConocenos";
 
 export default function Banner2Escritorio() {
     return (
@@ -27,14 +27,7 @@ export default function Banner2Escritorio() {
                         </p>
                     </div>
                     <div className="d-flex justify-content-center pb-0">
-                        <div className="boton-verde ">
-                            <Link
-                                className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-grande sin-sub"
-                                to="/Conocenos"
-                            >
-                                Conocenos
-                            </Link>
-                        </div>
+                        <BotonConocenos />
                     </div>
                 </div>
                 <div>

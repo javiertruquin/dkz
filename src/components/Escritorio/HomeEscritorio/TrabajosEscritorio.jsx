@@ -1,6 +1,5 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import BotonMindBlown from "../../BotonMindBlown";
 
 export default function TrabajosEscritorio() {
     return (
@@ -12,14 +11,7 @@ export default function TrabajosEscritorio() {
                 </h1>
             </div>
             <div className="mt-4 d-flex justify-content-center">
-                <div className="boton-verde">
-                    <p className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-grande">
-                        <Nav.Link as={Link} to="/MindBlown">
-                            {" "}
-                            <span className="text-dark">Mind Blown</span>
-                        </Nav.Link>
-                    </p>
-                </div>
+                <BotonMindBlown />
             </div>
         </div>
     );

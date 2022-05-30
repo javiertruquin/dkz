@@ -1,6 +1,7 @@
 import React from "react";
 import { Fade } from "react-reveal";
-import { Link } from "react-router-dom";
+import BotonConocenos from "../../BotonConocenos";
+
 
 export default function Banner2() {
     return (
@@ -25,7 +26,7 @@ export default function Banner2() {
                     <Fade left>
                         <div className="boton-morado">
                             <p className="text-white tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-posi posi">
-                                SOMOS 
+                                SOMOS
                             </p>
                             <p className="text-white tamaño-mas-grande peso-bold-italic espaciado ms-3 texto-sombra letras-posi posi2 ">
                                 ENERGÍA
@@ -38,14 +39,7 @@ export default function Banner2() {
                     + de 20 Profesionales a tu disposición
                 </p>
                 <div className="d-flex justify-content-center pb-4">
-                    <div className="boton-verde ">
-                        <Link
-                            className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio sin-sub"
-                            to="/Conocenos"
-                        >
-                            Conocenos
-                        </Link>
-                    </div>
+                    <BotonConocenos />
                 </div>
             </div>
         </>

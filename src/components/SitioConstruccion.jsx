@@ -1,6 +1,8 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Tada from "react-reveal/Tada";
+
 export default function SitioConstruccion() {
     return (
         <>
@@ -20,11 +22,18 @@ export default function SitioConstruccion() {
                     />
                 </div>
                 <div className="d-flex justify-content-center">
-                    <div className="boton-verde">
-                        <p className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">
-                        <Nav.Link as={Link} to="/"> <span className="text-dark">Volver al home</span></Nav.Link> 
-                        </p>
-                    </div>
+                    <Tada>
+                        <div className="boton-verde">
+                            <p className=" m-0 p-0 color-azul-oscuro peso-bold tamaño-medio">
+                                <Nav.Link as={Link} to="/">
+                                    {" "}
+                                    <span className="color-azul-oscuro">
+                                        Volver al home
+                                    </span>
+                                </Nav.Link>
+                            </p>
+                        </div>
+                    </Tada>
                 </div>
             </div>
         </>
