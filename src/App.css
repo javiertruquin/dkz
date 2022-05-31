@@ -398,23 +398,19 @@ color: #FFFFFF;
 .titulo-conocenos {
   position: absolute;
   height: 135px;
-  top: calc(65% - 135px / 2 - 427.5px);
+  top: calc(72% - 135px / 2 - 427.5px);
   text-align: center;
   letter-spacing: -0.408px;
   color: #ffffff;
 }
 
-.banner-pie-conocenos {
-  position: absolute;
-  margin-top: 82vh;
-  padding-left: 2rem;
-  padding-right: 2rem;
+.card-home-conocenos {
+  /* position: absolute; */
+  margin-top: 60vh;
   min-width: 292px;
   min-height: 181px;
-  text-align: center;
-  letter-spacing: -0.408px;
-  color: #ffffff;
 }
+
 
 .banner-conocenos-escritorio{
   color: red;

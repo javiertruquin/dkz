@@ -15,7 +15,7 @@ export default function Banner() {
                 </h1>
               </div>
             </div>
-            <div className="card-home">
+            <div className="card-home-conocenos">
               <div className="my-4 mx-3">
                 <h1 className="peso-bold-italic text-white tamaño grande text-center">
                   {" "}
