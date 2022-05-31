@@ -7,7 +7,7 @@ export default function Iconos() {
       <div className="text-center">
         <a href="https://wa.link/051p9f" target="_blank" rel="noreferrer">
           <Image
-            className="mx-2 mt-4 mb-4"
+            className="mx-2 mt-4 mb-4 "
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504540/iconos/Group_41_bjbdxc.svg"
             fluid
             alt="icono-wsp"
@@ -31,7 +31,7 @@ export default function Iconos() {
           rel="noreferrer"
         >
           <Image
-            className="iconos mx-2 mt-4 mb-4"
+            className="mx-1 mt-4 mb-4"
             src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504540/iconos/Group_17_o5fxhf.svg"
             fluid
             alt="instagram"

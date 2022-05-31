@@ -3,7 +3,6 @@ import NavbarReact from "../components/NavbarReact";
 import Banner from "../components/Celular/Nosotros/Banner";
 import Iconos from "../components/Iconos";
 import Footer from "../components/Footer";
-import BotonContactanos from "../components/BotonContactanos";
 import ConocenosEscritorio from "../components/Escritorio/Conocenos/ConocenosEscritorio";
 
 export default function Conocenos() {
@@ -12,9 +11,6 @@ export default function Conocenos() {
             <div className="color-azul-oscuro-fondo  d-sm-none d-block">
                 <NavbarReact />
                 <Banner />
-                <div className="pt-5">
-                    <BotonContactanos />
-                </div>
                 <Iconos />
                 <hr className="bg-white" />
                 <Footer />
