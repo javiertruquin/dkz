@@ -22,6 +22,10 @@ body {
   min-height: 100vh !important;
     display: flex !important;
     flex-direction: column !important;
+    -webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
 
 }
 
