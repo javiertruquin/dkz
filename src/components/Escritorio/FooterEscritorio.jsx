@@ -62,7 +62,7 @@ export default function FooterEscritorio() {
           />
         </div>
         <div className="text-white text-center mt-4 mb-4 tamaño-chico ms-5">
-          <div>info.dkzstudio@gmail.com | 381 66 79 511</div>
+          <div>ventas@dkzstudio.com  | 381 66 79 511</div>
           <div>Córdoba 714, 1° B - San Miguel de Tucumán</div>
           <div>Tucumán - Argentina</div>
         </div>
