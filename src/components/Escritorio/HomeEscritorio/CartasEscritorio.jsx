@@ -41,12 +41,12 @@ export default function CartasEscritorio() {
                     <Card.Img
                       className="imagen-card-conocenos"
                       src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290485/Home/unsplash_Ro38zH1CRUY_o30hxa.png"
-                      alt="marketing digital"
+                      alt="social media"
                     />
                   </div>
                   <Card.Body className="d-flex justify-content-center align-items-center">
                     <Card.Title className="text-center peso-bold-italic tamaño-grande color-violeta">
-                      Marketing digital
+                      Social Media
                     </Card.Title>
                   </Card.Body>
                 </Card>
@@ -141,7 +141,7 @@ export default function CartasEscritorio() {
                   </div>
                   <Card.Body className="d-flex justify-content-center align-items-center">
                     <Card.Title className="text-center peso-bold-italic tamaño-grande color-violeta">
-                      Marketing de contenidos
+                    Diseño Gráfico
                     </Card.Title>
                   </Card.Body>
                 </Card>

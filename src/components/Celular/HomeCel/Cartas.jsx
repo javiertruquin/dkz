@@ -26,7 +26,7 @@ export default function Cartas() {
                   </div>
                   <Card.Body className="d-flex justify-content-center align-items-center">
                     <Card.Title className="mb-0 text-center  peso-bold-italic tamaño-grande color-violeta">
-                      Marketing digital
+                      Social Media
                     </Card.Title>
                   </Card.Body>
                 </Card>
@@ -102,7 +102,7 @@ export default function Cartas() {
                   </div>
                   <Card.Body className="d-flex justify-content-center align-items-center">
                     <Card.Title className=" mb-0 text-center peso-bold-italic tamaño-grande color-violeta">
-                      Consultoria
+                      Consultoría
                     </Card.Title>
                   </Card.Body>
                 </Card>
@@ -134,13 +134,13 @@ export default function Cartas() {
                   <div className="d-flex justify-content-center">
                     <Card.Img
                       className="imagen-card"
-                      src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_m2TU2gfqSeE_gmwapk.png"
+                      src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653499629/Home/unsplash_8qEB0fTe9Vw_ykmlma.png"
                       alt="iconos solución digital"
                     />
                   </div>
                   <Card.Body className="d-flex justify-content-center align-items-center">
                     <Card.Title className=" mb-0 text-center peso-bold-italic tamaño-grande color-violeta">
-                      Marketing de contenidos
+                      Diseño Gráfico
                     </Card.Title>
                   </Card.Body>
                 </Card>
