@@ -1,6 +1,3 @@
-import React from "react";
-import { Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import BotonContactanos from "../../BotonContactanos";
 
 export default function ClientesMb() {
