@@ -20,13 +20,12 @@ body {
   font-size: 17px;
   margin: 0;
   min-height: 100vh !important;
-    display: flex !important;
-    flex-direction: column !important;
-    -webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
-
+  display: flex !important;
+  flex-direction: column !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .peso-regular {
@@ -132,8 +131,8 @@ user-select: none;
   color: #b0dd34;
 }
 
-.color-verde-claro{
-  color: #B1DD35;
+.color-verde-claro {
+  color: #b1dd35;
 }
 /* .wrap-pre{
   white-space: pre-wrap;
@@ -143,13 +142,13 @@ user-select: none;
   overflow: hidden !important;
 } */
 
-.mb-45{
-  margin-bottom: 2.25rem!important;
+.mb-45 {
+  margin-bottom: 2.25rem !important;
 }
 
-.my-45{
-  margin-top: 2.25rem!important;
-  margin-bottom: 2.25rem!important;
+.my-45 {
+  margin-top: 2.25rem !important;
+  margin-bottom: 2.25rem !important;
 }
 
 /* Navbar Celular */
@@ -157,14 +156,14 @@ user-select: none;
 .navbar-toggler-icon {
   background-image: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1647479679/Home/hamburguesa-blanca3_lllh8c.png) !important;
 }
-.navbar-dark .navbar-toggler{
-  border:0;
+.navbar-dark .navbar-toggler {
+  border: 0;
 }
 
-.navbar-celu{
+.navbar-celu {
   margin-left: auto;
   width: 163px;
-  background-color: #1E2048;
+  background-color: #1e2048;
   text-align: center;
   border: 2px solid rgba(255, 255, 255, 0.15);
   border-radius: 20px 0px 0px 20px;
@@ -179,18 +178,17 @@ user-select: none;
   height: 105vh;
 }
 
-.banner-escritorio{
+.banner-escritorio {
   width: 100%;
 }
 
-.banner-posi-escritorio{
+.banner-posi-escritorio {
   margin-top: -120px;
 }
 
-.banner-conocenos-escritorio{
+.banner-conocenos-escritorio {
   width: 100%;
   /* height: 85vh; */
-
 }
 
 .card-home {
@@ -209,7 +207,7 @@ user-select: none;
   height: 50.54px;
   width: 220px;
 
-  background: #B0DD34;
+  background: #b0dd34;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(74.4578px);
 
@@ -218,7 +216,7 @@ user-select: none;
 
 /* Banner 2 */
 
-.imagen-joven{
+.imagen-joven {
   position: absolute;
   right: 0;
   z-index: 2;
@@ -231,34 +229,34 @@ user-select: none;
   text-shadow: 0px 10px 60px rgba(0, 0, 0, 0.5);
 }
 
-.boton-morado-posi{
+.boton-morado-posi {
   transform: translateY(-270px) !important;
   z-index: 3;
   position: absolute;
 }
 
-.boton-morado{
+.boton-morado {
   width: 175px;
   height: 82px;
-  background: #7637DE;
+  background: #7637de;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
 }
 
-.boton-morado-escritorio{
+.boton-morado-escritorio {
   height: 63px;
   width: 357px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #7637DE;
+  background: #7637de;
   border-radius: 30px;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
 }
 
-.caja-somosenergia{
+.caja-somosenergia {
   width: 532px;
 }
 
@@ -270,15 +268,15 @@ user-select: none;
   align-items: center;
   letter-spacing: 2.85px;
 }
-.posi{
-  top:-3px;
+.posi {
+  top: -3px;
 }
 .posi2 {
   top: 24px;
 }
 
 /* Banner Trabajos*/
-.padding-nav{
+.padding-nav {
   padding-top: 65px;
 }
 
@@ -298,7 +296,7 @@ user-select: none;
   right: 0;
   z-index: 1;
 }
-.imagen-dkz-fondo2{
+.imagen-dkz-fondo2 {
   display: flex;
   margin-left: auto;
 }
@@ -327,12 +325,11 @@ user-select: none;
   }
 }
 
-
 .border-card {
   border-radius: 20px 20px 20px 20px !important;
 }
 
-.border-card .card-body{
+.border-card .card-body {
   padding: 0.5rem 1rem !important;
 }
 
@@ -340,7 +337,6 @@ user-select: none;
   width: 140px !important;
   margin-top: -15px;
 }
-
 
 /*AUDIOVISUALES*/
 .fondo-banner-av {
@@ -372,26 +368,26 @@ user-select: none;
   color: #ffffff;
 }
 
-.titulo-verde{
-padding: 12px;
-background: #7637DE;
-mix-blend-mode: normal;
-border: 1.5px solid rgba(255, 255, 255, 0.3);
-border-radius: 0px 30px 30px 0px;
+.titulo-verde {
+  padding: 12px;
+  background: #7637de;
+  mix-blend-mode: normal;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 0px 30px 30px 0px;
 }
 
-.posicion-titulo{
+.posicion-titulo {
   margin-right: 100px;
 }
 
-.texto-creatividad{
-line-height: 22px;
-text-align: center;
-color: #FFFFFF;
+.texto-creatividad {
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
 }
 
 /*CONÓCENOS*/
-.fondo-banner-conocenos{
+.fondo-banner-conocenos {
   background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1653615052/conocenos/conocenos_zpov1n.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,8 +411,7 @@ color: #FFFFFF;
   min-height: 181px;
 }
 
-
-.banner-conocenos-escritorio{
+.banner-conocenos-escritorio {
   color: red;
 }
 /* Contactanos */
@@ -427,7 +422,7 @@ color: #FFFFFF;
   mix-blend-mode: normal;
   border: 1.5px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(30px);
-  
+
   border-radius: 30px;
 }
 
@@ -439,14 +434,13 @@ color: #FFFFFF;
   box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
 }
 
-.form-contactanos .form-control:active{
+.form-contactanos .form-control:active {
   color: #212529;
   background-color: #fff;
   border-color: #86b7fe;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
 }
-
 
 .boton-verde-formulario {
   display: flex;
@@ -455,16 +449,15 @@ color: #FFFFFF;
   align-items: center;
   height: 50.54px;
   width: 220px;
-  background: #B0DD34 !important;
+  background: #b0dd34 !important;
   border: 1.5px solid rgba(255, 255, 255, 0.3) !important;
   backdrop-filter: blur(74.4578px) !important;
   border-radius: 37.2289px !important;
 }
 
-
 /* Pagina en Construccion */
 
-.padding-sitioconst{
+.padding-sitioconst {
   padding-top: 140px;
 }
 
@@ -477,62 +470,58 @@ color: #FFFFFF;
 }
 
 /*Footer*/
-.footer{
+.footer {
   margin-top: auto;
 }
 
-
 /*NAVBAR ESCRITORIO*/
 
-.tamaño-letra-opciones{
+.tamaño-letra-opciones {
   margin: auto;
 }
 
-.tamaño-letra-opciones .form-select{
+.tamaño-letra-opciones .form-select {
   font-size: 22px;
 }
-.tamaño-letra-opciones .form-select option{
+.tamaño-letra-opciones .form-select option {
   font-size: 17px;
 }
 
-.navbar-fixed{
-font-size: 22px;
-background-color: #1E2048;
-border-radius: 45px;
+.navbar-fixed {
+  font-size: 22px;
+  background-color: #1e2048;
+  border-radius: 45px;
 }
 
-
-
 @media (max-width: 1200px) {
-  .navbar-fixed{
+  .navbar-fixed {
     font-size: 17px;
-    
   }
 
-  .tamaño-letra-opciones .form-select{
+  .tamaño-letra-opciones .form-select {
     font-size: 17px;
   }
-  .tamaño-letra-opciones .form-select option{
+  .tamaño-letra-opciones .form-select option {
     font-size: 12px;
   }
 }
 
 /*Select NavBar*/
-.color-select{
-  background-color: #1E2048 !important;
+.color-select {
+  background-color: #1e2048 !important;
   margin-top: 5px;
 }
-.color-select-2{
-  background-color: #7637DE !important;
+.color-select-2 {
+  background-color: #7637de !important;
 }
 
 /*SITIO CONSTRUCCION ESCRITORIO*/
-.padding-sitioconst{
+.padding-sitioconst {
   padding-top: 120px;
 }
 
 /*ICONOS CELULAR*/
-.iconos{
+.iconos {
   width: 70px;
   height: 70px;
 }
