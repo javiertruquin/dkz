@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function BotonMindBlown() {
     return (
         <Tada>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center mt-2">
                 <div className="boton-verde">
                     <div className="d-none d-sm-block">
                         <Link
