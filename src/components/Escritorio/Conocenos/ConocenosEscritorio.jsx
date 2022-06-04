@@ -3,6 +3,7 @@ import BannerConocenos from "./BannerConocenos";
 import FooterEscritorio from "../FooterEscritorio";
 import NavEscritorio from "../NavEscritorio";
 import NavbarReact from "../../../components/NavbarReact";
+import Fotos from "./Fotos";
 
 export default function ConocenosEscritorio() {
     return (
@@ -14,6 +15,7 @@ export default function ConocenosEscritorio() {
                 <NavbarReact />
             </div>
             <BannerConocenos />
+            <Fotos />
             <FooterEscritorio />
         </div>
     );
