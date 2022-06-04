@@ -16,11 +16,7 @@ export default function BannerServicios() {
                             NUESTROS SERVICIOS
                         </p>
                         <p className="tamaño-medio peso-italic text-white text-center espaciado texto-sombra">
-                            Spots publicitarios; cobertura de eventos y
-                            registros sociales.
-                            <br /> Videos corporativos. Infomerciales.
-                            Institucionales. Books. <br /> Producciones
-                            especiales.
+                        En DKZ studio sabemos lo fundamental de Identificar estrategias,  herramientas y nuevas tecnologías para el diseño y ejecución de la publicidad de cada empresa. Por esto resulta imprescindible realizar campañas de marketing digital exitosas
                         </p>
                     </div>
                     <div className="d-none d-lg-block">
@@ -28,11 +24,7 @@ export default function BannerServicios() {
                             NUESTROS SERVICIOS
                         </p>
                         <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
-                            Spots publicitarios; cobertura de eventos y
-                            registros sociales.
-                            <br /> Videos corporativos. Infomerciales.
-                            Institucionales. Books. <br /> Producciones
-                            especiales.
+                        En DKZ studio sabemos lo fundamental de Identificar estrategias, herramientas y nuevas tecnologías <br/>  para el diseño y ejecución de la publicidad de cada empresa.<br/>  Por esto resulta imprescindible realizar campañas de marketing digital exitosas
                         </p>
                     </div>
                     <BotonContactanos />
