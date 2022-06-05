@@ -91,18 +91,18 @@ export default function Cartas() {
             </RubberBand>
             {/* Card #5 */}
             <RubberBand>
-              <Nav.Link as={Link} to="/consultoria">
+              <Nav.Link as={Link} to="/marketingcontenidos">
                 <Card className="border-card color-blanco my-4 card-digital">
                   <div className="d-flex justify-content-center">
                     <Card.Img
                       className="imagen-card"
-                      src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_m2TU2gfqSeE_gmwapk.png"
+                      src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653499629/Home/unsplash_8qEB0fTe9Vw_ykmlma.png"
                       alt="iconos solución digital"
                     />
                   </div>
                   <Card.Body className="d-flex justify-content-center align-items-center">
                     <Card.Title className=" mb-0 text-center peso-bold-italic tamaño-grande color-violeta">
-                      Consultoría
+                      Diseño Gráfico
                     </Card.Title>
                   </Card.Body>
                 </Card>
@@ -129,18 +129,18 @@ export default function Cartas() {
             </RubberBand>
             {/* Card #7 */}
             <RubberBand>
-              <Nav.Link as={Link} to="/marketingcontenidos">
+              <Nav.Link as={Link} to="/consultoria">
                 <Card className="border-card color-blanco my-4 card-digital">
                   <div className="d-flex justify-content-center">
                     <Card.Img
                       className="imagen-card"
-                      src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653499629/Home/unsplash_8qEB0fTe9Vw_ykmlma.png"
+                      src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1647290484/Home/unsplash_m2TU2gfqSeE_gmwapk.png"
                       alt="iconos solución digital"
                     />
                   </div>
                   <Card.Body className="d-flex justify-content-center align-items-center">
                     <Card.Title className=" mb-0 text-center peso-bold-italic tamaño-grande color-violeta">
-                      Diseño Gráfico
+                      Consultoría
                     </Card.Title>
                   </Card.Body>
                 </Card>
