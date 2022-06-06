@@ -17,17 +17,7 @@ export default function BannerConocenos() {
                             Un gran equipo
                         </p>
                         <p className="tamaño-medio peso-italic text-white text-center espaciado texto-sombra ">
-                            de Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do
-                            <br />
-                            consectetur adipiscing elit, sed do consectetur
-                            adipiscing elit, sed do
-                            <br />
-                            eiusmod tempor incididunt ut labore et consectetur
-                            adipiscing elit, sed do
-                            <br />
-                            veniam, quis nostrud exercitation consectetur
-                            adipiscing elit, sed do
+                        Somos un equipo de creativos, profesionales publicitarios, acordes a las demandas y las exigencias del cliente. Explotamos en conjunto con la revolución digital de la nueva era. Somos artistas avocados a nuestra profesión, pasionales, entusiastas.
                         </p>
                     </div>
                     <div className="d-none d-lg-block mb-5">
@@ -36,17 +26,8 @@ export default function BannerConocenos() {
                             Un gran equipo
                         </p>
                         <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
-                            de Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do
-                            <br />
-                            consectetur adipiscing elit, sed do consectetur
-                            adipiscing elit, sed do
-                            <br />
-                            eiusmod tempor incididunt ut labore et consectetur
-                            adipiscing elit, sed do
-                            <br />
-                            veniam, quis nostrud exercitation consectetur
-                            adipiscing elit, sed do
+                            Somos un equipo de creativos, profesionales publicitarios, acordes a las demandas y las exigencias del cliente. <br /> Explotamos en conjunto con la revolución digital de la nueva era. Somos artistas avocados a nuestra profesión, pasionales, entusiastas.<br /> 
+                            Tenemos la capacidad de formular, crear, ejecutar y evaluar propuestas publicitarias dirigidas a consumidores activos. <br /> Nuestra imaginación nos lleva a lugares recónditos de nuestra mente, buscando explotar cada neurotransmisor para crear productos únicos e inigualables.
                         </p>
                     </div>
                     <BotonContactanos />
