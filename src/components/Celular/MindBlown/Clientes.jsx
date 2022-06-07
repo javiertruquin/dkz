@@ -14,7 +14,7 @@ export default function Clientes() {
             <div className="">
                 <Swiper spaceBetween={10} slidesPerView={2.15} className="">
                     <SwiperSlide>
-                        <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
+                        <div className="p-2 d-flex flex-column justify-content-between">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
                                 alt="imagen-clientes"
@@ -22,7 +22,7 @@ export default function Clientes() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
+                        <div className="p-2 d-flex flex-column justify-content-between">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
                                 alt="imagen-clientes"
@@ -30,7 +30,7 @@ export default function Clientes() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
+                        <div className="p-2 d-flex flex-column justify-content-between">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
                                 alt="imagen-clientes"
@@ -40,7 +40,7 @@ export default function Clientes() {
                 </Swiper>
                 <Swiper spaceBetween={10} slidesPerView={2.15} className="">
                     <SwiperSlide>
-                        <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
+                        <div className="p-2 d-flex flex-column justify-content-between">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
                                 alt="imagen-clientes"
@@ -48,7 +48,7 @@ export default function Clientes() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
+                        <div className="p-2 d-flex flex-column justify-content-between">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
                                 alt="imagen-clientes"
@@ -56,7 +56,7 @@ export default function Clientes() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
+                        <div className="p-2 d-flex flex-column justify-content-between">
                             <img
                                 src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1652836217/Trabajos/Rectangle_292_nyktt8.png"
                                 alt="imagen-clientes"

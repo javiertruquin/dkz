@@ -6,6 +6,7 @@ import BotonContactanos from "../../BotonContactanos";
 import FooterEscritorio from "../FooterEscritorio";
 import NavEscritorio from "../NavEscritorio";
 import NavbarReact from "../../../components/NavbarReact";
+import TrabajosAVE from "./TrabajosAVE";
 
 export default function AudioVisualEscritorio() {
     return (
@@ -19,6 +20,7 @@ export default function AudioVisualEscritorio() {
             <BannerAVE />
             <AVContenido />
             <AVContenido2 />
+            <TrabajosAVE />
             <BotonContactanos />
             <FooterEscritorio />
         </div>

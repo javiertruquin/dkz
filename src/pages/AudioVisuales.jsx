@@ -10,6 +10,7 @@ import AudioVisualEscritorio from "../components/Escritorio/AudioVisual/AudioVis
 import Footer from "../components/Footer";
 import Iconos from "../components/Iconos";
 import NavbarReact from "../components/NavbarReact";
+import TrabajosAV from "../components/Celular/AudioVisuales/TrabajosAV";
 
 export default function AudioVisuales() {
     return (
@@ -21,6 +22,7 @@ export default function AudioVisuales() {
                 <ContenidoAVPP />
                 <ContenidoAVP />
                 <ContenidoAVPost />
+                <TrabajosAV />
                 <BotonContactanos />
                 <Iconos />
                 <hr className="bg-white" />
