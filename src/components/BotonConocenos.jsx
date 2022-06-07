@@ -12,9 +12,7 @@ export default function BotonConocenos() {
                             className=" m-0 p-0 peso-bold tamaño-grande sin-sub"
                             to="/conocenos"
                         >
-                            <span className="color-azul-oscuro">
-                                Conocenos
-                            </span>
+                            <span className="color-azul-oscuro">Somos DKZ</span>
                         </Link>
                     </div>
                     <div className="d-sm-none d-block">
@@ -22,9 +20,7 @@ export default function BotonConocenos() {
                             className=" m-0 p-0 peso-bold tamaño-medio sin-sub"
                             to="/conocenos"
                         >
-                            <span className="color-azul-oscuro">
-                                Conocenos
-                            </span>
+                            <span className="color-azul-oscuro">Somos DKZ</span>
                         </Link>
                     </div>
                 </div>

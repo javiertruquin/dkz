@@ -1,5 +1,5 @@
 import React from "react";
-import BotonMindBlown from "../../BotonMindBlown";
+import BotonVolverHome from "../../BotonVolverHome";
 
 export default function SitioConstruEscritorio() {
     return (
@@ -17,7 +17,7 @@ export default function SitioConstruEscritorio() {
                     />
                 </div>
                 <div className="d-flex justify-content-center">
-                    <BotonMindBlown />
+                    <BotonVolverHome />
                 </div>
             </div>
         </>

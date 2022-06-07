@@ -5,7 +5,7 @@ export default function ClientesMb() {
         <>
             {/* FILA #1 */}
             <div className="text-white text-center peso-bold-italic tamaño-grande">
-                <p>Clientes felices</p>
+                <p>Happy ending</p>
             </div>
             <div className="d-flex justify-content-center">
                 <div className="p-2 d-flex flex-column justify-content-between color-azul-oscuro-fondo">
