@@ -1,15 +1,15 @@
 import React from "react";
-import VideoEventos from "../components/Celular/Eventos/VideoEventos";
-import VideoEventosEscritorio from "../components/Escritorio/Eventos/VideoEventosEscritorio";
+import VideoPrensa from "../components/Celular/Prensa/VideoPrensa";
+import VideoPrensaEscritorio from "../components/Escritorio/Prensa/VideoPrensaEscritorio";
 
-export default function TrabajosEventosDetalle() {
+export default function TrabajosPrensaDetalle() {
     return (
         <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
             <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
-                <VideoEventos />
+                <VideoPrensa />
             </div>
             <div className=" color-azul-oscuro-fondo d-none d-sm-block">
-                <VideoEventosEscritorio />
+                <VideoPrensaEscritorio />
             </div>
         </div>
     );
