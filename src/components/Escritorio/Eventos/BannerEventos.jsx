@@ -31,7 +31,6 @@ export default function BannerEventos() {
               <br /> altos estándares de calidad organizativa y estilo.
             </p>
           </div>
-          <BotonContactanos />
         </div>
       </div>
     </div>

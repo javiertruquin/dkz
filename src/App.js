@@ -21,6 +21,7 @@ import Footer from "./components/Footer";
 import FooterEscritorio from "./components/Escritorio/FooterEscritorio";
 import NavEscritorio from "./components/Escritorio/NavEscritorio";
 import Iconos from "./components/Iconos";
+import TrabajosEventosDetalle from "./pages/TrabajosEventosDetalle";
 
 function App() {
     return (
@@ -44,6 +45,7 @@ function App() {
                     element={<MarketingDigital />}
                 />
                 <Route path="/Eventos" element={<Eventos />} />
+                <Route path="/Eventos/:id" element={<TrabajosEventosDetalle />} />
                 <Route path="/Audiovisual" element={<AudioVisuales />} />
                 <Route
                     path="/Audiovisual/:id"
