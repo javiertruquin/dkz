@@ -4,12 +4,12 @@ export default function BannerDiseñoGrafico() {
   return (
     <>
       <div className="pb-4 color-azul-oscuro-fondo">
-        <div className="fondo-banner-av">
+        <div className="fondo-banner">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
                 <h1 className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado pt-5 mt-5 titulo-producciones">
-                  MARKETING <br /> DE CONTENIDO
+                  DISEÑO GRÁFICO
                 </h1>
               </div>
             </div>
@@ -17,7 +17,7 @@ export default function BannerDiseñoGrafico() {
               <div className="text-white">
                 <h1 className=" peso-bold-italic my-2">
                   {" "}
-                  Marketing 
+                  DISEÑO GRÁFICO
                 </h1>
                 <p className="peso-italic tamaño-medio px-2">
                   Lorem ipsum dolor sit amet consectetur, ut illo architecto
