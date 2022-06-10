@@ -15,7 +15,7 @@ export default function Cartas() {
           <div className="d-flex flex-wrap justify-content-around">
             {/* Card #1 */}
             <RubberBand>
-              <Nav.Link as={Link} to="/marketingdigital">
+              <Nav.Link as={Link} to="/SocialMedia">
                 <Card className="border-card color-blanco my-4 card-digital">
                   <div className="d-flex justify-content-center">
                     <Card.Img
@@ -91,7 +91,7 @@ export default function Cartas() {
             </RubberBand>
             {/* Card #5 */}
             <RubberBand>
-              <Nav.Link as={Link} to="/marketingcontenidos">
+              <Nav.Link as={Link} to="/DisGrafico">
                 <Card className="border-card color-blanco my-4 card-digital">
                   <div className="d-flex justify-content-center">
                     <Card.Img

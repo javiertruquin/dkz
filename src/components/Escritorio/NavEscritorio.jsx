@@ -98,7 +98,7 @@ export default function NavEscritorio() {
                                     </NavDropdown.Item>
                                     <NavDropdown.Item
                                         as={Link}
-                                        to="/diseñografico"
+                                        to="/DisGrafico"
                                     >
                                         Diseño Gráfico
                                     </NavDropdown.Item>

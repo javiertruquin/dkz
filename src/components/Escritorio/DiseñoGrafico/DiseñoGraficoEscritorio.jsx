@@ -1,10 +1,11 @@
-import BannerMC from "./BannerMC";
+import BannerDG from "./BannerDG";
 
-export default function MarketingContenidosEscritorio() {
+
+export default function DiseñoGraficoEscritorio() {
     return (
         <div>
             <div className="color-azul-oscuro-fondo">
-                <BannerMC />
+                <BannerDG />
             </div>
         </div>
     );
