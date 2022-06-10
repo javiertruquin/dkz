@@ -23,6 +23,8 @@ import SocialMedia from "./pages/SocialMedia";
 import DiseñoGraf from "./pages/DiseñoGraf";
 import TrabajosEventosDetalle from "./pages/TrabajosEventosDetalle";
 import TrabajosPrensaDetalle from "./pages/TrabajosPrensaDetalle";
+import TrabajosSocialMediaDetalle from "./pages/TrabajosSocialMediaDetalle";
+import TrabajosDiseñoGraficoDetalle from "./pages/TrabajosDiseñoGraficoDetalle";
 
 function App() {
     return (
@@ -47,6 +49,10 @@ function App() {
                         path="/SocialMedia"
                         element={<SocialMedia />}
                     />
+                    <Route
+                        path="/SocialMedia/:id"
+                        element={<TrabajosSocialMediaDetalle />}
+                    />
                     <Route path="/Eventos" element={<Eventos />} />
                     <Route
                         path="/Eventos/:id"
@@ -60,6 +66,7 @@ function App() {
                     <Route path="/SitiosWeb" element={<SitiosWeb />} />
                     <Route path="/Consultoria" element={<Consultoria />} />
                     <Route path="/DisGrafico" element={<DiseñoGraf />} />
+                    <Route path="/DisGrafico/:id" element={<TrabajosDiseñoGraficoDetalle />} />
                     <Route path="*" element={<PaginaNoExiste />} />
                 </Routes>
                 <div className="color-azul-oscuro-fondo d-sm-none d-block">

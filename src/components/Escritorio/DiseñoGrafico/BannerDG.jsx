@@ -30,7 +30,6 @@ export default function BannerDG() {
         <br /> equipo altamente capacitado para crear y editar productos audiovisuales de alta calidad.
         </p>
       </div>
-      <BotonContactanos />
     </div>
   </div>
   )
