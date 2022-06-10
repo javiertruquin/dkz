@@ -91,7 +91,7 @@ export default function Cartas() {
             </RubberBand>
             {/* Card #5 */}
             <RubberBand>
-              <Nav.Link as={Link} to="/DiseñoGrafico">
+              <Nav.Link as={Link} to="/DisGrafico">
                 <Card className="border-card color-blanco my-4 card-digital">
                   <div className="d-flex justify-content-center">
                     <Card.Img
