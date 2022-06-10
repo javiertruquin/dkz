@@ -4,6 +4,7 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Papa from "papaparse";
 import axios from "axios";
+import { NavLink } from "react-router-dom";
 
 function getWindowDimensions() {
     const { innerWidth: width } = window;
@@ -51,14 +52,14 @@ export default function TrabajosAV() {
             <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5}>
                 {trabajos.map((trabajo) => (
                     <SwiperSlide>
-                        <a href={"/audiovisual/" + trabajo.id}>
+                        <NavLink to={"/audiovisual/" + trabajo.id}>
                             <div className="p-2 d-flex flex-column justify-content-between ">
                                 <img
                                     src={trabajo.imagen1}
                                     alt={trabajo.titulo}
                                 />
                             </div>
-                        </a>
+                        </NavLink >
                     </SwiperSlide>
                 ))}
             </Swiper>
