@@ -9,20 +9,8 @@ import CartasEscritorio from "../HomeEscritorio/CartasEscritorio";
 export default function ServiciosEscritorio() {
     return (
         <div className="color-azul-oscuro-fondo">
-            <div className="d-none d-lg-block">
-                <NavEscritorio />
-            </div>
-            <div className="d-lg-none d-block">
-                <NavbarReact />
-            </div>
-            <div
-                className=" d-flex flex-column"
-                style={{ minHeight: "100vh" }}
-            >
-                <BannerServicios />
-                <CartasEscritorio />
-                <FooterEscritorio />
-            </div>
+            <BannerServicios />
+            <CartasEscritorio />
         </div>
     );
 }
