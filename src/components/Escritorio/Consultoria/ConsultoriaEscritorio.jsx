@@ -1,6 +1,3 @@
-import FooterEscritorio from "../FooterEscritorio";
-import NavEscritorio from "../NavEscritorio";
-import NavbarReact from "../../../components/NavbarReact";
 import BannerConsultaria from "./BannerConsultaria";
 
 export default function ConsultoriaEscritorio() {

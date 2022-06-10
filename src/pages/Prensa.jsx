@@ -1,6 +1,5 @@
 import React from "react";
 import SitioConstruccion from "../components/SitioConstruccion";
-
 import PrensaEscritorio from "../components/Escritorio/Prensa/PrensaEscritorio";
 
 export default function Prensa() {
