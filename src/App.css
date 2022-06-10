@@ -561,10 +561,6 @@ body {
   color: white;
 }
 
-.navbar-escritorio .dropdown-item:focus{
-
-}
-
 .navbar-escritorio .dropdown-item:hover{
   background-color: #383b75;
   color: white;
@@ -580,3 +576,13 @@ color: #1e2048 ;
   color: #1e2048 ;
   }
 
+/*Servicios*/
+.banner-pie-servicio-cel{
+    position: absolute;
+    margin-top: 60vh;
+    min-width: 292px;
+    min-height: 181px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #ffffff;
+}

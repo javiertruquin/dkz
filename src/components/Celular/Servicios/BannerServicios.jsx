@@ -1,4 +1,3 @@
-
 export default function BannerServicios() {
   return (
     <>
@@ -12,14 +11,16 @@ export default function BannerServicios() {
                 </h1>
               </div>
             </div>
-            <div className="banner-pie d-flex justify-content-center">
+            <div className="banner-pie-servicio-cel d-flex justify-content-center">
               <div className="text-white">
                 <h1 className=" peso-bold-italic my-2"> Servicios</h1>
                 <p className="peso-italic tamaño-medio px-2">
-                En DKZ sabemos lo fundamental que es identificar estrategias, herramientas y nuevas 
-                  tecnologías para el diseño y ejecución de diferentes piezas y proyectos publicitarios, 
-                  cualquiera sea su índole y nivel abarcativo de proyección. Por esto resulta imprescindible 
-                  realizar campañas exitosas y lograr un posicionamiento online acorde a la demanda de cada rubro.
+                  En DKZ sabemos lo fundamental que es identificar estrategias,
+                  herramientas y nuevas tecnologías para el diseño y ejecución
+                  de diferentes piezas y proyectos publicitarios, cualquiera sea
+                  su índole y nivel abarcativo de proyección. Por esto resulta
+                  imprescindible realizar campañas exitosas y lograr un
+                  posicionamiento online acorde a la demanda de cada rubro.
                 </p>
               </div>
             </div>
