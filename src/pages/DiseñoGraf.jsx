@@ -4,7 +4,7 @@ import DiseñoGraficoEscritorio from "../components/Escritorio/DiseñoGrafico/Di
 import SitioConstruccion from "../components/SitioConstruccion";
 
 
-export default function DiseñoGrafico() {
+export default function DiseñoGraf() {
     return (
         <div>
             <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">

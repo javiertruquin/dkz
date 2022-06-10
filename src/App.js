@@ -21,6 +21,7 @@ import NavEscritorio from "./components/Escritorio/NavEscritorio";
 import Iconos from "./components/Iconos";
 import SocialMedia from "./pages/SocialMedia";
 import DiseñoGraf from "./pages/DiseñoGraf";
+import TrabajosEventosDetalle from "./pages/TrabajosEventosDetalle";
 
 function App() {
     return (
@@ -45,6 +46,10 @@ function App() {
                         element={<SocialMedia />}
                     />
                     <Route path="/Eventos" element={<Eventos />} />
+                    <Route
+                        path="/Eventos/:id"
+                        element={<TrabajosEventosDetalle />}
+                    />
                     <Route path="/Audiovisual" element={<AudioVisuales />} />
                     <Route
                         path="/Audiovisual/:id"
