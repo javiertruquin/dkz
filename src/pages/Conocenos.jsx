@@ -4,7 +4,7 @@ import ConocenosEscritorio from "../components/Escritorio/Conocenos/ConocenosEsc
 
 export default function Conocenos() {
     return (
-        <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+        <div>
             <div className="color-azul-oscuro-fondo  d-sm-none d-block">
                 <Banner />
             </div>

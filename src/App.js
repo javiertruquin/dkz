@@ -25,49 +25,54 @@ import TrabajosEventosDetalle from "./pages/TrabajosEventosDetalle";
 
 function App() {
     return (
-        <BrowserRouter>
-            <ScrollToTop />
-            <div className="d-none d-lg-block">
-                <NavEscritorio />
-            </div>
-            <div className="d-lg-none d-block">
-                <NavbarReact />
-            </div>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/Conocenos" element={<Conocenos />} />
-                <Route path="/Servicios" element={<Servicios />} />
-                <Route path="/Prensa" element={<Prensa />} />
-                <Route path="/MindBlown" element={<MindBlown />} />
-                <Route path="/Contactanos" element={<Contactanos />} />
-                <Route
-                    path="/MarketingDigital"
-                    element={<MarketingDigital />}
-                />
-                <Route path="/Eventos" element={<Eventos />} />
-                <Route path="/Eventos/:id" element={<TrabajosEventosDetalle />} />
-                <Route path="/Audiovisual" element={<AudioVisuales />} />
-                <Route
-                    path="/Audiovisual/:id"
-                    element={<TrabajosAVDetalle />}
-                />
-                <Route path="/SitiosWeb" element={<SitiosWeb />} />
-                <Route path="/Consultoria" element={<Consultoria />} />
-                <Route
-                    path="/MarketingContenidos"
-                    element={<MarketingContenidos />}
-                />
-                <Route path="*" element={<PaginaNoExiste />} />
-            </Routes>
-            <div className="color-azul-oscuro-fondo d-sm-none d-block">
-                <Iconos />
-                <hr className="bg-white" />
-                <Footer />
-            </div>
-            <div className="color-azul-oscuro-fondo d-none d-sm-block">
-                <FooterEscritorio />
-            </div>
-        </BrowserRouter>
+        <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+            <BrowserRouter>
+                <ScrollToTop />
+                <div className="d-none d-lg-block">
+                    <NavEscritorio />
+                </div>
+                <div className="d-lg-none d-block">
+                    <NavbarReact />
+                </div>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/Conocenos" element={<Conocenos />} />
+                    <Route path="/Servicios" element={<Servicios />} />
+                    <Route path="/Prensa" element={<Prensa />} />
+                    <Route path="/MindBlown" element={<MindBlown />} />
+                    <Route path="/Contactanos" element={<Contactanos />} />
+                    <Route
+                        path="/MarketingDigital"
+                        element={<MarketingDigital />}
+                    />
+                    <Route path="/Eventos" element={<Eventos />} />
+                    <Route
+                        path="/Eventos/:id"
+                        element={<TrabajosEventosDetalle />}
+                    />
+                    <Route path="/Audiovisual" element={<AudioVisuales />} />
+                    <Route
+                        path="/Audiovisual/:id"
+                        element={<TrabajosAVDetalle />}
+                    />
+                    <Route path="/SitiosWeb" element={<SitiosWeb />} />
+                    <Route path="/Consultoria" element={<Consultoria />} />
+                    <Route
+                        path="/MarketingContenidos"
+                        element={<MarketingContenidos />}
+                    />
+                    <Route path="*" element={<PaginaNoExiste />} />
+                </Routes>
+                <div className="color-azul-oscuro-fondo d-sm-none d-block">
+                    <Iconos />
+                    <hr className="bg-white" />
+                    <Footer />
+                </div>
+                <div className="color-azul-oscuro-fondo d-none d-sm-block">
+                    <FooterEscritorio />
+                </div>
+            </BrowserRouter>
+        </div>
     );
 }
 

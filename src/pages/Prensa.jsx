@@ -4,7 +4,7 @@ import PrensaEscritorio from "../components/Escritorio/Prensa/PrensaEscritorio";
 
 export default function Prensa() {
     return (
-        <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+        <div>
             <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
                 <SitioConstruccion />
             </div>
