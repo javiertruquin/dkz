@@ -15,12 +15,23 @@ import MarketingContenidos from "./pages/MarketingContenidos";
 import AudioVisuales from "./pages/AudioVisuales";
 import PaginaNoExiste from "./pages/PaginaNoExiste";
 import ScrollToTop from "./components/ScrollToTop";
-import TrabajosAVDetalle from "./components/Celular/AudioVisuales/TrabajosAVDetalle";
+import TrabajosAVDetalle from "./pages/TrabajosAVDetalle";
+import NavbarReact from "./components/NavbarReact";
+import Footer from "./components/Footer";
+import FooterEscritorio from "./components/Escritorio/FooterEscritorio";
+import NavEscritorio from "./components/Escritorio/NavEscritorio";
+import Iconos from "./components/Iconos";
 
 function App() {
     return (
         <BrowserRouter>
-             <ScrollToTop />
+            <ScrollToTop />
+            <div className="d-none d-lg-block">
+                <NavEscritorio />
+            </div>
+            <div className="d-lg-none d-block">
+                <NavbarReact />
+            </div>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Conocenos" element={<Conocenos />} />
@@ -28,19 +39,34 @@ function App() {
                 <Route path="/Prensa" element={<Prensa />} />
                 <Route path="/MindBlown" element={<MindBlown />} />
                 <Route path="/Contactanos" element={<Contactanos />} />
-                <Route path="/MarketingDigital" element={<MarketingDigital />} />
+                <Route
+                    path="/MarketingDigital"
+                    element={<MarketingDigital />}
+                />
                 <Route path="/Eventos" element={<Eventos />} />
                 <Route path="/Audiovisual" element={<AudioVisuales />} />
-                <Route path="/Audiovisual/:id" element={<TrabajosAVDetalle />} />
+                <Route
+                    path="/Audiovisual/:id"
+                    element={<TrabajosAVDetalle />}
+                />
                 <Route path="/SitiosWeb" element={<SitiosWeb />} />
                 <Route path="/Consultoria" element={<Consultoria />} />
-                <Route path="/MarketingContenidos" element={<MarketingContenidos />} />
+                <Route
+                    path="/MarketingContenidos"
+                    element={<MarketingContenidos />}
+                />
                 <Route path="*" element={<PaginaNoExiste />} />
             </Routes>
-
+            <div className="color-azul-oscuro-fondo d-sm-none d-block">
+                <Iconos />
+                <hr className="bg-white" />
+                <Footer />
+            </div>
+            <div className="color-azul-oscuro-fondo d-none d-sm-block">
+                <FooterEscritorio />
+            </div>
         </BrowserRouter>
-
-    )
+    );
 }
 
 export default App;
