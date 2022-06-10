@@ -7,11 +7,9 @@ import Servicios from "./pages/Servicios";
 import Prensa from "./pages/Prensa";
 import MindBlown from "./pages/MindBlown";
 import Contactanos from "./pages/Contactanos";
-import MarketingDigital from "./pages/MarketingDigital";
 import Eventos from "./pages/Eventos";
 import SitiosWeb from "./pages/SitiosWeb";
 import Consultoria from "./pages/Consultoria";
-import MarketingContenidos from "./pages/MarketingContenidos";
 import AudioVisuales from "./pages/AudioVisuales";
 import PaginaNoExiste from "./pages/PaginaNoExiste";
 import ScrollToTop from "./components/ScrollToTop";
@@ -21,6 +19,8 @@ import Footer from "./components/Footer";
 import FooterEscritorio from "./components/Escritorio/FooterEscritorio";
 import NavEscritorio from "./components/Escritorio/NavEscritorio";
 import Iconos from "./components/Iconos";
+import SocialMedia from "./pages/SocialMedia";
+import DiseñoGraf from "./pages/DiseñoGraf";
 
 function App() {
     return (
@@ -41,8 +41,8 @@ function App() {
                     <Route path="/MindBlown" element={<MindBlown />} />
                     <Route path="/Contactanos" element={<Contactanos />} />
                     <Route
-                        path="/MarketingDigital"
-                        element={<MarketingDigital />}
+                        path="/SocialMedia"
+                        element={<SocialMedia />}
                     />
                     <Route path="/Eventos" element={<Eventos />} />
                     <Route path="/Audiovisual" element={<AudioVisuales />} />
@@ -52,10 +52,7 @@ function App() {
                     />
                     <Route path="/SitiosWeb" element={<SitiosWeb />} />
                     <Route path="/Consultoria" element={<Consultoria />} />
-                    <Route
-                        path="/MarketingContenidos"
-                        element={<MarketingContenidos />}
-                    />
+                    <Route path="/DisGrafico" element={<DiseñoGraf />} />
                     <Route path="*" element={<PaginaNoExiste />} />
                 </Routes>
                 <div className="color-azul-oscuro-fondo d-sm-none d-block">

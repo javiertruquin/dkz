@@ -35,7 +35,7 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Nav.Link as={Link} to="/marketingDigital">
+              <Nav.Link as={Link} to="/socialmedia">
                 <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
                   <div className="d-flex justify-content-center">
                     <Card.Img
@@ -111,13 +111,13 @@ export default function CartasEscritorio() {
             </RubberBand>
 
             <RubberBand>
-              <Nav.Link as={Link} to="/marketingContenidos">
+              <Nav.Link as={Link} to="/DisGrafico">
                 <Card className="border-card color-blanco my-4 mx-4 card-digital-escritorio">
                   <div className="d-flex justify-content-center">
                     <Card.Img
                       className="imagen-card-conocenos"
                       src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653499629/Home/unsplash_8qEB0fTe9Vw_ykmlma.png"
-                      alt="Marketing de contenidos"
+                      alt="iconos digital solutions"
                     />
                   </div>
                   <Card.Body className="d-flex justify-content-center align-items-center">

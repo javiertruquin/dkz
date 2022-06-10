@@ -1,7 +1,7 @@
-import "./marketingdigital.css";
+import "./socialmedia.css";
 import BotonContactanos from "../../BotonContactanos";
 
-export default function BannerMarketingDig() {
+export default function BannerSocialM() {
   return (
     <div className="color-azul-oscuro-fondo">
       <img
@@ -12,7 +12,7 @@ export default function BannerMarketingDig() {
       <div className="banner-posi-marketing-escritorio">
         <div className="d-lg-none d-block">
           <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-            MARKETING DIGITAL
+            SOCIAL MEDIA
           </p>
           <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
             En DKZ studio sabemos lo fundamental de Identificar estrategias,
@@ -27,7 +27,7 @@ export default function BannerMarketingDig() {
         </div>
         <div className="d-none d-lg-block">
           <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-            MARKETING DIGITAL
+          SOCIAL MEDIA
           </p>
           <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
             En DKZ studio sabemos lo fundamental de Identificar estrategias,

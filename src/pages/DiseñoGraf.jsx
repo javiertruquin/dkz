@@ -1,15 +1,17 @@
 import React from "react";
-import SitioConstruccion from "../components/SitioConstruccion";
-import MarketingContenidosEscritorio from "../components/Escritorio/MarketingContenido/MarketingContenidosEscritorio";
+import DiseñoGraficoEscritorio from "../components/Escritorio/DiseñoGrafico/DiseñoGraficoEscritorio";
 
-export default function MarketingContenidos() {
+import SitioConstruccion from "../components/SitioConstruccion";
+
+
+export default function DiseñoGrafico() {
     return (
         <div>
             <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
                 <SitioConstruccion />
             </div>
             <div className="color-azul-oscuro-fondo d-none d-sm-block">
-                <MarketingContenidosEscritorio />
+                <DiseñoGraficoEscritorio />
             </div>
         </div>
     );

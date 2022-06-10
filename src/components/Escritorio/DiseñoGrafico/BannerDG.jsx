@@ -1,7 +1,7 @@
-import "./marketingcontenido.css"
+import "./diseñografico.css"
 import BotonContactanos from '../../BotonContactanos'
 
-export default function BannerMC() {
+export default function BannerDG() {
   return (
     <div className="color-azul-oscuro-fondo">
     <img
@@ -12,7 +12,7 @@ export default function BannerMC() {
     <div className="banner-posi-marketing-contenido-escritorio">
       <div className="d-lg-none d-block">
         <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-        MARKETING DIGITAL 
+        DISEÑO GRAFICO
         </p>
         <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
         DKZ studio pone a su disposición todo el material tecnológico necesario
@@ -22,7 +22,7 @@ export default function BannerMC() {
       </div>
       <div className="d-none d-lg-block">
         <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-        MARKETING DIGITAL 
+        DISEÑO GRAFICO
         </p>
         <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
         DKZ studio pone a su disposición todo el material tecnológico necesario
