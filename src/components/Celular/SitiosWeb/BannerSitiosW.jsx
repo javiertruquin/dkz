@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function BannerSitiosWeb() {
+export default function BannerSitiosW() {
   return (
     <>
       <div className="pb-4 color-azul-oscuro-fondo">
-        <div className="fondo-banner-av">
+        <div className="fondo-banner">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">

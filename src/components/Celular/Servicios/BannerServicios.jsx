@@ -1,10 +1,9 @@
-import React from "react";
 
 export default function BannerServicios() {
   return (
     <>
       <div className="pb-4 color-azul-oscuro-fondo">
-        <div className="fondo-banner-av">
+        <div className="fondo-banner">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
@@ -17,11 +16,10 @@ export default function BannerServicios() {
               <div className="text-white">
                 <h1 className=" peso-bold-italic my-2"> Servicios</h1>
                 <p className="peso-italic tamaño-medio px-2">
-                  Lorem ipsum dolor sit amet consectetur, ut illo architecto
-                  <br />
-                  adipisicing elit. Ipsum incidunt id unde. Numquam atque <br />{" "}
-                  laudantium excepturi, totam nostrum impedit magnam cumque nam
-                  maxime ad ipsum earum mollitia!
+                En DKZ sabemos lo fundamental que es identificar estrategias, herramientas y nuevas 
+                  tecnologías para el diseño y ejecución de diferentes piezas y proyectos publicitarios, 
+                  cualquiera sea su índole y nivel abarcativo de proyección. Por esto resulta imprescindible 
+                  realizar campañas exitosas y lograr un posicionamiento online acorde a la demanda de cada rubro.
                 </p>
               </div>
             </div>
