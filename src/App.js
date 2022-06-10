@@ -15,6 +15,7 @@ import MarketingContenidos from "./pages/MarketingContenidos";
 import AudioVisuales from "./pages/AudioVisuales";
 import PaginaNoExiste from "./pages/PaginaNoExiste";
 import ScrollToTop from "./components/ScrollToTop";
+import TrabajosAVDetalle from "./components/Celular/AudioVisuales/TrabajosAVDetalle";
 
 function App() {
     return (
@@ -30,6 +31,7 @@ function App() {
                 <Route path="/MarketingDigital" element={<MarketingDigital />} />
                 <Route path="/Eventos" element={<Eventos />} />
                 <Route path="/Audiovisual" element={<AudioVisuales />} />
+                <Route path="/Audiovisual/:id" element={<TrabajosAVDetalle />} />
                 <Route path="/SitiosWeb" element={<SitiosWeb />} />
                 <Route path="/Consultoria" element={<Consultoria />} />
                 <Route path="/MarketingContenidos" element={<MarketingContenidos />} />
