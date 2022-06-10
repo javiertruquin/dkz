@@ -1,5 +1,4 @@
 import React from "react";
-import SitioConstruccion from "../components/SitioConstruccion";
 import EventosEscritorio from "../components/Escritorio/Eventos/EventosEscritorio";
 import TrabajosEventos from "../components/TrabajosEventos";
 import BannerEventos from "../components/Celular/Eventos/BannerEventos";
