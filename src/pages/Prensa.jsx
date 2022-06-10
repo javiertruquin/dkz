@@ -1,8 +1,6 @@
 import React from "react";
-import NavbarReact from "../components/NavbarReact";
 import SitioConstruccion from "../components/SitioConstruccion";
-import Iconos from "../components/Iconos";
-import Footer from "../components/Footer";
+
 import PrensaEscritorio from "../components/Escritorio/Prensa/PrensaEscritorio";
 
 export default function Prensa() {
