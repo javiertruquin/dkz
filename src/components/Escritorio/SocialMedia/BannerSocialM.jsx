@@ -40,7 +40,6 @@ export default function BannerSocialM() {
             demanda de cada rubro.
           </p>
         </div>
-        <BotonContactanos />
       </div>
     </div>
   );
