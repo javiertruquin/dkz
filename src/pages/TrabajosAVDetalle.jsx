@@ -1,10 +1,5 @@
 import React from "react";
 import VideoAV from "../components/Celular/AudioVisuales/VideoAV";
-import FooterEscritorio from "../components/Escritorio/FooterEscritorio";
-import NavEscritorio from "../components/Escritorio/NavEscritorio";
-import Footer from "../components/Footer";
-import Iconos from "../components/Iconos";
-import NavbarReact from "../components/NavbarReact";
 
 export default function TrabajosAVDetalle() {
     return (
