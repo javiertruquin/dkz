@@ -4,7 +4,7 @@ import MarketingContenidosEscritorio from "../components/Escritorio/MarketingCon
 
 export default function MarketingContenidos() {
     return (
-        <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+        <div>
             <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
                 <SitioConstruccion />
             </div>

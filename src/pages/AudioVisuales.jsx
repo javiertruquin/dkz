@@ -10,7 +10,7 @@ import TrabajosAV from "../components/Celular/AudioVisuales/TrabajosAV";
 
 export default function AudioVisuales() {
     return (
-        <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+        <div>
             <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
                 <BannerAV />
                 <ContenidoAV />

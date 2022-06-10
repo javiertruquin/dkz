@@ -4,7 +4,7 @@ import ContactanosEscritorio from "../components/Escritorio/Contactanos/Contacta
 
 export default function Contactanos() {
     return (
-        <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+        <div >
             <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
                 <FormContactanos />
             </div>
