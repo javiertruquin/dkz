@@ -1,5 +1,4 @@
 import React from "react";
-import BotonContactanos from "../../BotonContactanos";
 
 export default function BannerPrensa() {
   return (
@@ -33,7 +32,6 @@ export default function BannerPrensa() {
               adipiscing elit, sed do.
             </p>
           </div>
-          <BotonContactanos />
         </div>
       </div>
     </div>

@@ -22,6 +22,7 @@ import Iconos from "./components/Iconos";
 import SocialMedia from "./pages/SocialMedia";
 import DiseñoGraf from "./pages/DiseñoGraf";
 import TrabajosEventosDetalle from "./pages/TrabajosEventosDetalle";
+import TrabajosPrensaDetalle from "./pages/TrabajosPrensaDetalle";
 
 function App() {
     return (
@@ -39,6 +40,7 @@ function App() {
                     <Route path="/Conocenos" element={<Conocenos />} />
                     <Route path="/Servicios" element={<Servicios />} />
                     <Route path="/Prensa" element={<Prensa />} />
+                    <Route path="/Prensa/:id" element={<TrabajosPrensaDetalle />} />
                     <Route path="/MindBlown" element={<MindBlown />} />
                     <Route path="/Contactanos" element={<Contactanos />} />
                     <Route
