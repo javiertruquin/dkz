@@ -55,7 +55,7 @@ export default function Clientes() {
             <div className="text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none">
                 <p>Happy ending</p>
             </div>
-            <div className={width <= 800 ? "mt-5 mb-0 mb-sm-5" : "mt-5 mb-0 mb-sm-5 container"}>
+            <div className={width <= 800 ? "my-5" : "my-5 container"}>
                 <Swiper
                     spaceBetween={10}
                     slidesPerView={width <= 800 ? 2.85 : 5}

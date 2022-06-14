@@ -7,14 +7,12 @@ import Clientes from "../components/Clientes";
 
 export default function MindBlown() {
     return (
-        <div >
+        <div>
             <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
                 <BannerT />
                 <TrabajosMindBlown />
                 <Clientes />
-                <div className="pt-5">
-                    <BotonContactanos />
-                </div>
+                <BotonContactanos />
             </div>
             <div className="color-azul-oscuro-fondo d-none d-sm-block">
                 <MindBlownEscritorio />
