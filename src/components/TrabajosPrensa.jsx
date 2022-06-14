@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Papa from "papaparse";
 import axios from "axios";
 import { NavLink } from "react-router-dom";
+import { Image } from "react-bootstrap";
 
 function getWindowDimensions() {
     const { innerWidth: width } = window;
@@ -54,9 +55,10 @@ export default function TrabajosPrensa() {
                     <SwiperSlide>
                         <NavLink to={"/prensa/" + trabajo.id}>
                             <div className="p-2 d-flex flex-column justify-content-around ">
-                                <img
+                                <Image
                                     src={trabajo.imagenMini}
                                     alt={trabajo.titulo}
+                                    fluid
                                 />
                             </div>
                         </NavLink>

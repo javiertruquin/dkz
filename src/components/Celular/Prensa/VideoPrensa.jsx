@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Papa from "papaparse";
 import { useParams } from "react-router";
+import { Image } from "react-bootstrap";
 
 export default function VideoPrensa() {
     const params = useParams();
@@ -30,11 +31,8 @@ export default function VideoPrensa() {
             <br />
             <p className="text-white tamaño-grande">{descripcion}</p>
             <br />
-            <img src={imagen1} alt="" />
+            <Image src={imagen1} alt=""  fluid/>
             <br />
-            <img src={imagen2} alt="" />
-            <br />
-            <img src={imagen3} alt="" />
         </div>
     );
 }
