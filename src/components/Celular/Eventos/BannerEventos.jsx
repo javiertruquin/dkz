@@ -3,7 +3,7 @@ import React from "react";
 export default function BannerEventos() {
   return (
     <>
-      <div className="pb-4 color-azul-oscuro-fondo">
+      <div className="color-azul-oscuro-fondo">
         <div className="fondo-banner">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
@@ -19,7 +19,7 @@ export default function BannerEventos() {
                   {" "}
                   Eventos
                 </h1>
-                <p className="peso-italic tamaño-medio px-2">
+                <p className="peso-italic tamaño-medio px-2 mb-0">
                   Lorem ipsum dolor sit amet consectetur, ut illo architecto
                   <br />
                   adipisicing elit. Ipsum incidunt id unde. Numquam atque <br />{" "}

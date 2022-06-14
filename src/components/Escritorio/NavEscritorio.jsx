@@ -70,7 +70,7 @@ export default function NavEscritorio() {
                                     onMouseLeave={hideDropdown}
                                 >
                                     <NavDropdown.Item as={Link} to="/servicios">
-                                        Todos
+                                        Ver Todos
                                     </NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/eventos">
                                         Eventos

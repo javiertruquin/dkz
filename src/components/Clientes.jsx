@@ -52,7 +52,7 @@ export default function Clientes() {
             <div className="text-white text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none">
                 <p>Happy ending</p>
             </div>
-            <div className="text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none">
+            <div className="text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none ">
                 <p>Happy ending</p>
             </div>
             <div className={width <= 800 ? "my-5" : "my-5 container"}>
