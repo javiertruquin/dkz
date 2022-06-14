@@ -6,7 +6,7 @@ import SitiosWebsEscritorio from "../components/Escritorio/SitiosWebs/SitiosWebs
 export default function SitiosWeb() {
     return (
         <div>
-            <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
+            <div className="color-azul-oscuro-fondo  d-sm-none d-block">
                 <BannerSitiosW />
             </div>
             <div className="color-azul-oscuro-fondo d-none d-sm-block">

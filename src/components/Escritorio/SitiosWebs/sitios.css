@@ -1,3 +1,12 @@
 .banner-posi-sitios-escritorio{
     margin-top: -240px;
   }
+
+  .image-monitor{
+    height: 700px !important;
+  }
+
+  .imagen-cuadrada{
+    height: 700px;
+    width: 700px;
+  }
