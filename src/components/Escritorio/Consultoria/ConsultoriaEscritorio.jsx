@@ -1,4 +1,5 @@
 import BannerConsultaria from "./BannerConsultaria";
+import "./consultoria.css"
 
 export default function ConsultoriaEscritorio() {
     return (

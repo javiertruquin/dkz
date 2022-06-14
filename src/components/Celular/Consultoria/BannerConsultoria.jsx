@@ -15,20 +15,24 @@ export default function BannerConsultoria() {
             </div>
             <div className="banner-pie d-flex justify-content-center">
               <div className="text-white">
-                <h1 className=" peso-bold-italic my-2">
-                  {" "}
-                  Producciones audiovisuales integrales
-                </h1>
                 <p className="peso-italic tamaño-medio px-2">
-                  Lorem ipsum dolor sit amet consectetur, ut illo architecto
-                  <br />
-                  adipisicing elit. Ipsum incidunt id unde. Numquam atque <br />{" "}
-                  laudantium excepturi, totam nostrum impedit magnam cumque nam
-                  maxime ad ipsum earum mollitia!
+                  Nos enfocamos en el requerimiento del cliente, brindando
+                  soluciones alternativas y eficaces,que ayuden a consolidar el
+                  esquema de trabajo y los objetivos internos de una compañía.
                 </p>
               </div>
             </div>
           </div>
+        </div>
+        <div className="d-flex justify-content-center">
+          <ul className="peso-italic  text-white">
+            <li>Consultoría y asesoramiento estratégico</li>
+            <li>Consultoría y asesoramiento en marketing y comercialización</li>
+            <li>Consultoría y asesoramiento económico - financiero</li>
+            <li>
+              Consultoría y asesoramiento en organización <br/> y recursos humanos.
+            </li>
+          </ul>
         </div>
       </div>
     </>

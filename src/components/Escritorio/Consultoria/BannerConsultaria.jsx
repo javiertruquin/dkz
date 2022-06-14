@@ -1,4 +1,3 @@
-import React from "react";
 import BotonContactanos from "../../BotonContactanos";
 
 export default function BannerConsultaria() {
@@ -17,11 +16,17 @@ export default function BannerConsultaria() {
             </p>
             <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
               Nos enfocamos en el requerimiento del cliente, brindando
-              <br /> soluciones alternativas y eficaces, que ayuden a consolidar
-              el
-              <br />
-              esquema de trabajo y los objetivos internos de una compañía.
+               soluciones alternativas y eficaces, <br /> que ayuden a consolidar
+              el esquema de trabajo y los objetivos internos de una compañía.
             </p>
+            <div className="d-flex justify-content-center">
+              <ul className="tamaño-medio peso-italic text-white espaciado texto-sombra">
+                <li>Consultoría y asesoramiento estratégico</li>
+                <li>Consultoría y asesoramiento en marketing y comercialización</li>
+                <li>Consultoría y asesoramiento económico - financiero</li>
+                <li>Consultoría y asesoramiento en organización y recursos humanos.</li>
+              </ul>
+            </div>
           </div>
           <div className="d-none d-lg-block">
             <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
@@ -29,11 +34,17 @@ export default function BannerConsultaria() {
             </p>
             <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
             Nos enfocamos en el requerimiento del cliente, brindando
-              <br /> soluciones alternativas y eficaces, que ayuden a consolidar
-              el
-              <br />
-              esquema de trabajo y los objetivos internos de una compañía.
+               soluciones alternativas y eficaces, <br /> que ayuden a consolidar
+              el esquema de trabajo y los objetivos internos de una compañía.
             </p>
+            <div className="d-flex justify-content-center">
+              <ul className="tamaño-grande peso-italic text-white espaciado texto-sombra">
+                <li>Consultoría y asesoramiento estratégico</li>
+                <li>Consultoría y asesoramiento en marketing y comercialización</li>
+                <li>Consultoría y asesoramiento económico - financiero</li>
+                <li>Consultoría y asesoramiento en organización y recursos humanos.</li>
+              </ul>
+            </div>
           </div>
           <BotonContactanos />
         </div>
