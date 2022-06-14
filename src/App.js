@@ -25,6 +25,7 @@ import TrabajosEventosDetalle from "./pages/TrabajosEventosDetalle";
 import TrabajosPrensaDetalle from "./pages/TrabajosPrensaDetalle";
 import TrabajosSocialMediaDetalle from "./pages/TrabajosSocialMediaDetalle";
 import TrabajosDiseñoGraficoDetalle from "./pages/TrabajosDiseñoGraficoDetalle";
+import TrabajosMindBlownDetalle from "./pages/TrabajosMindBlownDetalle";
 
 function App() {
     return (
@@ -44,6 +45,7 @@ function App() {
                     <Route path="/Prensa" element={<Prensa />} />
                     <Route path="/Prensa/:id" element={<TrabajosPrensaDetalle />} />
                     <Route path="/MindBlown" element={<MindBlown />} />
+                    <Route path="/MindBlown/:id" element={<TrabajosMindBlownDetalle />} />
                     <Route path="/Contactanos" element={<Contactanos />} />
                     <Route
                         path="/SocialMedia"

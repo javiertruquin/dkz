@@ -161,7 +161,6 @@ body {
   border: 0;
 }
 
-
 .navbar-celu {
   margin-left: auto;
   width: 163px;
@@ -585,4 +584,11 @@ color: #1e2048 ;
     text-align: center;
     letter-spacing: -0.408px;
     color: #ffffff;
+}
+
+/* MindBlown */ 
+@media (min-width: 800px) {
+  .margen-mb-trabajos{
+    margin: 0 12.6% !important;
+  }
 }

@@ -1,16 +1,16 @@
 import React from "react";
 import BannerT from "../components/Celular/MindBlown/BannerT";
-import Trabajos from "../components/Celular/MindBlown/Trabajos";
-import Clientes from "../components/Celular/MindBlown/Clientes";
 import BotonContactanos from "../components/BotonContactanos";
 import MindBlownEscritorio from "../components/Escritorio/MindBlown/MindBlownEscritorio";
+import TrabajosMindBlown from "../components/TrabajosMindBlown";
+import Clientes from "../components/Clientes";
 
 export default function MindBlown() {
     return (
         <div >
             <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
                 <BannerT />
-                <Trabajos />
+                <TrabajosMindBlown />
                 <Clientes />
                 <div className="pt-5">
                     <BotonContactanos />

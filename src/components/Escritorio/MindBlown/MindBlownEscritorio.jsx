@@ -1,7 +1,8 @@
 import React from "react";
+import BotonContactanos from "../../BotonContactanos";
+import Clientes from "../../Clientes";
+import TrabajosMindBlown from "../../TrabajosMindBlown";
 import BannerMB from "./BannerMB";
-import ClientesMb from "./ClientesMb";
-import TrabajosMB from "./TrabajosMB";
 
 export default function MindBlownEscritorio() {
     return (
@@ -10,8 +11,9 @@ export default function MindBlownEscritorio() {
             style={{ minHeight: "100vh" }}
         >
             <BannerMB />
-            <TrabajosMB />
-            <ClientesMb />
+            <TrabajosMindBlown />
+            <Clientes />
+            <BotonContactanos />
         </div>
     );
 }
