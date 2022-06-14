@@ -13,23 +13,35 @@ export default function BannerDiseñoGrafico() {
                 </h1>
               </div>
             </div>
-            <div className="banner-pie d-flex justify-content-center">
+            <div className="banner-pie-dg d-flex justify-content-center">
               <div className="text-white">
-                <h1 className=" peso-bold-italic my-2">
-                  {" "}
-                  DISEÑO GRÁFICO
-                </h1>
+                <h1 className=" peso-bold-italic my-2"> DISEÑO GRÁFICO</h1>
                 <p className="peso-italic tamaño-medio px-2">
-                  Lorem ipsum dolor sit amet consectetur, ut illo architecto
-                  <br />
-                  adipisicing elit. Ipsum incidunt id unde. Numquam atque <br />{" "}
-                  laudantium excepturi, totam nostrum impedit magnam cumque nam
-                  maxime ad ipsum earum mollitia!
+                  Tenemos una creencia, un concepto: podemos ser eróticos
+                  conceptualmente, sin la necesidad de ser pornos. Por eso nos
+                  arriesgamos, implementando desafíos en cada pieza que
+                  ejecutamos, siendo disruptivos y marcando tendencia en el
+                  mercado. ¿Cómo lo hacemos? De acuerdo a cada proyecto,
+                  montamos unidades operativas de trabajo,agregando
+                  profesionales de DKZ con amplia trayectoria en nivel ejecutivo
+                  y creativo.
                 </p>
               </div>
             </div>
           </div>
         </div>
+              <div>
+                <p className="peso-italic tamaño-medio px-2 text-white">Nuestros diferentes servicios de diseño son:</p>
+                <p className="peso-italic tamaño-medio px-2 text-white">
+                  -Masivos: carteles, infografía, flyers, simbología y
+                  señalética, folletos, etcétera. <br/> -Diseño web: maquetación y
+                  diseño final de prototipos web. <br/> -Diseño de Identidad Visual o
+                  Branding: desarrollamos manuales corporativos de marcas con
+                  diferentes aplicaciones y envergaduras. <br/> -Diseños de productos
+                  Multimedia. <br/> -Diseño Publicitario. <br/> -Diseño de Packaging. <br/>  -Diseño de
+                  Merchandising
+                </p>
+              </div>
       </div>
     </>
   );

@@ -37,7 +37,8 @@ export default function BannerConsultaria() {
                soluciones alternativas y eficaces, <br /> que ayuden a consolidar
               el esquema de trabajo y los objetivos internos de una compañía.
             </p>
-            <div className="d-flex justify-content-center">
+            
+            <div className="d-flex justify-content-center ">
               <ul className="tamaño-grande peso-italic text-white espaciado texto-sombra">
                 <li>Consultoría y asesoramiento estratégico</li>
                 <li>Consultoría y asesoramiento en marketing y comercialización</li>
@@ -45,6 +46,7 @@ export default function BannerConsultaria() {
                 <li>Consultoría y asesoramiento en organización y recursos humanos.</li>
               </ul>
             </div>
+            
           </div>
           <BotonContactanos />
         </div>
