@@ -48,14 +48,14 @@ export default function TrabajosPrensa() {
     }, []);
 
     return (
-        <div className={width <= 800 ? "mt-sm-5 mb-5 mt-2" : "mt-sm-5 mb-5 mt-2 container"}>
+        <div className={width <= 800 ? "mt-sm-5 mb-5 mt-2 " : "mt-sm-5 mb-5 mt-2 container"}>
             <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5}>
                 {trabajos.map((trabajo) => (
                     <SwiperSlide>
                         <NavLink to={"/prensa/" + trabajo.id}>
-                            <div className="p-2 d-flex flex-column justify-content-between ">
+                            <div className="p-2 d-flex flex-column justify-content-around ">
                                 <img
-                                    src={trabajo.imagen1}
+                                    src={trabajo.imagenMini}
                                     alt={trabajo.titulo}
                                 />
                             </div>
