@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function NavEscritorio() {
     const [show, setShow] = useState(false);
-    const [show2, setShow2] = useState(false);
+
 
     const showDropdown = (e) => {
         setShow(!show);
@@ -13,13 +13,6 @@ export default function NavEscritorio() {
         setShow(false);
     };
 
-    const showDropdownlanguage = (e) => {
-        setShow2(!show2);
-    };
-
-    const hideDropdownlanguage = (e) => {
-        setShow2(false);
-    };
 
     return (
         <>
@@ -83,7 +76,7 @@ export default function NavEscritorio() {
                                     </NavDropdown.Item>
                                     <NavDropdown.Item
                                         as={Link}
-                                        to="/sitioswebs"
+                                        to="/SitiosWeb"
                                     >
                                         Sitios Web
                                     </NavDropdown.Item>
