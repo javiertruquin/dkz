@@ -1,5 +1,4 @@
 import "./socialmedia.css";
-import BotonContactanos from "../../BotonContactanos";
 
 export default function BannerSocialM() {
   return (
@@ -15,14 +14,7 @@ export default function BannerSocialM() {
             SOCIAL MEDIA
           </p>
           <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
-            En DKZ studio sabemos lo fundamental de Identificar estrategias,
-            <br /> herramientas y nuevas tecnologías para el diseño y ejecución
-            de la publicidad
-            <br /> de cada empresa. Por esto resulta imprescindible realizar
-            campañas de marketing
-            <br />
-            digital exitosas y lograr un posicionamiento online acorde a la
-            demanda de cada rubro.
+          Desarrollamos estrategias personalizadas para tu empresa. Ponemos creatividad y compromiso <br/> a la hora de ejecutar proyectos digitales, basándonos en una marcada trayectoria a la hora de generar contenidos. <br/> Desarrollamos campañas y acciones específicas a través de las plataformas y canales de redes sociales <br/> de acuerdo con la estrategia global de la empresa. Una estrategia social eficaz puede ayudar a hacer crecer tu negocio  <br/>y crear un compromiso con el público. Creando estrategias, creando HISTORIAS.  
           </p>
         </div>
         <div className="d-none d-lg-block">
@@ -30,14 +22,7 @@ export default function BannerSocialM() {
           SOCIAL MEDIA
           </p>
           <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
-            En DKZ studio sabemos lo fundamental de Identificar estrategias,
-            <br /> herramientas y nuevas tecnologías para el diseño y ejecución
-            de la publicidad
-            <br /> de cada empresa. Por esto resulta imprescindible realizar
-            campañas de marketing
-            <br />
-            digital exitosas y lograr un posicionamiento online acorde a la
-            demanda de cada rubro.
+          Desarrollamos estrategias personalizadas para tu empresa. Ponemos creatividad y compromiso <br/> a la hora de ejecutar proyectos digitales, basándonos en una marcada trayectoria a la hora de generar contenidos. <br/> Desarrollamos campañas y acciones específicas a través de las plataformas y canales de redes sociales <br/> de acuerdo con la estrategia global de la empresa. Una estrategia social eficaz puede ayudar a hacer crecer tu negocio  <br/>y crear un compromiso con el público. Creando estrategias, creando HISTORIAS. 
           </p>
         </div>
       </div>
