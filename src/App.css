@@ -586,6 +586,39 @@ color: #1e2048 ;
     color: #ffffff;
 }
 
+/*Social media*/
+.banner-pie-social-media{
+  position: absolute;
+    margin-top: 60vh;
+    min-width: 292px;
+    min-height: 181px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #ffffff;
+}
+
+/*Eventos*/
+.banner-pie-eventos {
+  position: absolute;
+    margin-top: 60vh;
+    min-width: 292px;
+    min-height: 181px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #ffffff;
+}
+
+/*Diseño grafico*/
+.banner-pie-dg{
+  position: absolute;
+  margin-top: 60vh;
+  min-width: 292px;
+  min-height: 181px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #ffffff;
+}
+
 /* MindBlown */ 
 @media (min-width: 800px) {
   .margen-mb-trabajos{
