@@ -13,22 +13,36 @@ export default function BannerEventos() {
                 </h1>
               </div>
             </div>
-            <div className="banner-pie d-flex justify-content-center">
+            <div className="banner-pie-eventos d-flex justify-content-center">
               <div className="text-white">
-                <h1 className=" peso-bold-italic my-2">
-                  {" "}
-                  Eventos
-                </h1>
+                <h1 className=" peso-bold-italic my-2"> Eventos</h1>
                 <p className="peso-italic tamaño-medio px-2 mb-0">
-                  Lorem ipsum dolor sit amet consectetur, ut illo architecto
-                  <br />
-                  adipisicing elit. Ipsum incidunt id unde. Numquam atque <br />{" "}
-                  laudantium excepturi, totam nostrum impedit magnam cumque nam
-                  maxime ad ipsum earum mollitia!
+                  Ponemos a tu disposición un equipo de profesionales los cuales
+                  son capaces de ejecutar y accionar eventos de gran envergadura
+                  de acuerdo a los mas altos estándares de calidad organizativa
+                  y estilo.
                 </p>
               </div>
             </div>
           </div>
+        </div>
+        <div>
+          <p className="peso-italic tamaño-medio text-white  espaciado texto-sombra">
+            Nuestro equipo se caracteriza por:
+          </p>
+          <p className="peso-italic tamaño-medio text-white espaciado texto-sombra ">
+            -Capacidad de liderazgo, trabajo en equipo y planificación
+            <br /> - Visión del entorno y el contexto
+            <br /> - Habilidades comunicacionales, empáticas y negociadoras
+          </p>
+          <p className="peso-italic tamaño-medio text-white espaciado texto-sombra ">
+            Nuestros Eventos:
+          </p>
+          <p className="peso-italic tamaño-medio text-white espaciado texto-sombra ">
+            -Eventos empresariales, Eventos sociales, Conciertos y espectáculos
+            <br /> -Lanzamientos de marcas, productos o servicios
+            <br /> -Feria y exhibiciones
+          </p>
         </div>
       </div>
     </>

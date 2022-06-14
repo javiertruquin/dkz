@@ -1,6 +1,3 @@
-import React from "react";
-import BotonContactanos from "../../BotonContactanos";
-
 export default function BannerEventos() {
   return (
     <div>
@@ -16,8 +13,10 @@ export default function BannerEventos() {
               EVENTOS DKZ
             </p>
             <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
-            Ponemos a tu disposición un equipo de profesionales los cuales son capaces
-              <br /> de ejecutar y accionar eventos de gran envergadura de acuerdo a los mas
+              Ponemos a tu disposición un equipo de profesionales los cuales son
+              capaces
+              <br /> de ejecutar y accionar eventos de gran envergadura de
+              acuerdo a los mas
               <br /> altos estándares de calidad organizativa y estilo.
             </p>
           </div>
@@ -26,10 +25,42 @@ export default function BannerEventos() {
               EVENTOS DKZ
             </p>
             <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
-            Ponemos a tu disposición un equipo de profesionales los cuales son capaces
-              <br /> de ejecutar y accionar eventos de gran envergadura de acuerdo a los mas
+              Ponemos a tu disposición un equipo de profesionales los cuales son
+              capaces
+              <br /> de ejecutar y accionar eventos de gran envergadura de
+              acuerdo a los mas
               <br /> altos estándares de calidad organizativa y estilo.
             </p>
+            <div>
+              <div className="d-flex justify-content-around text-white">
+                <div>
+                  <div>
+                    <p className="tamaño-mas-grande peso-bold-italic text-white d-flex justify-content-center  espaciado texto-sombra posi-eventos-escritorio">
+                      Nuestro equipo se caracteriza por:
+                    </p>
+                    <p className="tamaño-grande peso-italic text-white  d-flex justify-content-center espaciado texto-sombra">
+                      -Capacidad de liderazgo, trabajo en equipo y planificación
+                      <br /> - Visión del entorno y el contexto
+                      <br /> - Habilidades comunicacionales, empáticas y
+                      negociadoras
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <p className="tamaño-mas-grande peso-bold-italic text-white d-flex justify-content-center  espaciado texto-sombra posi-eventos-escritorio">
+                      Nuestros Eventos:
+                    </p>
+                    <p className="tamaño-grande peso-italic text-white  d-flex justify-content-center espaciado texto-sombra">
+                      -Eventos empresariales, Eventos sociales, Conciertos y
+                      espectáculos
+                      <br /> -Lanzamientos de marcas, productos o servicios
+                      <br /> -Feria y exhibiciones
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
