@@ -48,9 +48,25 @@ export default function TrabajosPrensa() {
         getTrabajos();
     }, []);
 
+    if (trabajos.length >= 5) {
+        var cantcard = 5;
+    } else{
+        var cantcard = trabajos.length;
+    }
+
     return (
-        <div className={width <= 800 ? "mt-sm-5 mb-5 mt-2 " : "mt-sm-5 mb-5 mt-2 container"}>
-            <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5}>
+        <div
+            className={
+                width <= 800
+                    ? "mt-sm-5 mb-5 mt-2 "
+                    : "mt-sm-5 mb-5 mt-2 container"
+            }
+        >
+            <Swiper
+                spaceBetween={10}
+                slidesPerView={width <= 800 ? 1.85 : cantcard}
+                className={cantcard<=3? "margen-mb-trabajos": ""}
+            >
                 {trabajos.map((trabajo) => (
                     <SwiperSlide>
                         <NavLink to={"/prensa/" + trabajo.id}>

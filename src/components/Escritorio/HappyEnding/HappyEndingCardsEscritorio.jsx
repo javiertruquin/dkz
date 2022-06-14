@@ -29,7 +29,7 @@ function useWindowDimensions() {
     return windowDimensions;
 }
 
-export default function Clientes() {
+export default function HappyEndingCardsEscritorio() {
     const { width } = useWindowDimensions();
     const [trabajos, setTrabajos] = useState([]);
 
@@ -48,17 +48,17 @@ export default function Clientes() {
 
     return (
         <div>
-            <div className="text-white text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none">
+            <div className="text-white text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none padding-sitioconst mt-5">
                 <p>Happy ending</p>
             </div>
-            <div className="text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none ">
+            <div className="text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none padding-sitioconst mt-5">
                 <p>Happy ending</p>
             </div>
             <div className={width <= 800 ? "my-5" : "my-5 container"}>
                 <Swiper
                     spaceBetween={10}
-                    slidesPerView={width <= 800 ? 2.85 : 5}
-                    className="margen-mb-trabajos"
+                    slidesPerView={5}
+                    className="my-3"
                 >
                     {trabajos.slice(0, 5).map((trabajo) => (
                         <SwiperSlide>
@@ -73,10 +73,42 @@ export default function Clientes() {
                 </Swiper>
                 <Swiper
                     spaceBetween={10}
-                    slidesPerView={width <= 800 ? 2.85 : 5}
-                    className="margen-mb-trabajos"
+                    slidesPerView={5}
+                    className="my-3"
                 >
                     {trabajos.slice(5, 10).map((trabajo) => (
+                        <SwiperSlide>
+                            <div className="p-2 d-flex flex-column justify-content-between ">
+                                <img
+                                    src={trabajo.imagen1}
+                                    alt={trabajo.titulo}
+                                />
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+                <Swiper
+                    spaceBetween={10}
+                    slidesPerView={5}
+                    className="my-3"
+                >
+                    {trabajos.slice(10, 15).map((trabajo) => (
+                        <SwiperSlide>
+                            <div className="p-2 d-flex flex-column justify-content-between ">
+                                <img
+                                    src={trabajo.imagen1}
+                                    alt={trabajo.titulo}
+                                />
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+                <Swiper
+                    spaceBetween={10}
+                    slidesPerView={5}
+                    className="my-3"
+                >
+                    {trabajos.slice(15, 20).map((trabajo) => (
                         <SwiperSlide>
                             <div className="p-2 d-flex flex-column justify-content-between ">
                                 <img

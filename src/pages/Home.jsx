@@ -3,6 +3,7 @@ import Banner2 from "../components/Celular/HomeCel/Banner2";
 import Banner3 from "../components/Celular/HomeCel/Banner3";
 import Cartas from "../components/Celular/HomeCel/Cartas";
 import Frase from "../components/Celular/HomeCel/Frase";
+import Trabajos from "../components/Celular/HomeCel/Trabajos";
 import HomeContenidoEscritorio from "../components/Escritorio/HomeEscritorio/HomeContenidoEscritorio";
 
 export default function Home() {
@@ -12,6 +13,8 @@ export default function Home() {
                 <Banner />
                 <Banner2 />
                 <Cartas />
+                <Trabajos />
+
                 <Banner3 />
                 <Frase />
             </div>

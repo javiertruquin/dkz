@@ -26,6 +26,7 @@ import TrabajosPrensaDetalle from "./pages/TrabajosPrensaDetalle";
 import TrabajosSocialMediaDetalle from "./pages/TrabajosSocialMediaDetalle";
 import TrabajosDiseñoGraficoDetalle from "./pages/TrabajosDiseñoGraficoDetalle";
 import TrabajosMindBlownDetalle from "./pages/TrabajosMindBlownDetalle";
+import HappyEnding from "./pages/HappyEnding";
 
 function App() {
     return (
@@ -66,6 +67,7 @@ function App() {
                         element={<TrabajosAVDetalle />}
                     />
                     <Route path="/SitiosWeb" element={<SitiosWeb />} />
+                    <Route path="/HappyEnding" element={<HappyEnding />} />
                     <Route path="/Consultoria" element={<Consultoria />} />
                     <Route path="/DisGrafico" element={<DiseñoGraf />} />
                     <Route path="/DisGrafico/:id" element={<TrabajosDiseñoGraficoDetalle />} />
