@@ -48,7 +48,7 @@ export default function NavbarReact() {
                                     as={Link}
                                     to="/conocenos"
                                 >
-                                    Conocenos
+                                    Somos DKZ
                                 </Nav.Link>
                                 <Nav.Link
                                     className="tamaño-medio text-white"
@@ -60,13 +60,6 @@ export default function NavbarReact() {
                                 <Nav.Link
                                     className="tamaño-medio text-white"
                                     as={Link}
-                                    to="/prensa"
-                                >
-                                    Prensa
-                                </Nav.Link>
-                                <Nav.Link
-                                    className="tamaño-medio text-white"
-                                    as={Link}
                                     to="/mindblown"
                                 >
                                     Mind Blown
@@ -74,10 +67,19 @@ export default function NavbarReact() {
                                 <Nav.Link
                                     className="tamaño-medio text-white"
                                     as={Link}
-                                    to="/contactanos"
+                                    to="/happyending"
                                 >
-                                    Contactanos
+                                    Happy Ending
                                 </Nav.Link>
+                                <Nav.Link
+                                    className="tamaño-medio text-white"
+                                    as={Link}
+                                    to="/prensa"
+                                >
+                                    Prensa
+                                </Nav.Link>
+                                
+                                
                                 <div className="mx-4 color-select text-white mb-2">
                                     <Form.Select
                                         className="color-select-2 text-white border-0 mt-2 text-center"
