@@ -32,7 +32,7 @@ export default function VideoPrensaEscritorio() {
                 <img src={imagen1} alt="noticia" />
             </div>
 
-            <p className="text-white tamaño-grande mt-2">{descripcion}</p>
+            <p className="text-white tamaño-medio mt-2">{descripcion}</p>
             <br />
         </div>
     );
