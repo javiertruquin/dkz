@@ -1,5 +1,4 @@
 import React from "react";
-import BotonContactanos from "../../BotonContactanos";
 
 export default function Banner() {
   return (
@@ -26,7 +25,6 @@ export default function Banner() {
                   adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 </p>
-                <BotonContactanos />
               </div>
             </div>
           </div>

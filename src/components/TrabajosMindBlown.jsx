@@ -53,8 +53,9 @@ export default function TrabajosMindBlown() {
                 {trabajos.slice(0, 3).map((trabajo) => (
                     <SwiperSlide>
                         <NavLink to={"/mindblown/" + trabajo.id}>
-                            <div className="p-2 d-flex flex-column justify-content-between">
+                            <div className="p-2 d-flex flex-column justify-content-between border-card">
                                 <img
+                                    className="border-card"
                                     src={trabajo.imagenMini}
                                     alt={trabajo.titulo}
                                 />
@@ -69,6 +70,7 @@ export default function TrabajosMindBlown() {
                         <NavLink to={"/mindblown/" + trabajo.id}>
                             <div className="p-2 d-flex flex-column justify-content-between ">
                                 <img
+                                    className="border-card"
                                     src={trabajo.imagenMini}
                                     alt={trabajo.titulo}
                                 />
@@ -81,8 +83,9 @@ export default function TrabajosMindBlown() {
                 {trabajos.slice(7, 10).map((trabajo) => (
                     <SwiperSlide>
                         <NavLink to={"/mindblown/" + trabajo.id}>
-                            <div className="p-2 d-flex flex-column justify-content-between ">
+                            <div className="p-2 d-flex flex-column justify-content-between border-card">
                                 <img
+                                    className="border-card"
                                     src={trabajo.imagenMini}
                                     alt= {trabajo.titulo}
                                 />

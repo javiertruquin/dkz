@@ -1,15 +1,13 @@
 import React from "react";
-import VideoAV from "../components/Celular/AudioVisuales/VideoAV";
-import VideoAVEscritorio from "../components/Escritorio/AudioVisual/VideoAVEscritorio";
+import BotonContactanos from "../components/BotonContactanos";
+import VideoAV from "../components/VideoAV";
 
 export default function TrabajosAVDetalle() {
     return (
         <div>
-            <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
+            <div className="color-azul-oscuro-fondo fixed">
                 <VideoAV />
-            </div>
-            <div className=" color-azul-oscuro-fondo d-none d-sm-block">
-                <VideoAVEscritorio />
+                <BotonContactanos />
             </div>
         </div>
     );

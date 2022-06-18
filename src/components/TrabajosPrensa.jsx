@@ -72,6 +72,7 @@ export default function TrabajosPrensa() {
                         <NavLink to={"/prensa/" + trabajo.id}>
                             <div className="p-2 d-flex flex-column justify-content-around ">
                                 <Image
+                                    className="border-card"
                                     src={trabajo.imagenMini}
                                     alt={trabajo.titulo}
                                     fluid

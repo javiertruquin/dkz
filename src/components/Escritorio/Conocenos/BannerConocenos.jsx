@@ -1,5 +1,4 @@
 import React from "react";
-import BotonContactanos from "../../BotonContactanos";
 
 export default function BannerConocenos() {
     return (
@@ -30,7 +29,6 @@ export default function BannerConocenos() {
                             Tenemos la capacidad de formular, crear, ejecutar y evaluar propuestas publicitarias dirigidas a consumidores activos. <br /> Nuestra imaginación nos lleva a lugares recónditos de nuestra mente, buscando explotar cada neurotransmisor para crear productos únicos e inigualables.
                         </p>
                     </div>
-                    <BotonContactanos />
                 </div>
             </div>
         </>

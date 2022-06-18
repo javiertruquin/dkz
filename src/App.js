@@ -44,14 +44,17 @@ function App() {
                     <Route path="/Conocenos" element={<Conocenos />} />
                     <Route path="/Servicios" element={<Servicios />} />
                     <Route path="/Prensa" element={<Prensa />} />
-                    <Route path="/Prensa/:id" element={<TrabajosPrensaDetalle />} />
-                    <Route path="/MindBlown" element={<MindBlown />} />
-                    <Route path="/MindBlown/:id" element={<TrabajosMindBlownDetalle />} />
-                    <Route path="/Contactanos" element={<Contactanos />} />
                     <Route
-                        path="/SocialMedia"
-                        element={<SocialMedia />}
+                        path="/Prensa/:id"
+                        element={<TrabajosPrensaDetalle />}
                     />
+                    <Route path="/MindBlown" element={<MindBlown />} />
+                    <Route
+                        path="/MindBlown/:id"
+                        element={<TrabajosMindBlownDetalle />}
+                    />
+                    <Route path="/Contactanos" element={<Contactanos />} />
+                    <Route path="/SocialMedia" element={<SocialMedia />} />
                     <Route
                         path="/SocialMedia/:id"
                         element={<TrabajosSocialMediaDetalle />}
@@ -70,7 +73,10 @@ function App() {
                     <Route path="/HappyEnding" element={<HappyEnding />} />
                     <Route path="/Consultoria" element={<Consultoria />} />
                     <Route path="/DisGrafico" element={<DiseñoGraf />} />
-                    <Route path="/DisGrafico/:id" element={<TrabajosDiseñoGraficoDetalle />} />
+                    <Route
+                        path="/DisGrafico/:id"
+                        element={<TrabajosDiseñoGraficoDetalle />}
+                    />
                     <Route path="*" element={<PaginaNoExiste />} />
                 </Routes>
                 <div className="color-azul-oscuro-fondo d-sm-none d-block">

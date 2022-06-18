@@ -55,7 +55,8 @@ export default function TrabajosDiseñoGrafico() {
                         <NavLink to={"/DisGrafico/" + trabajo.id}>
                             <div className="p-2 d-flex flex-column justify-content-between ">
                                 <img
-                                    src={trabajo.imagen1}
+                                    className="border-card"
+                                    src={trabajo.imagenMini}
                                     alt={trabajo.titulo}
                                 />
                             </div>
