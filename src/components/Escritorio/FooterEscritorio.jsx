@@ -3,7 +3,7 @@ import { Image } from "react-bootstrap";
 
 export default function FooterEscritorio() {
   return (
-    <div className="footer container">
+    <div className="footer container mt-auto">
       <div className="color-azul-oscuro-fondo color-violeta ">
         <div className="text-center">
           <a href="https://wa.link/051p9f" target="_blank" rel="noreferrer">
