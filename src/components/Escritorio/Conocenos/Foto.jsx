@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 import { FaLinkedin} from "react-icons/fa";
 
 export default function Foto({ data }) {
@@ -7,7 +8,7 @@ export default function Foto({ data }) {
     <div className="box my-2">
       <div className="caja">
         <div className="imgBx">
-          <img src={foto} alt="images" />
+        <Image src={foto} alt="images" fluid />
         </div>
         <div className="details ">
           <h2 className="tamaño-grande">
@@ -15,7 +16,7 @@ export default function Foto({ data }) {
             <br />
             <div className="tamaño-medio">
               <span >
-                {puesto} <a href={linkendin}>  <FaLinkedin /></a>
+                {puesto} <br/> <a href={linkendin}>  <FaLinkedin /></a>
               </span>
             </div>
           </h2>
