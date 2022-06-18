@@ -31,7 +31,7 @@ function useWindowDimensions() {
     return windowDimensions;
 }
 
-export default function VideoMindBlownEscritorio() {
+export default function VideoMindBlown() {
     const { width } = useWindowDimensions();
     const params = useParams();
     const [trabajos, setTrabajos] = useState({});
@@ -60,9 +60,15 @@ export default function VideoMindBlownEscritorio() {
         imagen3,
         imagen4,
         imagen5,
+        imagen6,
+        imagen7,
+        imagen8,
+        imagen9,
+        imagen10,
         video1,
+        video2,
     } = trabajos;
-    
+
     if (imagen5 !== "") {
         var cantcard = 5;
     } else if (imagen4 !== "") {
@@ -91,7 +97,7 @@ export default function VideoMindBlownEscritorio() {
             )}
             <Swiper
                 spaceBetween={10}
-                slidesPerView={width<=500 ? 1.5 : cantcard}
+                slidesPerView={width <= 500 ? 1.5 : cantcard}
                 className="my-5 "
             >
                 {imagen1 === "" ? (
@@ -99,7 +105,7 @@ export default function VideoMindBlownEscritorio() {
                 ) : (
                     <SwiperSlide>
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen1} alt={titulo} />
+                            <img src={imagen1} alt={titulo} className="border-card"/>
                         </div>
                     </SwiperSlide>
                 )}
@@ -108,7 +114,7 @@ export default function VideoMindBlownEscritorio() {
                 ) : (
                     <SwiperSlide>
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen2} alt={titulo} />
+                            <img src={imagen2} alt={titulo} className="border-card"/>
                         </div>
                     </SwiperSlide>
                 )}
@@ -117,7 +123,7 @@ export default function VideoMindBlownEscritorio() {
                 ) : (
                     <SwiperSlide>
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen3} alt={titulo} />
+                            <img src={imagen3} alt={titulo} className="border-card"/>
                         </div>
                     </SwiperSlide>
                 )}
@@ -126,7 +132,7 @@ export default function VideoMindBlownEscritorio() {
                 ) : (
                     <SwiperSlide>
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen4} alt={titulo} />
+                            <img src={imagen4} alt={titulo} className="border-card"/>
                         </div>
                     </SwiperSlide>
                 )}
@@ -135,11 +141,73 @@ export default function VideoMindBlownEscritorio() {
                 ) : (
                     <SwiperSlide>
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen5} alt={titulo} />
+                            <img src={imagen5} alt={titulo} className="border-card"/>
+                        </div>
+                    </SwiperSlide>
+                )}
+                {imagen6 === "" ? (
+                    ""
+                ) : (
+                    <SwiperSlide>
+                        <div className="p-2 d-flex flex-column justify-content-between ">
+                            <img src={imagen6} alt={titulo} className="border-card"/>
+                        </div>
+                    </SwiperSlide>
+                )}
+                {imagen7 === "" ? (
+                    ""
+                ) : (
+                    <SwiperSlide>
+                        <div className="p-2 d-flex flex-column justify-content-between ">
+                            <img src={imagen7} alt={titulo} className="border-card"/>
+                        </div>
+                    </SwiperSlide>
+                )}
+                {imagen8 === "" ? (
+                    ""
+                ) : (
+                    <SwiperSlide>
+                        <div className="p-2 d-flex flex-column justify-content-between ">
+                            <img src={imagen8} alt={titulo} className="border-card"/>
+                        </div>
+                    </SwiperSlide>
+                )}
+                {imagen9 === "" ? (
+                    ""
+                ) : (
+                    <SwiperSlide>
+                        <div className="p-2 d-flex flex-column justify-content-between ">
+                            <img src={imagen9} alt={titulo} className="border-card"/>
+                        </div>
+                    </SwiperSlide>
+                )}
+                {imagen10 === "" ? (
+                    ""
+                ) : (
+                    <SwiperSlide>
+                        <div className="p-2 d-flex flex-column justify-content-between ">
+                            <img src={imagen10} alt={titulo} className="border-card"/>
                         </div>
                     </SwiperSlide>
                 )}
             </Swiper>
+            {video2 === "" ? (
+                ""
+            ) : (
+                
+
+                <div className="mb-5 px-2">
+                    <p className="text-white tamaño-mas-grande my-5">Backstage</p>
+                    <ReactPlayer
+                        url={video2}
+                        playing={false}
+                        muted
+                        controls={true}
+                        width="100%"
+                        height="600px"
+                    />
+                </div>
+            )}
         </div>
     );
 }

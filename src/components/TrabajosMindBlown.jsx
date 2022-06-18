@@ -52,57 +52,54 @@ export default function TrabajosMindBlown() {
     };
     getTrabajos();
   }, []);
-
-  return (
-    <>
-      {loading ? (
-                <div className="my-5 text-white  d-flex justify-content-center my-5 p-5">
-                    <Spinner className="fs-1" animation="border" role="status" variant="light">
-                    </Spinner>
-                </div>
-            ) : (<div className={width <= 800 ? "my-5" : "my-5 container"}>
-        <Swiper
-          spaceBetween={10}
-          slidesPerView={width <= 800 ? 1.85 : 3}
-          className="margen-mb-trabajos"
-        >
-          {trabajos.slice(0, 3).map((trabajo) => (
-            <SwiperSlide>
-              <NavLink to={"/mindblown/" + trabajo.id}>
-                <div className="p-2 d-flex flex-column justify-content-between">
-                  <img src={trabajo.imagenMini} alt={trabajo.titulo} />
-                </div>
-              </NavLink>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 4}>
-          {trabajos.slice(3, 7).map((trabajo) => (
-            <SwiperSlide>
-              <NavLink to={"/mindblown/" + trabajo.id}>
-                <div className="p-2 d-flex flex-column justify-content-between ">
-                  <img src={trabajo.imagenMini} alt={trabajo.titulo} />
-                </div>
-              </NavLink>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        <Swiper
-          spaceBetween={10}
-          slidesPerView={width <= 800 ? 1.85 : 3}
-          className="margen-mb-trabajos"
-        >
-          {trabajos.slice(7, 10).map((trabajo) => (
-            <SwiperSlide>
-              <NavLink to={"/mindblown/" + trabajo.id}>
-                <div className="p-2 d-flex flex-column justify-content-between ">
-                  <img src={trabajo.imagenMini} alt={trabajo.titulo} />
-                </div>
-              </NavLink>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>)}
-    </>
-  );
+ 
+    return (
+        <div className={width <= 800 ? "my-5" : "my-5 container"}>
+            <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 3} className="margen-mb-trabajos">
+                {trabajos.slice(0, 3).map((trabajo) => (
+                    <SwiperSlide>
+                        <NavLink to={"/mindblown/" + trabajo.id}>
+                            <div className="p-2 d-flex flex-column justify-content-between border-card">
+                                <img
+                                    className="border-card"
+                                    src={trabajo.imagenMini}
+                                    alt={trabajo.titulo}
+                                />
+                            </div>
+                        </NavLink>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+            <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 4}>
+                {trabajos.slice(3, 7).map((trabajo) => (
+                    <SwiperSlide>
+                        <NavLink to={"/mindblown/" + trabajo.id}>
+                            <div className="p-2 d-flex flex-column justify-content-between ">
+                                <img
+                                    className="border-card"
+                                    src={trabajo.imagenMini}
+                                    alt={trabajo.titulo}
+                                />
+                            </div>
+                        </NavLink>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+            <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 3} className="margen-mb-trabajos">
+                {trabajos.slice(7, 10).map((trabajo) => (
+                    <SwiperSlide>
+                        <NavLink to={"/mindblown/" + trabajo.id}>
+                            <div className="p-2 d-flex flex-column justify-content-between border-card">
+                                <img
+                                    className="border-card"
+                                    src={trabajo.imagenMini}
+                                    alt= {trabajo.titulo}
+                                />
+                            </div>
+                        </NavLink>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+        </div>
+    );
 }
