@@ -27,12 +27,14 @@ export default function VideoPrensa() {
     const { titulo, descripcion, imagen1, imagen2, imagen3 } = trabajos;
     return (
         <div className="mt-5 padding-sitioconst container">
-            <p className="text-white tamaño-mas-grande">{titulo}</p>
+            <p className="text-white tamaño-grande">{titulo}</p>
             <br />
-            <p className="text-white tamaño-grande">{descripcion}</p>
+            <Image src={imagen1} alt="" fluid />
             <br />
-            <Image src={imagen1} alt=""  fluid/>
+            <p className="text-white tamaño-medio mt-4">{descripcion}</p>
             <br />
+            
+            
         </div>
     );
 }
