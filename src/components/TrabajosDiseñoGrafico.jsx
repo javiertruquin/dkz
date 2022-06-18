@@ -52,26 +52,39 @@ export default function TrabajosDiseñoGrafico() {
   }, []);
 
   return (
-    <div
-      className={
-        width <= 800 ? "mt-sm-5 mb-5 mt-2" : "mt-sm-5 mb-5 mt-2 container"
-      }
-    >
-      <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5}>
-        {trabajos.map((trabajo) => (
-          <SwiperSlide>
-            <NavLink to={"/DisGrafico/" + trabajo.id}>
-              <div className="p-2 d-flex flex-column justify-content-between ">
-                <img
-                  className="border-card"
-                  src={trabajo.imagenMini}
-                  alt={trabajo.titulo}
-                />
-              </div>
-            </NavLink>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+    <>
+      {loading ? (
+        <div className="my-5 text-white  d-flex justify-content-center my-5 p-5">
+          <Spinner
+            className="fs-1"
+            animation="border"
+            role="status"
+            variant="light"
+          ></Spinner>
+        </div>
+      ) : (
+        <div
+          className={
+            width <= 800 ? "mt-sm-5 mb-5 mt-2" : "mt-sm-5 mb-5 mt-2 container"
+          }
+        >
+          <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5}>
+            {trabajos.map((trabajo) => (
+              <SwiperSlide>
+                <NavLink to={"/DisGrafico/" + trabajo.id}>
+                  <div className="p-2 d-flex flex-column justify-content-between ">
+                    <img
+                      className="border-card"
+                      src={trabajo.imagenMini}
+                      alt={trabajo.titulo}
+                    />
+                  </div>
+                </NavLink>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      )}
+    </>
   );
 }
