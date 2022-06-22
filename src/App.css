@@ -521,6 +521,11 @@ body {
   padding-top: 120px;
 }
 
+/*Pagina no encontrada*/
+.padding-sitionoencontrado {
+  padding-top: 220px;
+}
+
 /*ICONOS CELULAR*/
 .iconos {
   width: 70px;
