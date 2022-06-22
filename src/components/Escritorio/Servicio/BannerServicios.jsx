@@ -1,6 +1,3 @@
-import React from "react";
-import BotonContactanos from "../../BotonContactanos";
-
 export default function BannerServicios() {
     return (
         <div>
@@ -27,7 +24,6 @@ export default function BannerServicios() {
                         En DKZ studio sabemos lo fundamental de Identificar estrategias, herramientas y nuevas tecnologías <br/>  para el diseño y ejecución de la publicidad de cada empresa.<br/>  Por esto resulta imprescindible realizar campañas de marketing digital exitosas
                         </p>
                     </div>
-                    <BotonContactanos />
                 </div>
             </div>
         </div>
