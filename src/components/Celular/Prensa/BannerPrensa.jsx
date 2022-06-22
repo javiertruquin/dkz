@@ -13,18 +13,14 @@ export default function BannerPrensa() {
                                 </h1>
                             </div>
                         </div>
-                        <div className="banner-pie d-flex justify-content-center">
+                        <div className="banner-pie-prensa d-flex justify-content-center">
                             <div className="text-white">
                                 <h1 className=" peso-bold-italic my-2">
                                     {" "}
-                                    Producciones audiovisuales integrales
+                                    Prensa
                                 </h1>
                                 <p className="peso-italic tamaño-medio px-2">
-                                    Spots publicitarios; cobertura de eventos y{" "}
-                                    <br />
-                                    registros sociales. Videos corporativos.{" "}
-                                    <br /> Infomerciales. Institucionales.
-                                    Books. <br /> Producciones especiales.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi laudantium rem facilis accusantium expedita explicabo quis quibusdam nostrum? At sint, iure amet temporibus dolores eaque voluptas dolor nam neque cumque?
                                 </p>
                             </div>
                         </div>

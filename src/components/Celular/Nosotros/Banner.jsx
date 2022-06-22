@@ -21,9 +21,16 @@ export default function Banner() {
                   Somos un equipo
                 </h1>
                 <p className="peso-italic tamaño-medio px-2 text-white text-center texto-sombra">
-                  Somos un equipo de Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  Somos un equipo de creativos, profesionales publicitarios,
+                  acordes a las demandas y las exigencias del cliente. 
+                  Explotamos en conjunto con la revolución digital de la nueva
+                  era. Somos artistas avocados a nuestra profesión, pasionales,
+                  entusiastas.
+                  Tenemos la capacidad de formular, crear, ejecutar y evaluar
+                  propuestas publicitarias dirigidas a consumidores activos.
+                  Nuestra imaginación nos lleva a lugares recónditos de
+                  nuestra mente, buscando explotar cada neurotransmisor para
+                  crear productos únicos e inigualables.
                 </p>
               </div>
             </div>

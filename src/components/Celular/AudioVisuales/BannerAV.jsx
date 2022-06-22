@@ -14,7 +14,7 @@ export default function BannerAV() {
                                 </h1>
                             </div>
                         </div>
-                        <div className="banner-pie d-flex justify-content-center">
+                        <div className="banner-pie-audiovisual d-flex justify-content-center">
                             <div className="text-white">
                                 <h1 className=" peso-bold-italic my-2">
                                     {" "}
