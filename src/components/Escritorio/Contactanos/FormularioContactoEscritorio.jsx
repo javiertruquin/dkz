@@ -48,11 +48,11 @@ export default function FormularioContactoEscritorio() {
     }
   };
 
-  const handleChange = (event) => {
-    const { value, name } = event.target;
-    const newInput = { ...input, [name]: value };
-    setInput(newInput);
-};
+//   const handleChange = (event) => {
+//     const { value, name } = event.target;
+//     const newInput = { ...input, [name]: value };
+//     setInput(newInput);
+// };
 
   return (
     <div className="container mt-5">
@@ -140,12 +140,12 @@ export default function FormularioContactoEscritorio() {
                     * Campo requerido
                   </span>
                 </Form.Group>
-                <Form.Select className="my-2" aria-label="Default select example" name="destino"   onChange={handleChange}>
+                {/* <Form.Select className="my-2" aria-label="Default select example" name="destino"   onChange={handleChange}>
                   <option>Seleccion el local</option>
                   <option value="martingramajo08@gmail.com">martingramajo08@gmail.com</option>
                   <option value="germaxrobles@gmail.com">germaxrobles@gmail.com</option>
                   <option value="javiertruquin@gmail.com">javiertruquin@gmail.com</option>
-                </Form.Select>
+                </Form.Select> */}
               </Row>
             </div>
           </div>
