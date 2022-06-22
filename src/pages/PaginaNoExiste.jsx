@@ -4,7 +4,7 @@ import PaginaError from "../components/Celular/NotFound/PaginaError";
 
 export default function PaginaNoExiste() {
     return (
-        <div >
+        <div className="d-flex flex-column" style={{ minHeight: "72vh" }}>
             <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
                 <PaginaError />
             </div>
