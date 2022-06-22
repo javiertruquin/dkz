@@ -4,7 +4,6 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Papa from "papaparse";
 import axios from "axios";
-import { FOCUSABLE_SELECTOR } from "@testing-library/user-event/dist/utils";
 import { Spinner } from "react-bootstrap";
 
 function getWindowDimensions() {
@@ -46,7 +45,7 @@ export default function HappyEndingCards() {
             const imagenes = Papa.parse(response.data, { header: true });
 
             setTrabajos(imagenes.data);
-            setLoading(FOCUSABLE_SELECTOR)
+            setLoading(false)
         };
         getTrabajos();
     }, []);
