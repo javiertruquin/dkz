@@ -17,7 +17,7 @@ export default function NavEscritorio() {
     return (
         <>
             <Navbar
-                className="position-absolute container d-flex justify-content-between pt-4 mt-3 navbar-escritorio"
+                className="position-absolute container d-flex justify-content-between pt-4 mt-3 navbar-escritorio "
                 fixed="top"
                 expand="lg"
                 variant="dark"
@@ -47,13 +47,6 @@ export default function NavEscritorio() {
                                 >
                                     Somos DKZ
                                 </Nav.Link>
-                                {/* <Nav.Link
-                                    className="text-white mx-xxl-3 mx-2"
-                                    as={Link}
-                                    to="/servicios"
-                                >
-                                    Servicios
-                                </Nav.Link> */}
                                 <NavDropdown
                                     className="mx-3 text-white tamaño-letra-opciones sin-sub"
                                     title="Servicios"

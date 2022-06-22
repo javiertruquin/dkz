@@ -6,6 +6,7 @@ import ReactPlayer from "react-player";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Modal from "react-bootstrap/Modal";
 
 function getWindowDimensions() {
     const { innerWidth: width } = window;
@@ -32,6 +33,8 @@ function useWindowDimensions() {
 }
 
 export default function VideoEventos() {
+    const [show, setShow] = useState(false);
+    const [image, setImage] = useState({});
     const { width } = useWindowDimensions();
     const params = useParams();
     const [trabajos, setTrabajos] = useState({});
@@ -103,7 +106,13 @@ export default function VideoEventos() {
                 {imagen1 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen1);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
                             <img
                                 src={imagen1}
@@ -116,7 +125,13 @@ export default function VideoEventos() {
                 {imagen2 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen2);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
                             <img
                                 src={imagen2}
@@ -129,7 +144,13 @@ export default function VideoEventos() {
                 {imagen3 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen3);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
                             <img
                                 src={imagen3}
@@ -142,7 +163,13 @@ export default function VideoEventos() {
                 {imagen4 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen4);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
                             <img
                                 src={imagen4}
@@ -155,7 +182,13 @@ export default function VideoEventos() {
                 {imagen5 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen5);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
                             <img
                                 src={imagen5}
@@ -168,7 +201,13 @@ export default function VideoEventos() {
                 {imagen6 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen6);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
                             <img
                                 src={imagen6}
@@ -181,7 +220,13 @@ export default function VideoEventos() {
                 {imagen7 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen7);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
                             <img
                                 src={imagen7}
@@ -194,7 +239,13 @@ export default function VideoEventos() {
                 {imagen8 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen8);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
                             <img
                                 src={imagen8}
@@ -207,7 +258,13 @@ export default function VideoEventos() {
                 {imagen9 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen9);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
                             <img
                                 src={imagen9}
@@ -220,7 +277,13 @@ export default function VideoEventos() {
                 {imagen10 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen10);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
                             <img
                                 src={imagen10}
@@ -231,6 +294,13 @@ export default function VideoEventos() {
                     </SwiperSlide>
                 )}
             </Swiper>
+            <Modal show={show} onHide={() => setShow(false)} size="xl" centered>
+                <Modal.Body>
+                    <div>
+                        <img src={image} alt={titulo} className="w-100" />
+                    </div>
+                </Modal.Body>
+            </Modal>
             {video2 === "" ? (
                 ""
             ) : (

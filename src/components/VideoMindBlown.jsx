@@ -6,6 +6,7 @@ import ReactPlayer from "react-player";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Modal from "react-bootstrap/Modal";
 
 function getWindowDimensions() {
     const { innerWidth: width } = window;
@@ -32,6 +33,8 @@ function useWindowDimensions() {
 }
 
 export default function VideoMindBlown() {
+    const [show, setShow] = useState(false);
+    const [image, setImage] = useState({});
     const { width } = useWindowDimensions();
     const params = useParams();
     const [trabajos, setTrabajos] = useState({});
@@ -103,101 +106,208 @@ export default function VideoMindBlown() {
                 {imagen1 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen1);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen1} alt={titulo} className="border-card"/>
+                            <img
+                                src={imagen1}
+                                alt={titulo}
+                                className="border-card"
+                            />
                         </div>
                     </SwiperSlide>
                 )}
                 {imagen2 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen2);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen2} alt={titulo} className="border-card"/>
+                            <img
+                                src={imagen2}
+                                alt={titulo}
+                                className="border-card"
+                            />
                         </div>
                     </SwiperSlide>
                 )}
                 {imagen3 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen3);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen3} alt={titulo} className="border-card"/>
+                            <img
+                                src={imagen3}
+                                alt={titulo}
+                                className="border-card"
+                            />
                         </div>
                     </SwiperSlide>
                 )}
                 {imagen4 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen4);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen4} alt={titulo} className="border-card"/>
+                            <img
+                                src={imagen4}
+                                alt={titulo}
+                                className="border-card"
+                            />
                         </div>
                     </SwiperSlide>
                 )}
                 {imagen5 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen5);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen5} alt={titulo} className="border-card"/>
+                            <img
+                                src={imagen5}
+                                alt={titulo}
+                                className="border-card"
+                            />
                         </div>
                     </SwiperSlide>
                 )}
                 {imagen6 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen6);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen6} alt={titulo} className="border-card"/>
+                            <img
+                                src={imagen6}
+                                alt={titulo}
+                                className="border-card"
+                            />
                         </div>
                     </SwiperSlide>
                 )}
                 {imagen7 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen7);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen7} alt={titulo} className="border-card"/>
+                            <img
+                                src={imagen7}
+                                alt={titulo}
+                                className="border-card"
+                            />
                         </div>
                     </SwiperSlide>
                 )}
                 {imagen8 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen8);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen8} alt={titulo} className="border-card"/>
+                            <img
+                                src={imagen8}
+                                alt={titulo}
+                                className="border-card"
+                            />
                         </div>
                     </SwiperSlide>
                 )}
                 {imagen9 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen9);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen9} alt={titulo} className="border-card"/>
+                            <img
+                                src={imagen9}
+                                alt={titulo}
+                                className="border-card"
+                            />
                         </div>
                     </SwiperSlide>
                 )}
                 {imagen10 === "" ? (
                     ""
                 ) : (
-                    <SwiperSlide>
+                    <SwiperSlide
+                        onClick={() => {
+                            setShow(true);
+                            setImage(imagen10);
+                        }}
+                        style={{ cursor: "pointer" }}
+                    >
                         <div className="p-2 d-flex flex-column justify-content-between ">
-                            <img src={imagen10} alt={titulo} className="border-card"/>
+                            <img
+                                src={imagen10}
+                                alt={titulo}
+                                className="border-card"
+                            />
                         </div>
                     </SwiperSlide>
                 )}
             </Swiper>
+            <Modal show={show} onHide={() => setShow(false)} size="xl" centered>
+                <Modal.Body>
+                    <div>
+                        <img src={image} alt={titulo} className="w-100" />
+                    </div>
+                </Modal.Body>
+            </Modal>
             {video2 === "" ? (
                 ""
             ) : (
-                
-
                 <div className="mb-5 px-2">
-                    <p className="text-white tamaño-mas-grande my-5">Backstage</p>
+                    <p className="text-white tamaño-mas-grande my-5">
+                        Backstage
+                    </p>
                     <ReactPlayer
                         url={video2}
                         playing={false}

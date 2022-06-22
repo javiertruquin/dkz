@@ -1,15 +1,13 @@
 import React from "react";
-import VideoDiseñoGrafico from "../components/Celular/DiseñoGrafico/VideoDiseñoGrafico";
-import VideoDiseñoGraficoEscritorio from "../components/Escritorio/DiseñoGrafico/VideoDiseñoGraficoEscritorio";
+import BotonContactanos from "../components/BotonContactanos";
+import VideoDiseñoGrafico from "../components/VideoDiseñoGrafico";
 
 export default function TrabajosDiseñoGraficoDetalle() {
     return (
         <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
-            <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
+            <div className="color-azul-oscuro-fondo fixed ">
                 <VideoDiseñoGrafico />
-            </div>
-            <div className=" color-azul-oscuro-fondo d-none d-sm-block">
-                <VideoDiseñoGraficoEscritorio />
+                <BotonContactanos />
             </div>
         </div>
     );

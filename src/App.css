@@ -153,6 +153,10 @@ body {
   margin-bottom: 2.25rem !important;
 }
 
+/* swiper mouse */ 
+/* .swiper-slide:hover{
+} */
+
 /* Navbar Celular */
 
 .navbar-toggler-icon {
@@ -486,6 +490,7 @@ body {
   font-size: 22px;
   background-color: #1e2048;
   border-radius: 45px;
+  border: 2px solid #292c5d!important;
 }
 
 @media (max-width: 1200px) {
@@ -555,6 +560,7 @@ body {
 
 .navbar-escritorio .dropdown-menu{
   background-color: #1e2048;
+  
 }
 
 .navbar-escritorio .dropdown-item{
