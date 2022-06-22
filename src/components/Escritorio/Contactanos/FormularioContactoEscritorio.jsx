@@ -6,6 +6,8 @@ import { useRef } from "react";
 
 export default function FormularioContactoEscritorio() {
   const [validated, setValidated] = useState(false);
+  const [input, setInput] = useState({});
+  console.log("file: FormularioContactoEscritorio.jsx ~ line 10 ~ FormularioContactoEscritorio ~ input", input)
   const form = useRef();
 
   /*funcion para mandar msj al gmail*/
@@ -46,6 +48,12 @@ export default function FormularioContactoEscritorio() {
     }
   };
 
+  const handleChange = (event) => {
+    const { value, name } = event.target;
+    const newInput = { ...input, [name]: value };
+    setInput(newInput);
+};
+
   return (
     <div className="container mt-5">
       <div className="padding-nav-contacto">
@@ -66,8 +74,6 @@ export default function FormularioContactoEscritorio() {
               <Row className="my-2">
                 <Form.Group
                   className="text-white"
-                  as={Col}
-                  md="6"
                   controlId="validationCustom03"
                 >
                   <Form.Label className=" text-white peso-italic tamaño-grande ">
@@ -83,26 +89,38 @@ export default function FormularioContactoEscritorio() {
                     Ingrese su nombre completo por favor.
                   </Form.Control.Feedback>
                 </Form.Group>
-                <Form.Group as={Col} md="6" controlId="validationCustom04">
-                  <Form.Label className=" text-white peso-italic tamaño-grande ms-5">
+                <Form.Group
+                  className="my-2"
+                  as={Col}
+                  md="6"
+                  controlId="validationCustom04"
+                >
+                  <Form.Label className=" text-white peso-italic tamaño-grande">
                     Whatsapp*
                   </Form.Label>
-                  <Form.Control
-                    className="ms-5"
-                    type="phone"
-                    required
-                    name="cel"
-                  />
-                  <Form.Control.Feedback type="invalid" className="ms-5">
+                  <Form.Control className="" type="phone" required name="cel" />
+                  <Form.Control.Feedback type="invalid" className="">
                     Ingrese su número de whatsapp completo por favor.
+                  </Form.Control.Feedback>
+                </Form.Group>
+                <Form.Group
+                  className="my-2"
+                  as={Col}
+                  md="6"
+                  controlId="validationCustom03"
+                >
+                  <Form.Label className="text-white peso-italic tamaño-grande">
+                    Email*
+                  </Form.Label>
+                  <Form.Control type="email" required name="email" />
+                  <Form.Control.Feedback type="invalid" className="ms-5">
+                    Ingrese su Email por favor.
                   </Form.Control.Feedback>
                 </Form.Group>
               </Row>
               <Row className="my-2">
                 <Form.Group
                   className="text-white"
-                  as={Col}
-                  md="6"
                   controlId="validationCustom03"
                 >
                   <Form.Label className=" text-white peso-italic tamaño-grande">
@@ -122,20 +140,12 @@ export default function FormularioContactoEscritorio() {
                     * Campo requerido
                   </span>
                 </Form.Group>
-                <Form.Group as={Col} md="6" controlId="validationCustom03">
-                  <Form.Label className=" text-white peso-italic tamaño-grande ms-5">
-                    Email*
-                  </Form.Label>
-                  <Form.Control
-                    className="ms-5"
-                    type="email"
-                    required
-                    name="email"
-                  />
-                  <Form.Control.Feedback type="invalid" className="ms-5">
-                    Ingrese su Email por favor.
-                  </Form.Control.Feedback>
-                </Form.Group>
+                <Form.Select className="my-2" aria-label="Default select example" name="destino"   onChange={handleChange}>
+                  <option>Seleccion el local</option>
+                  <option value="martingramajo08@gmail.com">martingramajo08@gmail.com</option>
+                  <option value="germaxrobles@gmail.com">germaxrobles@gmail.com</option>
+                  <option value="javiertruquin@gmail.com">javiertruquin@gmail.com</option>
+                </Form.Select>
               </Row>
             </div>
           </div>
