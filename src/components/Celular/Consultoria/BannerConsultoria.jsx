@@ -13,7 +13,7 @@ export default function BannerConsultoria() {
                 </h1>
               </div>
             </div>
-            <div className="banner-pie d-flex justify-content-center">
+            <div className="banner-pie-consultoria d-flex justify-content-center">
               <div className="text-white">
                 <p className="peso-italic tamaño-medio px-2">
                   Nos enfocamos en el requerimiento del cliente, brindando

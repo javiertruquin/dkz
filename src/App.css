@@ -609,7 +609,7 @@ color: #1e2048 ;
 /*Social media*/
 .banner-pie-social-media{
   position: absolute;
-    margin-top: 64vh;
+    margin-top: 56vh;
     min-width: 292px;
     min-height: 181px;
     text-align: center;
@@ -627,7 +627,7 @@ color: #1e2048 ;
     letter-spacing: -0.408px;
     color: #ffffff;
 }
-
+/*audiovisual*/
 .banner-pie-audiovisual {
   position: absolute;
   margin-top: 70vh;
@@ -641,7 +641,7 @@ color: #1e2048 ;
 /*Diseño grafico*/
 .banner-pie-dg{
   position: absolute;
-  margin-top: 60vh;
+  margin-top: 56vh;
   min-width: 292px;
   min-height: 181px;
   text-align: center;
@@ -652,7 +652,18 @@ color: #1e2048 ;
 /*Prensa*/
 .banner-pie-prensa{
   position: absolute;
-  margin-top: 70vh;
+  margin-top: 66vh;
+  min-width: 292px;
+  min-height: 181px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #ffffff;
+}
+
+/*consultoria*/
+.banner-pie-consultoria {
+  position: absolute;
+  margin-top: 66vh;
   min-width: 292px;
   min-height: 181px;
   text-align: center;
