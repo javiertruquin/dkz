@@ -3,7 +3,7 @@ export default function PaginaError() {
     return (
         <>
             <div className="padding-nav color-azul-oscuro-fondo">
-                <div className="padding-sitioconst">
+                <div className="padding-sitionoencontrado">
                     <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado  mb-0 titulo-producciones">
                         Parece que esta pagina no existe
                     </p>
