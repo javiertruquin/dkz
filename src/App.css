@@ -136,13 +136,13 @@ body {
 .color-verde-claro {
   color: #b1dd35;
 }
-/* .wrap-pre{
+.wrap-pre{
   white-space: pre-wrap;
-} */
+}
 
-/* pre {
+pre {
   overflow: hidden !important;
-} */
+}
 
 .mb-45 {
   margin-bottom: 2.25rem !important;

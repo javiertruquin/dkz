@@ -31,7 +31,7 @@ export default function VideoPrensa() {
             <br />
             <Image src={imagen1} alt="" fluid />
             <br />
-            <p className="text-white tamaño-medio mt-4">{descripcion}</p>
+            <pre className="text-white tamaño-medio peso-regular mt-4 wrap-pre">{descripcion}</pre>
             <br />
             
             
