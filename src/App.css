@@ -407,7 +407,7 @@ body {
 
 .card-home-conocenos {
   /* position: absolute; */
-  margin-top: 60vh;
+  margin-top: 50vh;
   min-width: 292px;
   min-height: 181px;
 }
@@ -587,6 +587,9 @@ color: #1e2048 ;
   color: #1e2048 ;
   }
 
+
+/*MARGENES BANNERS */
+
 /*Servicios*/
 .banner-pie-servicio-cel{
     position: absolute;
@@ -601,7 +604,7 @@ color: #1e2048 ;
 /*Social media*/
 .banner-pie-social-media{
   position: absolute;
-    margin-top: 60vh;
+    margin-top: 64vh;
     min-width: 292px;
     min-height: 181px;
     text-align: center;
@@ -612,12 +615,22 @@ color: #1e2048 ;
 /*Eventos*/
 .banner-pie-eventos {
   position: absolute;
-    margin-top: 60vh;
+    margin-top: 70vh;
     min-width: 292px;
     min-height: 181px;
     text-align: center;
     letter-spacing: -0.408px;
     color: #ffffff;
+}
+
+.banner-pie-audiovisual {
+  position: absolute;
+  margin-top: 70vh;
+  min-width: 292px;
+  min-height: 181px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #ffffff;
 }
 
 /*Diseño grafico*/
@@ -630,6 +643,18 @@ color: #1e2048 ;
   letter-spacing: -0.408px;
   color: #ffffff;
 }
+
+
+.banner-pie-prensa{
+  position: absolute;
+  margin-top: 70vh;
+  min-width: 292px;
+  min-height: 181px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #ffffff;
+}
+
 
 /* MindBlown */ 
 @media (min-width: 800px) {
