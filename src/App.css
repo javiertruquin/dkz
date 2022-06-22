@@ -405,12 +405,7 @@ body {
   color: #ffffff;
 }
 
-.card-home-conocenos {
-  /* position: absolute; */
-  margin-top: 50vh;
-  min-width: 292px;
-  min-height: 181px;
-}
+
 
 /* Contactanos */
 .form-contactanos .form-control {
@@ -589,6 +584,16 @@ color: #1e2048 ;
 
 
 /*MARGENES BANNERS */
+/*conocenos*/
+.card-home-conocenos {
+  /* position: absolute; */
+  margin-top: 48vh;
+  min-width: 292px;
+  min-height: 181px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #ffffff;
+}
 
 /*Servicios*/
 .banner-pie-servicio-cel{
@@ -644,7 +649,7 @@ color: #1e2048 ;
   color: #ffffff;
 }
 
-
+/*Prensa*/
 .banner-pie-prensa{
   position: absolute;
   margin-top: 70vh;
