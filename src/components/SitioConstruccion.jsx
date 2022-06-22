@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
+import { Image, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Tada from "react-reveal/Tada";
 
@@ -16,9 +16,10 @@ export default function SitioConstruccion() {
                     </p>
                 </div>
                 <div className=" text-center my-5">
-                    <img
+                    <Image
                         src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653345580/Utilidades/Frame_ddtrhh.png"
                         alt="sitio en construcción"
+                        fluid
                     />
                 </div>
                 <div className="d-flex justify-content-center">
