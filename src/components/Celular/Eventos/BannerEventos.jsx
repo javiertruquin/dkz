@@ -27,21 +27,21 @@ export default function BannerEventos() {
           </div>
         </div>
         <div>
-          <p className="peso-italic tamaño-medio text-white  espaciado texto-sombra">
+          <p className="peso-italic tamaño-medio text-white  espaciado texto-sombra  mx-3">
             Nuestro equipo se caracteriza por:
           </p>
-          <p className="peso-italic tamaño-medio text-white espaciado texto-sombra ">
-            -Capacidad de liderazgo, trabajo en equipo y planificación
+          <p className="peso-italic tamaño-medio text-white espaciado texto-sombra mx-3 ">
+            - Capacidad de liderazgo, trabajo en equipo y planificación
             <br /> - Visión del entorno y el contexto
             <br /> - Habilidades comunicacionales, empáticas y negociadoras
           </p>
-          <p className="peso-italic tamaño-medio text-white espaciado texto-sombra ">
+          <p className="peso-italic tamaño-medio text-white espaciado texto-sombra mx-3 ">
             Nuestros Eventos:
           </p>
-          <p className="peso-italic tamaño-medio text-white espaciado texto-sombra ">
-            -Eventos empresariales, Eventos sociales, Conciertos y espectáculos
-            <br /> -Lanzamientos de marcas, productos o servicios
-            <br /> -Feria y exhibiciones
+          <p className="peso-italic tamaño-medio text-white espaciado texto-sombra  mx-3">
+            - Eventos empresariales, Eventos sociales, Conciertos y espectáculos
+            <br /> - Lanzamientos de marcas, productos o servicios
+            <br /> - Feria y exhibiciones
           </p>
         </div>
       </div>
