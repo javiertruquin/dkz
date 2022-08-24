@@ -72,12 +72,26 @@ export default function TrabajosEventos() {
             {trabajos.map((trabajo) => (
               <SwiperSlide>
                 <NavLink to={"/eventos/" + trabajo.id}>
-                  <div className="p-2 d-flex flex-column justify-content-between ">
+                  {/* <div className="p-2 d-flex flex-column justify-content-between ">
                     <img
                       className="border-card"
                       src={trabajo.imagenMini}
                       alt={trabajo.titulo}
                     />
+                  </div> */}
+                  <div className="box-service my-2 py-5 d-flex flex-column justify-content-between">
+                    <div className="caja-service">
+                      <div className="imgBx-service">
+                        <img
+                          className="border-card"
+                          src={trabajo.imagenMini}
+                          alt={trabajo.titulo}
+                        />
+                      </div>
+                      <div className="details-service">
+                        <h2 className="tamaño-grande">{trabajo.titulo}</h2>
+                      </div>
+                    </div>
                   </div>
                 </NavLink>
               </SwiperSlide>

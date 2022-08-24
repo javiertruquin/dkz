@@ -4,7 +4,7 @@ export default function BannerConsultaria() {
       <div className="color-azul-oscuro-fondo">
         <img
           className="banner-escritorio"
-          src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653692828/Home/banner-escritorio_fndswh.png"
+          src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661375568/consultoria/bannerconsultoria_1_oltcth.jpg"
           alt="Banner-escritorio"
         />
         <div className="banner-posi-consultoria-escritorio">

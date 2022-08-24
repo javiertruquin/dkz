@@ -5,7 +5,7 @@ export default function BannerDG() {
     <div className="color-azul-oscuro-fondo">
       <img
         className="banner-escritorio"
-        src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653692828/Home/banner-escritorio_fndswh.png"
+        src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661375243/bannerdg_1_z0yo5f.jpg"
         alt="Banner-escritorio"
       />
       <div className="banner-posi-marketing-contenido-escritorio">

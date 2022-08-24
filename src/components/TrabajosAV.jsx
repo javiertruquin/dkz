@@ -64,21 +64,35 @@ export default function TrabajosAV() {
         </div>
       ) : (
         <div className={width <= 800 ? "mb-5" : "mb-5 container"}>
-            <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5}>
-                {trabajos.map((trabajo) => (
-                    <SwiperSlide>
-                        <NavLink to={"/audiovisual/" + trabajo.id}>
-                            <div className="p-2 d-flex flex-column justify-content-between ">
+          <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5}>
+            {trabajos.map((trabajo) => (
+              <SwiperSlide>
+                <NavLink to={"/audiovisual/" + trabajo.id}>
+                  {/* <div className="p-2 d-flex flex-column justify-content-between ">
                                 <img
                                     className="border-card"
                                     src={trabajo.imagenMini}
                                     alt={trabajo.titulo}
                                 />
-                            </div>
-                        </NavLink>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+                            </div> */}
+                  <div className="box-service my-2 py-5 d-flex flex-column justify-content-between">
+                    <div className="caja-service">
+                      <div className="imgBx-service">
+                        <img
+                          className="border-card"
+                          src={trabajo.imagenMini}
+                          alt={trabajo.titulo}
+                        />
+                      </div>
+                      <div className="details-service">
+                        <h2 className="tamaño-grande">{trabajo.titulo}</h2>
+                      </div>
+                    </div>
+                  </div>
+                </NavLink>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       )}
     </>

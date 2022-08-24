@@ -72,12 +72,27 @@ export default function TrabajosDiseñoGrafico() {
             {trabajos.map((trabajo) => (
               <SwiperSlide>
                 <NavLink to={"/DisGrafico/" + trabajo.id}>
-                  <div className="p-2 d-flex flex-column justify-content-between ">
+                  {/* <div className="p-2 d-flex flex-column justify-content-between ">
                     <img
                       className="border-card"
                       src={trabajo.imagenMini}
                       alt={trabajo.titulo}
                     />
+                  </div> */}
+
+                  <div className="box-service  py-5 d-flex flex-column justify-content-around">
+                    <div className="caja-service">
+                      <div className="imgBx-service">
+                        <img
+                          className="border-card"
+                          src={trabajo.imagenMini}
+                          alt={trabajo.titulo}
+                        />
+                      </div>
+                      <div className="details-service">
+                        <h2 className="tamaño-grande">{trabajo.titulo}</h2>
+                      </div>
+                    </div>
                   </div>
                 </NavLink>
               </SwiperSlide>

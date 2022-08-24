@@ -1,12 +1,14 @@
 import "./socialmedia.css";
+import { Image } from "react-bootstrap";
 
 export default function BannerSocialM() {
   return (
     <div className="color-azul-oscuro-fondo">
-      <img
+      <Image
         className="banner-escritorio"
-        src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653692828/Home/banner-escritorio_fndswh.png"
+        src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661372557/bannersocialmedia-min_tagwq2.jpg"
         alt="Banner-escritorio"
+        fluid
       />
       <div className="banner-posi-marketing-escritorio">
         <div className="d-lg-none d-block">
