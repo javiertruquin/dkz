@@ -136,13 +136,13 @@ body {
 .color-verde-claro {
   color: #b1dd35;
 }
-/* .wrap-pre{
+.wrap-pre{
   white-space: pre-wrap;
-} */
+}
 
-/* pre {
+pre {
   overflow: hidden !important;
-} */
+}
 
 .mb-45 {
   margin-bottom: 2.25rem !important;
@@ -153,9 +153,22 @@ body {
   margin-bottom: 2.25rem !important;
 }
 
-/* swiper mouse */ 
-/* .swiper-slide:hover{
-} */
+.swiper-button-next {
+  right: -5px !important;
+  color: #b0dd34 !important;
+}
+.swiper-button-next:after {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}
+.swiper-button-prev {
+  left: -5px !important;
+  color: #b0dd34 !important;
+}
+.swiper-button-prev:after {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}
 
 /* Navbar Celular */
 

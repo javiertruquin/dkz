@@ -5,8 +5,10 @@ import { useParams } from "react-router";
 import ReactPlayer from "react-player";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Modal from "react-bootstrap/Modal";
+import { Navigation } from "swiper";
 
 function getWindowDimensions() {
     const { innerWidth: width } = window;
@@ -99,6 +101,8 @@ export default function VideoDiseñoGrafico() {
                 </div>
             )}
             <Swiper
+                navigation={imagen6 !== "" ? true : false}
+                modules={[Navigation]}
                 spaceBetween={10}
                 slidesPerView={width <= 500 ? 1.5 : cantcard}
                 className="my-5 "
