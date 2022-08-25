@@ -1,7 +1,31 @@
-.banner-posi-marketing-contenido-escritorio{
-    margin-top: -160px;  
+.banner-posi-dg-escritorio{
+    margin-top: -320px;  
   }
+
+  @media (max-width: 1024px) {
+    .banner-posi-dg-escritorio{
+      margin-top: -260px;  
+    }
+}
+
+@media (max-width: 768px) {
+  .banner-posi-dg-escritorio{
+    margin-top: -210px;  
+  }
+}
   
   .posi-dg-escritorio{
-    margin-top: 110px;
+    margin-top: 160px;
   }
+
+  @media (max-width: 1024px) {
+    .posi-dg-escritorio{
+      margin-top: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+  .posi-dg-escritorio{
+    margin-top: 60px;
+  }
+}

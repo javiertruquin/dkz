@@ -1,29 +1,31 @@
 import "./diseñografico.css";
+import { Image } from "react-bootstrap";
 
 export default function BannerDG() {
   return (
     <div className="color-azul-oscuro-fondo">
-      <img
+      <Image
         className="banner-escritorio"
-        src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661375243/bannerdg_1_z0yo5f.jpg"
+        src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383014/banners/bannerdg_qtegv2.jpg"
         alt="Banner-escritorio"
+        fluid
       />
-      <div className="banner-posi-marketing-contenido-escritorio">
+      <div className="banner-posi-dg-escritorio">
         <div className="d-lg-none d-block">
           <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
             DISEÑO GRAFICO
           </p>
-          <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
+          <p className="tamaño-medio peso-italic text-white text-center espaciado texto-sombra">
             Tenemos una creencia, un concepto: podemos ser eróticos
-            conceptualmente, sin la necesidad de ser pornos. <br /> Por eso nos
+            conceptualmente, sin la necesidad de ser pornos. Por eso nos
             arriesgamos, implementando desafíos en cada pieza que ejecutamos,
             siendo disruptivos y marcando tendencia en el mercado.
-            <br /> ¿Cómo lo hacemos? De acuerdo a cada proyecto, montamos
-            unidades operativas de trabajo, <br /> agregando profesionales de
+            ¿Cómo lo hacemos? De acuerdo a cada proyecto, montamos
+            unidades operativas de trabajo, agregando profesionales de
             DKZ con amplia trayectoria en nivel ejecutivo y creativo.
           </p>
           <div className="d-flex justify-content-center posi-dg-escritorio">
-            <p className="tamaño-medio  peso-italic text-white espaciado texto-sombra">
+            <p className="tamaño-medio  peso-italic text-white espaciado texto-sombra px-5">
             <span className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">Nuestros diferentes servicios de diseño son:</span>
               <br />
               -Masivos: carteles, infografía, flyers, simbología y señalética,
@@ -40,16 +42,16 @@ export default function BannerDG() {
           <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
             DISEÑO GRAFICO
           </p>
-          <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
+          <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra px-5">
             Tenemos una creencia, un concepto: podemos ser eróticos
-            conceptualmente, sin la necesidad de ser pornos. <br /> Por eso nos
+            conceptualmente, sin la necesidad de ser pornos. Por eso nos
             arriesgamos, implementando desafíos en cada pieza que ejecutamos,
             siendo disruptivos y marcando tendencia en el mercado.
-            <br /> ¿Cómo lo hacemos? De acuerdo a cada proyecto, montamos
-            unidades operativas de trabajo, <br /> agregando profesionales de
+            ¿Cómo lo hacemos? De acuerdo a cada proyecto, montamos
+            unidades operativas de trabajo, agregando profesionales de
             DKZ con amplia trayectoria en nivel ejecutivo y creativo.
           </p>
-          <div className="d-flex justify-content-center posi-dg-escritorio">
+          <div className="d-flex justify-content-center posi-dg-escritorio px-5">
             <p className="tamaño-grande peso-italic text-white espaciado texto-sombra">
               <span className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">Nuestros diferentes servicios de diseño son:</span>
               <br />
