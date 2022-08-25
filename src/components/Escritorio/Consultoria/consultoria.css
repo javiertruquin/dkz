@@ -1,3 +1,15 @@
 .banner-posi-consultoria-escritorio{
     margin-top: -500px;
   }
+
+  @media (max-width: 1024px) {
+    .banner-posi-consultoria-escritorio{
+      margin-top: -190px;
+    }
+}
+
+@media (max-width: 768px) {
+  .banner-posi-consultoria-escritorio{
+    margin-top: 40px;
+  }
+}
