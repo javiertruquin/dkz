@@ -16,8 +16,8 @@ export default function ImagenFrase() {
                 <div className="text-white d-flex justify-content-center ms-xxl-5 mx-auto me-auto my-auto">
                     <div className="d-flex justify-content-center">
                         <div className="efecto-blur-card ">
-                            <div className="m-4">
-                                <p className="peso-italic text-white text-center tamaño-grande mb-0">
+                            <div className="m-4" >
+                                <p className="peso-italic text-white text-center tamaño-grande mb-0" >
                                     “Aquellos que están lo suficientemente{" "}
                                     <br />
                                     locos para creer que pueden cambiar <br />

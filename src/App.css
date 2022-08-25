@@ -128,7 +128,6 @@ body {
   border-radius: 10px;
 }
 
-
 .color-verde {
   color: #b0dd34;
 }
@@ -136,7 +135,7 @@ body {
 .color-verde-claro {
   color: #b1dd35;
 }
-.wrap-pre{
+.wrap-pre {
   white-space: pre-wrap;
 }
 
@@ -419,8 +418,6 @@ pre {
   color: #ffffff;
 }
 
-
-
 /* Contactanos */
 .form-contactanos .form-control {
   height: 51px;
@@ -499,7 +496,7 @@ pre {
   font-size: 22px;
   background-color: #1e2048;
   border-radius: 45px;
-  border: 2px solid #292c5d!important;
+  border: 2px solid #292c5d !important;
 }
 
 @media (max-width: 1200px) {
@@ -542,11 +539,11 @@ pre {
 }
 
 /*Navbar hover*/
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
   display: block !important;
 }
 
-.dropdown .dropdown-menu{
+.dropdown .dropdown-menu {
   display: none;
   margin-top: 0;
 }
@@ -554,7 +551,7 @@ pre {
 .dropdown-menu[data-bs-popper] {
   top: 100%;
   left: 0;
-  margin-top:-5px !important;
+  margin-top: -5px !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -572,30 +569,28 @@ pre {
   border-left: 0 solid transparent !important;
 }
 
-.navbar-escritorio .dropdown-menu{
+.navbar-escritorio .dropdown-menu {
   background-color: #1e2048;
-  
 }
 
-.navbar-escritorio .dropdown-item{
+.navbar-escritorio .dropdown-item {
   color: white;
 }
 
-.navbar-escritorio .dropdown-item:hover{
+.navbar-escritorio .dropdown-item:hover {
   background-color: #383b75;
   color: white;
 }
 
 .navbar-escritorio .dropdown-item:active {
-background-color: #b0dd34;
-color: #1e2048 ;
+  background-color: #b0dd34;
+  color: #1e2048;
 }
 
 .navbar-escritorio .dropdown-item:focus {
   background-color: #b0dd34;
-  color: #1e2048 ;
-  }
-
+  color: #1e2048;
+}
 
 /*MARGENES BANNERS */
 /*conocenos*/
@@ -610,36 +605,36 @@ color: #1e2048 ;
 }
 
 /*Servicios*/
-.banner-pie-servicio-cel{
-    position: absolute;
-    margin-top: 60vh;
-    min-width: 292px;
-    min-height: 181px;
-    text-align: center;
-    letter-spacing: -0.408px;
-    color: #ffffff;
+.banner-pie-servicio-cel {
+  position: absolute;
+  margin-top: 60vh;
+  min-width: 292px;
+  min-height: 181px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #ffffff;
 }
 
 /*Social media*/
-.banner-pie-social-media{
+.banner-pie-social-media {
   position: absolute;
-    margin-top: 56vh;
-    min-width: 292px;
-    min-height: 181px;
-    text-align: center;
-    letter-spacing: -0.408px;
-    color: #ffffff;
+  margin-top: 56vh;
+  min-width: 292px;
+  min-height: 181px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #ffffff;
 }
 
 /*Eventos*/
 .banner-pie-eventos {
   position: absolute;
-    margin-top: 70vh;
-    min-width: 292px;
-    min-height: 181px;
-    text-align: center;
-    letter-spacing: -0.408px;
-    color: #ffffff;
+  margin-top: 70vh;
+  min-width: 292px;
+  min-height: 181px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #ffffff;
 }
 /*audiovisual*/
 .banner-pie-audiovisual {
@@ -653,7 +648,7 @@ color: #1e2048 ;
 }
 
 /*Diseño grafico*/
-.banner-pie-dg{
+.banner-pie-dg {
   position: absolute;
   margin-top: 56vh;
   min-width: 292px;
@@ -664,7 +659,7 @@ color: #1e2048 ;
 }
 
 /*Prensa*/
-.banner-pie-prensa{
+.banner-pie-prensa {
   position: absolute;
   margin-top: 66vh;
   min-width: 292px;
@@ -685,80 +680,82 @@ color: #1e2048 ;
   color: #ffffff;
 }
 
-
-/* MindBlown */ 
+/* MindBlown */
 @media (min-width: 800px) {
-  .margen-mb-trabajos{
+  .margen-mb-trabajos {
     margin: 0 12.6% !important;
   }
 }
 
-  /*card-conocenos*/
-  .box-service {
-    width: 260px;
-    grid-gap: 15px;
-    margin: auto;
-  }
-  .caja-service {
-    position: relative;
-    width: 250px;
-    height: 250px;
-    background: #fff;
-    margin: 0 auto;
-    border-radius: 4px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  }
-  .caja-service:before,
-  .caja-service:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
-    background: #fff;
-    transition: 0.5s;
-    z-index: -1;
-  }
-  .caja-service:hover:before {
-    transform: rotate(20deg);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-  }
-  .caja-service:hover:after {
-    transform: rotate(10deg);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-  }
-  .caja-service .imgBx-service {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    bottom: 10px;
-    right: 10px;
-    background: #222;
-    transition: 0.5s;
-    z-index: 1;
-  }
-  
-  .caja-service:hover .imgBx-service {
-    bottom: 80px;
-  }
-  
-  .caja-service .imgBx-service img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .caja-service .details-service {
-    position: absolute;
-    color: #1e2048; 
-    left: 10px;
-    right: 10px;
-    bottom: -10px;
-    height: 68px;
-    text-align: center;
-  }
+/*card-conocenos*/
+.box-service {
+  width: 260px;
+  grid-gap: 15px;
+  margin: auto;
+}
+.caja-service {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.caja-service:before,
+.caja-service:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: #fff;
+  transition: 0.5s;
+  z-index: -1;
+}
+.caja-service:hover:before {
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+.caja-service:hover:after {
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+.caja-service .imgBx-service {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #222;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.caja-service:hover .imgBx-service {
+  bottom: 80px;
+}
+
+.caja-service .imgBx-service img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caja-service .details-service {
+  position: absolute;
+  color: #1e2048;
+  left: 10px;
+  right: 10px;
+  bottom: -10px;
+  height: 68px;
+  text-align: center;
+}
+
+
+
