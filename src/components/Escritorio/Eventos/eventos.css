@@ -1,10 +1,27 @@
 .banner-posi-eventos-escritorio{
-    margin-top: -250px;
+    margin-top: -290px;
+  }
+
+  @media (max-width: 1024px) {
+    .banner-posi-eventos-escritorio{
+      margin-top: -190px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .banner-posi-eventos-escritorio{
+      margin-top: -160px;
+    }
   }
 
   .posi-eventos-escritorio{
     margin-top: 110px;
   }
 
+  @media (max-width: 1024px) {
+    .posi-eventos-escritorio{
+      margin-top: 20px;
+    }
+  }
 
   
