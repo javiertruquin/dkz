@@ -1,6 +1,22 @@
-.banner-posi-marketing-escritorio{
-    margin-top: -180px;  /*el margen es de 260 porque tiene 4 lineas de párrafos a diferencia de los otros*/
+.banner-posi-social-escritorio{
+    margin-top: -290px;  /*el margen es de 260 porque tiene 4 lineas de párrafos a diferencia de los otros*/
   }
+
+  @media (max-width: 1024px) {
+    .banner-posi-social-escritorio{
+      margin-top: -280px;  /*el margen es de 260 porque tiene 4 lineas de párrafos a diferencia de los otros*/
+    }
+  }
+
+  @media (max-width: 768px) {
+    .banner-posi-social-escritorio{
+      margin-top: -220px;  /*el margen es de 260 porque tiene 4 lineas de párrafos a diferencia de los otros*/
+    }
+  }
+
+
+
+
 .banner-escritorio-social-media{
   width: 100%;
   }
