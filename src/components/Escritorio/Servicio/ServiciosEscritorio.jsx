@@ -7,7 +7,10 @@ export default function ServiciosEscritorio() {
     return (
         <div className="color-azul-oscuro-fondo">
             <BannerServicios />
+            <div className="pt-5">
             <CartasEscritorio />
+            </div>
+     
             <BotonContactanos />
         </div>
     );

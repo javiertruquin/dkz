@@ -1,3 +1,15 @@
 .banner-posi-servicio-escritorio{
-    margin-top: -140px;
+    margin-top: -290px;
+  }
+
+  @media (max-width: 1024px) {
+    .banner-posi-servicio-escritorio{
+      margin-top: -220px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .banner-posi-servicio-escritorio{
+      margin-top: -160px;
+    }
   }
