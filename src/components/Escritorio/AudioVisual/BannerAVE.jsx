@@ -7,11 +7,11 @@ export default function BannerAVE() {
       <div className="color-azul-oscuro-fondo">
         <Image
           className="banner-escritorio"
-          src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661374858/audiovisual/bannerav_ijf7n2.jpg"
+          src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383015/banners/bannerav_vwaqvy.jpg"
           alt="Banner-AV-escritorio"
           fluid
         />
-        <div className="banner-posi-escritorio">
+        <div className="banner-posi-av-escritorio">
           <div className="d-lg-none d-block">
             <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra mb-0">
               PRODUCCIONES AUDIOVISUALES INTEGRALES

@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 
 export default function AVContenido() {
     return (
-        <div className="my-5">
+        <div className="my-5 pt-5">
             <div className="color-azul-oscuro-fondo">
                 <div className="container text-white">
                     <div className="d-flex justify-content-center">

@@ -9,7 +9,10 @@ export default function AudioVisualEscritorio() {
     return (
         <div>
             <BannerAVE />
+            <div className="pt-5">
             <AVContenido />
+            </div>
+         
             <AVContenido2 />
             <TrabajosAV />
             <BotonContactanos />
