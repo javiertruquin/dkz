@@ -1,13 +1,14 @@
-import React from "react";
+import { Image } from "react-bootstrap";
 
 export default function BannerConocenos() {
     return (
         <>
             <div className="color-azul-oscuro-fondo">
-                <img
+                <Image
                     className="banner-escritorio"
                     src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653705291/conocenos/Group_54_4_jfmc3t.png"
                     alt="Banner-escritorio"
+                    fluid
                 />
                 <div className="banner-posi-escritorio mb-4 banner-conocenos">
                     <div className="d-lg-none d-block mb-5">
@@ -24,7 +25,7 @@ export default function BannerConocenos() {
                             +20 PROFESIONALES A TU DISPOSICIÓN <br />
                             Un gran equipo
                         </p>
-                        <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
+                        <p className="tamaño-medio peso-italic text-white text-center espaciado texto-sombra">
                             Somos un equipo de creativos, profesionales publicitarios, acordes a las demandas y las exigencias del cliente. <br /> Explotamos en conjunto con la revolución digital de la nueva era. Somos artistas avocados a nuestra profesión, pasionales, entusiastas.<br /> 
                             Tenemos la capacidad de formular, crear, ejecutar y evaluar propuestas publicitarias dirigidas a consumidores activos. <br /> Nuestra imaginación nos lleva a lugares recónditos de nuestra mente, buscando explotar cada neurotransmisor para crear productos únicos e inigualables.
                         </p>
