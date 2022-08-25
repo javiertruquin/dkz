@@ -1,17 +1,17 @@
-import React from "react";
-// import BannerSitiosW from "../components/Celular/SitiosWeb/BannerSitiosW";
-// import SitiosWebsEscritorio from "../components/Escritorio/SitiosWebs/SitiosWebsEscritorio";
-import SitioConstruccion from "../components/SitioConstruccion";
 
+import BannerSitiosWeb from "../components/Escritorio/SitiosWebs/BannerSitiosWeb";
+import ContenidoSitioWebs from "../components/Escritorio/SitiosWebs/ContenidoSitioWebs";
 
 export default function SitiosWeb() {
     return (
         <div>
             <div className="color-azul-oscuro-fondo  d-sm-none d-block">
-                <SitioConstruccion />
+                <BannerSitiosWeb />
+                <ContenidoSitioWebs />
             </div>
             <div className="color-azul-oscuro-fondo d-none d-sm-block">
-                <SitioConstruccion />
+                <BannerSitiosWeb />
+                <ContenidoSitioWebs />
             </div>
         </div>
     );
