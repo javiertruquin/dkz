@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
+// import required modules
+import { Navigation } from "swiper";
 import Papa from "papaparse";
 import axios from "axios";
 import { NavLink } from "react-router-dom";
@@ -74,7 +76,8 @@ export default function TrabajosPrensa() {
             width <= 800 ? "mt-sm-5 mb-5 mt-2 " : "mt-sm-5 mb-5 mt-2 container"
           }
         >
-          <Swiper
+            <Swiper
+              navigation={true} modules={[Navigation]}
             spaceBetween={10}
             slidesPerView={width <= 800 ? 1.85 : cantcard}
             className={cantcard <= 3 ? "margen-mb-trabajos" : ""}

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
+// import required modules
+import { Navigation } from "swiper";
 import Papa from "papaparse";
 import axios from "axios";
 import { NavLink } from "react-router-dom";
@@ -64,7 +66,7 @@ export default function TrabajosAV() {
         </div>
       ) : (
         <div className={width <= 800 ? "mb-5" : "mb-5 container"}>
-          <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5}>
+            <Swiper navigation={true} modules={[Navigation]} spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5}>
             {trabajos.map((trabajo) => (
               <SwiperSlide>
                 <NavLink to={"/audiovisual/" + trabajo.id}>
