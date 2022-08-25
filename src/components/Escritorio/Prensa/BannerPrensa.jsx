@@ -6,7 +6,7 @@ export default function BannerPrensa() {
       <div className="color-azul-oscuro-fondo">
         <Image
           className="banner-escritorio"
-          src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661374642/Prensa/bannerprensa-min_eefvjy.jpg"
+          src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383018/banners/bannerprensa_g4c57j.jpg"
           alt="Banner-escritorio"
           fluid
         />
