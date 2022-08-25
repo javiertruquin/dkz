@@ -1,14 +1,15 @@
-import React from "react";
+import { Image } from "react-bootstrap";
 import BotonContactanos from "../../BotonContactanos";
 
 export default function BannerEscritorio() {
     return (
         <>
             <div className="color-azul-oscuro-fondo">
-                <img
+                <Image
                     className="banner-escritorio"
-                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653692828/Home/banner-escritorio_fndswh.png"
+                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383018/banners/bannerhome_tsemde.jpg"
                     alt="Banner-escritorio"
+                    fluid
                 />
                 <div className="banner-posi-escritorio">
                     <div className="d-lg-none d-block">

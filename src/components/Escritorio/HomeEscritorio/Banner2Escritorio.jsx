@@ -4,7 +4,7 @@ import BotonConocenos from "../../BotonConocenos";
 export default function Banner2Escritorio() {
     return (
         <>
-            <div className="color-azul-oscuro-fondo d-flex flex-lg-row flex-column align-items-center justify-content-center container mt-4">
+            <div className="color-azul-oscuro-fondo pt-5 d-flex flex-lg-row flex-column align-items-center justify-content-center container mt-4">
                 <div className="caja-somosenergia mt-5 mb-lg-0 mb-5">
                     <div className="text-center boton-morado-escritorio mb-45">
                         <p className="text-white tamaño-mas-grande peso-bold-italic mas-espaciado texto-sombra mb-0">

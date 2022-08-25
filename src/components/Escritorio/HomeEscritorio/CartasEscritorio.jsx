@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function CartasEscritorio() {
   return (
-    <div className="color-azul-oscuro-fondo mb-5 pt-2">
+    <div className="color-azul-oscuro-fondo mb-5 pt-5">
       <div>
         <div className="container">
           <p className=" text-center my-4 tamaño-mas-grande mas-espaciado mt-5">
