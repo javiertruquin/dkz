@@ -27,6 +27,7 @@ import TrabajosSocialMediaDetalle from "./pages/TrabajosSocialMediaDetalle";
 import TrabajosDiseñoGraficoDetalle from "./pages/TrabajosDiseñoGraficoDetalle";
 import TrabajosMindBlownDetalle from "./pages/TrabajosMindBlownDetalle";
 import HappyEnding from "./pages/HappyEnding";
+import Wsp from "./components/Escritorio/Wsp";
 
 function App() {
     return (
@@ -35,9 +36,11 @@ function App() {
                 <ScrollToTop />
                 <div className="d-none d-lg-block">
                     <NavEscritorio />
+                    <Wsp />
                 </div>
                 <div className="d-lg-none d-block">
                     <NavbarReact />
+                    <Wsp />
                 </div>
                 <Routes>
                     <Route path="/" element={<Home />} />
