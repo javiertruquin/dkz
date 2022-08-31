@@ -757,5 +757,38 @@ pre {
   text-align: center;
 }
 
+/*frase*/
+
+.area{
+  text-align:center;
+  color:rgb(3, 3, 3);
+  text-transform:uppercase;
+  animation:blur .90s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px rgb(97, 26, 241);
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #7637DE,
+      0px 0px 10px #7637DE, 
+      0px 0px 25px #7637DE,
+      0px 0px 25px #7637DE,
+      0px 0px 25px #7637DE,
+      0px 0px 25px #7637DE,
+      0px 0px 25px #7637DE,
+      0px 0px 25px #7637DE,
+      0px 0px 50px #7637DE,
+      0px 0px 50px #7637DE,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+
 
 
