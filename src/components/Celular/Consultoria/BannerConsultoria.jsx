@@ -4,7 +4,7 @@ export default function BannerConsultoria() {
   return (
     <>
       <div className="pb-4 color-azul-oscuro-fondo">
-        <div className="fondo-banner">
+        <div className="fondo-banner-consultoria-cel">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
@@ -13,8 +13,9 @@ export default function BannerConsultoria() {
                 </h1>
               </div>
             </div>
-            <div className="banner-pie-consultoria d-flex justify-content-center">
+            <div className="banner-pie-consultoria d-flex justify-content-center rounded-3 color-violeta-fondo-banner-pie px-1">
               <div className="text-white">
+              <h1 className=" peso-bold-italic my-2"> Consultoría</h1>
                 <p className="peso-italic tamaño-medio px-2">
                   Nos enfocamos en el requerimiento del cliente, brindando
                   soluciones alternativas y eficaces,que ayuden a consolidar el

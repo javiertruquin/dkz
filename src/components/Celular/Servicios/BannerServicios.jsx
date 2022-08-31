@@ -2,7 +2,7 @@ export default function BannerServicios() {
   return (
     <>
       <div className="pb-4 color-azul-oscuro-fondo">
-        <div className="fondo-banner">
+        <div className="fondo-banner-servicios-cel">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
@@ -11,7 +11,7 @@ export default function BannerServicios() {
                 </h1>
               </div>
             </div>
-            <div className="banner-pie-servicio-cel d-flex justify-content-center">
+            <div className="banner-pie-servicio-cel d-flex justify-content-center color-violeta-fondo-banner-pie px-1 rounded-3">
               <div className="text-white">
                 <h1 className=" peso-bold-italic my-2"> Servicios</h1>
                 <p className="peso-italic tamaño-medio px-2">

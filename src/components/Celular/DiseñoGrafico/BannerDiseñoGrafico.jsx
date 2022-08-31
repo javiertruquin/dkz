@@ -4,7 +4,7 @@ export default function BannerDiseñoGrafico() {
   return (
     <>
       <div className="pb-4 color-azul-oscuro-fondo">
-        <div className="fondo-banner">
+        <div className="fondo-banner-dg-cel">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
@@ -13,7 +13,7 @@ export default function BannerDiseñoGrafico() {
                 </h1>
               </div>
             </div>
-            <div className="banner-pie-dg d-flex justify-content-center">
+            <div className="banner-pie-dg d-flex justify-content-center px-1 rounded-3 color-violeta-fondo-banner-pie">
               <div className="text-white">
                 <h1 className=" peso-bold-italic my-2"> DISEÑO GRÁFICO</h1>
                 <p className="peso-italic tamaño-medio px-2">

@@ -4,7 +4,7 @@ export default function BannerEventos() {
   return (
     <>
       <div className="color-azul-oscuro-fondo">
-        <div className="fondo-banner">
+        <div className="fondo-banner-eventos-cel">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
@@ -13,8 +13,8 @@ export default function BannerEventos() {
                 </h1>
               </div>
             </div>
-            <div className="banner-pie-eventos d-flex justify-content-center">
-              <div className="text-white">
+            <div className="banner-pie-eventos d-flex justify-content-center px-1">
+              <div className="text-white color-violeta-fondo-banner-pie rounded-3 ">
                 <h1 className=" peso-bold-italic my-2"> Eventos</h1>
                 <p className="peso-italic tamaño-medio px-2 mb-0">
                   Ponemos a tu disposición un equipo de profesionales los cuales

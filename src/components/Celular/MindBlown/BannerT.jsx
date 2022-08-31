@@ -13,7 +13,7 @@ export default function componentName() {
                                 </p>
                             </div>
                         </div>
-                        <div className="banner-pie d-flex justify-content-center ">
+                        <div className="banner-pie d-flex justify-content-center">
                             <div className="text-white peso-bold-italic tamaño-grande">
                                 <p> Chequea algunos de <br />
                                 nuestros trabajos</p>

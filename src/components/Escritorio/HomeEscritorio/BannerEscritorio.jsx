@@ -7,7 +7,7 @@ export default function BannerEscritorio() {
             <div className="color-azul-oscuro-fondo">
                 <Image
                     className="banner-escritorio"
-                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661390148/banners/bannnersitioweb_lga5ja.jpg"
+                    src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383015/banners/bannersocialmedia_gcqdlo.jpg"
                     alt="Banner-escritorio"
                     fluid
                 />

@@ -4,7 +4,7 @@ export default function BannerPrensa() {
     return (
         <>
             <div className="pb-4 color-azul-oscuro-fondo">
-                <div className="fondo-banner">
+                <div className="fondo-banner-prensa-cel">
                     <div className="card-position">
                         <div className="titulo-audiovisual d-flex flex-column justify-content-center">
                             <div className="my-5 mx-3">
@@ -13,8 +13,8 @@ export default function BannerPrensa() {
                                 </h1>
                             </div>
                         </div>
-                        <div className="banner-pie-prensa d-flex justify-content-center">
-                            <div className="text-white">
+                        <div className="banner-pie-prensa d-flex justify-content-center rounded-3 color-violeta-fondo-banner-pie px-1">
+                            <div className="text-white ">
                                 <h1 className=" peso-bold-italic my-2">
                                     {" "}
                                     Prensa
