@@ -194,7 +194,7 @@ pre {
 
 
 .fondo-banner {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661965266/banner%20celu/bannersocialmediacel_uhm21c.jpg);
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383015/banners/bannersocialmedia_gcqdlo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -267,11 +267,17 @@ pre {
 
 .banner-escritorio {
   width: 100%;
-  height: 51vw;
 }
 
-.banner-posi-escritorio {
-  margin-top: -240px;
+/* .banner-posi-escritorio {
+  margin-top: -160px;
+} */
+
+.centrado{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .card-home {
