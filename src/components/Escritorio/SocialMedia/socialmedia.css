@@ -1,5 +1,5 @@
 .banner-posi-social-escritorio{
-    margin-top: -290px;  /*el margen es de 260 porque tiene 4 lineas de párrafos a diferencia de los otros*/
+    margin-top: -340px;  /*el margen es de 260 porque tiene 4 lineas de párrafos a diferencia de los otros*/
   }
 
   @media (max-width: 1024px) {

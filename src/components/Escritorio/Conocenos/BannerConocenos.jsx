@@ -10,9 +10,9 @@ export default function BannerConocenos() {
           alt="Banner-escritorio"
           fluid
         />
-        <div className="banner-posi-escritorio mb-4 banner-conocenos">
+        <div className="banner-posi-escritorio mb-4 banner-conocenos container">
           <div className="d-lg-none d-block mb-5">
-            <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+            <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra ">
               +20 PROFESIONALES A TU DISPOSICIÓN <br />
               Un gran equipo
             </p>

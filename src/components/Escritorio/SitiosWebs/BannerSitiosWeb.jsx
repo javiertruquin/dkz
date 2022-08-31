@@ -10,7 +10,7 @@ export default function BannerSitiosWeb() {
                     alt="Banner-escritorio"
                     fluid
                 />
-                <div className="banner-posi-sitio-escritorio">
+                <div className="banner-posi-sitio-escritorio container">
                     <div className="d-lg-none d-block">
                         <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra ">
                         SITIOS WEBS

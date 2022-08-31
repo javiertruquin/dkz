@@ -10,8 +10,8 @@ export default function BannerDG() {
         alt="Banner-escritorio"
         fluid
       />
-      <div className="banner-posi-dg-escritorio">
-        <div className="d-lg-none d-block">
+      <div className="banner-posi-dg-escritorio container">
+        <div className="d-lg-none d-block ">
           <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
             DISEÑO GRAFICO
           </p>
