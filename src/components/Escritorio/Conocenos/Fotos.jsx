@@ -90,7 +90,7 @@ const miembros = [
 
 export default function Fotos() {
   return (
-    <div className="container my-5">
+    <div className="container pt-5 my-5">
       <div className="d-flex flex-wrap justify-content-center">
         {miembros.map((miembro, id) => (
           <Foto key={id} uerta data={miembro} />

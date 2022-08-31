@@ -16,11 +16,16 @@ export default function BannerConocenos() {
               +20 PROFESIONALES A TU DISPOSICIÓN <br />
               Un gran equipo
             </p>
-            <p className="tamaño-medio peso-italic text-white text-center espaciado texto-sombra ">
+            <p className="tamaño-medio peso-italic text-white text-center espaciado texto-sombra px-5 ">
               Somos un equipo de creativos, profesionales publicitarios, acordes
               a las demandas y las exigencias del cliente. Explotamos en
               conjunto con la revolución digital de la nueva era. Somos artistas
               avocados a nuestra profesión, pasionales, entusiastas.
+               Tenemos la capacidad de formular, crear, ejecutar y evaluar
+              propuestas publicitarias dirigidas a consumidores activos.
+              Nuestra imaginación nos lleva a lugares recónditos de nuestra
+              mente, buscando explotar cada neurotransmisor para crear productos
+              únicos e inigualables.
             </p>
           </div>
           <div className="d-none d-lg-block mb-5">
@@ -28,14 +33,13 @@ export default function BannerConocenos() {
               +20 PROFESIONALES A TU DISPOSICIÓN <br />
               Un gran equipo
             </p>
-            <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
+            <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra mx-5">
               Somos un equipo de creativos, profesionales publicitarios, acordes
-              a las demandas y las exigencias del cliente. <br /> Explotamos en
+              a las demandas y las exigencias del cliente. Explotamos en
               conjunto con la revolución digital de la nueva era. Somos artistas
               avocados a nuestra profesión, pasionales, entusiastas.
-              <br />
               Tenemos la capacidad de formular, crear, ejecutar y evaluar
-              propuestas publicitarias dirigidas a consumidores activos. <br />{" "}
+              propuestas publicitarias dirigidas a consumidores activos.
               Nuestra imaginación nos lleva a lugares recónditos de nuestra
               mente, buscando explotar cada neurotransmisor para crear productos
               únicos e inigualables.

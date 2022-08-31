@@ -81,7 +81,7 @@ export default function TrabajosSocialMedia() {
                       alt={trabajo.titulo}
                     />
                   </div> */}
-                    <div className="box-service  py-5 d-flex flex-column justify-content-around">
+                    <div className="box-service py-5 d-flex flex-column justify-content-around">
                     <div className="caja-service">
                       <div className="imgBx-service">
                         <img

@@ -764,8 +764,7 @@ pre {
 
 /*card-conocenos*/
 .box-service {
-  width: 260px;
-  grid-gap: 15px;
+  width: 150px;
   margin: auto;
 }
 .caja-service {
@@ -776,6 +775,30 @@ pre {
   margin: 0 auto;
   border-radius: 4px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1024px) {
+  .caja-service {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (min-width: 768px) {
+  .caja-service {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
 }
 .caja-service:before,
 .caja-service:after {
@@ -790,14 +813,7 @@ pre {
   transition: 0.5s;
   z-index: -1;
 }
-.caja-service:hover:before {
-  transform: rotate(20deg);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-}
-.caja-service:hover:after {
-  transform: rotate(10deg);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-}
+
 .caja-service .imgBx-service {
   position: absolute;
   top: 10px;
