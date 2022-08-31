@@ -758,37 +758,18 @@ pre {
 }
 
 /*frase*/
-
-.area{
-  text-align:center;
-  color:rgb(3, 3, 3);
-  text-transform:uppercase;
-  animation:blur .75s ease-out infinite;
-  text-shadow:0px 0px 5px #fff,
-      0px 0px 7px rgb(97, 26, 241);
+.heading {
+  text-shadow: 4px 4px 0px #3F7FBF;
+  mix-blend-mode: screen;
+  animation: fadeIn 2.5s linear forwards;
 }
 
-@keyframes blur{
-  from{
-      text-shadow:0px 0px 10px rgb(131, 7, 233),
-      0px 0px 10px rgb(131, 7, 233), 
-      0px 0px 25px rgb(131, 7, 233),
-      0px 0px 25px rgb(131, 7, 233),
-      0px 0px 25px rgb(131, 7, 233),
-      0px 0px 25px rgb(131, 7, 233),
-      0px 0px 25px rgb(131, 7, 233),
-      0px 0px 25px rgb(131, 7, 233),
-      0px 0px 50px rgb(131, 7, 233),
-      0px 0px 50px rgb(131, 7, 233),
-      0px 0px 50px #7B96B8,
-      0px 0px 150px #7B96B8,
-      0px 10px 100px #7B96B8,
-      0px 10px 100px #7B96B8,
-      0px 10px 100px #7B96B8,
-      0px 10px 100px #7B96B8,
-      0px -10px 100px #7B96B8,
-      0px -10px 100px #7B96B8;}
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
-
-
-

@@ -6,7 +6,7 @@ export default function Frase() {
             <div className="d-flex justify-content-center">
                 <div className="efecto-blur-card mt-5 mx-2">
                     <div className="m-3">
-                        <p className="peso-italic text-white text-center tamaño-medio">
+                        <p className="peso-italic text-white text-center tamaño-medio heading">
                             “Aquellos que están lo suficientemente <br />
                             locos para creer que pueden cambiar <br />
                             el mundo son quienes lo cambian”
