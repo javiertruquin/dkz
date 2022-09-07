@@ -864,3 +864,12 @@ pre {
         opacity: 1;
     }
 }
+
+.titulos-impacto{
+  background: #7637de;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+}

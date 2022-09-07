@@ -8,15 +8,14 @@ export default function BannerConsultoria() {
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
-                <h1 className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado pt-5 mt-5 titulo-producciones">
+                <h1 className="titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center espaciado pt-5 mt-5 titulo-producciones">
                   CONSULTORÍA
                 </h1>
               </div>
             </div>
             <div className="banner-pie-consultoria d-flex justify-content-center rounded-3 color-violeta-fondo-banner-pie px-1">
               <div className="text-white">
-              <h1 className=" peso-bold-italic my-2"> Consultoría</h1>
-                <p className="peso-italic tamaño-medio px-2">
+                <p className="peso-italic tamaño-medio px-2 py-5">
                   Nos enfocamos en el requerimiento del cliente, brindando
                   soluciones alternativas y eficaces,que ayuden a consolidar el
                   esquema de trabajo y los objetivos internos de una compañía.
@@ -25,7 +24,7 @@ export default function BannerConsultoria() {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center mt-5">
           <ul className="peso-italic  text-white">
             <li>Consultoría y asesoramiento estratégico</li>
             <li>Consultoría y asesoramiento en marketing y comercialización</li>

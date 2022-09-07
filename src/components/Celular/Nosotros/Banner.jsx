@@ -8,7 +8,7 @@ export default function Banner() {
           <div className="card-position d-flex justify-content-center align-items-end">
             <div className=" titulo-conocenos d-flex flex-column justify-content-center ">
               <div className="my-5 mx-4">
-                <h1 className="tamaño-mas-grande peso-bold-italic text-white text-center mas-espaciado">
+                <h1 className="titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center mas-espaciado">
                   +20 PROFESIONALES A TU DISPOSICIÓN
                   <br />
                 </h1>
@@ -16,7 +16,7 @@ export default function Banner() {
             </div>
             <div className="card-home-conocenos color-violeta-fondo-banner-pie rounder-3 px-1">
               <div className="my-4 mx-3">
-                <h1 className="peso-bold-italic text-white tamaño grande text-center">
+                <h1 className="titulos-impacto peso-bold-italic text-white tamaño grande text-center">
                   {" "}
                   Somos un equipo
                 </h1>

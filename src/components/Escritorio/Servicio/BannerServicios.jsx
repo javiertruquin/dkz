@@ -11,7 +11,7 @@ export default function BannerServicios() {
                     alt="Banner-escritorio"
                     fluid
                 />
-                <div className="banner-posi-servicio-escritorio ">
+                <div className="banner-posi-servicio-escritorio">
                     <div className="d-lg-none d-block">
                         <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                             NUESTROS SERVICIOS

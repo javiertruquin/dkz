@@ -28,8 +28,8 @@ export default function BannerConocenos() {
               únicos e inigualables.
             </p>
           </div>
-          <div className="d-none d-lg-block mb-5">
-            <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+          <div className="d-none d-lg-block mb-5 ">
+            <p className=" tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
               +20 PROFESIONALES A TU DISPOSICIÓN <br />
               Un gran equipo
             </p>

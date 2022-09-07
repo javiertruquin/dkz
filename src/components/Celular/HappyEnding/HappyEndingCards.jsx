@@ -51,12 +51,12 @@ export default function HappyEndingCards() {
     }, []);
 
     return (
-        <div>
-            <div className="text-white text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none mt-5 padding-nav">
-                <p>Happy ending</p>
+        <div className="padding-nav">
+            <div className="titulos-impacto text-white text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none mt-5">
+                <p className="mt-2">HAPPY ENDING</p>
             </div>
-            <div className="text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none mt-5 padding-nav">
-                <p>Happy ending</p>
+            <div className="titulos-impacto text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none mt-5 ">
+                <p className="mt-2">HAPPY ENDING</p>
             </div>
 
             {loading ? (

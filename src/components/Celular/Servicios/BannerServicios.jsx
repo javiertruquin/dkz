@@ -6,15 +6,14 @@ export default function BannerServicios() {
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
-                <h1 className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado pt-5 mt-5 titulo-producciones">
+                <h1 className="titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center espaciado  mt-5 titulo-producciones">
                   SERVICIOS
                 </h1>
               </div>
             </div>
             <div className="banner-pie-servicio-cel d-flex justify-content-center color-violeta-fondo-banner-pie px-1 rounded-3">
               <div className="text-white">
-                <h1 className=" peso-bold-italic my-2"> Servicios</h1>
-                <p className="peso-italic tamaño-medio px-2">
+                <p className="peso-italic tamaño-medio px-2 py-4">
                   En DKZ sabemos lo fundamental que es identificar estrategias,
                   herramientas y nuevas tecnologías para el diseño y ejecución
                   de diferentes piezas y proyectos publicitarios, cualquiera sea
