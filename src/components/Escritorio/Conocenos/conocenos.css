@@ -1,5 +1,5 @@
 .banner-conocenos {
-    margin-top: -260px;
+    margin-top: -290px;
 }
 
 /*card-conocenos*/
@@ -70,3 +70,14 @@
     height: 68px;
     text-align: center;
 }
+
+.titulos-impacto-escritorio{
+    position: relative;
+    width: 500px;
+    background: #7637de;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+  }

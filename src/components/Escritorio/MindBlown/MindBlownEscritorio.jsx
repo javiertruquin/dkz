@@ -3,6 +3,7 @@ import BotonContactanos from "../../BotonContactanos";
 import Clientes from "../../Clientes";
 import TrabajosMindBlown from "../../TrabajosMindBlown";
 import BannerMB from "./BannerMB";
+import "./mb.css";
 
 export default function MindBlownEscritorio() {
     return (

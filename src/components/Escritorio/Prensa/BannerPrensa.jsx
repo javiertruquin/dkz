@@ -12,14 +12,18 @@ export default function BannerPrensa() {
         />
         <div className="banner-posi-prensa-escritorio">
           <div className="d-lg-none d-block">
-            <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-              PRENSA
-            </p>
+            <div className="d-flex justify-content-center">
+              <p className="titulos-impacto-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+                PRENSA
+              </p>
+            </div>
           </div>
           <div className="d-none d-lg-block">
-            <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-              PRENSA
-            </p>
+            <div className="d-flex justify-content-center">
+              <p className="titulos-impacto-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+                PRENSA
+              </p>
+            </div>
           </div>
         </div>
       </div>

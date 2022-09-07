@@ -12,9 +12,11 @@ export default function BannerEventos() {
         />
         <div className="banner-posi-eventos-escritorio">
           <div className="d-lg-none d-block">
-            <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-              EVENTOS DKZ
-            </p>
+            <div className="d-flex justify-content-center">
+              <p className="titulos-impacto-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+                EVENTOS DKZ
+              </p>
+            </div>
             <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
               Ponemos a tu disposición un equipo de profesionales los cuales son
               capaces
@@ -24,9 +26,11 @@ export default function BannerEventos() {
             </p>
           </div>
           <div className="d-none d-lg-block">
-            <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-              EVENTOS DKZ
-            </p>
+            <div className="d-flex justify-content-center">
+              <p className=" titulos-impacto-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+                EVENTOS DKZ
+              </p>
+            </div>
             <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
               Ponemos a tu disposición un equipo de profesionales los cuales son
               capaces

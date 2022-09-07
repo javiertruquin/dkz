@@ -13,9 +13,11 @@ export default function BannerAVE() {
         />
         <div className="banner-posi-av-escritorio">
           <div className="d-lg-none d-block">
-            <p className="tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra mb-0">
-              PRODUCCIONES AUDIOVISUALES INTEGRALES
-            </p>
+            <div className="d-flex justify-content-center">
+              <p className="titulos-impacto-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra mb-0">
+                PRODUCCIONES AUDIOVISUALES
+              </p>
+            </div>
             <p className="tamaño-medio peso-italic text-white text-center espaciado texto-sombra">
               Spots publicitarios; cobertura de eventos y registros sociales.
               <br /> Videos corporativos. Infomerciales. Institucionales. Books.{" "}
@@ -23,9 +25,11 @@ export default function BannerAVE() {
             </p>
           </div>
           <div className="d-none d-lg-block">
-            <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra mb-0">
-              PRODUCCIONES AUDIOVISUALES INTEGRALES
-            </p>
+            <div className="d-flex justify-content-center">
+              <p className="titulos-impacto-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra mb-0">
+                PRODUCCIONES AUDIOVISUALES
+              </p>
+            </div>
             <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
               Spots publicitarios; cobertura de eventos y registros sociales.
               <br /> Videos corporativos. Infomerciales. Institucionales. Books.{" "}
