@@ -45,7 +45,7 @@ export default function BannerEventos() {
                     Nuestro equipo se caracteriza:
                   </p>
                   <p className="tamaño-grande peso-italic text-white  d-flex justify-content-center espaciado texto-sombra">
-                    -Capacidad de liderazgo, trabajo en equipo y planificación
+                    - Capacidad de liderazgo, trabajo en equipo y planificación
                     <br /> - Visión del entorno y el contexto
                     <br /> - Habilidades comunicacionales, empáticas y
                     negociadoras
@@ -56,7 +56,7 @@ export default function BannerEventos() {
                     Nuestros Eventos:
                   </p>
                   <p className="tamaño-grande peso-italic text-white  d-flex justify-content-center espaciado texto-sombra">
-                    -Eventos empresariales, Eventos sociales,
+                    -Eventos empresariales, Eventos sociales
                     <br /> -Conciertos y espectáculos
                     <br /> -Lanzamientos de marcas, productos o servicios
                     <br /> -Feria y exhibiciones

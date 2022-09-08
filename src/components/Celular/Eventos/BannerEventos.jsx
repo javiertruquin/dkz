@@ -38,7 +38,8 @@ export default function BannerEventos() {
             Nuestros Eventos:
           </p>
           <p className="peso-italic tamaño-medio text-white espaciado texto-sombra  mx-3">
-            - Eventos empresariales, Eventos sociales, Conciertos y espectáculos
+            - Eventos empresariales, Eventos sociales 
+            <br /> - Conciertos y espectáculos
             <br /> - Lanzamientos de marcas, productos o servicios
             <br /> - Feria y exhibiciones
           </p>

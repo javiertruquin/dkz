@@ -85,7 +85,7 @@ export default function TrabajosSocialMedia() {
                     <div className="caja-service">
                       <div className="imgBx-service">
                         <img
-                          className="border-card"
+                          className=""
                           src={trabajo.imagenMini}
                           alt={trabajo.titulo}
                         />

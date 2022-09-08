@@ -33,7 +33,7 @@ function useWindowDimensions() {
   return windowDimensions;
 }
 
-export default function TrabajosEventos() {
+export default function TrabajosSitiosWeb() {
   const [loading, setLoading] = useState(false);
   const { width } = useWindowDimensions();
   const [trabajos, setTrabajos] = useState([]);
@@ -42,7 +42,7 @@ export default function TrabajosEventos() {
     setLoading(true);
     const getTrabajos = async () => {
       const response = await axios.get(
-        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQWLAKe7hfvcqVVAdHT81qbaUQn_d9ghEPU8i2jJl1Ud9aNcB5OVrP__Rr-0LW3oXGQA_A1QC0phs8h/pub?gid=1632136573&single=true&output=csv"
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQWLAKe7hfvcqVVAdHT81qbaUQn_d9ghEPU8i2jJl1Ud9aNcB5OVrP__Rr-0LW3oXGQA_A1QC0phs8h/pub?gid=361671608&single=true&output=csv"
       );
 
       const imagenes = Papa.parse(response.data, { header: true });
@@ -70,10 +70,10 @@ export default function TrabajosEventos() {
             width <= 800 ? "mt-sm-5 mb-5 mt-2" : "mt-sm-5 mb-5 mt-2 container"
           }
         >
-          <Swiper navigation={true} modules={[Navigation]} spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5} scrollbar={true}>
+          <Swiper navigation={true} modules={[Navigation]} spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5}>
             {trabajos.map((trabajo) => (
               <SwiperSlide>
-                <NavLink to={"/eventos/" + trabajo.id}>
+                <NavLink to={"/sitiosWeb/" + trabajo.id}>
                   {/* <div className="p-2 d-flex flex-column justify-content-between ">
                     <img
                       className="border-card"

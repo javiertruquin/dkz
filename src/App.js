@@ -28,6 +28,7 @@ import TrabajosDiseñoGraficoDetalle from "./pages/TrabajosDiseñoGraficoDetalle
 import TrabajosMindBlownDetalle from "./pages/TrabajosMindBlownDetalle";
 import HappyEnding from "./pages/HappyEnding";
 import Wsp from "./components/Escritorio/Wsp";
+import TrabajosSitiosWebDetalle from "./pages/TrabajosSitiosWebDetalle";
 
 function App() {
     return (
@@ -73,6 +74,10 @@ function App() {
                         element={<TrabajosAVDetalle />}
                     />
                     <Route path="/SitiosWeb" element={<SitiosWeb />} />
+                    <Route
+                        path="/SitiosWeb/:id"
+                        element={<TrabajosSitiosWebDetalle />}
+                    />
                     <Route path="/HappyEnding" element={<HappyEnding />} />
                     <Route path="/Consultoria" element={<Consultoria />} />
                     <Route path="/DisGrafico" element={<DiseñoGraf />} />
