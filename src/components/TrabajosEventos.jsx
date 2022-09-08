@@ -70,7 +70,7 @@ export default function TrabajosEventos() {
             width <= 800 ? "mt-sm-5 mb-5 mt-2" : "mt-sm-5 mb-5 mt-2 container"
           }
         >
-          <Swiper navigation={true} modules={[Navigation]} spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5} scrollbar={true}>
+          <Swiper navigation={true} modules={[Navigation]} spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5} >
             {trabajos.map((trabajo) => (
               <SwiperSlide>
                 <NavLink to={"/eventos/" + trabajo.id}>
@@ -81,7 +81,7 @@ export default function TrabajosEventos() {
                       alt={trabajo.titulo}
                     />
                   </div> */}
-                  <div className="box-service my-2 py-5 d-flex flex-column justify-content-between">
+                  <div className="my-2 py-5 d-flex flex-column justify-content-between">
                     <div className="caja-service">
                       <div className="imgBx-service">
                         <img

@@ -4,7 +4,7 @@ export default function Frase() {
     return (
         <div className="color-azul-oscuro-fondo mx-auto">
             <div className="d-flex justify-content-center">
-                <div className="efecto-blur-card mt-5 mx-2">
+                <div className="efecto-blur-card mt-5 mx-2 heading">
                     <div className="m-3">
                         <p className="peso-italic text-white text-center tamaño-medio ">
                             “Aquellos que están lo suficientemente <br />

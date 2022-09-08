@@ -77,7 +77,7 @@ export default function TrabajosAV() {
                                     alt={trabajo.titulo}
                                 />
                             </div> */}
-                  <div className="box-service my-2 py-5 d-flex flex-column justify-content-between">
+                  <div className="my-2 py-5 d-flex flex-column justify-content-between">
                     <div className="caja-service">
                       <div className="imgBx-service">
                         <img
