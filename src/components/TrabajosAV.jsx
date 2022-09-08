@@ -66,7 +66,7 @@ export default function TrabajosAV() {
         </div>
       ) : (
         <div className={width <= 800 ? "mb-5" : "mb-5 container"}>
-            <Swiper navigation={true} modules={[Navigation]} spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 5}>
+            <Swiper navigation={true} modules={[Navigation]} spaceBetween={10} slidesPerView={width <= 425 ? 1.4 : width <= 768 ? 3 : width <= 1024 ? 4 : 5 }>
             {trabajos.map((trabajo) => (
               <SwiperSlide>
                 <NavLink to={"/audiovisual/" + trabajo.id}>

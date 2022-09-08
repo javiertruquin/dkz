@@ -848,84 +848,29 @@ pre {
 
 /*frase*/
 
-@media (min-width: 769px) {
-  .heading {
-    box-shadow: 0 0 10px #7637de;
-    /* mix-blend-mode: screen; */
-    animation: fadeIn2 2.5s infinite;
-  }
-
-  @keyframes fadeIn2 {
-      0% {
-          /* opacity: 0.5; */
-          box-shadow: 0 0 10px #7637de;
-
-      }
-
-      50% {
-          /* opacity: 1; */
-          box-shadow: 0px 0px 0px #7637de;
-
-      }
-
-      100% {
-        /* opacity: 0.5; */
-        box-shadow: 0 0 10px  #7637de;
-
-    }
-  }
+.heading {
+  box-shadow: 0 0 10px #7637de;
+  /* mix-blend-mode: screen; */
+  animation: fadeIn 2s infinite;
 }
 
-@media (max-width: 768px) and (min-width:426px) {
-  .heading {
-    text-shadow: 4px 4px 0px #7637de;
-    /* mix-blend-mode: screen; */
-    animation: fadeIn 2.5s infinite;
-  }
-
-  @keyframes fadeIn {
-      0% {
-          /* opacity: 0.5; */
-          text-shadow: 4px 4px 0px #7637de;
-
-      }
-
-      50% {
-          /* opacity: 1; */
-          text-shadow: 0px 0px 0px #7637de;
-
-      }
-
-      100% {
-        /* opacity: 0.5; */
-        text-shadow: 4px 4px 0px #7637de;
-
-    }
-  }
-}
-
-@media (max-width: 425px) {
-  .heading{
-    /* box-shadow: 0 0 rgba(0, 0, 0, 1); */
-    transform: scale(1);
-    animation: pulse 2.5s infinite;
-  }
-
-  @keyframes pulse {
+@keyframes fadeIn {
     0% {
-      transform: scale(0.90);
-      /* box-shadow: 0 0 0 rgba(0, 0, 0, 0.5); */
+        /* opacity: 0.5; */
+        box-shadow: 0 0 10px #7637de;
+
     }
 
     50% {
-      transform: scale(1);
-      /* box-shadow:  0 0 10px  rgba(0, 0, 0, 0); */
+        /* opacity: 1; */
+        box-shadow: 0px 0px 0px #7637de;
+
     }
 
     100% {
-      transform: scale(0.90);
-      /* box-shadow:  0 0 rgba(0, 0, 0, 0); */
-    }
+      /* opacity: 0.5; */
+      box-shadow: 0 0 10px  #7637de;
+
   }
 }
 
@@ -935,6 +880,7 @@ pre {
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
+  padding: 0.5rem 0 !important;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
 }
 

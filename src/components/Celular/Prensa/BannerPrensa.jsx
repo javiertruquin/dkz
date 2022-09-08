@@ -8,7 +8,7 @@ export default function BannerPrensa() {
                     <div className="card-position">
                         <div className="titulo-audiovisual d-flex flex-column justify-content-center">
                             <div className="my-5 mx-3 padding-nav">
-                                <h1 className=" titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center espaciado  titulo-producciones">
+                                <h1 className=" titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center espaciado titulo-producciones">
                                     PRENSA 
                                 </h1>
                             </div>

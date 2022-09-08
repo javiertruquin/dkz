@@ -8,7 +8,7 @@ export default function BannerSitiosW() {
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
-                <h1 className="titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center espaciado pt-5 mt-5 titulo-producciones">
+                <h1 className="titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center espaciado mt-5 titulo-producciones">
                   SITIOS WEB
                 </h1>
               </div>
