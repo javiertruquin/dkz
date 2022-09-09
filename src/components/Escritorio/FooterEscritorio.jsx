@@ -6,14 +6,6 @@ export default function FooterEscritorio() {
     <div className="footer container mt-auto">
       <div className="color-azul-oscuro-fondo color-violeta ">
         <div className="text-center">
-          <a href="https://wa.link/051p9f" target="_blank" rel="noreferrer">
-            <Image
-              className="  mt-4 mb-4"
-              src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504540/iconos/Group_41_bjbdxc.svg"
-              fluid
-              alt="wsp"
-            />
-          </a>
           <a
             href="https://www.facebook.com/agenciadkz"
             target="_blank"
