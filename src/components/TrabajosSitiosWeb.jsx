@@ -67,10 +67,10 @@ export default function TrabajosSitiosWeb() {
       ) : (
         <div
           className={
-            width <= 800 ? "mt-sm-5 mb-5 mt-2" : "mt-sm-5 mb-5 mt-2 container"
+            width <= 800 ? "mt-sm-5 mb-5 mt-2 " : "mt-sm-5 mb-5 mt-2 container"
           }
         >
-          <Swiper navigation={true} modules={[Navigation]} spaceBetween={10} slidesPerView={width <= 425 ? 1.4 : width <= 768 ? 3 : width <= 1024 ? 4 : 5 }>
+          <Swiper navigation={true} modules={[Navigation]} spaceBetween={10} slidesPerView={width <= 425 ? 1.4 : width <= 768 ? 3 : width <= 1024 ? 4 : 5 } >
             {trabajos.map((trabajo) => (
               <SwiperSlide>
                 <NavLink to={"/sitiosWeb/" + trabajo.id}>

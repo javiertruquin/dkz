@@ -72,6 +72,7 @@ export default function VideoSitiosWeb() {
         imagen10,
         video1,
         video2,
+        link,
     } = trabajos;
 
     if (imagen5 !== "") {
@@ -84,22 +85,12 @@ export default function VideoSitiosWeb() {
 
     return (
         <div className="mt-lg-5 mt-0 padding-sitioconst container text-center">
-            <p className="text-white tamaño-mas-grande mb-5">{titulo}</p>
-            <p className="text-white tamaño-grande  mb-5 mx-3">{descripcion}</p>
-            {video1 === "" ? (
-                ""
-            ) : (
-                <div className="mb-5 px-2">
-                    <ReactPlayer
-                        url={video1}
-                        playing={false}
-                        muted
-                        controls={true}
-                        width="100%"
-                        height="600px"
-                    />
-                </div>
-            )}
+            <div className="d-flex justify-content-center">
+                <p className="text-white tamaño-mas-grande titulos-impacto px-4">
+                    {titulo}
+                </p>
+            </div>
+
             <Swiper
                 navigation={imagen6 !== "" ? true : false}
                 modules={[Navigation]}
@@ -305,6 +296,42 @@ export default function VideoSitiosWeb() {
                     </div>
                 </Modal.Body>
             </Modal>
+            <pre className="text-white peso-regular tamaño-grande mb-5 text-start wrap-pre menos-espaciado">
+                {descripcion}
+            </pre>
+            {video1 === "" ? (
+                ""
+            ) : (
+                <div className="mb-5 px-2">
+                    <ReactPlayer
+                        url={video1}
+                        playing={false}
+                        muted
+                        controls={true}
+                        width="100%"
+                        height="600px"
+                    />
+                </div>
+            )}
+            {link === "" ? (
+                ""
+            ) : (
+                <div className="d-sm-flex d-block justify-content-start align-items-center mb-5">
+                    <p className="text-white tamaño-grande d-flex justify-content-start mb-0">
+                        Dale una vuelta a este site:
+                    </p>
+                    <a
+                        className="ps-0 ps-sm-2 "
+                        href={link}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <p className="tamaño-grande d-flex justify-content-start mb-0">
+                            {link}
+                        </p>
+                    </a>
+                </div>
+            )}
             {video2 === "" ? (
                 ""
             ) : (

@@ -83,7 +83,11 @@ export default function VideoSocialMedia() {
     }
     return (
         <div className="mt-lg-5 mt-0 padding-sitioconst container text-center">
-            <p className="text-white tamaño-mas-grande mb-5">{titulo}</p>
+            <div className="d-flex justify-content-center">
+                <p className="text-white tamaño-mas-grande titulos-impacto px-4">
+                    {titulo}
+                </p>
+            </div>
             <p className="text-white tamaño-grande  mb-5 mx-3">{descripcion}</p>
             {video1 === "" ? (
                 ""
@@ -100,8 +104,8 @@ export default function VideoSocialMedia() {
                 </div>
             )}
             <Swiper
-            navigation={imagen6 !=="" ? true : false }
-            modules={[Navigation]}
+                navigation={imagen6 !== "" ? true : false}
+                modules={[Navigation]}
                 spaceBetween={10}
                 slidesPerView={width <= 500 ? 1.5 : cantcard}
                 className="my-5 "

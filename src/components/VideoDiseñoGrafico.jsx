@@ -84,7 +84,11 @@ export default function VideoDiseñoGrafico() {
 
     return (
         <div className="mt-lg-5 mt-0 padding-sitioconst container text-center">
-            <p className="text-white tamaño-mas-grande mb-5">{titulo}</p>
+            <div className="d-flex justify-content-center">
+                <p className="text-white tamaño-mas-grande titulos-impacto px-4">
+                    {titulo}
+                </p>
+            </div>
             <p className="text-white tamaño-grande  mb-5 mx-3">{descripcion}</p>
             {video1 === "" ? (
                 ""
