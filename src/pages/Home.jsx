@@ -14,7 +14,6 @@ export default function Home() {
                 <Banner2 />
                 <Cartas />
                 <Trabajos />
-
                 <Banner3 />
                 <Frase />
             </div>
