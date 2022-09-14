@@ -138,6 +138,14 @@ body {
 .color-verde-claro {
   color: #b1dd35;
 }
+
+.color-verde-fondo {
+  background-color: #b0dd34;
+}
+
+.color-verde-claro-fondo {
+  background-color: #b1dd35;
+}
 .wrap-pre {
   white-space: pre-wrap;
 }

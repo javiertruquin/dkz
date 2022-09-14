@@ -24,17 +24,51 @@ export default function VideoPrensa() {
         getTrabajos();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-    const { titulo, descripcion, imagen1, imagen2, imagen3 } = trabajos;
+    const {
+        seccion,
+        titular,
+        subtitulo,
+        descripcion,
+        tituloIntermedio,
+        descripcion2,
+        imagen1,
+        imagen2,
+        imagen3,
+        fecha,
+        textoImagen1,
+        textoImagen2,
+        textoImagen3,
+    } = trabajos;
+    // const hoy = Date()
+    // const fechanoticia= hoy.getDate();
     return (
         <div className="mt-5 padding-sitioconst container">
-            <p className="text-white tamaño-grande">{titulo}</p>
+            <p className="text-white peso-bold">{seccion}</p>
+
+            <p className="text-white tamaño-mas-grande peso-bold">{titular}</p>
+            <p className="text-white tamaño-grande">{subtitulo}</p>
+
             <br />
             <Image src={imagen1} alt="" fluid />
             <br />
-            <pre className="text-white tamaño-medio peso-regular mt-4 wrap-pre">{descripcion}</pre>
-            <br />
-            
-            
+            <p className="text-white mt-1 ms-3">{textoImagen1}</p>
+
+            <p className="text-white my-4 py-2">{fecha} </p>
+
+            <pre className="text-white tamaño-medio peso-regular mt-4 wrap-pre">
+                {descripcion}
+            </pre>
+            {tituloIntermedio === "" ? (
+                ""
+            ) : (
+                <p className="text-white tamaño-grande text-center mx-4 my-5 peso-bold">
+                    {tituloIntermedio}
+                </p>
+            )}
+
+            <pre className="text-white tamaño-medio peso-regular mt-4 wrap-pre">
+                {descripcion2}
+            </pre>
         </div>
     );
 }
