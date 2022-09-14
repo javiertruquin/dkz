@@ -62,7 +62,7 @@ export default function TrabajosPrensa() {
   return (
     <>
       {loading ? (
-        <div className="my-5 text-white  d-flex justify-content-center my-5 p-5">
+        <div className="my-5 text-white  d-flex justify-content-center my-5 p-5 text-center">
           <Spinner
             className="fs-1"
             animation="border"
@@ -75,28 +75,20 @@ export default function TrabajosPrensa() {
           className={
             width <= 800 ? "mt-sm-5 mb-5 mt-2 " : "mt-sm-5 mb-5 mt-2 container"
           }
-        >
-            <Swiper
-              navigation={true} modules={[Navigation]}
-            spaceBetween={10}
-            slidesPerView={width <= 800 ? 1.85 : cantcard}
-            className={cantcard <= 3 ? "margen-mb-trabajos" : ""}
           >
-            {trabajos.map((trabajo) => (
-              <SwiperSlide>
-                <NavLink to={"/prensa/" + trabajo.id}>
-                  <div className="p-2 d-flex flex-column justify-content-around ">
-                    <Image
-                      className="border-card"
-                      src={trabajo.imagenMini}
-                      alt={trabajo.titular}
-                      fluid
-                    />
-                  </div>
-                </NavLink>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+          {trabajos.map((trabajo) => (
+            <NavLink className="sin-sub" to={"/prensa/" + trabajo.id}>
+              <div className="d-flex my-5 ">
+                <Image
+                  className="prensa-imagen"
+                  src={trabajo.imagenMini}
+                  alt={trabajo.titular}
+                  fluid
+                />
+                <p className="text-white peso-bold ms-3 ">{trabajo.titular}</p>
+              </div>
+            </NavLink>
+          ))}
         </div>
       )}
     </>
