@@ -89,7 +89,7 @@ export default function TrabajosPrensa() {
                     <Image
                       className="border-card"
                       src={trabajo.imagenMini}
-                      alt={trabajo.titulo}
+                      alt={trabajo.titular}
                       fluid
                     />
                   </div>

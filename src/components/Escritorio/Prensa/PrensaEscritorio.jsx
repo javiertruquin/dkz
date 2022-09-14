@@ -8,9 +8,9 @@ export default function PrensaEscritorio() {
         <div className="color-azul-oscuro-fondo">
             <BannerPrensa />
             <div className="pt-5">
-            <TrabajosPrensa />
+                <TrabajosPrensa />
             </div>
-         
+
             <BotonContactanos />
         </div>
     );

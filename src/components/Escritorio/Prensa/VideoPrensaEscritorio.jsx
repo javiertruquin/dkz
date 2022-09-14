@@ -23,10 +23,10 @@ export default function VideoPrensaEscritorio() {
         getTrabajos();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-    const { titulo, descripcion, imagen1 } = trabajos;
+    const { titular, descripcion, imagen1 } = trabajos;
     return (
         <div className="mt-5 padding-sitioconst container">
-            <p className="text-white tamaño-mas-grande text-center">{titulo}</p>
+            <p className="text-white tamaño-mas-grande text-center peso-bold">{titular}</p>
             <br />
             <div className="text-center mb-5">
                 <img src={imagen1} alt="noticia" />
