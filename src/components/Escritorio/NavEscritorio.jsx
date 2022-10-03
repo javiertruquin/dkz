@@ -79,9 +79,6 @@ export default function NavEscritorio() {
                                     >
                                         Producción Audiovisual
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/prensa">
-                                        Prensa
-                                    </NavDropdown.Item>
                                     <NavDropdown.Item
                                         as={Link}
                                         to="/DisGrafico"
@@ -117,7 +114,7 @@ export default function NavEscritorio() {
                                     Prensa
                                 </Nav.Link>
                                 
-                                <div className="mx-3 text-white tamaño-letra-opciones ">
+                                {/* <div className="mx-3 text-white tamaño-letra-opciones ">
                                     <Form.Select
                                         className="color-select-2 text-white border-0 text-center"
                                         aria-label="Default select example "
@@ -147,7 +144,7 @@ export default function NavEscritorio() {
                                             Italiano
                                         </option>
                                     </Form.Select>
-                                </div>
+                                </div> */}
                                 {/* <NavDropdown
                   title="Español"
                   id="basic-nav-dropdown"
