@@ -200,7 +200,7 @@ pre {
 
 /* Banner */
 .color-violeta-fondo-banner-pie {
-  background-color: #7737de42;
+  background-color: #7737de42 !important;
 }
 
 

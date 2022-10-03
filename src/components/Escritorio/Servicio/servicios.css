@@ -13,3 +13,8 @@
       margin-top: -160px;
     }
   }
+  
+  /* Banner */
+.color-violeta-fondo-banner-pie {
+  background-color: #7737de42 !important;
+}
