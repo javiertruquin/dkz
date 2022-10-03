@@ -1,16 +1,16 @@
 .banner-posi-eventos-escritorio{
-    margin-top: -300px;
+    margin-top: -50px;
   }
 
   @media (max-width: 1024px) {
     .banner-posi-eventos-escritorio{
-      margin-top: -190px;
+      margin-top: 50px;
     }
   }
 
   @media (max-width: 768px) {
     .banner-posi-eventos-escritorio{
-      margin-top: -160px;
+      margin-top: 20px;
     }
   }
 
@@ -24,4 +24,33 @@
     }
   }
 
+  .titulos-impacto-eventos-escritorio{
+    position: relative;
+    width: 500px;
+    height: 70px;
+    padding: 0.5rem 0 !important;
+    background: #7637de;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    margin-top: -150px;
+}
+
+@media (max-width: 768px) {
+    .titulos-impacto-escritorio{
+        position: relative;
+        width: 500px;
+        height: 120px;
+        padding: 0.5rem 0 !important;
+        background: #7637de;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border: 1.5px solid rgba(255, 255, 255, 0.3);
+        margin-top: 10px;
+    }
+  }
   
