@@ -1,101 +1,44 @@
-import React from "react";
 import Foto from "./Foto";
-
-const miembros = [
-  {
-    id: 1,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506767/Utilidades/3c_udklsr.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-  {
-    id: 2,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506768/Utilidades/1c_pxnhrg.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-  {
-    id: 3,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506768/Utilidades/1c_pxnhrg.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-  {
-    id: 4,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506768/Utilidades/1c_pxnhrg.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-  {
-    id: 5,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506768/Utilidades/1c_pxnhrg.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-  {
-    id: 6,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506768/Utilidades/1c_pxnhrg.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-  {
-    id: 7,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506768/Utilidades/1c_pxnhrg.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-  {
-    id: 8,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506768/Utilidades/1c_pxnhrg.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-  {
-    id: 9,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506768/Utilidades/1c_pxnhrg.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-  {
-    id: 10,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506768/Utilidades/1c_pxnhrg.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-  {
-    id: 11,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506768/Utilidades/1c_pxnhrg.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-  {
-    id: 12,
-    foto: "https://res.cloudinary.com/dlzcbrqax/image/upload/v1655506768/Utilidades/1c_pxnhrg.jpg",
-    nombre: "nombre",
-    puesto: "puesto",
-    linkendin: "https://www.linkedin.com/",
-  },
-];
+import React, { useEffect, useState } from "react";
+import Papa from "papaparse";
+import axios from "axios";
+import { Spinner } from "react-bootstrap";
 
 export default function Fotos() {
-  return (
-    <div className="container pt-5 my-5">
-      <div className="d-flex flex-wrap justify-content-center">
-        {miembros.map((miembro, id) => (
-          <Foto key={id} uerta data={miembro} />
-        ))}
-      </div>
-    </div>
-  );
+    const [fotosDKZ, setFotosDKZ] = useState([]);
+    const [loading, setLoading] = useState(false);
+    useEffect(() => {
+        setLoading(true);
+        const getFotosDKZ = async () => {
+            const response = await axios.get(
+                "https://docs.google.com/spreadsheets/d/e/2PACX-1vQWLAKe7hfvcqVVAdHT81qbaUQn_d9ghEPU8i2jJl1Ud9aNcB5OVrP__Rr-0LW3oXGQA_A1QC0phs8h/pub?gid=314562841&single=true&output=csv"
+            );
+
+            const imagenes = Papa.parse(response.data, { header: true });
+
+            setFotosDKZ(imagenes.data);
+            setLoading(false);
+        };
+        getFotosDKZ();
+    }, []);
+    return (
+        <div className="container pt-5 my-5">
+            {loading ? (
+                <div className="my-5 text-white  d-flex justify-content-center my-5 p-5">
+                    <Spinner
+                        className="fs-1"
+                        animation="border"
+                        role="status"
+                        variant="light"
+                    ></Spinner>
+                </div>
+            ) : (
+                <div className="d-flex flex-wrap justify-content-center">
+                    {fotosDKZ.map((miembro, id) => (
+                        <Foto key={id} uerta data={miembro} />
+                    ))}
+                </div>
+            )}
+        </div>
+    );
 }

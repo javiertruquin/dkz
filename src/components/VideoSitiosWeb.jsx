@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Modal from "react-bootstrap/Modal";
 import { Navigation } from "swiper";
+import { Carousel, Image } from "react-bootstrap";
 
 function getWindowDimensions() {
     const { innerWidth: width } = window;
@@ -36,10 +37,14 @@ function useWindowDimensions() {
 
 export default function VideoSitiosWeb() {
     const [show, setShow] = useState(false);
-    const [image, setImage] = useState({});
     const { width } = useWindowDimensions();
     const params = useParams();
     const [trabajos, setTrabajos] = useState({});
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex, e) => {
+        setIndex(selectedIndex);
+    };
     const getTrabajos = async () => {
         const response = await axios.get(
             "https://docs.google.com/spreadsheets/d/e/2PACX-1vQWLAKe7hfvcqVVAdHT81qbaUQn_d9ghEPU8i2jJl1Ud9aNcB5OVrP__Rr-0LW3oXGQA_A1QC0phs8h/pub?gid=361671608&single=true&output=csv"
@@ -92,11 +97,11 @@ export default function VideoSitiosWeb() {
             </div>
 
             <Swiper
-                navigation={imagen6 !== "" ? true : false}
+                navigation={width <= 500 ? true :  imagen6 !== "" ? true : false}
                 modules={[Navigation]}
                 spaceBetween={10}
                 slidesPerView={width <= 500 ? 1.5 : cantcard}
-                className="my-5 "
+                className="my-5 efecto-hover"
             >
                 {imagen1 === "" ? (
                     ""
@@ -104,7 +109,7 @@ export default function VideoSitiosWeb() {
                     <SwiperSlide
                         onClick={() => {
                             setShow(true);
-                            setImage(imagen1);
+                            setIndex(0);
                         }}
                         style={{ cursor: "pointer" }}
                     >
@@ -123,7 +128,7 @@ export default function VideoSitiosWeb() {
                     <SwiperSlide
                         onClick={() => {
                             setShow(true);
-                            setImage(imagen2);
+                            setIndex(1);
                         }}
                         style={{ cursor: "pointer" }}
                     >
@@ -142,7 +147,7 @@ export default function VideoSitiosWeb() {
                     <SwiperSlide
                         onClick={() => {
                             setShow(true);
-                            setImage(imagen3);
+                            setIndex(2);
                         }}
                         style={{ cursor: "pointer" }}
                     >
@@ -161,7 +166,7 @@ export default function VideoSitiosWeb() {
                     <SwiperSlide
                         onClick={() => {
                             setShow(true);
-                            setImage(imagen4);
+                            setIndex(3);
                         }}
                         style={{ cursor: "pointer" }}
                     >
@@ -180,7 +185,7 @@ export default function VideoSitiosWeb() {
                     <SwiperSlide
                         onClick={() => {
                             setShow(true);
-                            setImage(imagen5);
+                            setIndex(4);
                         }}
                         style={{ cursor: "pointer" }}
                     >
@@ -199,7 +204,7 @@ export default function VideoSitiosWeb() {
                     <SwiperSlide
                         onClick={() => {
                             setShow(true);
-                            setImage(imagen6);
+                            setIndex(5);
                         }}
                         style={{ cursor: "pointer" }}
                     >
@@ -218,7 +223,7 @@ export default function VideoSitiosWeb() {
                     <SwiperSlide
                         onClick={() => {
                             setShow(true);
-                            setImage(imagen7);
+                            setIndex(6);
                         }}
                         style={{ cursor: "pointer" }}
                     >
@@ -237,7 +242,7 @@ export default function VideoSitiosWeb() {
                     <SwiperSlide
                         onClick={() => {
                             setShow(true);
-                            setImage(imagen8);
+                            setIndex(7);
                         }}
                         style={{ cursor: "pointer" }}
                     >
@@ -256,7 +261,7 @@ export default function VideoSitiosWeb() {
                     <SwiperSlide
                         onClick={() => {
                             setShow(true);
-                            setImage(imagen9);
+                            setIndex(8);
                         }}
                         style={{ cursor: "pointer" }}
                     >
@@ -275,7 +280,7 @@ export default function VideoSitiosWeb() {
                     <SwiperSlide
                         onClick={() => {
                             setShow(true);
-                            setImage(imagen10);
+                            setIndex(9);
                         }}
                         style={{ cursor: "pointer" }}
                     >
@@ -292,7 +297,131 @@ export default function VideoSitiosWeb() {
             <Modal show={show} onHide={() => setShow(false)} size="xl" centered>
                 <Modal.Body>
                     <div>
-                        <img src={image} alt={titulo} className="w-100" />
+                    <Carousel
+                            activeIndex={index}
+                            onSelect={handleSelect}
+                            indicators={false}
+                            controls={true}
+                            className="container"
+                            interval={null}
+                        >
+                            <Carousel.Item>
+                                <Image
+                                    className=""
+                                    src={imagen1}
+                                    alt="Imagen no encontrada"
+                                    fluid
+                                />
+                            </Carousel.Item>
+                            {imagen2 === "" ? (
+                                ""
+                            ) : (
+                                <Carousel.Item className="">
+                                    <Image
+                                        className=""
+                                        src={imagen2}
+                                        alt="Imagen no encontrada"
+                                        fluid
+                                    />
+                                </Carousel.Item>
+                            )}
+                            {imagen3 === "" ? (
+                                ""
+                            ) : (
+                                <Carousel.Item className="">
+                                    <Image
+                                        className=""
+                                        src={imagen3}
+                                        alt="Imagen no encontrada"
+                                        fluid
+                                    />
+                                </Carousel.Item>
+                            )}
+                            {imagen4 === "" ? (
+                                ""
+                            ) : (
+                                <Carousel.Item className="">
+                                    <Image
+                                        className=""
+                                        src={imagen4}
+                                        alt="Imagen no encontrada"
+                                        fluid
+                                    />
+                                </Carousel.Item>
+                            )}
+                            {imagen5 === "" ? (
+                                ""
+                            ) : (
+                                <Carousel.Item className="">
+                                    <Image
+                                        className=""
+                                        src={imagen5}
+                                        alt="Imagen no encontrada"
+                                        fluid
+                                    />
+                                </Carousel.Item>
+                            )}
+                            {imagen6 === "" ? (
+                                ""
+                            ) : (
+                                <Carousel.Item className="">
+                                    <Image
+                                        className=""
+                                        src={imagen6}
+                                        alt="Imagen no encontrada"
+                                        fluid
+                                    />
+                                </Carousel.Item>
+                            )}
+                            {imagen7 === "" ? (
+                                ""
+                            ) : (
+                                <Carousel.Item className="">
+                                    <Image
+                                        className=""
+                                        src={imagen7}
+                                        alt="Imagen no encontrada"
+                                        fluid
+                                    />
+                                </Carousel.Item>
+                            )}
+                            {imagen8 === "" ? (
+                                ""
+                            ) : (
+                                <Carousel.Item className="">
+                                    <Image
+                                        className=""
+                                        src={imagen8}
+                                        alt="Imagen no encontrada"
+                                        fluid
+                                    />
+                                </Carousel.Item>
+                            )}
+                            {imagen9 === "" ? (
+                                ""
+                            ) : (
+                                <Carousel.Item className="">
+                                    <Image
+                                        className=""
+                                        src={imagen9}
+                                        alt="Imagen no encontrada"
+                                        fluid
+                                    />
+                                </Carousel.Item>
+                            )}
+                            {imagen10 === "" ? (
+                                ""
+                            ) : (
+                                <Carousel.Item className="">
+                                    <Image
+                                        className=""
+                                        src={imagen10}
+                                        alt="Imagen no encontrada"
+                                        fluid
+                                    />
+                                </Carousel.Item>
+                            )}
+                        </Carousel>s
                     </div>
                 </Modal.Body>
             </Modal>
