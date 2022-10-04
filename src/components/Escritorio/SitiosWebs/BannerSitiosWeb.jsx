@@ -12,34 +12,20 @@ export default function BannerSitiosWeb() {
         />
         <div className="banner-posi-sitio-escritorio container">
           <div className="d-lg-none d-block">
-            <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra ">
+            <div className="d-flex justify-content-center pb-5">
+              <p className="titulos-impacto-sitios-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra ">
                 SITIOS WEBS
               </p>
             </div>
-            <p className="tamaño-medio peso-italic text-white text-center espaciado texto-sombra px-5">
-              Trabajamos sobre cada uno de nuestros desarrollos de manera
-              exclusiva. Nuestras ideas parten desde una concepción inicial en
-              la cual implementamos todos nuestros proyectos desde cero, sin
-              utilización de contenidos realizados por terceros o código fuente
-              reutilizable de otros trabajos, para DKZ cada cliente es un nuevo
-              desafío.
-            </p>
+           
           </div>
-          <div className="d-none d-lg-block">
+          <div className="d-none d-lg-block pb-5">
             <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+              <p className="titulos-impacto-sitios-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 SITIOS WEBS
               </p>
             </div>
-            <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra px-5">
-              Trabajamos sobre cada uno de nuestros desarrollos de manera
-              exclusiva. Nuestras ideas parten desde una concepción inicial en
-              la cual implementamos todos nuestros proyectos desde cero, sin
-              utilización de contenidos realizados por terceros o código fuente
-              reutilizable de otros trabajos, para DKZ cada cliente es un nuevo
-              desafío.
-            </p>
+           
           </div>
         </div>
       </div>

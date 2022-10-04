@@ -1,22 +1,48 @@
 .banner-posi-social-escritorio{
-    margin-top: -360px;  /*el margen es de 260 porque tiene 4 lineas de párrafos a diferencia de los otros*/
+    margin-top: -40px;  /*el margen es de 260 porque tiene 4 lineas de párrafos a diferencia de los otros*/
   }
-
   @media (max-width: 1024px) {
-    .banner-posi-social-escritorio{
-      margin-top: -280px;  /*el margen es de 260 porque tiene 4 lineas de párrafos a diferencia de los otros*/
+    .banner-posi-eventos-escritorio{
+      margin-top: 50px;
     }
   }
 
   @media (max-width: 768px) {
-    .banner-posi-social-escritorio{
-      margin-top: -220px;  /*el margen es de 260 porque tiene 4 lineas de párrafos a diferencia de los otros*/
+    .banner-posi-eventos-escritorio{
+      margin-top: 20px;
     }
   }
 
-
-
-
 .banner-escritorio-social-media{
   width: 100%;
+  }
+
+  .titulos-impacto-social-escritorio{
+    position: relative;
+    width: 500px;
+    height: 70px;
+    padding: 0.5rem 0 !important;
+    background: #7637de;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    margin-top: -150px;
+}
+
+@media (max-width: 768px) {
+    .titulos-impacto-social--escritorio{
+        position: relative;
+        width: 500px;
+        height: 120px;
+        padding: 0.5rem 0 !important;
+        background: #7637de;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border: 1.5px solid rgba(255, 255, 255, 0.3);
+        margin-top: 10px;
+    }
   }

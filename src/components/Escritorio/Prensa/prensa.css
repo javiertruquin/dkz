@@ -13,10 +13,56 @@
 }
 
 
-.titulo-prensa{
+/* .titulo-prensa{
   margin-top: 200px;
+} */
+
+.titulos-impacto-prensa-escritorio{
+  margin-top: -160px;
+  position: relative;
+  width: 500px;
+  height: 70px;
+  padding: 0.5rem 0 !important;
+  background: #7637de;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
 }
 
+@media (max-width: 1024px) {
+  .titulos-impacto-prensa-escritorio{
+    position: relative;
+    width: 500px;
+    height: 70px;
+    padding: 0.5rem 0 !important;
+    background: #7637de;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+      margin-top: -120px;
+  }
+  }
+  
+  @media (max-width: 768px) {
+    .titulos-impacto-prensa-escritorio{
+      position: relative;
+      width: 400px !important;
+      height: 60px !important;
+      padding: 0.5rem 0 !important;
+      background: #7637de;
+      border-top-right-radius: 30px;
+      border-top-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border: 1.5px solid rgba(255, 255, 255, 0.3);
+      margin-top: -80px;
+    }
+  }
+  
 
 @media (max-width: 1024px) {
   .titulo-prensa{

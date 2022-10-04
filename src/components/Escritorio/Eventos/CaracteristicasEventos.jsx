@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CaracteristicasEventos() {
   return (
-    <div className="container ">
+    <div className="container">
       <div className="row text-white">
         <div className="col-12 col-sm-6">
           <p className="tamaño-mas-grande peso-bold-italic text-white d-flex justify-content-center  espaciado texto-sombra posi-eventos-escritorio">

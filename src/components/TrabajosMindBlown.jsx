@@ -54,7 +54,7 @@ export default function TrabajosMindBlown() {
   return (
     <>
       {loading ? (
-        <div className="my-5 text-white  d-flex justify-content-center my-5 p-5">
+        <div className=" text-white  d-flex justify-content-center my-5 p-5">
           <Spinner
             className="fs-1"
             animation="border"

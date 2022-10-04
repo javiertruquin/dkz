@@ -13,27 +13,17 @@ export default function BannerConsultaria() {
         <div className="banner-posi-consultoria-escritorio">
           <div className="d-lg-none d-block">
             <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+              <p className="titulos-impacto-consultoria-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 CONSULTORÍA
               </p>
             </div>
-            <p className="tamaño-medio  peso-italic text-white text-center espaciado texto-sombra">
-              Nos enfocamos en el requerimiento del cliente, brindando
-              soluciones alternativas y eficaces, <br /> que ayuden a consolidar
-              el esquema de trabajo y los objetivos internos de una compañía.
-            </p>
           </div>
           <div className="d-none d-lg-block">
             <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+              <p className="titulos-impacto-consultoria-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 CONSULTORÍA
               </p>
             </div>
-            <p className="tamaño-grande peso-italic text-white text-center espaciado texto-sombra">
-              Nos enfocamos en el requerimiento del cliente, brindando
-              soluciones alternativas y eficaces, <br /> que ayuden a consolidar
-              el esquema de trabajo y los objetivos internos de una compañía.
-            </p>
           </div>
         </div>
       </div>

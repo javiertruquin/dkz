@@ -12,7 +12,7 @@ export default function BannerMB() {
         <div className="banner-posi-mb-escritorio">
           <div className="d-lg-none d-block">
             <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+              <p className="titulos-impacto-dg-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 MIND BLOWN
               </p>
             </div>
@@ -22,7 +22,7 @@ export default function BannerMB() {
           </div>
           <div className="d-none d-lg-block">
             <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+              <p className="titulos-impacto-dg-escritorio  tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 MIND BLOWN
               </p>
             </div>
