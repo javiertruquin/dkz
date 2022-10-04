@@ -51,7 +51,7 @@ export default function Clientes() {
   }, []);
 
   return (
-    <div className="pt-5">
+    <div>
       <div className="d-flex justify-content-center  posi-happy-ending">
         <div className=" titulos-impacto-mb-escritorio text-white text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none">
           <p className="mt-2">Happy ending</p>

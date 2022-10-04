@@ -87,7 +87,7 @@ export default function TrabajosAV() {
                         />
                       </div>
                       <div className="details-service">
-                        <h2 className="tamaño-grande">{trabajo.titulo}</h2>
+                        <h2 className="tamaño-medio">{trabajo.titulo}</h2>
                       </div>
                     </div>
                   </div>

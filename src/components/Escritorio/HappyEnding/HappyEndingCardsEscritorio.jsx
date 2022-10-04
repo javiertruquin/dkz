@@ -77,7 +77,7 @@ export default function HappyEndingCardsEscritorio() {
           <Swiper spaceBetween={10} slidesPerView={5} className="my-3">
             {trabajos.slice(0, 5).map((trabajo) => (
               <SwiperSlide>
-                <div className="p-2 d-flex flex-column justify-content-between ">
+                <div className="p-2 d-flex flex-column justify-content-between">
                   <img src={trabajo.imagen1} alt={trabajo.titulo} />
                 </div>
               </SwiperSlide>
