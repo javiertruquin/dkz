@@ -13,7 +13,7 @@ export default function BannerConocenos() {
       </div>
       <div className="d-flex justify-content-center">
           <p className=" titulos-impacto-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-            +20 PROFESIONALES A TU DISPOSICIÓN <br />
+            +20 PROFESIONALES <br />  A TU DISPOSICIÓN 
           </p>
         </div>
     </>

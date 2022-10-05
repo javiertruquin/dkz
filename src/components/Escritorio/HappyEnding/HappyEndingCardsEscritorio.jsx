@@ -53,12 +53,12 @@ export default function HappyEndingCardsEscritorio() {
   return (
     <div className="padding-sitioconst">
       <div className="d-flex justify-content-center">
-        <div className="titulos-impacto-escritorio text-white text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none mt-5">
+        <div className="titulos-impacto-dg-escritorio text-white text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none mt-5">
           <p className="mt-2">HAPPY ENDING</p>
         </div>
       </div>
       <div className="d-flex justify-content-center">
-        <div className="titulos-impacto-escritorio text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none  mt-5">
+        <div className="titulos-impacto-dg-escritorio text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none  mt-5">
           <p className="mt-2">HAPPY ENDING</p>
         </div>
       </div>
@@ -77,7 +77,7 @@ export default function HappyEndingCardsEscritorio() {
           <Swiper spaceBetween={10} slidesPerView={5} className="my-3">
             {trabajos.slice(0, 5).map((trabajo) => (
               <SwiperSlide>
-                <div className="p-2 d-flex flex-column justify-content-between ">
+                <div className="p-2 d-flex flex-column justify-content-between">
                   <img src={trabajo.imagen1} alt={trabajo.titulo} />
                 </div>
               </SwiperSlide>

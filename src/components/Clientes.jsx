@@ -52,18 +52,18 @@ export default function Clientes() {
 
   return (
     <div>
-      <div className="d-flex justify-content-center">
-        <div className=" titulos-impacto-escritorio text-white text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none">
+      <div className="d-flex justify-content-center  posi-happy-ending">
+        <div className=" titulos-impacto-mb-escritorio text-white text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none">
           <p className="mt-2">Happy ending</p>
         </div>
       </div>
-      <div className="d-flex justify-content-center">
-        <div className="titulos-impacto-escritorio text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none ">
+      <div className="d-flex justify-content-center posi-happy-ending">
+        <div className="titulos-impacto-mb-escritorio text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none ">
           <p className="mt-2">Happy ending</p>
         </div>
       </div>
       {loading ? (
-        <div className="my-5 text-white  d-flex justify-content-center my-5 p-5">
+        <div className="text-white  d-flex justify-content-center my-5 p-5">
           <Spinner
             className="fs-1"
             animation="border"
@@ -72,7 +72,7 @@ export default function Clientes() {
           ></Spinner>
         </div>
       ) : (
-        <div className={width <= 800 ? "my-5" : "my-5 container"}>
+        <div className={width <= 800 ? "mb-5" : "mb-5 container"}>
           <Swiper
             spaceBetween={10}
             slidesPerView={width <= 800 ? 2.85 : 5}

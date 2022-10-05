@@ -54,7 +54,7 @@ export default function TrabajosMindBlown() {
   return (
     <>
       {loading ? (
-        <div className="my-5 text-white  d-flex justify-content-center my-5 p-5">
+        <div className=" text-white  d-flex justify-content-center my-5 p-5">
           <Spinner
             className="fs-1"
             animation="border"
@@ -67,32 +67,46 @@ export default function TrabajosMindBlown() {
           <Swiper
             spaceBetween={10}
             slidesPerView={width <= 800 ? 1.85 : 3}
-            className="margen-mb-trabajos"
+            className="margen-mb-trabajos my-5"
           >
             {trabajos.slice(0, 3).map((trabajo) => (
               <SwiperSlide>
                 <NavLink to={"/mindblown/" + trabajo.id}>
                   <div className="p-2 d-flex flex-column justify-content-between border-card">
-                    <img
-                      className="border-card"
-                      src={trabajo.imagenMini}
-                      alt={trabajo.titulo}
-                    />
+                    <div className="caja-service">
+                      <div className="imgBx-service">
+                        <img
+                          className="border-card"
+                          src={trabajo.imagenMini}
+                          alt={trabajo.titulo}
+                        />
+                      </div>
+                      <div className="details-service">
+                        <h2 className="tamaño-medio">{trabajo.titulo}</h2>
+                      </div>
+                    </div>
                   </div>
                 </NavLink>
               </SwiperSlide>
             ))}
           </Swiper>
-          <Swiper spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 4}>
+          <Swiper className="my-5" spaceBetween={10} slidesPerView={width <= 800 ? 1.85 : 4}>
             {trabajos.slice(3, 7).map((trabajo) => (
               <SwiperSlide>
                 <NavLink to={"/mindblown/" + trabajo.id}>
                   <div className="p-2 d-flex flex-column justify-content-between ">
-                    <img
-                      className="border-card"
-                      src={trabajo.imagenMini}
-                      alt={trabajo.titulo}
-                    />
+                    <div className="caja-service">
+                      <div className="imgBx-service">
+                        <img
+                          className="border-card"
+                          src={trabajo.imagenMini}
+                          alt={trabajo.titulo}
+                        />
+                      </div>
+                      <div className="details-service">
+                        <h2 className="tamaño-medio">{trabajo.titulo}</h2>
+                      </div>
+                    </div>
                   </div>
                 </NavLink>
               </SwiperSlide>
@@ -101,17 +115,22 @@ export default function TrabajosMindBlown() {
           <Swiper
             spaceBetween={10}
             slidesPerView={width <= 800 ? 1.85 : 3}
-            className="margen-mb-trabajos"
+            className="margen-mb-trabajos my-5"
           >
             {trabajos.slice(7, 10).map((trabajo) => (
               <SwiperSlide>
                 <NavLink to={"/mindblown/" + trabajo.id}>
-                  <div className="p-2 d-flex flex-column justify-content-between border-card">
-                    <img
-                      className="border-card"
-                      src={trabajo.imagenMini}
-                      alt={trabajo.titulo}
-                    />
+                  <div className="caja-service">
+                    <div className="imgBx-service">
+                      <img
+                        className="border-card"
+                        src={trabajo.imagenMini}
+                        alt={trabajo.titulo}
+                      />
+                    </div>
+                    <div className="details-service">
+                      <h2 className="tamaño-medio">{trabajo.titulo}</h2>
+                    </div>
                   </div>
                 </NavLink>
               </SwiperSlide>
