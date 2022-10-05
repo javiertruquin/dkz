@@ -73,14 +73,7 @@ export default function TrabajosSocialMedia() {
           <Swiper navigation={true} modules={[Navigation]} spaceBetween={10} slidesPerView={width <= 425 ? 1.4 : width <= 768 ? 3 : width <= 1024 ? 4 : 5 }>
             {trabajos.map((trabajo) => (
               <SwiperSlide>
-                <NavLink to={"/socialmedia/" + trabajo.id}>
-                  {/* <div className="p-2 d-flex flex-column justify-content-between ">
-                    <img
-                      className="border-card"
-                      src={trabajo.imagenMini}
-                      alt={trabajo.titulo}
-                    />
-                  </div> */}
+                <a href={trabajo.link} target="_blank" rel="noreferrer">
                     <div className="py-5 d-flex flex-column justify-content-around">
                     <div className="caja-service">
                       <div className="imgBx-service">
@@ -95,7 +88,7 @@ export default function TrabajosSocialMedia() {
                       </div>
                     </div>
                   </div>
-                </NavLink>
+                </a>
               </SwiperSlide>
             ))}
           </Swiper>
