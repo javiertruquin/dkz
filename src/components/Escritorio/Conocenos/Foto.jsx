@@ -10,11 +10,11 @@ export default function Foto({ data }) {
         <div className="imgBx">
           <Image src={foto} alt="images" fluid />
         </div>
-        <div className="details ">
-          <h2 className="tamaño-grande">
+        <div className="details py-2">
+          <h2 className="tamaño-medio">
             {nombre}
             <br />
-            <div className="tamaño-medio">
+            <div className="tamaño-chico">
               <span>
                 {puesto} <br />{" "}
                 <a href={linkendin} target="_blank" rel="noreferrer">
