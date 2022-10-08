@@ -12,8 +12,8 @@ export default function BannerPrensa() {
         />
         <div className="banner-posi-eventos-escritorio">
           <div className="d-lg-none d-block">
-            <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-prensa-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+            <div className="d-flex justify-content-center align-items-center">
+              <p className="titulos-impacto margen-negativo2 pading-extra -prensa-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 PRENSA
               </p>
             </div>
@@ -28,8 +28,8 @@ export default function BannerPrensa() {
            
           </div>
           <div className="d-none d-lg-block">
-            <div className="d-flex justify-content-center">
-              <p className=" titulos-impacto-prensa-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+            <div className="d-flex justify-content-center align-items-center">
+              <p className=" titulos-impacto margen-negativo2 pading-extra -prensa-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 PRENSA
               </p>
             </div>

@@ -88,11 +88,7 @@ export default function TrabajosDiseñoGrafico() {
                     >
                         {trabajos.map((trabajo) => (
                             <SwiperSlide>
-                                <a
-                                    href={trabajo.link}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
+                                <NavLink to={"/DisGrafico/" + trabajo.id}>
                                     {/* <div className="p-2 d-flex flex-column justify-content-between ">
                     <img
                       className="border-card"
@@ -117,7 +113,7 @@ export default function TrabajosDiseñoGrafico() {
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </NavLink>
                             </SwiperSlide>
                         ))}
                     </Swiper>

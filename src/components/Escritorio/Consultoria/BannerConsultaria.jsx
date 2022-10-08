@@ -12,15 +12,15 @@ export default function BannerConsultaria() {
         />
         <div className="banner-posi-consultoria-escritorio">
           <div className="d-lg-none d-block">
-            <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-consultoria-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+            <div className="d-flex justify-content-center align-items-center">
+              <p className="titulos-impacto margen-negativo2 px-5 tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 CONSULTORÍA
               </p>
             </div>
           </div>
           <div className="d-none d-lg-block">
-            <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-consultoria-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+            <div className="d-flex justify-content-center align-items-center">
+              <p className="titulos-impacto margen-negativo2 px-5 tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 CONSULTORÍA
               </p>
             </div>

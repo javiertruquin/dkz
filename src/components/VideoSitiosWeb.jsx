@@ -97,7 +97,7 @@ export default function VideoSitiosWeb() {
             </div>
 
             <Swiper
-                navigation={width <= 500 ? true :  imagen6 !== "" ? true : false}
+                navigation={width <= 500 ? true : imagen6 !== "" ? true : false}
                 modules={[Navigation]}
                 spaceBetween={10}
                 slidesPerView={width <= 500 ? 1.5 : cantcard}
@@ -297,7 +297,7 @@ export default function VideoSitiosWeb() {
             <Modal show={show} onHide={() => setShow(false)} size="xl" centered>
                 <Modal.Body>
                     <div>
-                    <Carousel
+                        <Carousel
                             activeIndex={index}
                             onSelect={handleSelect}
                             indicators={false}
@@ -421,7 +421,8 @@ export default function VideoSitiosWeb() {
                                     />
                                 </Carousel.Item>
                             )}
-                        </Carousel>s
+                        </Carousel>
+                        s
                     </div>
                 </Modal.Body>
             </Modal>
@@ -445,20 +446,36 @@ export default function VideoSitiosWeb() {
             {link === "" ? (
                 ""
             ) : (
-                <div className="d-sm-flex d-block justify-content-start align-items-center mb-5">
-                    <p className="text-white tamaño-grande d-flex justify-content-start mb-0">
-                        Dale una vuelta a este site:
+                <div className="d-sm-flex d-block justify-content-center align-items-center mb-5">
+                    <p className="text-white tamaño-grande d-flex justify-content-center mb-0">
+                        Mira un poco mas de este proyecto:
                     </p>
-                    <a
-                        className="ps-0 ps-sm-2 "
-                        href={link}
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <p className="tamaño-grande d-flex justify-content-start mb-0">
-                            {link}
-                        </p>
-                    </a>
+                    <div className="boton-verde mx-sm-3 mx-auto my-3">
+                        <div className="d-none d-sm-block">
+                            <a
+                                className="ps-0 ps-sm-2 tamaño-grande peso-bold sin-sub"
+                                href={link}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <span className="color-azul-oscuro">
+                                    Click Here!
+                                </span>
+                            </a>
+                        </div>
+                        <div className="d-sm-none d-block">
+                            <a
+                                className="ps-0 ps-sm-2 tamaño-medio peso-bold sin-sub"
+                                href={link}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <span className="color-azul-oscuro">
+                                    Click Here!
+                                </span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             )}
             {video2 === "" ? (

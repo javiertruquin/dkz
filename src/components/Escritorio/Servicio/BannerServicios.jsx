@@ -12,15 +12,15 @@ export default function BannerServicios() {
         />
         <div className="banner-posi-servicio-escritorio">
           <div className="d-lg-none d-block">
-            <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-servicios-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+            <div className="d-flex justify-content-center align-items-center">
+              <p className="titulos-impacto px-5 margen-negativo2 tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 SERVICIOS
               </p>
             </div>
           </div>
           <div className="d-none d-lg-block">
-            <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-servicios-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+            <div className="d-flex justify-content-center align-items-center">
+              <p className="titulos-impacto px-5 margen-negativo2 tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 SERVICIOS
               </p>
             </div>

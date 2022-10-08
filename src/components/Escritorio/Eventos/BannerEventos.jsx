@@ -12,16 +12,16 @@ export default function BannerEventos() {
         />
         <div className="banner-posi-eventos-escritorio">
           <div className="d-lg-none d-block">
-            <div className="d-flex justify-content-center">
-              <p className="titulos-impacto-eventos-escritorio tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+            <div className="d-flex justify-content-center align-items-center">
+              <p className="titulos-impacto px-5 margen-negativo2 tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 EVENTOS DKZ
               </p>
             </div>
             
           </div>
           <div className="d-none d-lg-block">
-            <div className="d-flex justify-content-center">
-              <p className=" titulos-impacto-eventos-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+            <div className="d-flex justify-content-center align-items-center">
+              <p className=" titulos-impacto px-5 margen-negativo2 tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                 EVENTOS DKZ
               </p>
             </div>

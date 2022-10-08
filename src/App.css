@@ -925,62 +925,20 @@ pre {
   animation-duration: 1s;
 }
 
-.titulos-impacto-happy-escritorio {
-  position: relative;
-  width: 500px;
-  height: 80px;
-  padding: 0.5rem 0 !important;
-  background: #7637de;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border: 1.5px solid rgba(255, 255, 255, 0.3);
+.col-25{
+  flex: 0 0 auto;
+  width: 18%;
+}
+
+.margen-negativo{
+  margin-top: -80px;
+}
+
+.margen-negativo2{
   margin-top: -150px;
 }
 
-@media (min-width: 450px) {
-  .titulos-impacto-happy-escritorio {
-    position: relative;
-    width: 250px;
-    height: 70px;
-    padding: 0.5rem 0 !important;
-    background: #7637de;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border: 1.5px solid rgba(255, 255, 255, 0.3);
-    margin-top: -150px;
-  }
-}
-
-.titulos-impacto-happy-endingpage-escritorio {
-  position: relative;
-  width: 500px;
-  height: 80px;
-  padding: 0.5rem 0 !important;
-  background: #7637de;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border: 1.5px solid rgba(255, 255, 255, 0.3);
-  margin-top: -150px;
-}
-
-@media (min-width: 450px) {
-  .titulos-impacto-happy-endingpage-escritorio {
-    position: relative;
-  width: 100px;
-  height: 70px;
-  padding: 0.5rem 0 !important;
-  background: #7637de;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border: 1.5px solid rgba(255, 255, 255, 0.3);
-  margin-top: -150px;
-  }
+.pading-extra{
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
 }

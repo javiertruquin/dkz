@@ -77,6 +77,7 @@ export default function VideoDiseñoGrafico() {
         imagen10,
         video1,
         video2,
+        link,
     } = trabajos;
 
     if (imagen5 !== "") {
@@ -438,6 +439,41 @@ export default function VideoDiseñoGrafico() {
                     </div>
                 </Modal.Body>
             </Modal>
+            {link === "" ? (
+                ""
+            ) : (
+                <div className="d-sm-flex d-block justify-content-center align-items-center mb-5">
+                    <p className="text-white tamaño-grande d-flex justify-content-center mb-0">
+                        Mira un poco mas de este proyecto:
+                    </p>
+                    <div className="boton-verde mx-sm-3 mx-auto my-3">
+                        <div className="d-none d-sm-block">
+                            <a
+                                className="ps-0 ps-sm-2 tamaño-grande peso-bold sin-sub"
+                                href={link}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <span className="color-azul-oscuro">
+                                    Click Here!
+                                </span>
+                            </a>
+                        </div>
+                        <div className="d-sm-none d-block">
+                            <a
+                                className="ps-0 ps-sm-2 tamaño-medio peso-bold sin-sub"
+                                href={link}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <span className="color-azul-oscuro">
+                                    Click Here!
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            )}
             {video2 === "" ? (
                 ""
             ) : (

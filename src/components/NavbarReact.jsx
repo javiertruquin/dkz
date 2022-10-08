@@ -79,7 +79,7 @@ export default function NavbarReact() {
                                     Prensa
                                 </Nav.Link>
                                 
-                                
+{/*                                 
                                 <div className="mx-4 color-select text-white mb-2">
                                     <Form.Select
                                         className="color-select-2 text-white border-0 mt-2 text-center"
@@ -110,7 +110,7 @@ export default function NavbarReact() {
                                             Italiano
                                         </option>
                                     </Form.Select>
-                                </div>
+                                </div> */}
                             </Nav>
                         </div>
                     </Navbar.Collapse>

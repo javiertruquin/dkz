@@ -10,7 +10,6 @@ export default function BannerSocialMedia() {
               <div className="my-5 mx-3">
                 <h1 className="titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center espaciado mt-5 titulo-producciones">
                   SOCIAL
-                  <br />
                   MEDIA
                 </h1>
               </div>

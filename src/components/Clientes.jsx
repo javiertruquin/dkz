@@ -4,103 +4,99 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Papa from "papaparse";
 import axios from "axios";
-import { Spinner } from "react-bootstrap";
+import { Image, Spinner } from "react-bootstrap";
 
 function getWindowDimensions() {
-  const { innerWidth: width } = window;
-  return {
-    width,
-  };
+    const { innerWidth: width } = window;
+    return {
+        width,
+    };
 }
 
 function useWindowDimensions() {
-  const [windowDimensions, setWindowDimensions] = useState(
-    getWindowDimensions()
-  );
+    const [windowDimensions, setWindowDimensions] = useState(
+        getWindowDimensions()
+    );
 
-  useEffect(() => {
-    function handleResize() {
-      setWindowDimensions(getWindowDimensions());
-    }
+    useEffect(() => {
+        function handleResize() {
+            setWindowDimensions(getWindowDimensions());
+        }
 
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
-  return windowDimensions;
+    return windowDimensions;
 }
 
 export default function Clientes() {
-  const { width } = useWindowDimensions();
-  const [trabajos, setTrabajos] = useState([]);
-  const [loading, setLoading] = useState(false);
+    const { width } = useWindowDimensions();
+    const [trabajos, setTrabajos] = useState([]);
+    const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    setLoading(true);
-    const getTrabajos = async () => {
-      const response = await axios.get(
-        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQWLAKe7hfvcqVVAdHT81qbaUQn_d9ghEPU8i2jJl1Ud9aNcB5OVrP__Rr-0LW3oXGQA_A1QC0phs8h/pub?gid=1856388429&single=true&output=csv"
-      );
+    useEffect(() => {
+        setLoading(true);
+        const getTrabajos = async () => {
+            const response = await axios.get(
+                "https://docs.google.com/spreadsheets/d/e/2PACX-1vQWLAKe7hfvcqVVAdHT81qbaUQn_d9ghEPU8i2jJl1Ud9aNcB5OVrP__Rr-0LW3oXGQA_A1QC0phs8h/pub?gid=1856388429&single=true&output=csv"
+            );
 
-      const imagenes = Papa.parse(response.data, { header: true });
+            const imagenes = Papa.parse(response.data, { header: true });
 
-      setTrabajos(imagenes.data);
-      setLoading(false);
-    };
-    getTrabajos();
-  }, []);
+            setTrabajos(imagenes.data);
+            setLoading(false);
+        };
+        getTrabajos();
+    }, []);
 
-  return (
-    <div>
-      <div className="d-flex justify-content-center  posi-happy-ending">
-        <div className=" titulos-impacto-mb-escritorio text-white text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none">
-          <p className="mt-2">Happy ending</p>
-        </div>
-      </div>
-      <div className="d-flex justify-content-center posi-happy-ending">
-        <div className="titulos-impacto-mb-escritorio text-white text-center peso-bold-italic tamaño-grande d-block d-sm-none ">
-          <p className="mt-2">Happy ending</p>
-        </div>
-      </div>
-      {loading ? (
-        <div className="text-white  d-flex justify-content-center my-5 p-5">
-          <Spinner
-            className="fs-1"
-            animation="border"
-            role="status"
-            variant="light"
-          ></Spinner>
-        </div>
-      ) : (
-        <div className={width <= 800 ? "mb-5" : "mb-5 container"}>
-          <Swiper
-            spaceBetween={10}
-            slidesPerView={width <= 800 ? 2.85 : 5}
-            className="margen-mb-trabajos"
-          >
-            {trabajos.slice(0, 5).map((trabajo) => (
-              <SwiperSlide>
-                <div className="p-2 d-flex flex-column justify-content-between ">
-                  <img src={trabajo.imagen1} alt={trabajo.titulo} />
+    return (
+        <div>
+            <div className="d-flex justify-content-center my-5 pt-5">
+                <div className=" titulos-impacto text-white px-5 text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none">
+                    <p className="mb-0">Happy ending</p>
                 </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-          <Swiper
-            spaceBetween={10}
-            slidesPerView={width <= 800 ? 2.85 : 5}
-            className="margen-mb-trabajos"
-          >
-            {trabajos.slice(5, 10).map((trabajo) => (
-              <SwiperSlide>
-                <div className="p-2 d-flex flex-column justify-content-between ">
-                  <img src={trabajo.imagen1} alt={trabajo.titulo} />
+            </div>
+            <div className="d-flex justify-content-center my-5">
+                <div className="titulos-impacto text-white px-5 text-center peso-bold-italic tamaño-grande d-block d-sm-none ">
+                    <p className="mb-0">Happy ending</p>
                 </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+            </div>
+            {loading ? (
+                <div className="text-white d-flex justify-content-center my-5 p-5">
+                    <Spinner
+                        className="fs-1"
+                        animation="border"
+                        role="status"
+                        variant="light"
+                    ></Spinner>
+                </div>
+            ) : (
+                <div className="mb-5">
+                    <div className="d-sm-flex d-none flex-wrap justify-content-center container">
+                        {trabajos.slice(0, 10).map((trabajo) => (
+                            <div className="col-25 d-flex justify-content-center align-items-center p-2">
+                                <Image
+                                    src={trabajo.imagen1}
+                                    alt={trabajo.titulo}
+                                    fluid
+                                />
+                            </div>
+                        ))}
+                    </div>
+                    <div className="d-flex d-sm-none flex-wrap justify-content-center">
+                        {trabajos.slice(0, 10).map((trabajo) => (
+                            <div className="col-4 d-flex justify-content-center align-items-center p-2">
+                                <Image
+                                    src={trabajo.imagen1}
+                                    alt={trabajo.titulo}
+                                    fluid
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
         </div>
-      )}
-    </div>
-  );
+    );
 }
