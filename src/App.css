@@ -204,11 +204,12 @@ pre {
 }
 
 .fondo-banner {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383015/banners/bannersocialmedia_gcqdlo.jpg);
+  /* background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383015/banners/bannersocialmedia_gcqdlo.jpg); */
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666059705/banners/BannerHome_dxeect.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 103vh;
+  height: 100vh;
 }
 
 .fondo-banner-servicios-cel {
