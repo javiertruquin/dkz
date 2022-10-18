@@ -12,11 +12,7 @@ export default function TextoSitioWeb() {
             utilización de contenidos realizados por terceros o código fuente
             reutilizable de otros trabajos, para DKZ cada cliente es un nuevo
             desafío. Trabajamos sobre cada uno de nuestros desarrollos de manera
-            exclusiva. Nuestras ideas parten desde una concepción inicial en la
-            cual implementamos todos nuestros proyectos desde cero, sin
-            utilización de contenidos realizados por terceros o código fuente
-            reutilizable de otros trabajos, para DKZ cada cliente es un nuevo
-            desafío.
+            exclusiva. 
           </p>
         </div>
       </div>
