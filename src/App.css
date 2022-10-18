@@ -943,3 +943,7 @@ pre {
   padding-left: 5rem !important;
   padding-right: 5rem !important;
 }
+
+.icono-wsp{
+  transition-duration: 0.5s;
+}

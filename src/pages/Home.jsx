@@ -18,6 +18,9 @@ export default function Home() {
                 <Frase />
             </div>
             <div className="color-azul-oscuro-fondo d-none d-sm-block">
+                <Banner />
+                <Banner2 />
+
                 <HomeContenidoEscritorio />
             </div>
         </div>
