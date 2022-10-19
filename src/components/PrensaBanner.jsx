@@ -42,11 +42,7 @@ export default function PrensaBanner() {
             </div>
           </div>
         </div>
-        <div className="text-center">
-          <p className="tamaño-grande peso-bold-italic text-white espaciado texto-sombra  ">
-            Artículos destacados
-          </p>
-        </div>
+
       </div>
     </div>
   );
