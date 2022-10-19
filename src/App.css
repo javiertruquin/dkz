@@ -203,16 +203,9 @@ pre {
   background-color: #7737de42 !important;
 }
 
-.fondo-banner {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 115vh;
-}
 .fondo-home {
-  /* background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383015/banners/bannersocialmedia_gcqdlo.jpg); */
   background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666059705/banners/BannerHome_dxeect.png);
-
+  /* background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383015/banners/bannersocialmedia_gcqdlo.jpg); */
 }
 
 
@@ -278,6 +271,12 @@ pre {
   background-size: cover;
   background-position: top;
   height: 105vh;
+}
+.fondo-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 115vh;
 }
 
 .banner-escritorio {
