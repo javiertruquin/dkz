@@ -1,6 +1,6 @@
 import React from "react";
-import VideoPrensa from "../components/Celular/Prensa/VideoPrensa";
-import VideoPrensaEscritorio from "../components/Escritorio/Prensa/VideoPrensaEscritorio";
+import VideoPrensa from "../components/VideoPrensa";
+import VideoPrensaEscritorio from "../components/VideoPrensaEscritorio";
 
 export default function TrabajosPrensaDetalle() {
     return (

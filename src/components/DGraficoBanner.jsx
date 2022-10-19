@@ -31,7 +31,7 @@ export default function DGraficoBanner() {
       </div>
       {/* Celular */}
       <div className="pb-4 color-azul-oscuro-fondo d-md-none d-block">
-        <div className="fondo-banner">
+        <div className="fondo-banner fondo-dg">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
