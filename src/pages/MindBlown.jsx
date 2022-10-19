@@ -1,7 +1,6 @@
 import React from "react";
 import BannerMindBlown from "../components/Celular/MindBlown/BannerMindBlown";
 import BotonContactanos from "../components/BotonContactanos";
-import MindBlownEscritorio from "../components/Escritorio/MindBlown/MindBlownEscritorio";
 import TrabajosMindBlown from "../components/TrabajosMindBlown";
 import Clientes from "../components/Clientes";
 
