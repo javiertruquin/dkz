@@ -1,5 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
+import { Fade } from "react-reveal";
 
 export default function ProduccionAVBanner() {
   return (
@@ -63,22 +64,82 @@ export default function ProduccionAVBanner() {
               </div>
             </div>
           </div>
-          <div className="d-flex justify-content-center">
-            <p className="tamaño-medio  peso-italic text-white espaciado texto-sombra px-5 text-center">
-              <span className="tamaño-grande peso-bold-italic text-white  espaciado texto-sombra">
-                {" "}
-                Algunas de nuestras soluciones webs:
-              </span>
-              <br />
-              -Desarrollo y solución completa llave en mano (diseño + desarrollo
-              + programación)
-              <br /> -Tecnologías utilizadas en nuestros desarrollos: Linux +
-              Apache + PHP + MySQL + React + HTML 5 + CSS + Javascript <br />{" "}
-              -Análisis funcional del sitio. <br /> -UX UI. <br /> -Sitios
-              Responsive. <br /> -Codificación SEO Y SEM . <br /> -Certificados
-              SSL de seguridad. <br /> -Integración de API´s y Webservices.
-            </p>
-          </div>
+          <div className=" text-white">
+        <div className="color-azul-oscuro-fondo my-1 py-1 pt-5">
+          <Fade left>
+            <div className="my-5">
+              <h1 className="text-white tamaño-grande peso-bold-italic mas-espaciado">
+                <span className="titulo-verde px-4 ">CREATIVIDAD</span>
+              </h1>
+            </div>
+          </Fade>
+          <Fade right>
+            <div className="text-white texto-creatividad mx-5 py-3">
+              <p className="tamaño-medio peso-italic mb-0">
+                Investigación, relevamiento, generación e interpretación del
+                brief y las necesidades específicas de comunicación. Guión y
+                propuesta creativa. Presupuestación.
+              </p>
+            </div>
+          </Fade>
+        </div>
+        <div className="color-azul-oscuro-fondo my-1 py-1">
+          <Fade left>
+            <div className="my-5">
+              <h1 className="text-white tamaño-grande peso-bold-italic mas-espaciado">
+                <span className="titulo-verde px-4">PREPRODUCCIÓN</span>
+              </h1>
+            </div>
+          </Fade>
+          <Fade right>
+            <div className="text-white texto-creatividad mx-5 py-3">
+              <p className="tamaño-medio peso-italic mb-0">
+                Devolución creativa y presentación preliminar. Relevamiento de
+                locaciones. Diseño de producción.
+              </p>
+            </div>
+          </Fade>
+        </div>
+        <div className="color-azul-oscuro-fondo my-1 py-1">
+          <Fade left>
+            <div className="my-5">
+              <h1 className="text-white tamaño-grande peso-bold-italic mas-espaciado">
+                <span className="titulo-verde px-4">PRODUCCIÓN</span>
+              </h1>
+            </div>
+          </Fade>
+          <Fade right>
+            <div className="text-white texto-creatividad mx-5 py-3">
+              <p className="tamaño-medio peso-italic mb-0">
+                Equipo y personal técnico (diversos formatos segun necesidad y
+                presupuesto) Dirección; producción; dirección de fotografía.
+                Dirección de arte. Realización de decorados. Casting. Make up,
+                estilismo, vestuario.
+              </p>
+            </div>
+          </Fade>
+              </div>
+              <div className="color-azul-oscuro-fondo my-1 py-1">
+            <Fade left>
+                <div className="my-5">
+                    <h1 className="text-white tamaño-grande peso-bold-italic mas-espaciado">
+                        <span className=" titulo-verde px-4">
+                            POSTPRODUCCIÓN
+                        </span>
+                    </h1>
+                </div>
+            </Fade>
+            <Fade bottom>
+                <div className="text-white texto-creatividad mx-5 py-3">
+                    <p className="tamaño-medio peso-italic mb-0 pb-5">
+                        Edición. Montaje. Sonido. Etalonaje y corrección de
+                        color. Video fx. Audio fx. Música y sonido. Corte final
+                        y copias para cualquier medio.
+                    </p>
+                </div>
+            </Fade>
+        </div>
+      </div>
         </div>
       </div>
     </div>
