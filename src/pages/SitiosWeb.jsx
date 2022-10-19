@@ -1,5 +1,6 @@
 import SitiosWebBanner from "../components/SitiosWebBanner";
 import SitiosWebTextos from "../components/SitiosWebTextos";
+import TrabajosSitiosWeb from "../components/TrabajosSitiosWeb";
 
 
 export default function SitiosWeb() {
@@ -7,6 +8,7 @@ export default function SitiosWeb() {
         <div>
             <SitiosWebBanner />
             <SitiosWebTextos />
+            <TrabajosSitiosWeb />
         </div>
     );
 }
