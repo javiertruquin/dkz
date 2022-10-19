@@ -1087,3 +1087,15 @@ pre {
 .banner-posi-mb-escritorio{
   margin-top: 80px;
 }
+
+/*PRENSA*/
+.prensa-imagen{
+  width: 250px;
+}
+
+@media (max-width: 425px) {
+  .prensa-imagen{
+    width: 200px;
+  }
+  
+}
