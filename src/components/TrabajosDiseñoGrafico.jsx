@@ -48,7 +48,6 @@ export default function TrabajosDiseñoGrafico() {
       const imagenes = Papa.parse(response.data, { header: true });
 
         setTrabajos(imagenes.data);
-        window.location.reload();
       setLoading(false);
     };
     getTrabajos();
