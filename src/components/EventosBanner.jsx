@@ -4,15 +4,15 @@ import { Image } from "react-bootstrap";
 export default function EventosBanner() {
   return (
     <div>
-      {/* Escritorio */}
-      <div className="color-azul-oscuro-fondo d-none d-md-block">
-        {/* <Image
+        {/* Escritorio */}
+        <div className="color-azul-oscuro-fondo d-none d-md-block">
+          {/* <Image
         className="banner-escritorio"
         src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383015/banners/bannereventos_hnxjbn.jpg"
         alt="Banner-escritorio"
         fluid
       /> */}
-        <Image
+          <Image
           className="banner-escritorio"
           src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1666059705/banners/BannerHome_dxeect.png"
           alt="Banner-escritorio"

@@ -711,9 +711,9 @@ pre {
 }
 
 /*Servicios*/
-.banner-pie-servicio-cel {
+.banner-pie-cel {
   position: absolute;
-  margin-top: 60vh;
+  bottom: 0;
   min-width: 292px;
   min-height: 181px;
   text-align: center;
@@ -903,6 +903,7 @@ pre {
 }
 
 .titulos-impacto {
+  z-index: 1 !important;
   background: #7637de;
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
