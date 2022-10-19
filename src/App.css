@@ -209,7 +209,7 @@ pre {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 100vh;
+  height: 115vh;
 }
 
 .fondo-banner-servicios-cel {
@@ -296,6 +296,22 @@ pre {
   margin-top: 69vh;
   min-width: 292px;
   min-height: 181px;
+}
+
+.card-digital-escritorio {
+  width: 240px;
+  height: 240px;
+}
+
+.imagen-card-conocenos {
+  width: 200px !important;
+  margin-top: -25px;
+}
+
+@media (min-width: 1400px) {
+  .tarjeta {
+    margin-top: 100px;
+  }
 }
 
 .boton-verde {

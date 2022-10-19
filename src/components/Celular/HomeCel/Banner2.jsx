@@ -7,7 +7,7 @@ export default function Banner2() {
         <>
             <div className="color-azul-oscuro-fondo">
                 <div className="d-none d-sm-block">
-                    <div className="py-5 d-flex flex-lg-row flex-column align-items-center justify-content-center container mt-4 banner-posi2-escritorio">
+                    <div className="pb-5 d-flex flex-lg-row flex-column align-items-center justify-content-center container mt-0 banner-posi2-escritorio">
                         <div className="caja-somosenergia mt-5 mb-lg-0 mb-5">
                             <div className="text-center boton-morado-escritorio mb-45">
                                 <p className="text-white tamaño-mas-grande peso-bold-italic mas-espaciado texto-sombra mb-0">
