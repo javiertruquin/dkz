@@ -1,4 +1,4 @@
-import BotonMindBlown from "./BotonMindBlown";
+import BotonMindBlown from "./BotonMindBlown"
 
 export default function Trabajos() {
     return (
