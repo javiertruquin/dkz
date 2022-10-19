@@ -11,8 +11,8 @@ export default function MindBlownEscritorio() {
             className="d-flex flex-column color-azul-oscuro-fondo"
             style={{ minHeight: "100vh" }}
         >
-            <BannerMB />
-            <TrabajosMindBlown />
+            {/* <BannerMB /> */}
+            {/* <TrabajosMindBlown /> */}
             <Clientes />
             <BotonContactanos />
         </div>
