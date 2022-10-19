@@ -44,7 +44,7 @@ export default function ServicioBanner() {
                 <div className="text-white">
                   <p className="peso-italic tamaño-medio px-2 py-5">
                     En DKZ sabemos lo fundamental que es identificar
-                    estrategias, herramientas y nuevas tecnologías para el
+                    estrategias, herramientas y nuevas tecnologías <br/>  para el
                     diseño y ejecución de diferentes piezas y proyectos
                     publicitarios, cualquiera sea su índole y nivel abarcativo
                     de proyección. Por esto resulta imprescindible realizar
