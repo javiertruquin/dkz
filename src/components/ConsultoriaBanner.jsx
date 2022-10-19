@@ -31,8 +31,8 @@ export default function ConsultoriaBanner() {
       </div>
       {/* Celular */}
       <div className="pb-4 color-azul-oscuro-fondo d-md-none d-block">
-        <div className="fondo-banner">
-          <div className="card-position">
+        <div className="fondo-banner fondo-consultoria">
+          <div className="card-position ">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
                 <h1 className="titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center espaciado mt-5 titulo-producciones">

@@ -33,7 +33,7 @@ export default function ProduccionAVBanner() {
         </div>
         {/* Celular */}
         <div className="pb-4 color-azul-oscuro-fondo d-md-none d-block">
-          <div className="fondo-banner">
+          <div className="fondo-banner fondo-pav">
             <div className="card-position">
               <div className="titulo-audiovisual d-flex flex-column justify-content-center">
                 <div className="my-5 mx-3">

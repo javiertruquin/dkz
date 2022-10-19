@@ -40,16 +40,6 @@ export default function PrensaBanner() {
                 </h1>
               </div>
             </div>
-            {/* <div className="banner-pie-cel d-flex justify-content-center color-violeta-fondo-banner-pie px-1 rounded-3">
-              <div className="text-white">
-                <p className="peso-italic tamaño-medio px-2 py-4">
-                  Ponemos a tu disposición un equipo de profesionales los cuales
-                  son capaces de ejecutar y accionar eventos de gran envergadura
-                  de acuerdo a los mas altos estándares de calidad organizativa
-                  y estilo.
-                </p>
-              </div>
-            </div> */}
           </div>
         </div>
         <div className="text-center">
