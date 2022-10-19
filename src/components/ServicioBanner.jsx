@@ -42,7 +42,7 @@ export default function ServicioBanner() {
               </div>
               <div className="banner-pie-cel d-flex justify-content-center color-violeta-fondo-banner-pie px-1 rounded-3">
                 <div className="text-white">
-                  <p className="peso-italic tamaño-medio px-2 py-4">
+                  <p className="peso-italic tamaño-medio px-2 py-5">
                     En DKZ sabemos lo fundamental que es identificar
                     estrategias, herramientas y nuevas tecnologías para el
                     diseño y ejecución de diferentes piezas y proyectos
