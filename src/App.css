@@ -936,7 +936,7 @@ pre {
 }
 
 .margen-negativo2{
-  margin-top: -200px;
+  margin-top: -220px;
 }
 
 .pading-extra{
@@ -946,4 +946,30 @@ pre {
 
 .icono-wsp{
   transition-duration: 0.5s;
+}
+
+/*Banners*/
+.banner-posicion-escritorio {
+  margin-top: -60px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1024px) {
+  .banner-posicion-escritorio {
+    margin-top: 40px;
+    margin-bottom: -40px;
+    /* margin-bottom: -40px; mueve el contenido de abajo del banner */
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-posicion-escritorio {
+    margin-top: 60px;
+    margin-bottom: -10px;
+  }
+}
+
+/* Banner */
+.color-violeta-fondo-banner-pie {
+  background-color: #7737de42 !important;
 }
