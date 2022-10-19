@@ -18,7 +18,7 @@ export default function BannerMB() {
                                 </p>
                             </div>
                         </div>
-                        <p className=" tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+                        <p className="mb-0 tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                             CHEQUEA ALGUNOS DE NUESTROS TRABAJOS
                         </p>
                     </div>
@@ -30,7 +30,7 @@ export default function BannerMB() {
                                 </p>
                             </div>
                         </div>
-                        <p className="impacto-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
+                        <p className="mb-0 impacto-escritorio tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
                             CHEQUEA ALGUNOS DE NUESTROS TRABAJOS
                         </p>
                     </div>

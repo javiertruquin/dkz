@@ -1,8 +1,7 @@
 import React from "react";
+import BannerConocenos from "../components/BannerConocenos";
 import BotonContactanos from "../components/BotonContactanos";
-import BannerConocenos from "../components/Celular/Nosotros/BannerConocenos";
-import ConocenosEscritorio from "../components/Escritorio/Conocenos/ConocenosEscritorio";
-import Fotos from "../components/Escritorio/Conocenos/Fotos";
+import Fotos from "../components/Fotos";
 
 export default function Conocenos() {
     return (
@@ -12,7 +11,6 @@ export default function Conocenos() {
                 <Fotos />
                 <BotonContactanos />
             </div>
-
         </div>
     );
 }

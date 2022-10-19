@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Papa from "papaparse";
 import axios from "axios";
 import { NavLink } from "react-router-dom";
-import { Spinner } from "react-bootstrap";
+import { Image, Spinner } from "react-bootstrap";
 
 function getWindowDimensions() {
   const { innerWidth: width } = window;
@@ -72,16 +72,17 @@ export default function TrabajosMindBlown() {
             {trabajos.slice(0, 3).map((trabajo) => (
               <SwiperSlide>
                 <NavLink to={"/mindblown/" + trabajo.id}>
-                  <div className="p-2 d-flex flex-column justify-content-between border-card">
-                    <div className="caja-service">
-                      <div className="imgBx-service">
-                        <img
-                          className="border-card"
+                  <div className="p-2 d-flex flex-column justify-content-between">
+                    <div className="caja-mb">
+                      <div className="imgBx-mb">
+                        <Image
+                          className=""
                           src={trabajo.imagenMini}
                           alt={trabajo.titulo}
+                          fluid
                         />
                       </div>
-                      <div className="details-service">
+                      <div className="details-mb">
                         <h2 className="tamaño-medio">{trabajo.titulo}</h2>
                       </div>
                     </div>
@@ -95,15 +96,16 @@ export default function TrabajosMindBlown() {
               <SwiperSlide>
                 <NavLink to={"/mindblown/" + trabajo.id}>
                   <div className="p-2 d-flex flex-column justify-content-between ">
-                    <div className="caja-service">
-                      <div className="imgBx-service">
-                        <img
-                          className="border-card"
+                    <div className="caja-mb">
+                      <div className="imgBx-mb">
+                        <Image
+                          className=""
                           src={trabajo.imagenMini}
                           alt={trabajo.titulo}
+                          fluid
                         />
                       </div>
-                      <div className="details-service">
+                      <div className="details-mb">
                         <h2 className="tamaño-medio">{trabajo.titulo}</h2>
                       </div>
                     </div>
@@ -120,15 +122,16 @@ export default function TrabajosMindBlown() {
             {trabajos.slice(7, 10).map((trabajo) => (
               <SwiperSlide>
                 <NavLink to={"/mindblown/" + trabajo.id}>
-                  <div className="caja-service">
-                    <div className="imgBx-service">
-                      <img
-                        className="border-card"
+                  <div className="caja-mb">
+                    <div className="imgBx-mb">
+                      <Image
+                        className=""
                         src={trabajo.imagenMini}
                         alt={trabajo.titulo}
+                        fluid
                       />
                     </div>
-                    <div className="details-service">
+                    <div className="details-mb">
                       <h2 className="tamaño-medio">{trabajo.titulo}</h2>
                     </div>
                   </div>
