@@ -3,7 +3,6 @@ import { Image } from "react-bootstrap";
 
 export default function Footer() {
   return (
-    < >
       <div className="color-azul-oscuro-fondo d-flex justify-content-between text-white container mt-auto">
         <div className="text-white mt-4">
           <Image
@@ -23,6 +22,5 @@ export default function Footer() {
           </span>
         </div>
       </div>
-    </>
   );
 }

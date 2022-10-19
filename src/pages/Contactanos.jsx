@@ -1,16 +1,9 @@
-import React from "react";
-import FormContactanos from "../components/Celular/Contactanos/FormContactanos";
-import ContactanosEscritorio from "../components/Escritorio/Contactanos/ContactanosEscritorio";
+import FormContenido from "../components/FormContenido";
 
 export default function Contactanos() {
     return (
         <div >
-            <div className="color-azul-oscuro-fondo fixed d-sm-none d-block">
-                <FormContactanos />
-            </div>
-            <div className="color-azul-oscuro-fondo d-none d-sm-block">
-                <ContactanosEscritorio />
-            </div>
+            <FormContenido />
         </div>
     );
 }
