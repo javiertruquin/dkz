@@ -1,8 +1,8 @@
 import React from "react";
-import BannerMindBlown from "../components/Celular/MindBlown/BannerMindBlown";
 import BotonContactanos from "../components/BotonContactanos";
 import TrabajosMindBlown from "../components/TrabajosMindBlown";
 import Clientes from "../components/Clientes";
+import BannerMindBlown from "../components/BannerMindBlown";
 
 export default function MindBlown() {
     return (
