@@ -1,5 +1,4 @@
 
-import Trabajos from "../components/Celular/HomeCel/Trabajos";
 import BannerSitiosW from "../components/Celular/SitiosWeb/BannerSitiosW";
 import BannerSitiosWeb from "../components/Escritorio/SitiosWebs/BannerSitiosWeb";
 import ContenidoSitioWebs from "../components/Escritorio/SitiosWebs/ContenidoSitioWebs";

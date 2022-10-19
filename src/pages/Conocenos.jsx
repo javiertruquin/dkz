@@ -8,10 +8,9 @@ export default function Conocenos() {
     return (
         <div>
             <div className="color-azul-oscuro-fondo  d-sm-none d-block">
-          <Banner />
-          <Fotos />
+                <Banner />
+                <Fotos />
                 <BotonContactanos />
-
             </div>
             <div className="color-azul-oscuro-fondo d-none d-sm-block">
                 <ConocenosEscritorio />

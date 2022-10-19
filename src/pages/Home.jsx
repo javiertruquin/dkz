@@ -1,8 +1,10 @@
-import Banner from "../components/Celular/HomeCel/Banner";
-import Banner2 from "../components/Celular/HomeCel/Banner2";
-import Cartas from "../components/Celular/HomeCel/Cartas";
-import Trabajos from "../components/Celular/HomeCel/Trabajos";
+import Banner from "../components/Banner";
+import Banner2 from "../components/Banner2";
+import Cartas from "../components/Cartas";
+import Trabajos from "../components/Trabajos";
 import ImagenFrase from "../components/ImagenFrase";
+
+
 
 export default function Home() {
     return (
