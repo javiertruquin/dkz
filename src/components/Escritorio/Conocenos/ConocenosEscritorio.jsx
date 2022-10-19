@@ -7,8 +7,8 @@ import TextoConocenos from "./TextoConocenos";
 export default function ConocenosEscritorio() {
     return (
         <div>
-            <BannerConocenos />
-            <TextoConocenos />
+            {/* <BannerConocenos /> */}
+            {/* <TextoConocenos /> */}
             <Fotos />
             <BotonContactanos />
         </div>

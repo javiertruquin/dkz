@@ -25,7 +25,7 @@ export default function Wsp() {
                     rel="noreferrer"
                 >
                     <Image
-                        className={wspPosition?"icono-wsp fixed-bottom ms-auto mb-5 pb-5 me-4":"icono-wsp fixed-bottom ms-auto mb-4  me-4"}
+                        className={wspPosition?"icono-wsp fixed-bottom ms-auto mb-5 pb-5 me-4":"icono-wsp fixed-bottom ms-auto me-4"}
                         src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1653504540/iconos/Group_41_bjbdxc.svg"
                         alt="wsp"
                         fluid
