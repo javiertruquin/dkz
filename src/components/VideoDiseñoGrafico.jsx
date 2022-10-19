@@ -10,6 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Modal from "react-bootstrap/Modal";
 import { Navigation } from "swiper";
 import { Carousel, Image } from "react-bootstrap";
+import { Autoplay } from "swiper";
 
 function getWindowDimensions() {
     const { innerWidth: width } = window;
@@ -80,12 +81,12 @@ export default function VideoDiseñoGrafico() {
         link,
     } = trabajos;
 
-    if (imagen5 !== "") {
-        var cantcard = 5;
-    } else if (imagen4 !== "") {
+    if (imagen4 !== "") {
         var cantcard = 4;
-    } else {
+    } else if (imagen3 !== "") {
         var cantcard = 3;
+    } else {
+        var cantcard = 2;
     }
 
     return (
@@ -111,10 +112,22 @@ export default function VideoDiseñoGrafico() {
                 </div>
             )}
             <Swiper
-                navigation={width <= 500 ? true :  imagen6 !== "" ? true : false}
-                modules={[Navigation]}
+                navigation={width <= 500 ? true : imagen5 !== "" ? true : false}
+                modules={[Navigation, Autoplay]}
+                autoplay={{
+                    delay: 3600,
+                    disableOnInteraction: false,
+                }}
                 spaceBetween={10}
-                slidesPerView={width <= 500 ? 1.5 : cantcard}
+                slidesPerView={
+                    width <= 500
+                        ? 1.5
+                        : width <= 992
+                        ? cantcard - 1.5
+                        : width <= 1200
+                        ? cantcard - 1
+                        : cantcard
+                }
                 className="my-5 efecto-hover"
             >
                 {imagen1 === "" ? (
@@ -311,7 +324,7 @@ export default function VideoDiseñoGrafico() {
             <Modal show={show} onHide={() => setShow(false)} size="xl" centered>
                 <Modal.Body>
                     <div>
-                    <Carousel
+                        <Carousel
                             activeIndex={index}
                             onSelect={handleSelect}
                             indicators={false}

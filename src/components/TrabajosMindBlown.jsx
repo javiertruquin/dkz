@@ -64,13 +64,24 @@ export default function TrabajosMindBlown() {
                     ></Spinner>
                 </div>
             ) : (
-                <div className={width <= 800 ? "my-5" : "my-5 container"}>
+                <div className={width <= 992 ? "my-5" : "my-5 container"}>
                     <Swiper
+                        navigation={width <= 720 ? true : false}
                         spaceBetween={10}
-                        slidesPerView={width <= 800 ? 1.85 : 3}
+                        slidesPerView={
+                            width <= 365
+                                ? 1.5
+                                : width <= 390
+                                ? 1.75
+                                : width <= 500
+                                ? 2
+                                : width <= 720
+                                ? 2.5
+                                : 3
+                        }
                         className="margen-mb-trabajos my-5"
                         autoplay={{
-                            delay: 2500,
+                            delay: 3500,
                             disableOnInteraction: false,
                         }}
                         modules={[Autoplay]}
@@ -101,10 +112,23 @@ export default function TrabajosMindBlown() {
                     </Swiper>
                     <Swiper
                         className="my-5"
+                        navigation={width <= 870 ? true : false}
                         spaceBetween={10}
-                        slidesPerView={width <= 800 ? 1.85 : 4}
+                        slidesPerView={
+                            width <= 365
+                                ? 1.5
+                                : width <= 390
+                                ? 1.75
+                                : width <= 500
+                                ? 2
+                                : width <= 720
+                                ? 2.5
+                                : width <= 860
+                                ? 3.3
+                                : 4
+                        }
                         autoplay={{
-                            delay: 2500,
+                            delay: 3600,
                             disableOnInteraction: false,
                         }}
                         modules={[Autoplay]}
@@ -134,11 +158,22 @@ export default function TrabajosMindBlown() {
                         ))}
                     </Swiper>
                     <Swiper
+                        navigation={width <= 720 ? true : false}
                         spaceBetween={10}
-                        slidesPerView={width <= 800 ? 1.85 : 3}
+                        slidesPerView={
+                            width <= 365
+                                ? 1.5
+                                : width <= 390
+                                ? 1.75
+                                : width <= 500
+                                ? 2
+                                : width <= 720
+                                ? 2.5
+                                : 3
+                        }
                         className="margen-mb-trabajos my-5"
                         autoplay={{
-                            delay: 2500,
+                            delay: 3700,
                             disableOnInteraction: false,
                         }}
                         modules={[Autoplay]}

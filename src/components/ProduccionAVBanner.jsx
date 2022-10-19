@@ -44,11 +44,11 @@ export default function ProduccionAVBanner() {
               </div>
               <div className="banner-pie-cel d-flex justify-content-center color-violeta-fondo-banner-pie px-1 rounded-3">
                 <div className="text-white">
-                  <h1 className=" peso-bold-italic my-2">
+                  <h1 className=" peso-bold-italic mb-2 mt-4">
                     {" "}
                     Producciones audiovisuales integrales
                   </h1>
-                  <p className="peso-italic tamaño-medio px-2 mb-0">
+                  <p className="peso-italic tamaño-medio px-2 pb-4 mb-0">
                     Spots publicitarios; cobertura de eventos y <br />
                     registros sociales. Videos corporativos. <br />{" "}
                     Infomerciales. Institucionales. Books. <br /> Producciones
