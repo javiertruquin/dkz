@@ -4,7 +4,7 @@ import Papa from "papaparse";
 import { useParams } from "react-router";
 import { Image } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import TrabajosPrensa from "../../TrabajosPrensa";
+import TrabajosPrensa from "./TrabajosPrensa";
 import { Radio } from "./Radio";
 
 export default function VideoPrensaEscritorio() {

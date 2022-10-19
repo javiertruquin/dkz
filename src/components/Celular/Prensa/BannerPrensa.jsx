@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import { Radio } from "../../Escritorio/Prensa/Radio";
+import { Radio } from "../../Radio";
 
 export default function BannerPrensa() {
   return (
