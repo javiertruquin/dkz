@@ -4,7 +4,7 @@ export default function BannerConsultoria() {
   return (
     <>
       <div className="pb-4 color-azul-oscuro-fondo">
-        <div className="fondo-banner-consultoria-cel">
+        <div className="fondo-banner fondo-consultoria">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">

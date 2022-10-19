@@ -6,7 +6,7 @@ export default function BannerSitiosWeb() {
       <div className="color-azul-oscuro-fondo">
         <Image
           className="banner-escritorio"
-          src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1661390148/banners/bannnersitioweb_lga5ja.jpg"
+          src="https://res.cloudinary.com/dlzcbrqax/image/upload/v1666208843/banners/BannerSitioWeb_pozirw.png"
           alt="Banner-escritorio"
           fluid
         />

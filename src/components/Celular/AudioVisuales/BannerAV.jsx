@@ -4,7 +4,7 @@ export default function BannerAV() {
     return (
         <>
             <div className="pb-4 color-azul-oscuro-fondo">
-                <div className="fondo-banner-pav-cel">
+                <div className="fondo-banner fondo-pav">
                     <div className="card-position">
                         <div className="titulo-audiovisual d-flex flex-column justify-content-center">
                             <div className="my-5 mx-3">

@@ -4,7 +4,7 @@ export default function BannerEventos() {
   return (
     <>
       <div className="color-azul-oscuro-fondo">
-        <div className="fondo-banner-eventos-cel">
+        <div className="fondo-banner fondo-eventos">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">

@@ -205,72 +205,40 @@ pre {
 
 .fondo-home {
   background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666059705/banners/BannerHome_dxeect.png);
-  /* background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661383015/banners/bannersocialmedia_gcqdlo.jpg); */
 }
 
 
-.fondo-banner-servicios-cel {
+.fondo-servicios {
   background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666059705/banners/BannerHome_dxeect.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 105vh;
+
 }
 
-.fondo-banner-social-media-cel {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661965266/banner%20celu/bannersocialmediacel_uhm21c.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 105vh;
+.fondo-social-media {
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666059705/banners/BannerHome_dxeect.png);
 }
 
-.fondo-banner-eventos-cel {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661965265/banner%20celu/bannereventoscel_th2bnn.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 105vh;
+.fondo-eventos {
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666207532/banners/BannerEventos_sir0md.png);
 }
 
-.fondo-banner-pav-cel {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661965265/banner%20celu/bannercelav_umbasu.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 105vh;
+.fondo-pav {
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666208154/banners/BannerAV_stf3qw.png);
 }
 
-.fondo-banner-sitio-web-cel {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661965266/banner%20celu/bannnersitiowebcel_l19etf.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 105vh;
+.fondo-sitio-web {
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666208843/banners/BannerSitioWeb_pozirw.png);
 }
 
-.fondo-banner-dg-cel {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661965265/banner%20celu/bannerdgcel_rqgqhc.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 105vh;
+.fondo-dg {
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666208384/banners/BannerDG_n4rmhz.png);
 }
 
-.fondo-banner-prensa-cel {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661965266/banner%20celu/bannerprensacel_d6zity.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 105vh;
+.fondo-prensa {
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666208868/banners/BannerPrensa_il79yh.png);
 }
 
-.fondo-banner-consultoria-cel {
-  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1661965265/banner%20celu/bannerconsultoriacel_s0aexq.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 105vh;
+.fondo-consultoria {
+  background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666208890/banners/BannerConsultoria_bifcgn.png);
 }
 .fondo-banner {
   background-repeat: no-repeat;

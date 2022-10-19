@@ -4,7 +4,7 @@ export default function BannerSitiosW() {
   return (
     <>
       <div className="pb-4 color-azul-oscuro-fondo">
-        <div className="fondo-banner-sitio-web-cel">
+        <div className="fondo-banner fondo-sitio-web">
           <div className="card-position">
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
