@@ -677,84 +677,17 @@ pre {
   color: #ffffff;
 }
 
-/*Servicios*/
+/*BANNERS*/
 .banner-pie-cel {
   position: absolute;
   bottom: 0;
   min-width: 292px;
-  min-height: 181px;
-  text-align: center;
-  letter-spacing: -0.408px;
-  color: #ffffff;
-}
-
-/*Social media*/
-.banner-pie-social-media {
-  position: absolute;
-  margin-top: 64vh;
-  min-width: 292px;
-  min-height: 181px;
-  text-align: center;
-  letter-spacing: -0.408px;
-  color: #ffffff;
-}
-
-/*Eventos*/
-.banner-pie-eventos {
-  position: absolute;
-  margin-top: 70vh;
-  min-width: 292px;
-  min-height: 181px;
-  text-align: center;
-  letter-spacing: -0.408px;
-  color: #ffffff;
-}
-/*audiovisual*/
-.banner-pie-audiovisual {
-  position: absolute;
-  margin-top: 70vh;
-  min-width: 292px;
-  min-height: 181px;
-  text-align: center;
-  letter-spacing: -0.408px;
-  color: #ffffff;
-}
-
-/*Diseño grafico*/
-.banner-pie-dg {
-  position: absolute;
-  margin-top: 56vh;
-  min-width: 292px;
-  min-height: 181px;
-  text-align: center;
-  letter-spacing: -0.408px;
-  color: #ffffff;
-}
-
-/*Prensa*/
-.banner-pie-prensa {
-  position: absolute;
-  margin-top: 66vh;
-  min-width: 292px;
-  min-height: 181px;
-  text-align: center;
-  letter-spacing: -0.408px;
-  color: #ffffff;
-}
-
-/*consultoria*/
-.banner-pie-consultoria {
-  position: absolute;
-  margin-top: 66vh;
-  min-width: 292px;
-  min-height: 181px;
   text-align: center;
   letter-spacing: -0.408px;
   color: #ffffff;
 }
 
 /* MindBlown */
-
 @media (min-width: 800px) {
   .margen-mb-trabajos {
     margin: 0 12.6% !important;
