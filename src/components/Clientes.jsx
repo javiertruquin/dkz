@@ -52,14 +52,18 @@ export default function Clientes() {
 
     return (
         <div>
-            <div className="d-flex justify-content-center my-5 pt-5">
-                <div className=" titulos-impacto text-white px-5 text-center peso-bold-italic tamaño-mas-grande d-sm-block d-none">
-                    <p className="mb-0">Happy ending</p>
+            <div className="d-sm-block d-none">
+                <div className="d-flex justify-content-center my-5 pt-4">
+                    <div className=" titulos-impacto text-white px-5 text-center peso-bold-italic tamaño-mas-grande ">
+                        <p className="mb-0">Happy ending</p>
+                    </div>
                 </div>
             </div>
-            <div className="d-flex justify-content-center my-5">
-                <div className="titulos-impacto text-white px-5 text-center peso-bold-italic tamaño-grande d-block d-sm-none ">
-                    <p className="mb-0">Happy ending</p>
+            <div className="d-block d-sm-none">
+                <div className="d-flex justify-content-center my-5">
+                    <div className="titulos-impacto text-white px-5 text-center peso-bold-italic tamaño-grande  ">
+                        <p className="mb-0">Happy ending</p>
+                    </div>
                 </div>
             </div>
             {loading ? (
