@@ -16,14 +16,14 @@ export default function DGraficoBanner() {
           <div className="d-lg-none d-block">
             <div className="d-flex justify-content-center align-items-center">
               <p className="titulos-impacto px-5 margen-negativo2 tamaño-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-                EVENTOS
+                DISEÑO GRÁFICO
               </p>
             </div>
           </div>
           <div className="d-none d-lg-block">
             <div className="d-flex justify-content-center align-items-center">
               <p className="titulos-impacto px-5 margen-negativo2 tamaño-mas-grande peso-bold-italic text-white text-center espaciado texto-sombra">
-                EVENTOS
+                DISEÑO GRÁFICO
               </p>
             </div>
           </div>
@@ -36,17 +36,20 @@ export default function DGraficoBanner() {
             <div className="titulo-audiovisual d-flex flex-column justify-content-center">
               <div className="my-5 mx-3">
                 <h1 className="titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center espaciado mt-5 titulo-producciones">
-                  EVENTOS
+                DISEÑO GRÁFICO
                 </h1>
               </div>
             </div>
             <div className="banner-pie-cel d-flex justify-content-center color-violeta-fondo-banner-pie px-1 rounded-3">
               <div className="text-white">
                 <p className="peso-italic tamaño-medio px-2 py-4">
-                  Ponemos a tu disposición un equipo de profesionales los cuales
-                  son capaces de ejecutar y accionar eventos de gran envergadura
-                  de acuerdo a los mas altos estándares de calidad organizativa
-                  y estilo.
+                Tenemos una creencia, un concepto: podemos ser eróticos 
+              conceptualmente, sin la necesidad de ser pornos.  Por eso nos
+              arriesgamos, implementando desafíos en cada pieza que ejecutamos,
+              siendo disruptivos y marcando tendencia en el mercado.  ¿Cómo lo
+              hacemos? De acuerdo a cada proyecto, montamos unidades operativas
+              de trabajo, agregando profesionales de DKZ con amplia trayectoria
+              en nivel ejecutivo y creativo.
                 </p>
               </div>
             </div>
