@@ -1,5 +1,5 @@
 import React from "react";
-import BotonVolverHome from "../BotonVolverHome";
+import BotonVolverHome from "./BotonVolverHome";
 
 export default function SitioConstruEscritorio() {
     return (

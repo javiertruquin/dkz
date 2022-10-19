@@ -16,8 +16,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import TrabajosAVDetalle from "./pages/TrabajosAVDetalle";
 import NavbarReact from "./components/NavbarReact";
 import Footer from "./components/Footer";
-import FooterEscritorio from "./components/Escritorio/FooterEscritorio";
-import NavEscritorio from "./components/Escritorio/NavEscritorio";
 import Iconos from "./components/Iconos";
 import SocialMedia from "./pages/SocialMedia";
 import DiseñoGraf from "./pages/DiseñoGraf";
@@ -27,8 +25,10 @@ import TrabajosSocialMediaDetalle from "./pages/TrabajosSocialMediaDetalle";
 import TrabajosDiseñoGraficoDetalle from "./pages/TrabajosDiseñoGraficoDetalle";
 import TrabajosMindBlownDetalle from "./pages/TrabajosMindBlownDetalle";
 import HappyEnding from "./pages/HappyEnding";
-import Wsp from "./components/Escritorio/Wsp";
 import TrabajosSitiosWebDetalle from "./pages/TrabajosSitiosWebDetalle";
+import FooterEscritorio from "./components/FooterEscritorio";
+import Wsp from "./components/Wsp";
+import NavEscritorio from "./components/NavEscritorio";
 
 function App() {
     return (
