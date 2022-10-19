@@ -108,7 +108,6 @@ export default function TrabajosMindBlown() {
                             disableOnInteraction: false,
                         }}
                         modules={[Autoplay]}
-
                     >
                         {trabajos.slice(3, 7).map((trabajo) => (
                             <SwiperSlide>
@@ -143,24 +142,25 @@ export default function TrabajosMindBlown() {
                             disableOnInteraction: false,
                         }}
                         modules={[Autoplay]}
-
                     >
                         {trabajos.slice(7, 10).map((trabajo) => (
                             <SwiperSlide>
                                 <NavLink to={"/mindblown/" + trabajo.id}>
-                                    <div className="caja-mb">
-                                        <div className="imgBx-mb">
-                                            <Image
-                                                className=""
-                                                src={trabajo.imagenMini}
-                                                alt={trabajo.titulo}
-                                                fluid
-                                            />
-                                        </div>
-                                        <div className="details-mb">
-                                            <h2 className="tamaño-medio">
-                                                {trabajo.titulo}
-                                            </h2>
+                                    <div className="p-2 d-flex flex-column justify-content-between ">
+                                        <div className="caja-mb">
+                                            <div className="imgBx-mb">
+                                                <Image
+                                                    className=""
+                                                    src={trabajo.imagenMini}
+                                                    alt={trabajo.titulo}
+                                                    fluid
+                                                />
+                                            </div>
+                                            <div className="details-mb">
+                                                <h2 className="tamaño-medio">
+                                                    {trabajo.titulo}
+                                                </h2>
+                                            </div>
                                         </div>
                                     </div>
                                 </NavLink>

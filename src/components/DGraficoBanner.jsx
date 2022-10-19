@@ -42,7 +42,7 @@ export default function DGraficoBanner() {
             </div>
             <div className="banner-pie-cel d-flex justify-content-center color-violeta-fondo-banner-pie px-1 rounded-3">
               <div className="text-white">
-                <p className="peso-italic tamaño-medio px-2 py-4">
+                <p className="peso-italic tamaño-medio px-2 py-4 mb-0">
                   Tenemos una creencia, un concepto: podemos ser eróticos
                   conceptualmente, sin la necesidad de ser pornos. Por eso nos
                   arriesgamos, implementando desafíos en cada pieza que

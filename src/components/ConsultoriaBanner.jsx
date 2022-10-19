@@ -43,7 +43,7 @@ export default function ConsultoriaBanner() {
             <div className="banner-pie-cel d-flex justify-content-center color-violeta-fondo-banner-pie px-1 rounded-3">
               <div className="text-white">
                 <div>
-                  <p className="peso-italic tamaño-medio px-2 py-4">
+                  <p className="peso-italic tamaño-medio px-2 py-4 mb-0">
                     Nos enfocamos en el requerimiento del cliente, brindando
                     soluciones alternativas y eficaces, que ayuden a consolidar
                     el esquema de trabajo y los objetivos internos de una

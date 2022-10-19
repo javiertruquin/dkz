@@ -43,7 +43,7 @@ export default function SitiosWebBanner() {
             <div className="banner-pie-cel d-flex justify-content-center color-violeta-fondo-banner-pie px-1 rounded-3">
               <div className="text-white">
                 <div>
-                  <p className="peso-italic tamaño-medio px-2 py-4">
+                  <p className="peso-italic tamaño-medio px-2 py-4 mb-0">
                     Trabajamos sobre cada uno de nuestros desarrollos de manera
                     exclusiva. Nuestras ideas parten desde una concepción
                     inicial en la cual implementamos todos nuestros proyectos

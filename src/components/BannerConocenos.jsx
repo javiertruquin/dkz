@@ -54,7 +54,7 @@ export default function BannerConocenos() {
                                     <h1 className="peso-bold-italic text-white text-center">
                                         Un gran equipo
                                     </h1>
-                                    <p className="peso-italic tamaño-medio px-2 text-white text-center texto-sombra">
+                                    <p className="peso-italic tamaño-medio px-2 text-white text-center texto-sombra mb-0">
                                         Somos un equipo de creativos,
                                         profesionales publicitarios, acordes a
                                         las demandas y las exigencias del

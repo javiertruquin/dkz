@@ -48,7 +48,7 @@ export default function ProduccionAVBanner() {
                     {" "}
                     Producciones audiovisuales integrales
                   </h1>
-                  <p className="peso-italic tamaño-medio px-2 ">
+                  <p className="peso-italic tamaño-medio px-2 mb-0">
                     Spots publicitarios; cobertura de eventos y <br />
                     registros sociales. Videos corporativos. <br />{" "}
                     Infomerciales. Institucionales. Books. <br /> Producciones

@@ -200,7 +200,7 @@ pre {
 
 /* Banner */
 .color-violeta-fondo-banner-pie {
-  background-color: #7737de42 !important;
+  background-color: #4c1d9775 !important;
 }
 
 .fondo-home {
@@ -1004,11 +1004,6 @@ pre {
     margin-top: 60px;
     margin-bottom: -10px;
   }
-}
-
-/* Banner */
-.color-violeta-fondo-banner-pie {
-  background-color: #7737de42 !important;
 }
 
 .banner-conocenos {
