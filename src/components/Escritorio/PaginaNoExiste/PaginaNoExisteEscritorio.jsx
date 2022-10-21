@@ -6,7 +6,7 @@ export default function SitioConstruEscritorio() {
         <>
             <div className="color-azul-oscuro-fondo padding-sitionoencontrado ">
                 <div>
-                    <p className=" tamaño-mas-grande peso-bold-italic text-white text-center espaciado  mb-0 titulo-producciones">
+                    <p className=" tamaño-mas-grande peso-bold-italic text-white text-center espaciado  mb-0 ">
                         Parece que esta pagina no existe{" "}
                     </p>
                 </div>

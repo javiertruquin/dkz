@@ -33,9 +33,9 @@ export default function PrensaBanner() {
       <div className="pb-4 color-azul-oscuro-fondo d-md-none d-block">
         <div className="fondo-prensa fondo-banner">
           <div className="card-position">
-            <div className="titulo-audiovisual d-flex flex-column justify-content-center">
+            <div className="d-flex flex-column justify-content-center align-items-center">
               <div className="my-5 mx-3">
-                <h1 className="titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center espaciado mt-5 titulo-producciones">
+                <h1 className="titulos-impacto tamaño-mas-grande peso-bold-italic text-white text-center espaciado mt-5 px-5">
                   PRENSA
                 </h1>
               </div>

@@ -8,10 +8,10 @@ export default function SitioConstruccion() {
         <>
             <div className="padding-nav color-azul-oscuro-fondo padding-fixed ">
                 <div className="padding-sitioconst">
-                    <p className=" tamaño-mas-grande peso-bold-italic text-white text-center espaciado  mb-0 titulo-producciones">
+                    <p className=" tamaño-mas-grande peso-bold-italic text-white text-center espaciado  mb-0 ">
                         Ups!
                     </p>
-                    <p className="tamaño-grande peso-bold-italic text-white text-center espaciado titulo-producciones">
+                    <p className="tamaño-grande peso-bold-italic text-white text-center espaciado ">
                         Sitio en construcción
                     </p>
                 </div>

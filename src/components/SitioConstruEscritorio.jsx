@@ -6,10 +6,10 @@ export default function SitioConstruEscritorio() {
         <>
             <div className="color-azul-oscuro-fondo padding-sitioconst ">
                 <div>
-                    <p className=" tamaño-mas-grande peso-bold-italic text-white text-center espaciado  mb-0 titulo-producciones">
+                    <p className=" tamaño-mas-grande peso-bold-italic text-white text-center espaciado  mb-0 ">
                         Ups!
                     </p>
-                    <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado titulo-producciones">
+                    <p className="tamaño-mas-grande peso-bold-italic text-white text-center espaciado ">
                         Sitio en construcción
                     </p>
                 </div>

@@ -434,17 +434,6 @@ pre {
   height: 100vh;
 }
 
-.titulo-audiovisual {
-  position: absolute;
-  width: 315px;
-  height: 135px;
-  left: calc(50% - 315px / 2 + 1.5px);
-  top: calc(65% - 135px / 2 - 427.5px);
-  text-align: center;
-  letter-spacing: -0.408px;
-  color: #ffffff;
-}
-
 .banner-pie {
   position: absolute;
   margin-top: 83vh;
@@ -884,15 +873,6 @@ pre {
   padding: 0.5rem 0 !important;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
 }
-
-/* @media (max-width: 500px){
-  .titulos-impacto {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top:20vh !important;
-  }
-} */
 
 
 @keyframes hvr-wobble-horizontal {
