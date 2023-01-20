@@ -22,10 +22,10 @@ body {
   min-height: 100vh !important;
   display: flex !important;
   flex-direction: column !important;
-  -webkit-user-select: none;
+  /* -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  user-select: none; */
   background-color: #1e2048 !important;
 }
 
@@ -207,10 +207,8 @@ pre {
   background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666059705/banners/BannerHome_dxeect.png);
 }
 
-
 .fondo-servicios {
   background: url(https://res.cloudinary.com/dlzcbrqax/image/upload/v1666059705/banners/BannerHome_dxeect.png);
-
 }
 
 .fondo-social-media {
@@ -769,8 +767,8 @@ pre {
 
 .caja-mb {
   position: relative;
-  width: 250px ;
-  height: 250px ;
+  width: 250px;
+  height: 250px;
   background: #fff;
   margin: 0 auto;
   border-radius: 4px;
@@ -779,13 +777,13 @@ pre {
 
 @media (max-width: 1199px) {
   .caja-mb {
-    width: 200px ;
-    height: 200px ;
+    width: 200px;
+    height: 200px;
   }
 }
 @media (max-width: 500px) {
   .caja-mb {
-    width: 185px ;
+    width: 185px;
     height: 185px;
   }
 }
@@ -874,7 +872,6 @@ pre {
   border: 1.5px solid rgba(255, 255, 255, 0.3);
 }
 
-
 @keyframes hvr-wobble-horizontal {
   16.65% {
     -webkit-transform: translateX(8px);
@@ -909,25 +906,25 @@ pre {
   animation-duration: 1s;
 }
 
-.col-25{
+.col-25 {
   flex: 0 0 auto;
   width: 18%;
 }
 
-.margen-negativo{
+.margen-negativo {
   margin-top: -80px;
 }
 
-.margen-negativo2{
+.margen-negativo2 {
   margin-top: -220px;
 }
 
-.pading-extra{
+.pading-extra {
   padding-left: 5rem !important;
   padding-right: 5rem !important;
 }
 
-.icono-wsp{
+.icono-wsp {
   transition-duration: 0.5s;
 }
 
@@ -1025,40 +1022,39 @@ pre {
   text-align: center;
 }
 
-.banner-posi-mb-escritorio{
+.banner-posi-mb-escritorio {
   margin-top: 80px;
 }
 
 /*PRENSA*/
-.prensa-imagen{
+.prensa-imagen {
   width: 250px;
 }
 
 @media (max-width: 425px) {
-  .prensa-imagen{
+  .prensa-imagen {
     width: 200px;
   }
-  
 }
 
 /*FORMULARIO*/
 .contenedor-formulario {
-  width:800px;
+  width: 800px;
   height: 600px;
 }
 
-.input-mensaje{
+.input-mensaje {
   height: 140px !important;
   resize: none;
 }
 
-.padding-nav-contacto{
+.padding-nav-contacto {
   padding-top: 40px;
 }
 
 @media (max-width: 768px) {
-  .contenedor-formulario{
-      width: 600px;
+  .contenedor-formulario {
+    width: 600px;
   }
 }
 
@@ -1086,4 +1082,3 @@ pre {
   backdrop-filter: blur(74.4578px) !important;
   border-radius: 37.2289px !important;
 }
-
